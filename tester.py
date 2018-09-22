@@ -13,10 +13,13 @@ def run(url):
     driver = webdriver.Chrome()
     tracks = Tracks(url, driver)
     dogs = Dogs()
+    db = Database("data/races.csv")
+    dogs_stats = []
     for track in tracks.get_tracks():
         dogs_track = dogs.get_dogs(track, driver)
         for dog in dogs_track:
             dog_stat = dogs.get_stats(dog, driver)
-            break 
+            dogs_stats.append(dog_stat)
+        db.insert(dogs_stats)
         break 
     driver.close()

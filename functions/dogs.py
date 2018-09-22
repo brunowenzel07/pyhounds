@@ -25,6 +25,9 @@ class Dogs():
         total = []
         result = []
 
+        if dog[0] < 3: dog_result = 0
+        else: dog_result = 1
+
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row")[:15]:
             race_data = Race(tr_content.find_all("td")).race()
             if len(race_data) != 0:               
@@ -50,10 +53,11 @@ class Dogs():
             round(df["Weight"].mean(), 3),
             round(df["RatioTime"].mean(), 3),
             round(df["RatioSplit"].mean(), 3),
-            whelping
+            whelping,
+            dog_result
         ]
 
-        print(stats_avg)
+        return stats_avg
 
 
     def get_dogs(self, url, driver):
