@@ -55,7 +55,6 @@ class Race:
         return float(self.content["wght"])
 
     def race(self):
-        result = []
         try: 
             result = [
                 self.distance(),
@@ -68,5 +67,6 @@ class Race:
                 self.finished(),
             ]
         except Exception as a:
-            pass
+            print(a, "Exception in races")
+            result = []
         return result 

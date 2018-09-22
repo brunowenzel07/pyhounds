@@ -31,6 +31,15 @@ class Helper:
             today = datetime.now()
             age_dog = (today) - (whelping_date)
             return (age_dog.days)/30
+        if bs_type == "brt":
+            element = bs_element.text.encode("utf-8")
+            element = element.replace("BRT: ", "")
+            element = element[:5]
+            return float(element)
+        if bs_type == "trap":
+            trap = bs_element.find("i").attrs["class"][1].encode("utf-8")
+            trap = trap.replace("trap", "")
+            return str(trap)
 
 
     def get_page_code(self, url, driver=False, element_wait=False, type_wait=False):
