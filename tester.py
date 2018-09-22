@@ -1,6 +1,5 @@
 # -*- coding: UTF-8
 # !/usr/bin/python 
-from selenium import webdriver 
 import click 
 from database import Database
 
@@ -9,17 +8,34 @@ sys.path.insert(0, "functions/")
 from tracks import Tracks
 from dogs import Dogs
 
+
+from sklearn.preprocessing import Normalizer
+from sklearn.neighbors import KNeighborsClassifier
+
 def run(url):
-    driver = webdriver.Chrome()
-    tracks = Tracks(url, driver)
     dogs = Dogs()
-    db = Database("data/races.csv")
-    dogs_stats = []
-    for track in tracks.get_tracks():
-        dogs_track = dogs.get_dogs(track, driver)
-        for dog in dogs_track:
-            dog_stat = dogs.get_stats(dog, driver)
-            dogs_stats.append(dog_stat)
-        db.insert(dogs_stats)
-        break 
-    driver.close()
+
+    db = Database("data/data_train.csv")
+    data_test = db.load_tuning()
+    data_train = db.load()    
+
+    normalize = Normalizer()
+
+    clf = KNeighborsClassifier(n_neighbors=2,p=3)
+
+    data_train_scaled = normalize.fit_transform(data_train[0])
+
+    clf.fit(data_train_scaled, data_train[1])
+    
+    i, k = 0., 0.
+    for sample in data_test:
+        sample_scaled = normalize.fit_transform([sample[:-1]])
+        pred = int(clf.predict(sample_scaled))
+        result = int(sample[-1])
+        print(pred, result)
+
+        if pred == result:
+            i += 1 
+        k += 1 
+
+    print(i/k)
