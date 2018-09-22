@@ -1,5 +1,7 @@
 # -*- coding: UTF-8
 # !/usr/bin/python 
+import sys 
+sys.path.insert(0, 'functions/')
 
 import train as tr
 import predict as pred 

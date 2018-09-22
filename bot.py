@@ -1,4 +1,5 @@
 # !/usr/bin/python 
+import sys
 import utils 
 
 
@@ -8,7 +9,8 @@ def get_races_results(track, driver):
     for dog_rc in dogs_race:
         dg = utils.get_dog_stats(dog_rc, driver)
         if len(dg) > 0:
-            dog_stats.append(dg)        
+            dog_stats.append(dg)     
+
     return dog_stats
 
 # Read a page of tracks and returned all links for the races

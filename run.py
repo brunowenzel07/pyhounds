@@ -3,6 +3,7 @@
 
 # Import modules
 import click 
+import sys 
 import functions
 
 @click.command()

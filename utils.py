@@ -2,9 +2,6 @@
 # !/usr/bin/python 
 from requests import get
 from bs4 import BeautifulSoup 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 import click
 from races_helper import RaceHelper
 import pandas as pd 
@@ -13,11 +10,22 @@ import numpy as np
 
 # Return dog stats 
 def get_dog_stats(dog, driver):
+
+    # Ratio between the dog split average and the winner averange
+    ratio_split = []
+    # Ration between the dog time and averange and the winner time
+    ratio_time = []
+    # This array contain the informations about track 
+    positions = []
+    weight = []
+    result = []
+    stats = []    
+    total = []
+    arr_dt = []
+
     url = "http://greyhoundbet.racingpost.com/" + dog[3]
     dog_page = get_code(url, driver, wait_type="id", wait_element="sortableTable")
-    ratio_split, ratio_time, split, positions, weight, result = [],[],[],[],[], []
-    stats, total, class_result = [], [], []
-    arr_dt = []
+
     for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row")[:15]:
         try: 
             arr_dt = RaceHelper(tr_content.find_all("td")).array_data()
@@ -31,6 +39,8 @@ def get_dog_stats(dog, driver):
             total.append(arr_dt)
         except Exception:
             pass 
+
+        print(arr_dt)
        
     return stats 
 
@@ -56,12 +66,3 @@ def get_dogs_links(track, driver):
     return results
 
 
-# Return page code
-def get_code(url, driver, wait_element=False, wait_type=False):
-    if driver:
-        driver.get(url)
-        time.sleep(2)
-        if wait_element and wait_type:
-            if wait_type == "class": WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CLASS_NAME, wait_element)))
-            if wait_type == "id": WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.ID, wait_element)))
-        return BeautifulSoup(driver.page_source, "html.parser")
