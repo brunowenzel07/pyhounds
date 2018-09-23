@@ -29,7 +29,7 @@ class Dogs():
         else: dog_result = 1
 
         try: 
-            for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row")[:15]:
+            for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
                 race_data = Race(tr_content.find_all("td")).race()
                 if len(race_data) > 0:               
                     positions.append(race_data[1])

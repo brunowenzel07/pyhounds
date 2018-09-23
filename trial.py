@@ -1,43 +1,28 @@
-import numpy as np
-import matplotlib.pyplot as plt
-from matplotlib.colors import ListedColormap
-from sklearn import datasets
-from sklearn.neighbors import NearestCentroid
-import sys 
-n_neighbors = 15
+# -*- coding: UTF-*
+import numpy as np 
+from random import randint
+import math 
+from sklearn.tree import DecisionTreeRegressor
+import click 
+X_train = []
+Y_train = []
 
-from database import Database
+with click.progressbar(range(100000)) as bar:
+    for i in bar:
+        a = randint(1,50)
+        b = randint(1,100)
+        c = randint(1,50)
+        y = a + b + c
+        X_train.append([a] + [b] + [c])
+        Y_train.append(y)
 
-db = Database("data/data_train.csv")
-X, y = db.load()
+clf = DecisionTreeRegressor()
+clf.fit(X_train, Y_train)
 
-h = .02  # step size in the mesh
-
-# Create color maps
-cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
-cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
-
-# we create an instance of Neighbours Classifier and fit the data.
-clf = NearestCentroid(shrink_threshold=0.2)
-clf.fit(X, y)
-y_pred = clf.predict(X)
-print(0.2, np.mean(y == y_pred))
-# Plot the decision boundary. For that, we will assign a color to each
-# point in the mesh [x_min, x_max]x[y_min, y_max].
-x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
-y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
-xx, yy = np.meshgrid(np.arange(x_min, x_max, h),
-                     np.arange(y_min, y_max, h))
-Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
-# Put the result into a color plot
-Z = Z.reshape(xx.shape)
-plt.figure()
-plt.pcolormesh(xx, yy, Z, cmap=cmap_light)
-# Plot also the training points
-plt.scatter(X[:, 0], X[:, 1], c=y, cmap=cmap_bold,
-            edgecolor='b', s=20)
-plt.title("3-Class classification (shrink_threshold=%r)"
-          % 0.2)
-plt.axis('tight')
-
-plt.show()
+for i in range(50):
+    ai = randint(1,50)
+    bi = randint(1,100)
+    ci = randint(1,50)
+    pred = float(clf.predict([[ai,bi,ci]]))
+    true = ai + bi + ci
+    print(true, pred)
