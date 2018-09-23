@@ -20,7 +20,7 @@ def run(url):
     data_train = db.load()    
     normalize = Normalizer()
     helper = Helper()
-    clf = KNeighborsClassifier(n_neighbors=2,p=3)
+    clf = KNeighborsClassifier(n_neighbors=2, p=3)
     data_train_scaled = normalize.fit_transform(data_train[0])
     clf.fit(data_train_scaled, data_train[1])
  
@@ -29,10 +29,10 @@ def run(url):
 
     location = page_html.find("div", class_="pageHeader").find("h2").text.encode("utf-8")
     race = page_html.find("span", {"id":"title-circle-container"}).find("span", class_="titleColumn1").text.encode("utf-8")
-
+    post_tip = page_html.find("span", {"id":"title-circle-container"}).find("p", class_="p2").text.encode("utf-8")[2:-1]
     dogs_race = dogs.get_dogs(page_html, "cards")
     for dog in dogs_race:
-        sample = dogs.get_stats(dog, driver) 
+        sample = dogs.get_stats(dog, driver, "card") 
         if len(sample) > 0:
             sample_scaled = normalize.fit_transform([sample[:-1]])
             pred = int(clf.predict(sample_scaled))
@@ -52,6 +52,7 @@ def run(url):
 
     df = pd.DataFrame(data=frame)
     click.clear()
-    click.secho("Track: %s" % location, bold=True)
-    click.secho("%s" % race, bold=True)
-    print(df[["Trap", "Dog", "Predict", "Probability"]].sort_values(by="Predict", ascending=False).to_string(index=False))
+    click.secho("   Track: %s" % location, bold=True)
+    click.secho("   %s" % race, bold=True)
+    click.secho("   %s" % post_tip, bold=True)
+    print("     "+df[["Trap", "Dog", "Predict", "Probability"]].sort_values(by="Predict", ascending=False).to_string(index=False))

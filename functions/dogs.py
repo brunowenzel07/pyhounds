@@ -11,7 +11,7 @@ class Dogs():
         pass
         self.helper = Helper()
     
-    def get_stats(self, dog, driver):
+    def get_stats(self, dog, driver, dog_type):
         
         dog_page = self.helper.get_page_code(
             "http://greyhoundbet.racingpost.com/" + dog[2], 
@@ -22,21 +22,20 @@ class Dogs():
         positions = []
         weight = []
         ratio_time = []
-        ratio_split = []
         total = []
         result = []
 
         if dog[0] < 3: dog_result = 0
         else: dog_result = 1
+
         try: 
             for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row")[:15]:
                 race_data = Race(tr_content.find_all("td")).race()
-                if len(race_data) == 8:               
-                    positions.append(race_data[2])
-                    weight.append(race_data[6])
+                if len(race_data) > 0:               
+                    positions.append(race_data[1])
+                    weight.append(race_data[5])
                     result.append(race_data[-1])
-                    ratio_time.append(round((race_data[4] - race_data[5])/race_data[5], 4))
-                    ratio_split.append(round((race_data[1] - (race_data[5]/5)) / (race_data[5]/5),4))            
+                    ratio_time.append(round((race_data[3] - race_data[4])/race_data[4], 4))
                     total.append(race_data)
 
             whelping = self.helper.normalize(dog_page.find("table", class_="pedigree").find_all("td")[3], "whelping")
@@ -45,7 +44,6 @@ class Dogs():
                 "PositionsDiff" : positions,
                 "Weight" : weight,
                 "RatioTime" : ratio_time,
-                "RatioSplit" : ratio_split,
                 "Result" : result
             }
 
@@ -59,15 +57,14 @@ class Dogs():
                     round(df["PositionsDiff"].mean(), 3),
                     round(df["Weight"].mean(), 3),
                     round(df["RatioTime"].mean(), 3),
-                    round(df["RatioSplit"].mean(), 3),
                     round(float(counts[0])/sum(counts), 4),
                     round(float(counts[1])/sum(counts), 4),
                     whelping,
                     dog_result
-                ]     
+                ]   
+                  
             else:
                 stats_avg = []
-
             return stats_avg
 
         except Exception as a:

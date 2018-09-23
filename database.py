@@ -9,15 +9,20 @@ class Database:
 	def __init__(self, f):    	
 		self.file = f 
 
-	def insert(self, rows):
+	def insert(self, rows, type_insert):
 		""" 
 			Insert multiple line in file 
 		"""
 		try:
 			with open(self.file, "a") as csvfile:
-				for r in rows: 
+				if type_insert=="multiple":
+					for r in rows: 
+						writer = csv.writer(csvfile)
+						writer.writerow(r)
+				if type_insert=="solo":						
 					writer = csv.writer(csvfile)
-					writer.writerow(r)
+					writer.writerow(rows)
+
 		except Exception as a:
 			print(a)
 

@@ -15,15 +15,11 @@ def run(url):
     dogs = Dogs()
     helper = Helper()
     db = Database("data/data_train.csv")
-    dogs_tracks_urls = tracks.get_tracks()
-    with click.progressbar(dogs_tracks_urls, length=len(dogs_tracks_urls)) as bar:
-        for track in bar:
-            dogs_stats = []
-            page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
-            dogs_track = dogs.get_dogs(page_html, "meetings")        
-            for dog in dogs_track:
-                dog_stat = dogs.get_stats(dog, driver)
-                if not np.isnan(dog_stat).any() and len(dog_stat) > 0:
-                    dogs_stats.append(dog_stat)
-            db.insert(dogs_stats)
+    for track in tracks.get_tracks():
+        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+        stats = []
+        for dog in dogs.get_dogs(page_html, "meetings"):
+            stat = dogs.get_stats(dog, driver, "meetings")
+            if len(stat) > 0:
+                db.insert(stat, type_insert="solo")
     driver.close()

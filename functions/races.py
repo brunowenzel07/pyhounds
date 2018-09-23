@@ -24,10 +24,7 @@ class Race:
 
     def distance(self):
         return int(self.content["distance"].replace("m", ""))
-
-    def split(self):
-        return float(self.content["split"])
-    
+  
     def bends(self):
         bends = np.array(list(self.content["bends"])).astype(np.float)
         df1 = (bends[0] - bends[1])/2
@@ -58,7 +55,6 @@ class Race:
         try: 
             result = [
                 self.distance(),
-                self.split(),
                 self.bends(),            
                 self.remarks(),            
                 self.calculate_time(),
