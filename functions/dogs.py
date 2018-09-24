@@ -86,15 +86,18 @@ class Dogs():
                 rows.append(row)
         if type_dogs == "cards":
             for dog_div in page_html.find("div",{"id":"sortContainer"}).find_all("div", class_="runnerBlock"):
-                dog_name = self.helper.normalize(dog_div.find("a", class_="dogName").find("strong"), "string")[1:-1]
-                dog_brt = self.helper.normalize(dog_div.find("td", class_="brt"), "brt")
-                dog_link = self.helper.normalize(dog_div.find("a", class_="dogName"), "link")
-                dog_trap = self.helper.normalize(dog_div.div.find("a", class_="dogName"),"trap")
-                dog = [
-                    dog_brt,
-                    dog_name,
-                    dog_link,
-                    dog_trap
-                ]
-                rows.append(dog)
+                try:
+                    dog_name = self.helper.normalize(dog_div.find("a", class_="dogName").find("strong"), "string")[1:-1]
+                    dog_brt = self.helper.normalize(dog_div.find("td", class_="brt"), "brt")
+                    dog_link = self.helper.normalize(dog_div.find("a", class_="dogName"), "link")
+                    dog_trap = self.helper.normalize(dog_div.div.find("a", class_="dogName"),"trap")
+                    dog = [
+                        dog_brt,
+                        dog_name,
+                        dog_link,
+                        dog_trap
+                    ]
+                    rows.append(dog)
+                except Exception:
+                    pass
         return rows

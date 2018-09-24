@@ -32,6 +32,7 @@ class Helper:
             age_dog = (today) - (whelping_date)
             return (age_dog.days)/30
         if bs_type == "brt":
+            print(bs_element)
             element = bs_element.text.encode("utf-8")
             element = element.replace("BRT: ", "")
             element = element[:5]

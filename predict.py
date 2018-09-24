@@ -11,6 +11,7 @@ from dogs import Dogs
 import numpy as np 
 import pandas as pd 
 from helper import Helper 
+from os import system 
 
 def run(url):
     driver = webdriver.Chrome()
@@ -29,7 +30,11 @@ def run(url):
 
     location = page_html.find("div", class_="pageHeader").find("h2").text.encode("utf-8")
     race = page_html.find("span", {"id":"title-circle-container"}).find("span", class_="titleColumn1").text.encode("utf-8")
-    post_tip = page_html.find("span", {"id":"title-circle-container"}).find("p", class_="p2").text.encode("utf-8")[2:-1]
+    try:         
+        post_tip = page_html.find("span", {"id":"title-circle-container"}).find("p", class_="p2").text.encode("utf-8")[2:-1]
+    except Exception:
+        post_tip = ""
+
     dogs_race = dogs.get_dogs(page_html, "cards")
     for dog in dogs_race:
         sample = dogs.get_stats(dog, driver, "card") 
@@ -52,7 +57,6 @@ def run(url):
 
     df = pd.DataFrame(data=frame)
     click.clear()
-    click.secho("   Track: %s" % location, bold=True)
-    click.secho("   %s" % race, bold=True)
-    click.secho("   %s" % post_tip, bold=True)
-    print("     "+df[["Trap", "Dog", "Predict", "Probability"]].sort_values(by="Predict", ascending=False).to_string(index=False))
+    click.secho("   Track: %s" % location)
+    click.secho("   %s" % race + " %s" % post_tip, bold=True)
+    click.secho("     "+df[["Trap", "Dog", "Predict", "Probability"]].sort_values(by=["Predict","Dog"], ascending=False).to_string(index=False))
