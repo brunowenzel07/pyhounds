@@ -17,9 +17,8 @@ def run(url):
     db = Database("data/data_train.csv")
     for track in tracks.get_tracks():
         page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
-        stats = []
         for dog in dogs.get_dogs(page_html, "meetings"):
-            stat = dogs.get_stats(dog, driver, "meetings")
-            if len(stat) > 0:
-                db.insert(stat, type_insert="solo")
+            stat = dogs.get_stats(dog)
+            break 
+        break 
     driver.close()
