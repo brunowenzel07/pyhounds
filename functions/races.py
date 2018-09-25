@@ -1,17 +1,19 @@
 # -*- coding: UTF-8
 # !/usr/bin/python 
 import numpy as np 
-import re 
+import re
+import nltk
+
 
 class Race:
 
-    def __init__(self, content):
+    def __init__(self, content, dog):
 
         def normalize_text(txt):
             return txt.text.encode("utf-8")
-
         self.content = {
             "distance" : normalize_text(content[2]),
+            "trap" : normalize_text(content[3]),
             "split" : normalize_text(content[4]),
             "bends" : normalize_text(content[5]),
             "fin" : normalize_text(content[6]),
@@ -19,50 +21,80 @@ class Race:
             "winner_time": normalize_text(content[10]),
             "gng" : normalize_text(content[11]),
             "wght" : normalize_text(content[12]),
+            "sp" : normalize_text(content[13]),
             "cal_time" : normalize_text(content[15]),
         }
 
-    def distance(self):
-        return int(self.content["distance"].replace("m", ""))
-  
-    def bends(self):
-        bends = np.array(list(self.content["bends"])).astype(np.float)
-        df1 = (bends[0] - bends[1])/2
-        df2 = (bends[2] - bends[3])/2
-        df3 = (int(re.sub("\D", "", self.content["fin"])) - bends[0])/2
-        return round((df1-df2-df3)/3, 2)
+    def normalize_stats(self):
 
-    def finished(self):
-        r = int(re.sub("\D", "", self.content["fin"]))
-        if r < 3:
-            return 0
-        else:
-            return 1
+        def distance():
+            return int(self.content["distance"].replace("m", ""))
+    
+        def bends():
+            bends = np.array(list(self.content["bends"])).astype(np.float)
+            return bends
 
-    def remarks(self):
-        return self.content["remarks"]
+        def trap():
+            trap = int(self.content["trap"].replace("[", "").replace("]", ""))
+            return trap
 
-    def winner_time(self):
-        return float(self.content["winner_time"])
+        def split():
+            return float(self.content["split"])
 
-    def calculate_time(self):
-        return float(self.content["cal_time"])
+        def remarks():
+            return self.content["remarks"]
 
-    def weight(self):
-        return float(self.content["wght"])
+        def winner_time():
+            return float(self.content["winner_time"])
+        
+        def gng():
+            gng = self.content["gng"]
+            if gng == "N": return 0
+            else: return float(gng)
 
-    def race(self):
-        try: 
-            result = [
-                self.distance(),
-                self.bends(),            
-                self.remarks(),            
-                self.calculate_time(),
-                self.winner_time(),
-                self.weight(),
-                self.finished(),
-            ]
-        except Exception as a:
-            print(a, "Exception in races")
-            result = []
+        def weight():
+            return float(self.content["wght"])
+
+        def calc_time():
+            return float(self.content["cal_time"])
+
+        def sp():
+            sp = self.content["sp"]
+            sp = sp.split("/")
+            x = lambda a : float(re.sub("\D", "", a))
+            nom = x(sp[0])
+            den = x(sp[1])
+            return round(nom/den, 3)
+
+        result = [
+            distance(),
+            bends(),       
+            trap(),
+            remarks(), 
+            gng(),
+            calc_time(),
+            sp()
+        ]
         return result 
+    
+    def calculate_stats(self):
+        data = self.normalize_stats()
+        print(data)
+
+        def bends():
+            diff = data[1][0] - data[-1]
+            if diff > 0: return 1
+            elif diff < 0: return -1
+            else: return 0
+        
+        def remarks():
+            remarks = data[3]
+            comments = [re.sub("[()\[\]/]", "", i.lower()) for i in remarks]
+            print(comments)
+
+        result = [
+            bends(),
+            remarks()
+        ]
+
+        return result

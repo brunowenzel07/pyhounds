@@ -18,7 +18,7 @@ def run(url):
     for track in tracks.get_tracks():
         page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
         for dog in dogs.get_dogs(page_html, "meetings"):
-            stat = dogs.get_stats(dog)
+            stat = dogs.get_stats(dog, driver)
             break 
         break 
     driver.close()

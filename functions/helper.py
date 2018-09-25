@@ -38,8 +38,8 @@ class Helper:
             element = element[:5]
             return float(element)
         if bs_type == "trap":
-            trap = bs_element.find("i").attrs["class"][1].encode("utf-8")
-            trap = trap.replace("trap", "")
+            trap = "cu"
+            trap = bs_element.attrs["class"][1].replace("trap","")
             return str(trap)
 
 
