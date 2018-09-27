@@ -34,9 +34,12 @@ train_y = train_df["position"]
 nb.fit(train_X_tfidf, train_y)
 
 dog_races = []
+
+dog_trap = int(page_html.find("h1", class_="ghName").find("i").attrs["class"][1].replace("trap", "").encode("utf-8"))
+
 for tr_content in page_html.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
     try: 
-        race = Race(tr_content.find_all("td"))
+        race = Race(tr_content.find_all("td"), dog_trap)
         dog_races.append(race.calculate_stats(race.normalize_stats(), nb, bow, tfidf))
     except Exception as a :
         pass

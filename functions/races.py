@@ -5,15 +5,12 @@ import re
 import nltk
 import pandas as pd
 import csv 
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.naive_bayes import MultinomialNB
 from string import digits 
 
 class Race:
 
-    def __init__(self, content):
-
+    def __init__(self, content, dog_trap):
+        self.dog_trap = dog_trap 
         def normalize_text(txt):
             return txt.text.encode("utf-8")
         self.content = {
@@ -100,7 +97,6 @@ class Race:
         def bends():
             diff = content[1][0] - content[-1]
             if diff > 0: return 1
-            elif diff < 0: return -1
             else: return 0
         
         def remarks():
@@ -112,10 +108,9 @@ class Race:
         def finishes():
             if int(content[-1]) > 2 : return 1
             else: return 0
-            print(int(content[-1]))
 
         def gng():
-            if content[4] < 0: return -1
+            if content[4] < 0: return 0
             elif content[4] > 0: return 1 
             else: return 0
         
@@ -123,7 +118,8 @@ class Race:
             return content[6]
 
         def trap():
-            return content[2]
+            if int(content[2]) == self.dog_trap: return 1
+            else: return 0
         
         def weight():
             return content[8]

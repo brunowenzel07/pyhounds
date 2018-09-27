@@ -9,6 +9,7 @@ import functions
 @click.command()
 @click.argument("script")
 @click.option("--url")
+
 def main(script, url):
     if script == "train":
         functions.train(url)
