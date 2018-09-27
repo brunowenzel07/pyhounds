@@ -76,6 +76,10 @@ class Race:
             den = x(sp[1])
             return round(nom/den, 3)
 
+        def fin():
+            d = re.search("\d", self.content["fin"])            
+            return int(d.group())
+
         result = [
             distance(),
             bends(),       
@@ -83,25 +87,15 @@ class Race:
             remarks(), 
             gng(),
             calc_time(),
-            sp()
+            sp(),
+            split(),
+            weight(),
+            winner_time(),
+            fin()
         ]
         return result 
     
-    def calculate_stats(self, content):     
-
-        train_df = pd.read_csv("data/comments.csv", header=None, names=["comment", "position"])
-        # Bag of Words
-        tfidf = TfidfTransformer()
-        bow = CountVectorizer()
-        bow.fit(train_df["comment"])
-        # instanciando classificador
-        nb = MultinomialNB(alpha=1.0)
-        # treinamento, transformação do set de trainamento
-        train_X_bow = bow.transform(train_df["comment"])
-        tfidf.fit(train_X_bow)
-        train_X_tfidf = tfidf.transform(train_X_bow)
-        train_y = train_df["position"]
-        nb.fit(train_X_tfidf, train_y)
+    def calculate_stats(self, content, clf, bow, tfidf):     
 
         def bends():
             diff = content[1][0] - content[-1]
@@ -112,15 +106,42 @@ class Race:
         def remarks():
             X_bow = bow.transform([content[3]])            
             X_tfidf = tfidf.transform(X_bow)   
-            pred = nb.predict(X_tfidf)         
-            return int(pred )
+            pred = clf.predict(X_tfidf)         
+            return int(pred)
 
+        def finishes():
+            if int(content[-1]) > 2 : return 1
+            else: return 0
+            print(int(content[-1]))
 
-        result = [
-            bends(),
-            remarks()
-        ]
+        def gng():
+            if content[4] < 0: return -1
+            elif content[4] > 0: return 1 
+            else: return 0
+        
+        def sp():
+            return content[6]
 
-        print(result)
+        def trap():
+            return content[2]
+        
+        def weight():
+            return content[8]
 
+        def split():
+            return float(content[0])/content[7]
+
+        try: 
+            result = [
+                bends(),
+                remarks(),
+                finishes(),
+                gng(),
+                sp(),
+                trap(),
+                weight(),
+                split()
+            ]
+        except Exception:
+            result = []
         return result 

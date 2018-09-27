@@ -20,11 +20,14 @@ class Dogs():
             element_wait="sortableTable")
 
 
-
+        dog_races = []
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
             race = Race(tr_content.find_all("td"))
-            calculated_data = race.calculate_stats(race.normalize_stats())          
-            break 
+            dog_races.append(race.calculate_stats(race.normalize_stats()))
+            
+
+        df = pd.DataFrame(data=dog_races)       
+        print(df)
 
     def get_dogs(self, page_html, type_dogs):
         rows = []
