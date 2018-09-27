@@ -28,12 +28,4 @@ train_X_tfidf = tfidf.transform(train_X_bow)
 train_y = train_df["position"]
 nb.fit(train_X_tfidf, train_y)
 
-# criando samples de test 
-test_X_bow = bow.transform(test_df["comment"])
-tfidf.fit(test_X_bow)
-test_X_tfidf = tfidf.transform(test_X_bow)
-test_y = test_df["position"]
-
-y_pred = nb.predict(test_X_tfidf)
-
-print(classification_report(test_y, y_pred))
+y_pred = nb.predict(train_X_tfidf)

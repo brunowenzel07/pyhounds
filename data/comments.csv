@@ -46557,3 +46557,12219 @@ EvAw StydOn,-1
 FAw Outp,-1
 SAw NvrShwd,-1
 EvAw NvrShwd,-1
+SAw RnOn,-1
+EvAw StydOn,-1
+EvAw NvrShwd,-1
+SAw RnOn,-1
+ChlRnIn LdNrLn,1
+FAw LdNrLn,1
+FAw FnWll,-1
+SAw RnOn,-1
+Ld  HldOn,1
+FAw Crd,1
+SAw NvrShwd,-1
+EP RnOn,1
+FAw Blk,-1
+FAw CmAgn,1
+FAw Outp,-1
+EvAw Bmp,-1
+SAw NvrShwd,-1
+BmpRnUp StydOn,-1
+EvAw LdNrLn,1
+SAw NvrShwd,-1
+EvAw KO,-1
+FAw StydWll,1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+FAw FnWll,1
+EvAw FnWll,1
+Blk RnOn,-1
+EvAw Bmp,-1
+SAw RnOn,-1
+SAw RnOn,-1
+Blk Blk,-1
+ImpRnUp RnOn,-1
+FAw ALd,1
+EvAw RnOn,1
+SAw FnWll,1
+Ckd FnWll,1
+Ckd FnWll,1
+Ckd FnWll,1
+FAw FnWll,1
+EP RnOn,-1
+SAw RnOn,-1
+EP Blk,-1
+Outp RnOn,-1
+EvAw RnOn,-1
+EvAw And,1
+EP FnWll,1
+EvAw FddRnIn,-1
+Bmp RnOn,-1
+FAw ALd,1
+EvAw Ard,-1
+FAw ALd,1
+FAw Fdd,-1
+FAw HldOn,1
+Outp RnOn,-1
+AHandy FnWll,1
+AHandy FnWll,-1
+AHandy FnWll,1
+Mid StrFn,1
+MsdBrk RnOn,1
+SAw FnWll,-1
+AHandy FnWll,1
+Blk NvrShwd,-1
+Ckd RnOn,-1
+SAw Crd,-1
+FAw Fdd,-1
+Rls RnOn,-1
+Outp Ath,-1
+Outp Ath,-1
+DH BmpRnUp,-1
+DH BmpRnUp,-1
+DH BmpRnUp,-1
+EvAw RnOn,-1
+DH RnOn,-1
+EvAw FnWll,1
+SAw NvrShwd,-1
+EvAw NvrShwd,-1
+ImpRnUp RnOn,-1
+EvAw FnWll,1
+EvAw ChlRnIn,1
+Chl Ld,1
+SAw StydOn,-1
+EvAw Fcd Ck,-1
+SAw RnOn,-1
+FAw ClrRn,-1
+FAw ClrRn,-1
+EvAw Fdd,-1
+Chl  RnOn,-1
+EvAw Ard,-1
+SAw Ath,-1
+EvAw Ard,-1
+QAw RnOn,1
+EvAw StydOn,1
+Ld HldOn,1
+FAw EvCh,-1
+Bmp NvrShwd,-1
+EvAw FnWll,1
+Chl  FnWll,1
+EP EvCh,1
+EvAw Chl ,-1
+EvAw NvrShwd,-1
+Blk RnOn,-1
+EvAw Bmp,-1
+SAw RnOn,-1
+EvAw RnOn,1
+EvAw FnWll,1
+EvAw FnWll,1
+EvAw Fdd,-1
+EvAw RnOn,-1
+SAw Imp,-1
+CrdRnUp NvrShwd,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+CrdStt Bmp,-1
+Ckd NvrShwd,-1
+EvAw Fdd,-1
+Blk Blk,-1
+SAw NvrShwd,-1
+SAw RnOn,-1
+EvAw Bmp,-1
+EvAw RnOn,1
+EvAw Chl ,-1
+EvAw Crd,-1
+EvAw Blk,-1
+SAw NvrShwd,-1
+DH RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,1
+EvAw Imp,1
+SAw NvrShwd,-1
+EvAw FnWll,1
+EvAw RnOn,-1
+CkdPickUp RnOn,-1
+EvAw FnWll,-1
+Outp RnOn,-1
+Outp RnOn,-1
+KO DNF,-1
+KO DNF,-1
+KO DNF,-1
+KO DNF,-1
+EvAw RnOn,-1
+Blk Outp,-1
+Blk Outp,-1
+FAw Fdd,-1
+BmpRnUp Outp,-1
+SAw Crd ,-1
+FAw ALd,1
+Ckd NvrShwd,-1
+FAw ALd,1
+Ckd FnWll,-1
+EvAw RnOn,-1
+SAw Outp,-1
+Blk Outp,-1
+BmpRnUp RnOn,-1
+MsdBrk NvrShwd,-1
+Outp NvrShwd,-1
+Bmp RnOn,-1
+FAw ALd,1
+SAw FnWll,1
+Ld RnOn,1
+Blk RnOn,1
+Ckd RnOn,-1
+Ckd FnWll,1
+Bmp RnOn,-1
+MsdBrk RnOn,-1
+HitHdls Ath,-1
+SAw Outp,-1
+EvAw Fdd,-1
+SAw RnOn,-1
+FAw Blk,-1
+FAw ALd,1
+SAw RnOn,-1
+SAw RnOn,-1
+Bmp RnOn,-1
+ImpRnUp RnOn,-1
+ImpRnUp RnOn,-1
+EvAw Crd,-1
+FAw Crd,-1
+FAw ALd,1
+SAw FnWll,-1
+SAw FnWll,-1
+TurnedInTrps,1
+TurnedInTrps,1
+EvAw RnOn,-1
+Blk Outp,-1
+Blk Outp,-1
+FAw Fdd,-1
+BmpRnUp Outp,-1
+SAw Crd ,-1
+FAw ALd,1
+Ckd NvrShwd,-1
+FAw ALd,1
+Ckd FnWll,-1
+EvAw RnOn,-1
+SAw Outp,-1
+Blk Outp,-1
+BmpRnUp RnOn,-1
+MsdBrk NvrShwd,-1
+Outp NvrShwd,-1
+Bmp RnOn,-1
+FAw ALd,1
+SAw FnWll,1
+Ld RnOn,1
+Blk RnOn,1
+Ckd RnOn,-1
+Ckd FnWll,1
+Bmp RnOn,-1
+MsdBrk RnOn,-1
+HitHdls Ath,-1
+SAw Outp,-1
+EvAw Fdd,-1
+SAw RnOn,-1
+FAw Blk,-1
+FAw ALd,1
+SAw RnOn,-1
+SAw RnOn,-1
+Bmp RnOn,-1
+ImpRnUp RnOn,-1
+ImpRnUp RnOn,-1
+EvAw Crd,-1
+FAw Crd,-1
+FAw ALd,1
+SAw FnWll,-1
+SAw FnWll,-1
+TurnedInTrps,1
+TurnedInTrps,1
+SAw Bmp,-1
+SAw RnOn,-1
+EvAw ChlRnIn,1
+SAw FnWll,-1
+EvAw Blk,-1
+SAw FnWll,-1
+SAw RnOn,-1
+Blk Outp,-1
+EvAw Ath,-1
+BlkW,-1
+EvAw StydOn,-1
+EvAw Bmp,-1
+SAw ChlRnIn,-1
+EvAw Chl ,-1
+EvAw FnWll,1
+SAw FnWll,-1
+EvAw Crd,-1
+MsdBrk RnOn,-1
+MsdBrk RnOn,-1
+MsdBrk RnOn,-1
+MsdBrk RnOn,-1
+MsdBrk RnOn,-1
+Chl DrewClr,1
+SAw Crd,1
+SAw RnOn,-1
+EvAw FnWll,-1
+EvAw RnOn,-1
+Chl  FnWll,1
+Bmp RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+(R) Mid Rls Ld RnIn,1
+CrdRnUp Blk,-1
+VSAw Fcd Ck  Crd ,-1
+EP Mid SnLd,1
+Mid Rls Crd,-1
+Rls Mid Chl ,-1
+EP Blk Chl Blk ,1
+SAw Rls Mid Blk,-1
+Mid Rls Crd,-1
+EP Mid Rls Ld ,1
+CrdRnUp  ,-1
+CrdRnUp ,-1
+CrdStt Chl Fcd Ckd ,1
+SAw Rls Mid RnOn,-1
+SAw Rls Mid RnOn,1
+EP Mid Rls AHandy,1
+StmbBdStt Blk,-1
+Mid Rls SnHandy,1
+(R) Mid Rls LdRnIn NrLn,1
+Rls Mid Crd   ,-1
+Rls Mid Crd ,-1
+EP Mid AHandy,1
+Mid SnLd FnWll,1
+Mid Rls Crd,-1
+Mid Rls Blk,-1
+CrdStt   Mid Rls,-1
+EP Crd   Ld NrLn,1
+VSAw Fcd Ck Bmp,-1
+Blk  Crd (HT),-1
+StmbSltStt Crd ,-1
+SAw Mid Rls,-1
+(R) Mid Rls Crd  (HT),-1
+Crd HitRls ,-1
+EP Mid Rls Ld,1
+CrdStt FnWll,1
+EP Mid Ld HldOn,1
+SAw Crd Fcd Ck,-1
+SAw Mid Rls (HT),-1
+SAw Rls Mid RnOn (HT),-1
+SAw Bmp  (HT),-1
+Mid Rls Blk FnWll,1
+DispLd EvCh,1
+EP Mid Rls Ld NrLn,-1
+Mid Rls SnHandy,-1
+Rls Mid ALd,1
+Lame,-1
+DispFr EvCh,1
+(R) Mid Rls Crd  ,-1
+Crd Fcd Ck,-1
+Rls Mid FnWll,1
+CrdRnUp Bmp,-1
+SAw Rls Mid Crd RnOn,-1
+VSAw HandyFr,1
+StmbStt Crd FnWll,1
+SAw Mid Ld RnOn,1
+StmbStt Mid Rls,-1
+VSAw Mid,-1
+VSAw Mid W,-1
+StmbStt Mid Rls,-1
+(R) Mid Rls Ld RnIn,1
+CrdRnUp Blk,-1
+VSAw Fcd Ck  Crd ,-1
+EP Mid SnLd,1
+Mid Rls Crd,-1
+Rls Mid Chl ,-1
+EP Blk Chl Blk ,1
+SAw Rls Mid Blk,-1
+Mid Rls Crd,-1
+EP Mid Rls Ld ,1
+CrdRnUp  ,-1
+CrdRnUp ,-1
+CrdStt Chl Fcd Ckd ,1
+SAw Rls Mid RnOn,-1
+SAw Rls Mid RnOn,1
+EP Mid Rls AHandy,1
+StmbBdStt Blk,-1
+Mid Rls SnHandy,1
+(R) Mid Rls LdRnIn NrLn,1
+Rls Mid Crd   ,-1
+Rls Mid Crd ,-1
+EP Mid AHandy,1
+Mid SnLd FnWll,1
+Mid Rls Crd,-1
+Mid Rls Blk,-1
+CrdStt   Mid Rls,-1
+EP Crd   Ld NrLn,1
+VSAw Fcd Ck Bmp,-1
+Blk  Crd (HT),-1
+StmbSltStt Crd ,-1
+SAw Mid Rls,-1
+(R) Mid Rls Crd  (HT),-1
+Crd HitRls ,-1
+EP Mid Rls Ld,1
+CrdStt FnWll,1
+EP Mid Ld HldOn,1
+SAw Crd Fcd Ck,-1
+SAw Mid Rls (HT),-1
+SAw Rls Mid RnOn (HT),-1
+SAw Bmp  (HT),-1
+Mid Rls Blk FnWll,1
+DispLd EvCh,1
+EP Mid Rls Ld NrLn,-1
+Mid Rls SnHandy,-1
+Rls Mid ALd,1
+Lame,-1
+DispFr EvCh,1
+(R) Mid Rls Crd  ,-1
+Crd Fcd Ck,-1
+Rls Mid FnWll,1
+CrdRnUp Bmp,-1
+SAw Rls Mid Crd RnOn,-1
+VSAw HandyFr,1
+StmbStt Crd FnWll,1
+SAw Mid Ld RnOn,1
+StmbStt Mid Rls,-1
+VSAw Mid,-1
+VSAw Mid W,-1
+StmbStt Mid Rls,-1
+EP Rls Mid Ld,1
+Rls Crd,-1
+Rls Crd,-1
+(R) Rls ClrRn,1
+EP Rls Mid Ld,1
+SAw EP Rls Mid Crd,-1
+EP Rls Mid Crd Ld,1
+Rls Mid Blk,-1
+QAw Rls,1
+VSAw Rls,-1
+PckdStt EP Ld ,1
+Mid Rls ClrRn,-1
+EP Rls Mid Ld  ,1
+EP Rls Mid Ld  ,1
+EvAw EvCh,-1
+EvAw EvCh,-1
+EvAw EvCh,-1
+SAw EP Blk Ld,1
+VSAw W RnOn,1
+VSAw VW Crd,-1
+VSAw Mid W,-1
+SAw Mid W,-1
+Fcd Ck Blk,1
+VSAw Mid W,1
+VSAw Mid,-1
+LeftBdStt,-1
+SAw EP Blk Ld,1
+VSAw W RnOn,1
+VSAw VW Crd,-1
+VSAw Mid W,-1
+SAw Mid W,-1
+Fcd Ck Blk,1
+VSAw Mid W,1
+VSAw Mid,-1
+LeftBdStt,-1
+SAw EP Blk Ld,1
+VSAw W RnOn,1
+VSAw VW Crd,-1
+VSAw Mid W,-1
+SAw Mid W,-1
+Fcd Ck Blk,1
+VSAw Mid W,1
+VSAw Mid,-1
+LeftBdStt,-1
+EP W Blk RnOn,-1
+SAw EP Fcd Ck ,-1
+EP W Ld  FnWll,1
+EP W Ld  WnWll,1
+SAw EP Ld WnWll,1
+SAw Fcd Ck  Blk ,-1
+SAw W Blk ,-1
+VSAw Mid W Fcd Ck,-1
+VSAw EP Ld  FnWll,1
+SAw EP Blk  Ld,1
+SAw VW Ld ,1
+VSAw EP W Ld,1
+VSAw Mid W,1
+Mid,1
+Mid CkdNrLn,1
+EP Mid Rls Handy ,1
+EP Mid Rls Ld  ,1
+(R) Ckd Fcd Ck,-1
+EP Mid Blk Crd,-1
+EP Mid Blk,-1
+(R) EP Mid Ld,1
+EP SnLd   Fcd Ck,-1
+SAw EP Mid Rls,1
+Fcd Ck BdBlk Fell,-1
+(R) SAw Chl Blk,-1
+EP Mid Rls Ld ,1
+Mid Rls Crd,-1
+Rls Mid Crd   ,-1
+Mid Rls Crd,-1
+Rls Mid BlkB Crd ,-1
+StmbStt MvdOff  Crd ,-1
+SAw Rls Chl,1
+Rls SnLd,1
+Rls Bmp,-1
+Rls Crd Ld,1
+Rls SAw Crd,-1
+Rls CrdStt Fcd Ck,-1
+Rls SAw,-1
+Rls,-1
+Rls Imp ,-1
+Rls,-1
+Rls Ld,1
+Rls Crd Ld,1
+CrdRnUp Bmp ,-1
+BdBmp,-1
+Ld Mid,1
+EvCh,1
+Ckd,-1
+EvCh,1
+BdBlk ,-1
+Ld,1
+SAw Bmp RnOn,1
+Bmp,1
+VSAw Mid,-1
+SAw EP SnLd,1
+Mid,1
+Green,1
+Rls Mid ClrRn,-1
+EP Mid Rls Crd Ld,1
+SAw Blk RnOn,-1
+CrdRnUp Fcd Ck ,-1
+EP Mid Rls ChlFr,-1
+Mid Rls Blk Crd,-1
+Blk Chl Crd,1
+SAw EP Chl  Ld,1
+Mid Rls Bmp Handy,-1
+EP Mid Rls SnLd  Crd,-1
+Rls Mid Blk Crd ,-1
+EP Rls Mid Chl,-1
+EP Mid Rls SnLd HldOn,1
+SAw Mid Crd,-1
+SAw EP Ld,1
+Mid ChlE,1
+Mid ChlE,1
+EP LdRnIn NrLn,1
+EP Rls Ld NrLn,1
+Rls Fcd Ck  Crd,-1
+Rls Mid CrdRnUp ,-1
+Ld  Crd  RnOn,1
+EP Rls Ld NrLn,1
+(Scr) EP Crd LdRnIn NrLn,1
+EP Rls ALd,1
+Rls Crd Ld  ,-1
+EP Ld HldOn,1
+SAw Rls Chl Crd,-1
+Rls Mid Crd   ,-1
+EP Rls Mid Crd Ld  ,-1
+Rls Mid Bmp Handy ,-1
+SAw Mid Rls Crd,-1
+Rls Ld  Crd,1
+Rls Mid ClrRn,-1
+EP Rls SnLd,1
+Rls ALd,1
+(R) Chl Fcd Ckd RnOn,-1
+(R) SAw Rls,-1
+Rls Mid Crd,-1
+EP Rls ALd,1
+Mid Rls Bmp CrdRnIn,-1
+Non Arrival,-1
+VSAw Bmp Crd RnOn,-1
+Rls Blk,-1
+SAw EP Crd ,-1
+EP Rls Ld ,-1
+EP Ld HldOn,1
+(R) SAw Ld   Crd (HT),-1
+Crd     (HT),-1
+EP Rls Mid Ld (HT),1
+SAw EP Mid Rls Ld,1
+EP Rls Mid Ld,1
+Rls Ld NrLn,1
+Rls Ld,1
+PckdStt Fcd Ck Crd,1
+SAw Fcd Ck CrdRnIn,-1
+VSAw Fcd Ck  Crd ,-1
+Rls Crd Ld NrLn,1
+Rls Ld NrLn,1
+Rls Crd Ld,1
+SAw EP Ld,1
+Rls ClrRn,1
+Rls Mid ClrRn,1
+QAw Rls Mid ChlRnIn,-1
+CrdRnUp Blk,-1
+StmbSltStt Rls,-1
+Rls Mid Crd,-1
+SAw Rls Crd,-1
+Rls SnHandy Crd ,-1
+Rls Ld  ,1
+SAw Rls,1
+SAw Rls,1
+EP Rls Mid ALd,1
+SAw Rls Mid Crd ,-1
+StmbStt Rls,-1
+Rls Crd Ld ,1
+(R) Fcd CkRnUp Crd RnOn,-1
+Rls LckdEP RnOn,-1
+Rls Blk,-1
+Crd  ChlRnIn,-1
+Rls Mid Crd Handy,-1
+Ep  Crd Ld  Blk,1
+Rls Crd  ,-1
+Rls StmbSlt ,-1
+Rls Mid Crd   Ld ,1
+Rls Mid Crd Ld,1
+(R) Rls Crd Ld  NrLn,1
+PckdStt Crd Ld NrLn,1
+CrdRnUp   Blk,-1
+Rls Mid Ld ,-1
+Rls Mid Crd Ld ,1
+SAw Crd Handy  RnIn,-1
+Rls Mid Handy RnIn,-1
+StmbStt CrdRnUp,-1
+Rls Mid Fcd Ck Crd ,-1
+Rls Mid Ld,1
+Mid Rls Handy RnIn,-1
+Rls Mid Blk,-1
+Rls Mid Crd Ld,1
+Rls Crd ,-1
+Rls ALd,1
+SAw Mid,1
+EP Rls Ld  ,1
+Crd  Fcd Ck FnWll,1
+EP Rls Ld  ,1
+Crd Fcd Ck,-1
+EP Crd Ld  Crd,1
+MsdBrk HitRls,-1
+EP Rls Mid ALd,1
+EP Crd ALd,1
+Rls SAw,-1
+Rls Crd  ,-1
+Rls LdRnIn,1
+Rls SAw Crd ,-1
+Rls StmbStt RnOn,1
+Rls,1
+Rls ClrRn,-1
+Rls SAw Ld ,1
+Rls ClrRn (HT),1
+Rls Crd,-1
+Rls Crd ,-1
+Rls QAw Ld Bmp,-1
+Rls SAw,-1
+Rls ClrRn,1
+Off Colour,-1
+Rls Bmp,-1
+Rls Ld,1
+Rls Mid Ld,1
+Rls ClrRn,-1
+Rls Mid ClrRn,-1
+Rls,-1
+Rls Mid,-1
+SAw Mid W FnLm,-1
+LckdEP W,-1
+LckdEP Fcd Ck ,-1
+VSAw Mid W Crd,-1
+EP Mid W Ld,1
+SAw Mid W Crd RnOn,1
+Mid W AHandy,1
+SAw W Crd RnOn,-1
+EP Mid W Crd,-1
+SAw Crd Fcd Ck ,-1
+SAw W Crd RnOn,-1
+W RnOn,-1
+W Crd ChlFr,1
+SAw W BdBlk,-1
+StmbStt Blk BmpRnIn,-1
+SAw EP W Ld,1
+SAw W Blk ,-1
+W SnLd,1
+W Ld,1
+W ClrRn,1
+W Crd,-1
+W SnLd  ,-1
+W Ld ,1
+W ClrRn,-1
+W SAw,-1
+W SAw,-1
+W ClrRn,1
+W ClrRn,-1
+W Bmp,-1
+W Ld ,1
+W ClrRn,-1
+W RnOn,1
+W Blk,-1
+W ClrRn,-1
+W ClrRn,-1
+W SAw Ld ,1
+W ClrRn,-1
+W BdBmp,-1
+W SAw Ld,1
+W Fcd Ck,-1
+W Bmp,1
+W Bmp,-1
+W SAw,-1
+W Crd ,-1
+W LdRnIn,1
+W ClrRn,-1
+W EP SnLd RnIn,1
+W ClrRn,1
+W SnLd ,1
+W SAw,-1
+W Ld NrLn,1
+Mid W SnLd,1
+W,1
+Rls ChlRnIn,1
+SAw Rls BdCrd,-1
+SAw Rls Crd,-1
+EP Rls Crd Ld,1
+EP Rls Blk FnWll,1
+EP Rls Bmp Ld,1
+Rls Crd Ld RnIn,1
+SAw HitRls Crd,-1
+Rls ClrRn,-1
+SAw Crd ,-1
+EP Mid Rls SnLd,1
+Rls Ld RnOn,1
+Rls Crd,-1
+Rls Crd,-1
+Rls Chl Blk,-1
+Rls Chl Crd,-1
+Rls Fcd Ck Crd,-1
+EP Rls ALd,1
+Rls ClrRn,-1
+Mid Rls ALd WnWll,1
+EP Rls Ld,1
+Crd Blk RnOn,-1
+SAw Crd   FnWll,1
+SAw Rls Ld NrLn,1
+VSAw Crd RnOnWll,1
+Rls Crd    RnOn,1
+Rls SnLd FnWll (HT),1
+SAw Crd Ld  (HT),1
+Fcd Ck BlkRnIn (HT),1
+SAw Bmp Ld (HT),1
+VSAw Rls Ld,1
+VSAw Rls,1
+EP Rls Mid Ld NrLn,1
+EP Rls Ld  HldOn,1
+EP Rls Mid Crd RnOn,1
+EP Rls Chl RnIn,1
+(R) EP Rn FnWll,1
+SnHandy Ld RnIn,-1
+SAw CrdRnUp FnWll,1
+Rls Crd Fcd Ck,-1
+SAw HitRls Bmp,-1
+QAw Rls Mid ALd,1
+Rls Crd Handy,-1
+SAw Rls,-1
+EP Rls ALd,1
+SAw Rls Mid,-1
+SAw Rls Mid,-1
+SAw ClrRn,-1
+SAw ClrRn,-1
+SAw ClrRn,-1
+SAw ClrRn,-1
+EP ALd WnWll,1
+EP Mid ChlE,-1
+EP SnLd RnIn Crd,-1
+EP Chl Crd,-1
+EP Mid Rls SnLd,1
+EP Rls Mid SnLd ,-1
+EP Rls Mid ALd,1
+EP Rls Mid ALd,1
+QAw ALd,1
+VQAw FddRnIn,-1
+VQAw FddRnIn,-1
+VQAw FddRnIn,-1
+QAw ALd,1
+Crd Bmp,-1
+QAw ClrRn,-1
+LdRnUp EvCh,1
+LdRnUp EvCh,1
+Fcd Ck Bmp,-1
+BmpRnUp Blk,1
+BmpRnUp Blk,1
+BmpRnUp Blk,1
+QAw Bmp Fcd CkBlk,-1
+EP Mid Crd,-1
+QAw Mid Crd ,-1
+QAw Ld  Crd,-1
+EP Ld  CmAgnRnIn,1
+Mid Crd RnOn,-1
+EP Mid FnWll,1
+QAw Mid RnOn,-1
+EP Mid Ld   CmAgn,1
+Mid Blk  BdBlk,-1
+Non Arrival,-1
+EP Mid Crd  ,-1
+EP Mid ALd,1
+EP Mid Ld ,1
+SAw Fcd Ck BdBlk ,-1
+EP Mid Ld  Crd,-1
+QAw Ld   Crd,-1
+EP Mid ALd,1
+QAw Ld   Fcd Ck,-1
+QAw Crd    ,-1
+EP Mid Rls ALd,1
+EP Mid ALd HldOn,1
+EP Mid Ld NrLn,-1
+QAw Mid Ld RnIn,-1
+EP Crd ALd,1
+EP Crd Ld HldOn,1
+EP Rls Mid ALd,1
+Blk  Ld   CmAgn (HT),1
+Fcd Ck RnOn (HT),-1
+Ld RnIn Crd  (HT),1
+EP Blk Fcd Ck Blk ,-1
+Mid Rls Crd ,-1
+EP Mid Rls ALd,1
+Rls Mid Blk,-1
+Crd Crd Fcd Ck,-1
+Mid Rls BdBlk,-1
+QAw Mid Rls,-1
+EP Mid Rls Ld  ,1
+QAw Ld  Crd CmAgn,-1
+QAw Mid Crd,1
+EP Mid Rls Ld RnOn,1
+QAw Mid ALd,1
+QAw Mid Crd EvCh,1
+StmbStt Mid Ld ,1
+Rls Mid BlkRnUp RnOn,1
+Mid Rls,1
+Ld RnOn,1
+EvAw CrdRnUp,-1
+ChlRnUp And,1
+EvAw And,1
+Crd RnOn,1
+Mid W EP ALd,1
+Chl StydWll,1
+SAw BdBlk,-1
+Chl EvCh,1
+CrdRnUp Crd,-1
+CrdRnUp Crd,-1
+CrdRnUp Crd,-1
+CrdRnUp Crd,-1
+CrdRnUp Crd,-1
+W Crd,-1
+EP Mid W ALd,1
+W Crd ,-1
+QAw Crd Fcd Ck RnOn,-1
+Blk Ld RnIn,1
+Mid W SnHandy  Crd,-1
+CrdRnUp EP SnLd,1
+Mid W Ld FnWll,1
+EP Mid W AHandy,-1
+Mid W Blk CrdRnIn,-1
+Mid W Crd ,-1
+(R) Mid W Crd,-1
+SAw Mid W Fcd Ck,-1
+Mid W Ld ,-1
+Mid W Ld FnWll,1
+SAw Crd    FnWll,1
+Mid W Ld FnWll,1
+Mid W Fcd Ck RnOn,1
+Mid W Crd RnOn,-1
+Mid W Crd Chl,-1
+EP Mid W Ld ,1
+CrdRnUp,-1
+Mid W Crd  RnIn,-1
+QAw Ld  Crd,-1
+SAw Fcd Ck,-1
+(Scr) SAw Mid W,-1
+Fcd Ck Ld  (HT),1
+VSAw Mid,-1
+(Scr) SAw Mid W FnWll,1
+SAw Mid W Crd ,-1
+Mid W Crd,-1
+Mid W,-1
+StmbBdStt Mid,-1
+Mid SnLd RlsRnIn,1
+QAw EvCh,1
+SAw Crd,-1
+SAw Crd,-1
+FAw ALd,1
+MvdOff BdBlk,-1
+Blk Ld,1
+EvAw Bmp,-1
+EvAw RnOn,-1
+SAw NvrShwd,-1
+ClrRn RnOn,1
+ClrRn RnOn,1
+ClrRn RnOn,1
+ClrRn RnOn,1
+SAw Crd Fcd Ck Ckd ,-1
+SAw W,-1
+SAw EP Fcd CkVW ,-1
+EP W Ld  HldOn,1
+SAw Crd Blk ,-1
+EP W Ld FnWll,1
+SAw EP W Ld,1
+W ALd,1
+VSAw Mid W Fcd Ck,-1
+SAw,-1
+Mid W,-1
+SAw Mid,1
+Mid ClrRn,-1
+VSAw Mid,-1
+VSAw Mid,-1
+Blk  BdCrd,-1
+(R) EP Rls Mid Ld,1
+CrdStt EP Ld ,-1
+Rls Mid BdBlk Crd,-1
+SAw EP Handy  ,1
+VSAw Mid Rls Fcd Ck,-1
+VSAw Mid Blk,-1
+(R) EP Rls Mid Ld NrLn,1
+MsdBrk Mid Rls Blk,-1
+VSAw Blk Chl Crd,-1
+SAw Fcd Ck  Crd  (HT),-1
+SAw Mid Rls Blk ,-1
+EP Mid SnLd,1
+VSAw Bmp ChlRnIn,-1
+SAw Mid ChlFr,-1
+SAw Crd Blk,-1
+SAw Crd  ,-1
+SAw EP Crd Ld ,1
+SAw EP Blk Ld   Crd,1
+SAw Mid CkdRnIn,1
+Blk Fcd Ck  LeftClr,1
+Rls Ld ,1
+BlkStt Crd HandyFr,1
+(R) Rls Mid Crd RnOn,1
+(R) SAw EP Crd,-1
+Rls Mid Crd,-1
+VSAw Mid Rls Crd  ,-1
+EP Rls Ld ,1
+SAw EP Blk,-1
+EP Ld  ChlRnIn,1
+SAw EP Crd   Ld ,-1
+EP Ld  Crd Crd,-1
+Rls Ld ,1
+Mid Rls,1
+SAw BlkRnUp Mid Rls,-1
+Ld Crd,1
+VSAw Mid Rls Ckd,-1
+SAw EP Mid Rls,-1
+Mid Rls Fcd Ck ,-1
+VSAw Rls Mid Crd,-1
+EP Rls Mid SnLd ,-1
+Rls Mid SnLd ,-1
+EP Mid Rls SnLd NrLn,-1
+Stmb CrdStt Fcd Ck ,-1
+Rls Mid Crd Ld RnIn,-1
+SAw Ld HldOn,1
+SAw Rls Mid Blk,-1
+Rls Mid,-1
+SAw Ld   Crd,-1
+EP Mid Rls ALd,1
+Mid Rls (HT),1
+Mid Rls (HT),1
+Blk Fcd Ck  LeftClr,1
+Rls Ld ,1
+BlkStt Crd HandyFr,1
+(R) Rls Mid Crd RnOn,1
+(R) SAw EP Crd,-1
+Rls Mid Crd,-1
+VSAw Mid Rls Crd  ,-1
+EP Rls Ld ,1
+SAw EP Blk,-1
+EP Ld  ChlRnIn,1
+SAw EP Crd   Ld ,-1
+EP Ld  Crd Crd,-1
+Rls Ld ,1
+Mid Rls,1
+SAw BlkRnUp Mid Rls,-1
+Ld Crd,1
+VSAw Mid Rls Ckd,-1
+SAw EP Mid Rls,-1
+Mid Rls Fcd Ck ,-1
+VSAw Rls Mid Crd,-1
+EP Rls Mid SnLd ,-1
+Rls Mid SnLd ,-1
+EP Mid Rls SnLd NrLn,-1
+Stmb CrdStt Fcd Ck ,-1
+Rls Mid Crd Ld RnIn,-1
+SAw Ld HldOn,1
+SAw Rls Mid Blk,-1
+Rls Mid,-1
+SAw Ld   Crd,-1
+EP Mid Rls ALd,1
+Mid Rls (HT),1
+Mid Rls (HT),1
+Blk Fcd Ck  LeftClr,1
+Rls Ld ,1
+BlkStt Crd HandyFr,1
+(R) Rls Mid Crd RnOn,1
+(R) SAw EP Crd,-1
+Rls Mid Crd,-1
+VSAw Mid Rls Crd  ,-1
+EP Rls Ld ,1
+SAw EP Blk,-1
+EP Ld  ChlRnIn,1
+SAw EP Crd   Ld ,-1
+EP Ld  Crd Crd,-1
+Rls Ld ,1
+Mid Rls,1
+SAw BlkRnUp Mid Rls,-1
+Ld Crd,1
+VSAw Mid Rls Ckd,-1
+SAw EP Mid Rls,-1
+Mid Rls Fcd Ck ,-1
+VSAw Rls Mid Crd,-1
+EP Rls Mid SnLd ,-1
+Rls Mid SnLd ,-1
+EP Mid Rls SnLd NrLn,-1
+Stmb CrdStt Fcd Ck ,-1
+Rls Mid Crd Ld RnIn,-1
+SAw Ld HldOn,1
+SAw Rls Mid Blk,-1
+Rls Mid,-1
+SAw Ld   Crd,-1
+EP Mid Rls ALd,1
+Mid Rls (HT),1
+Mid Rls (HT),1
+SAw Rls Mid Fcd Ck ,-1
+SAw Rls Mid Crd RnOn,-1
+(R) SAw Crd   Chl Blk,-1
+Crd  FnWll,1
+Mid Rls BdBlk,-1
+Rls Mid Crd  ChlRnIn,1
+SAw Fcd Ck Crd ,-1
+Mid Rls ClrRn,-1
+SAw EP Fcd Ck CrdRnIn,-1
+EP Mid Rls Crd,-1
+EP Rls Mid ALd WnWll,1
+Mid Rls BdCrd,-1
+Rls Mid Crd Fcd Ck,-1
+EP Rls Mid SnHandy,1
+EP Rls Mid SnHandy,1
+Mid Rls Crd Fcd Ck,-1
+EP Rls Mid Crd ,-1
+EP Rls Mid SnLd,1
+SAw EP HitRls,-1
+EP Rls Mid ChlFr,-1
+EP Chl LdRnIn NrLn,1
+SAw Rls Mid Crd ,-1
+Fcd Ck Bmp,-1
+EP Blk Ld  ,-1
+CrdStt HandyFr,1
+Rls Blk Crd ,-1
+SAw Rls Crd ,-1
+EP Rls Mid ALd,1
+SAw EP Mid Rls Ld,1
+(R) SAw Crd  Handy (HT),-1
+Mid ClrRn,1
+VSAw Mid Rls Crd (HT),-1
+SAw EP Ld   (HT),-1
+Mid Rls Crd,-1
+Mid Rls Crd Ld,1
+SAw EP Rls Mid,-1
+SAw Crd   FnCrmp,-1
+SAw Rls Mid Crd ,-1
+SAw EP SnLd,1
+SAw Rls Mid FnCrmp,-1
+Rls Mid ALd,1
+SAw Mid Ckd RnOn,1
+FAw RnOn,1
+EvAw ClrRn,-1
+SAw RnOn,1
+EvAw Bmp,-1
+EvAw Bmp,-1
+EvAw Bmp,-1
+Imp FnWll,1
+Imp FnWll,1
+Imp FnWll,1
+Imp FnWll,1
+EP Mid Rls Crd,-1
+EP Mid SnLd,1
+EP Mid Rls Chl ,-1
+(R) QAw Crd Fcd Ck ,-1
+EP Ld   Crd ,-1
+EP Mid Rls Chl ,-1
+EP Mid Rls Handy  ,-1
+QAw Crd ALd,1
+EP Mid SnLd ,-1
+EP Mid SnLd ,-1
+CrdRnUp  Fcd Ck,-1
+(R) ChlE Bmp CrdRnIn,-1
+SAw EP Crd ,-1
+Mid Rls SnLd HldOn,1
+Rls Mid ClrRn,-1
+Mid Crd,-1
+Mid ClrRn,-1
+QAw Mid Ld ,-1
+(R) Mid Rls Ld  ,-1
+QAw Mid Ld ,-1
+EP SnLd HldOn,1
+Rls Mid Handy   Crd,-1
+Rls Mid ALd,1
+SAw Fcd Ck BdBlk Fell,-1
+EP Mid Rls ALd,1
+EP Mid Rls SnLd ,-1
+EP Mid Ld  ,-1
+Rls Mid Crd,-1
+CrdStt  Ld  ,-1
+EP Blk Ld,1
+Mid Rls Crd ALd (HT),1
+Mid Blk Crd,-1
+EP Mid ALd (HT),1
+EP Mid ALd (HT),1
+Ld RnIn Crd (HT),-1
+EP Mid Ld NrLn (HT),1
+Mid Crd (HT),-1
+EP Mid Chl Blk,-1
+EP Mid SnLd,1
+EP Mid Ld NrLn,1
+EP Mid Ld NrLn,1
+EP Mid Rls Crd ,-1
+EP Mid Rls Chl ,-1
+QAw Mid ALd,1
+EP Mid Crd ,-1
+QAw Mid Ld RnIn,1
+EP Mid SnLd,1
+EP Mid Crd ,-1
+QAw Mid Crd ,-1
+(R) EP Rls Mid SnLd,1
+EP Mid Ld RnIn,1
+Fcd Ck Handy  ,1
+(R) QAw Rls Mid ALd,1
+EP Mid ALd,1
+QAw Mid Crd ,-1
+Mid Ld ,-1
+Mid Rls ClrRn,1
+QAw Mid Crd  ,-1
+Mid ClrRn,-1
+Crd    ,-1
+EP SnHandy  Crd ,-1
+EP Mid Crd Ld RnIn,-1
+(R) EP Mid Ld  ,1
+QAw Mid Rls Ld ,1
+EP Mid CrdRnIn ALd,1
+(R) EP SltCrd  ,-1
+(Scr) Chl Crd Crd ,-1
+EP SnLd  Crd  ,-1
+EP Mid Ld,1
+(R) Rls Mid Ld RnIn,-1
+(R) Rls Mid Ld NrLn,1
+EP Mid SnHandy,-1
+EP Mid Ld RnIn,-1
+EP Mid Ld,1
+EP Mid ALd,1
+Mid Rls Crd,1
+EP Mid ALd,1
+Mid Rls SnLd,1
+Mid Rls ALd,1
+In Season,-1
+QAw Mid Blk Crd,-1
+Mid ClrRn,-1
+Rls Mid Bmp Blk,-1
+EP Mid Ld,1
+Mid Crd,-1
+LdE Bmp,-1
+Mid FnWll,1
+Mid Blk Crd,-1
+SAw Mid Crd,-1
+Mid ALd,1
+VSAw Crd Fcd Ck,-1
+SAw Mid,-1
+Mid BdBlk,-1
+LckdEP Rls Mid,-1
+Mid W Crd ,-1
+QAw Mid W ALd,1
+EP Mid W Handy ,-1
+EP Mid W Ld   Crd ,-1
+Mid W,-1
+Lame,-1
+EP Mid W Ld NrLn,1
+EP Crd Ld ,-1
+QAw Mid W Ld ,-1
+EP Mid W,1
+Mid W Crd RnIn,-1
+EP Mid W ALd,1
+EP Mid Ld RnIn Crd,-1
+EP Mid Handy ,-1
+EP Mid Chl Crd,-1
+EP Mid W SnLd RnIn,-1
+EP Mid W Ld NrLn,1
+EP Chl Crd  Bmp,-1
+EP Ld  Fr RnIn,-1
+EP SnLd  Crd,-1
+Ld RnIn Crd RnIn,-1
+Crd   Fcd Ck ,-1
+EP Mid W Ld RnIn,-1
+EP Bmp  BdCrd,-1
+EP Mid SnLd,1
+EP Mid W Crd  ,-1
+EP Mid Ld NrLn,1
+StmbStt Crd  RnIn,-1
+EP SnLd  Fcd Ck,-1
+Mid W Blk,-1
+SAw Fcd Ck  FnCrmp,-1
+Mid W Ld ,-1
+Crd  FnCrmp (HT),-1
+Mid Crd (HT),-1
+Ld   Fr RnIn Crd,-1
+QAw Mid W Ld  Crd,1
+QAw CrdStt ,-1
+EP Mid SnLd  Crd,-1
+EP Mid Ld  Fcd Ck,-1
+QAw Mid Ld RnIn,-1
+EP Mid ALd,1
+QAw Mid Ld ,-1
+In Season,-1
+EP Mid ALd HldOn,1
+EP Mid Crd (HT),-1
+EP Mid,-1
+Mid Crd ,-1
+EP Chl  Fcd Ck,-1
+EP SnLd   ChlThr'Out,1
+EP Mid SnLd,1
+EP Mid SnLd RnIn,1
+EP Mid SnLd,1
+EP Mid Ld RnIn,1
+EP Mid Ld NrLn,1
+Mid ALd,1
+EP BroughtDown ,-1
+Mid BmpRnUp ,-1
+EP Mid SnLd RnIn,1
+QAw Mid LdStydBst,1
+SAw Mid Crd  ,-1
+Mid Bmp ,-1
+EP Mid Ld  ,1
+SnLd RnIn Crd ,-1
+Mid EP Ld ,1
+EP Mid SnLd,1
+EP Mid Chl Bmp,-1
+EP Mid SnLd  ,1
+EP Mid Crd ,-1
+EP Mid Ld RnIn,1
+Mid,1
+Off Colour,-1
+Mid CrdStt ,-1
+EP Mid AHandy,-1
+QAw Mid ALd,1
+(R) SAw Mid Fcd Ck,-1
+(R) EP Mid ALd,1
+EP Mid Ld RnIn,1
+(R) EP Mid SnLd NrLn,1
+SAw Mid Crd  ,-1
+Non Arrival,-1
+EP ChlFr  Crd ,-1
+EP Mid Fcd Ck ,-1
+(R) Mid Crd ,-1
+Mid ClrRn,-1
+EP Mid Ld HldOn,1
+Mid ClrRn,1
+Off Colour,-1
+VSAw EP FcdVW BdImp,-1
+EP Mid Ld  ,-1
+Mid Crd,-1
+Mid Bmp ,-1
+CrdStt EP Mid Ld,1
+Mid Ld  Bmp,-1
+Mid CrdStt  ,-1
+Mid Ld RnIn,1
+Crd Imp  (HT),-1
+EP Mid Crd  ,-1
+Mid ClrRn (HT),-1
+SAw Mid Crd (HT),-1
+VSAw Mid Bmp ,-1
+SAw EP Mid Chl ,1
+CrdRnUp EP Mid SnLd,1
+SAw Ld  Crd  W,1
+Mid Ld RnIn,1
+Mid Ld ,-1
+Mid Ld  ,-1
+Mid ClrRn,-1
+VSAw MidRnUp,-1
+VSAw Mid W,-1
+Mid W Crd,-1
+EP Mid W Ld ,-1
+SAw Mid W RnOn,1
+Mid W Crd,-1
+SnHandy Ld  ,-1
+Mid W ClrRn,1
+Mid W Disp  ,-1
+SAw EP Ld,1
+EP SnHandy Ld,1
+ChlE W FnWll,1
+EP Handy  Crd,-1
+BlkStt   Mid W,-1
+EP W Ld ,-1
+SAw EP W Ld  NrLn,1
+StmbBdStt Mid Rls,-1
+SAw Mid W,1
+ClrRn W,-1
+QAw Crd W,-1
+Crd W,-1
+By Stewards,-1
+QAw W,-1
+W,-1
+QAw W,-1
+Ld W,1
+Crd W,-1
+RnOn Mid W,1
+W,-1
+Crd W,-1
+QAw ALd W,1
+Crd  W,-1
+SAw W,-1
+W,-1
+ClrRn W,-1
+EP W,1
+Crd W,-1
+Bmp W,-1
+ClrRn Mid W,-1
+QAw ALd W,1
+QAw Ld NrLn Mid W,1
+ClrRn Mid W,-1
+ClrRn W,-1
+EP Chl  Mid W,-1
+QAw Ld Mid W,1
+RnOn W,1
+EP W,-1
+EP W,-1
+EP Ld RnIn,1
+QAw W,1
+QAw ALd,1
+LdRnIn W,1
+W,-1
+Crd W,-1
+CrdStt ,-1
+ALd W,1
+BdBmp,1
+SAw Mid,1
+BmpRnUp,-1
+SAw Mid,-1
+SAw,-1
+ClrRn,-1
+W Ld  HldOn,1
+Off Colour,-1
+SAw Mid,-1
+SAw Crd,-1
+QAw ALd Mid W,1
+RnOn,1
+Mid LdRnUp,1
+CrdRnUp ,-1
+SAw Crd,-1
+ClrRn,1
+BdBmp Fell,-1
+EP ClrRn,1
+Cough,-1
+BdBmp,-1
+BdCrd,-1
+EP LdRnUp,1
+Mid ndFr,1
+Ld RnIn,1
+RnOn ChlNrLn,1
+EP RnOn,-1
+Ld HldOn,1
+LdFr Mid,1
+SAw Mid Crd,-1
+Mid Rls BmpRnUp,1
+VSAw,1
+Off Colour,-1
+SAw Mid RnOn,-1
+Mid Crd,-1
+Mid EvCh,-1
+VSAw Mid RnOn,-1
+ChlFr EvCh,1
+VSAw Fcd Ck Crd FnWll,1
+SAw Mid,-1
+Mid Crd RnOn,-1
+Chl Fcd Ckd  FnWll,1
+LckdEP Blk  Distracted,-1
+(R) Mid ALd,1
+(R) Ld   Mid ChlFr,-1
+SAw Fcd Ck   RnOn,-1
+SAw Mid RnOn,-1
+SAw Blk RnOnWll,1
+VSAw Crd  RnOn,-1
+Bmp Blk,-1
+Bmp Blk,-1
+VSAw Mid MvdOff,-1
+Mid Handy  RnIn,-1
+VSAw Mid Crd,-1
+Crd Ld  ,1
+Mid ChlFr,1
+CrdRnUp   Fcd Ck,-1
+VSAw Crd  ,-1
+SAw Mid Crd RnOn,-1
+VSAw Mid Blk ,-1
+SAw Mid ChlFr,-1
+SAw Fcd Ck Ld,1
+CrdStt Blk ,-1
+VSAw Mid W Crd ,-1
+SAw Stmb  (HT),1
+SAw Mid W Fcd Ck (HT),-1
+Fcd CkStt StrFn (HT),-1
+SAw Mid Crd  RnOn,1
+StmbStt Mid RnOn,1
+VSAw Mid,1
+SAw Mid,-1
+SAw Mid,-1
+SAw Rls Mid Crd ,-1
+SAw Rls Mid,-1
+(R) Rls Mid Bmp,-1
+Rls LckdEP,-1
+EP Rls Mid ALd,1
+SAw Rls Mid RnOn,-1
+Rls Mid ALd,1
+Rls Mid Crd ,-1
+(R) CrdRnUp ,-1
+Rls Mid ChlRnIn,1
+Rls Mid RnOn,1
+SAw Ld  FnWll,1
+Rls Crd,-1
+Crd Fcd CkStt,-1
+Rls Ld,1
+Chl  RnOn,1
+Mid Rls FnWll,1
+SAw Rls Crd,1
+SAw Rls Crd,-1
+VSAw Rls,-1
+VSAw Crd FnWll,1
+SAw Rls,-1
+Rls ChlRnIn,-1
+Rls Crd Blk (HT),-1
+VSAw Blk Crd,-1
+Rls SnLd RnIn,1
+CrdRnUp  Ld NrLn,1
+Rls Mid Crd Fcd Ck,-1
+VSAw Mid Rls RnOn,-1
+CrdStt Rls RnOn,-1
+Mid Rls Crd HitRls ,-1
+SAw Rls Crd,-1
+Rls Mid SnHandy,-1
+Rls Mid SnLd (HT),1
+CrdStt RnUp (HT),-1
+SAw Mid Rls (HT),1
+SAw Rls Mid Crd ,-1
+SAw Rls Mid,-1
+(R) Rls Mid Bmp,-1
+Rls LckdEP,-1
+EP Rls Mid ALd,1
+SAw Rls Mid RnOn,-1
+Rls Mid ALd,1
+Rls Mid Crd ,-1
+(R) CrdRnUp ,-1
+Rls Mid ChlRnIn,1
+Rls Mid RnOn,1
+SAw Ld  FnWll,1
+Rls Crd,-1
+Crd Fcd CkStt,-1
+Rls Ld,1
+Chl  RnOn,1
+Mid Rls FnWll,1
+SAw Rls Crd,1
+SAw Rls Crd,-1
+VSAw Rls,-1
+VSAw Crd FnWll,1
+SAw Rls,-1
+Rls ChlRnIn,-1
+Rls Crd Blk (HT),-1
+VSAw Blk Crd,-1
+Rls SnLd RnIn,1
+CrdRnUp  Ld NrLn,1
+Rls Mid Crd Fcd Ck,-1
+VSAw Mid Rls RnOn,-1
+CrdStt Rls RnOn,-1
+Mid Rls Crd HitRls ,-1
+SAw Rls Crd,-1
+Rls Mid SnHandy,-1
+Rls Mid SnLd (HT),1
+CrdStt RnUp (HT),-1
+SAw Mid Rls (HT),1
+Mid ClrRn,1
+VSAw Fcd Ck,-1
+QAw Crd   ,-1
+Mid Crd,-1
+StmbStt Mid Fcd Ck,-1
+MsdBrk Mid,-1
+Mid ClrRn,1
+Mid Rls Crd,1
+Mid Ld ,1
+VSAw Chl CrdRnIn,1
+VSAw Chl CrdRnIn,1
+EP Rls Mid,1
+EP Rls,-1
+EP Chl   Fcd Ck,-1
+QAw Rls Mid ALd,1
+SAw EP Rls,-1
+EP Rls SnHandy,-1
+SAw EP Chl Crd ,-1
+SAw Rls EP Chl ,-1
+EP Rls Mid Ld RnIn,1
+Lame,-1
+Rls ClrRn,-1
+EP Mid Rls SnLd,1
+Rls SnLd,1
+QAw LckdEP,1
+Rls ALd,1
+In Season,-1
+SAw Crd RnOn,-1
+EP SnLd RnIn,1
+SAw EP Ld   Crd (HT),1
+EP Rls Mid Ld Crd,1
+SAw Rls Mid Crd (HT),-1
+Chl  Bmp(HT),-1
+Rls Mid Crd   (HT),1
+EP SnLd (HT),1
+Fcd Ck Bmp ,-1
+Fcd Ck Bmp ,-1
+Chl Crd  RnOn (HT),-1
+SAw Fcd Ck (HT),-1
+SAw Mid Rls Crd (HT),-1
+Fcd Ck Blk (HT),-1
+SAw Rls Mid Crd ,-1
+SAw Rls Mid Crd,-1
+EP Rls Mid SnLd,1
+SAw EP Blk Crd,-1
+Fcd Ck Bmp,-1
+Rls Ld ,1
+Rls Mid ALd,1
+Rls Mid LckdEP,-1
+Rls Mid ClrRn,1
+Rls Mid Ld ,1
+SAw Rls Mid,-1
+In Season,-1
+Crd  Ld RnIn Fcd Ck,-1
+EP Mid SnLd  VW,-1
+Rls Mid Ld HldOn,1
+VSAw EP Mid Crd ,-1
+Fcd Ck Bmp,-1
+Rls Mid EP ALd,1
+SAw Rls Mid Fcd Ck,-1
+EP Ld RnIn,-1
+EP Ld ,1
+SAw Mid,-1
+Mid Rls Bmp ,-1
+Rls Mid,-1
+EP Rls Mid,1
+EP Rls,-1
+EP Chl   Fcd Ck,-1
+QAw Rls Mid ALd,1
+SAw EP Rls,-1
+EP Rls SnHandy,-1
+SAw EP Chl Crd ,-1
+SAw Rls EP Chl ,-1
+EP Rls Mid Ld RnIn,1
+Lame,-1
+Rls ClrRn,-1
+EP Mid Rls SnLd,1
+Rls SnLd,1
+QAw LckdEP,1
+Rls ALd,1
+In Season,-1
+SAw Crd RnOn,-1
+EP SnLd RnIn,1
+SAw EP Ld   Crd (HT),1
+EP Rls Mid Ld Crd,1
+SAw Rls Mid Crd (HT),-1
+Chl  Bmp(HT),-1
+Rls Mid Crd   (HT),1
+EP SnLd (HT),1
+Fcd Ck Bmp ,-1
+Fcd Ck Bmp ,-1
+Chl Crd  RnOn (HT),-1
+SAw Fcd Ck (HT),-1
+SAw Mid Rls Crd (HT),-1
+Fcd Ck Blk (HT),-1
+SAw Rls Mid Crd ,-1
+SAw Rls Mid Crd,-1
+EP Rls Mid SnLd,1
+SAw EP Blk Crd,-1
+Fcd Ck Bmp,-1
+Rls Ld ,1
+Rls Mid ALd,1
+Rls Mid LckdEP,-1
+Rls Mid ClrRn,1
+Rls Mid Ld ,1
+SAw Rls Mid,-1
+In Season,-1
+Crd  Ld RnIn Fcd Ck,-1
+EP Mid SnLd  VW,-1
+Rls Mid Ld HldOn,1
+VSAw EP Mid Crd ,-1
+Fcd Ck Bmp,-1
+Rls Mid EP ALd,1
+SAw Rls Mid Fcd Ck,-1
+EP Ld RnIn,-1
+EP Ld ,1
+SAw Mid,-1
+Mid Rls Bmp ,-1
+Rls Mid,-1
+EP Mid Ld,1
+Mid BdBlk,-1
+EP Mid ChlRnIn,1
+Mid BdCrd,-1
+Mid LdNrLn,1
+Mid ChlFr,1
+Ld  Ld  W,1
+EvAw Outp,-1
+SAw Blk,-1
+SAw RnOn,-1
+SAw RnOn,-1
+SAw RnOn,-1
+SAw EP Mid,1
+EP Mid Ld,1
+Mid ClrRn,-1
+SAw EP Mid,-1
+SAw EP Mid Crd,-1
+Mid,-1
+SAw Mid,-1
+Mid Ld  ,-1
+Rls Mid Fdd,-1
+Mid,-1
+In Season,-1
+StmbSltStt EP Chl RnIn,-1
+EP Mid ALd,1
+EP Mid SnLd NrLn (HT),1
+(R) Chl Crd   ,-1
+EP Mid Crd,-1
+EP Blk Crd,-1
+(R) Ld RnIn Crd (HT),1
+EP Crd  Ld  ,-1
+Rls Mid Crd ChlRnIn,-1
+EP Rls Mid Ld HldOn,1
+SAw Rls Crd  ,-1
+EP Rls CrdB ImpRnIn,1
+StmbStt Rls,-1
+Mid Rls ClrRn (HT),-1
+CrdRnUp RnOn (HT),1
+Mid Rls (HT),1
+Mid Rls (HT),1
+EP Rls Mid Ld Ckd,1
+SAw EP Mid,1
+EP Mid Ld,1
+Mid ClrRn,-1
+SAw EP Mid,-1
+SAw EP Mid Crd,-1
+Mid,-1
+SAw Mid,-1
+Mid Ld  ,-1
+Rls Mid Fdd,-1
+Mid,-1
+In Season,-1
+StmbSltStt EP Chl RnIn,-1
+EP Mid ALd,1
+EP Mid SnLd NrLn (HT),1
+(R) Chl Crd   ,-1
+EP Mid Crd,-1
+EP Blk Crd,-1
+(R) Ld RnIn Crd (HT),1
+EP Crd  Ld  ,-1
+Rls Mid Crd ChlRnIn,-1
+EP Rls Mid Ld HldOn,1
+SAw Rls Crd  ,-1
+EP Rls CrdB ImpRnIn,1
+StmbStt Rls,-1
+Mid Rls ClrRn (HT),-1
+CrdRnUp RnOn (HT),1
+Mid Rls (HT),1
+Mid Rls (HT),1
+EP Rls Mid Ld Ckd,1
+SAw EP Mid,1
+EP Mid Ld,1
+Mid ClrRn,-1
+SAw EP Mid,-1
+SAw EP Mid Crd,-1
+Mid,-1
+SAw Mid,-1
+Mid Ld  ,-1
+Rls Mid Fdd,-1
+Mid,-1
+In Season,-1
+StmbSltStt EP Chl RnIn,-1
+EP Mid ALd,1
+EP Mid SnLd NrLn (HT),1
+(R) Chl Crd   ,-1
+EP Mid Crd,-1
+EP Blk Crd,-1
+(R) Ld RnIn Crd (HT),1
+EP Crd  Ld  ,-1
+Rls Mid Crd ChlRnIn,-1
+EP Rls Mid Ld HldOn,1
+SAw Rls Crd  ,-1
+EP Rls CrdB ImpRnIn,1
+StmbStt Rls,-1
+Mid Rls ClrRn (HT),-1
+CrdRnUp RnOn (HT),1
+Mid Rls (HT),1
+Mid Rls (HT),1
+EP Rls Mid Ld Ckd,1
+Rls LckdEP,-1
+Fcd Ck HitRls,-1
+(R) Rls Mid RnOn,-1
+SAw Ld HldOn,1
+(R) EP Rls Mid LongLd,1
+Rls Chl ,-1
+CrdRnUp Rls,-1
+Rls ChlRnIn,1
+Rls Mid Ld NrLn,1
+Mid Rls Ld ,1
+Rls Mid Fcd Ck   ,-1
+RnOn ChlRnIn,1
+SAw Rls Mid Crd RnOn,1
+Fcd Ck Ld  StydBst,1
+Rls Mid Crd  ,-1
+Crd Chl CrdRnIn,1
+Rls Crd  RnOn (HT),-1
+Crd Crd Ld ,1
+SAw Rls Crd ,-1
+Crd Ld NrLn,1
+VSAw Fcd CkRnUp Crd,-1
+Rls Crd  ,-1
+Rls Mid Blk,-1
+SAw Fcd Ck   RnOn,-1
+Rls Mid Bmp Crd,-1
+Fcd Ck RnOn (HT),1
+VSAw Fcd Ck Bmp (HT),-1
+Rls Fcd Ck RnOn,1
+CrdStt Ld RnIn Crd,-1
+SAw Rls RnOn,-1
+Crd Crd Ld  ,-1
+Rls CrdRnUp Eased,-1
+Rls ALd,1
+VSAw Mid Rls,-1
+StmbStt Mid Rls,-1
+StmbStt Mid Rls,-1
+KO,-1
+Crd,-1
+SAw,-1
+Chl ,1
+BmpRnUp,-1
+SAw Bmp,-1
+SAw,-1
+VSAw,-1
+Crd ,-1
+Ld StrFn,1
+Ld  HldOn,1
+SAw Bmp,-1
+Crd ,-1
+Bmp   RnOn (HT),-1
+Ld Bmp (HT),-1
+Crd (HT),-1
+Ld ,1
+CrdRnUp  RnOn,1
+SAw Bmp RnOn,1
+BmpStt Crd,-1
+MvdOff Bmp,-1
+QAw ALd,1
+EP Ld ,-1
+SAw Rls Crd Chl,-1
+Handy ,-1
+Mid SnLd,1
+Rls Mid,-1
+Rls Ld  ,1
+Ld NrLn,1
+Ard Outp,-1
+Ld,1
+Mid W,1
+Mid W,1
+Rls LckdEP,-1
+Fcd Ck HitRls,-1
+(R) Rls Mid RnOn,-1
+SAw Ld HldOn,1
+(R) EP Rls Mid LongLd,1
+Rls Chl ,-1
+CrdRnUp Rls,-1
+Rls ChlRnIn,1
+Rls Mid Ld NrLn,1
+Mid Rls Ld ,1
+Rls Mid Fcd Ck   ,-1
+RnOn ChlRnIn,1
+SAw Rls Mid Crd RnOn,1
+Fcd Ck Ld  StydBst,1
+Rls Mid Crd  ,-1
+Crd Chl CrdRnIn,1
+Rls Crd  RnOn (HT),-1
+Crd Crd Ld ,1
+SAw Rls Crd ,-1
+Crd Ld NrLn,1
+VSAw Fcd CkRnUp Crd,-1
+Rls Crd  ,-1
+Rls Mid Blk,-1
+SAw Fcd Ck   RnOn,-1
+Rls Mid Bmp Crd,-1
+Fcd Ck RnOn (HT),1
+VSAw Fcd Ck Bmp (HT),-1
+Rls Fcd Ck RnOn,1
+CrdStt Ld RnIn Crd,-1
+SAw Rls RnOn,-1
+Crd Crd Ld  ,-1
+Rls CrdRnUp Eased,-1
+Rls ALd,1
+VSAw Mid Rls,-1
+StmbStt Mid Rls,-1
+StmbStt Mid Rls,-1
+KO,-1
+Crd,-1
+SAw,-1
+Chl ,1
+BmpRnUp,-1
+SAw Bmp,-1
+SAw,-1
+VSAw,-1
+Crd ,-1
+Ld StrFn,1
+Ld  HldOn,1
+SAw Bmp,-1
+Crd ,-1
+Bmp   RnOn (HT),-1
+Ld Bmp (HT),-1
+Crd (HT),-1
+Ld ,1
+CrdRnUp  RnOn,1
+SAw Bmp RnOn,1
+BmpStt Crd,-1
+MvdOff Bmp,-1
+QAw ALd,1
+EP Ld ,-1
+SAw Rls Crd Chl,-1
+Handy ,-1
+Mid SnLd,1
+Rls Mid,-1
+Rls Ld  ,1
+Ld NrLn,1
+Ard Outp,-1
+Ld,1
+Mid W,1
+Mid W,1
+Mid Handy ,-1
+Mid Blk  ,-1
+(R) QAw Mid AHandy,1
+EP Crd Ld   RnOn,-1
+(R) Mid Handy ,-1
+EP Chl  Crd Crd,-1
+EP Mid Rls Chl ,-1
+Mid Crd RnOn,-1
+SAw EP Chl ,-1
+(R) EP Ld NrLn,1
+Mid Bmp Handy ,-1
+SAw EP Crd    RnOn,1
+Mid Rls Ld FnWll,1
+SAw EP Crd Chl,-1
+Bmp Ld RnIn Crd,1
+Mid Ld ,1
+Mid ALd,1
+SAw Mid,1
+Mid Ld ,1
+In Season,-1
+EP Blk Ld RnIn,-1
+SAw EP Chl RnIn Crd,-1
+QAw Mid Rls Crd,-1
+Ld  Fr  RnIn Crd,-1
+EP Mid Ld RnIn,1
+Mid Crd,-1
+SAw Mid Ld,1
+StmbStt Mid Crd,-1
+EP SnHandy FnWll,1
+EP Mid SnLd StydBst,1
+EP Chl   Crd RnOn,-1
+CrdRnUp  ChlRnIn,1
+EP Mid Ld RnIn,1
+EP Mid Rls,-1
+Crd StmbRnUp HitRls,-1
+QAw LdE Crd,-1
+(R) EP Mid SnLd  Bmp,-1
+Mid Handy  ,1
+EP Mid SnHandy RnIn,-1
+QAw Ld   Crd,-1
+(R) Mid Rls Crd,-1
+SAw Mid Rls Crd ,-1
+EP Crd  Fcd Ck ,-1
+EP Mid Ld HldOn,1
+EP Mid Rls Ld   Crd,-1
+(R) Crd Fcd Ck ,-1
+(R) Mid Rls Crd  Ld,1
+Rls Mid Crd RnOn,-1
+EP Mid ALd,1
+SAw Mid Rls Bmp,-1
+EP Mid SnLd,1
+(R) Handy  BlkBdCrd ,-1
+Mid Rls ALd,1
+Mid,1
+Rls Mid ALd,1
+Rls Mid Crd  Fcd Ck (HT),-1
+Mid Ckd,1
+Crd ,-1
+EP BdCrd,-1
+Ld ,1
+Crd,-1
+LdE NrLn,1
+EvCh,-1
+Bmp  Ld,1
+QAw ALd,1
+SAw Crd  RnOn,1
+EP Bmp W RnOn,1
+BdBlk,1
+Mid W Crd,-1
+Mid,-1
+Mid,-1
+EP Mid Crd ,1
+Mid Crd,-1
+Chl FnBest,1
+Mid Rls Fcd Ck,-1
+SAw Mid RnOn,-1
+Mid Fcd Ck RnOn,1
+QAw Mid,-1
+Mid Crd Ld ,1
+LckdEP Mid W,-1
+MsdTr Ld FnWll,1
+SAw Crd FnWll,1
+SAw Mid Crd,-1
+CrdRnUp Crd Fcd Ck,-1
+By Stewards,-1
+LckdEP Crd ,-1
+Mid Crd ,-1
+SAw Mid Ld,1
+Mid W LdE,1
+ClrRn,-1
+ClrRn,-1
+ClrRn,-1
+Chl ,-1
+FcdW,-1
+Mid W ClrRn,-1
+Mid W ALd,1
+W Bmp Styd On,-1
+Mid W,-1
+Bmp FcdW,-1
+W StydOn,-1
+ChlRnIn,1
+SAw,-1
+ClrRn,1
+SAw,-1
+BmpRnUp LdRnIn,1
+BmpStt,-1
+LdRnIn,1
+Bmp  StydOn,1
+ClrRn,-1
+ClrRn,1
+ClrRn,-1
+ChlRnIn,1
+ClrRn,-1
+Ld Bmp,-1
+SAw Bmp,-1
+FcdVW Blk,-1
+StydOn,1
+BmpRnUp,-1
+ClrRn (HT),-1
+SwrvdStt,-1
+SwrvdStt,-1
+ClrRn,-1
+Ld  Fr,1
+Bmp Ld  Mid W,1
+Mid W,-1
+EP Imp,-1
+BlkRnUp RnOn,1
+SAw BdBlk,-1
+EvAw RnOn,-1
+MvdOff NvrShwd,-1
+MvdOff NvrShwd,-1
+MvdOff NvrShwd,-1
+MvdOff NvrShwd,-1
+Crd  Blk ,-1
+Mid ALd,1
+EP Mid Crd Fell ,-1
+EP Mid Ld RnIn,1
+EP Ld  Crd ,1
+EP CrdRnUp   ,-1
+CrdRnUp EP Ld NrLn,1
+Mid Crd,-1
+EP Mid ALd,1
+SAw EP Crd RnOn,1
+EP Crd Ld WnWll,1
+EP Crd Ld  ,-1
+SAw EP Mid Crd  ,-1
+VSAw EP Blk   ,-1
+StmbStt EP CkdW,-1
+EP Mid Crd Ld HldOn,1
+EP SnLd   Blk,-1
+EP Mid Crd Ld HldOn,1
+StmbStt EP Ckd  ,-1
+EP Mid Ld ,1
+EP Mid W Ld RnIn,1
+Mid Blk Fcd Ckd,-1
+SAw Mid,1
+Crd,-1
+Mid Ld ,-1
+Mid Ld Crd,1
+EP Chl Crd Crd,-1
+Mid Crd  ChlRnIn,1
+EP Mid ALd,1
+Crd Ld,1
+Mid Ld  ,-1
+EP Mid Ld  ,-1
+EP Mid Handy  RnIn,-1
+Non Arrival,-1
+Mid Crd RnOn,-1
+(R) CrdRnUp  Blk ,-1
+(R) Mid AHandy,-1
+Mid Crd,-1
+EP Mid ALd,1
+Crd Fcd Ck,-1
+EP Mid Ld NrLn,1
+Mid Fcd Ck Crd,-1
+QAw Mid ALd HldOn,1
+(R) Crd    Ld  ,-1
+CrdRnUp  Mid,-1
+EP Mid ALd,1
+Fcd Ck Ld ,1
+Mid Ld   CrdRnIn,-1
+EP Mid Crd ,-1
+Crd  Fcd Ck FnWll,1
+SAw Mid Crd ,-1
+SAw Mid,1
+EP Mid ALd (HT),1
+Off Colour,-1
+VSAw Crd  (HT),-1
+SAw EP Crd   (HT),-1
+(R) HitRls ,-1
+SAw Fcd Ck  Crd ,-1
+Mid Rls CrdRnIn,-1
+EP Mid Ld ,-1
+Mid ClrRn,1
+SAw Fcd CkRnUp Crd,-1
+MsdBrk Mid Rls,-1
+Rls Mid Crd ,-1
+Mid Rls ClrRn,-1
+EP Mid AHandy,1
+Mid Crd,-1
+Mid CrdRnUp BCrd,-1
+EP Mid ALd,1
+Mid Crd,1
+EP Mid ALd,1
+EP Mid ALd WnWll,1
+Mid SnLd  Crd ,-1
+Mid Crd Ld,1
+StmbCrdStt Fcd Ck Crd,-1
+Mid Blk,-1
+Mid Ld ,1
+Mid W,1
+Mid,1
+SAw Mid Rls,1
+Mid Ld Crd,1
+EP Chl Crd Crd,-1
+Mid Crd  ChlRnIn,1
+EP Mid ALd,1
+Crd Ld,1
+Mid Ld  ,-1
+EP Mid Ld  ,-1
+EP Mid Handy  RnIn,-1
+Non Arrival,-1
+Mid Crd RnOn,-1
+(R) CrdRnUp  Blk ,-1
+(R) Mid AHandy,-1
+Mid Crd,-1
+EP Mid ALd,1
+Crd Fcd Ck,-1
+EP Mid Ld NrLn,1
+Mid Fcd Ck Crd,-1
+QAw Mid ALd HldOn,1
+(R) Crd    Ld  ,-1
+CrdRnUp  Mid,-1
+EP Mid ALd,1
+Fcd Ck Ld ,1
+Mid Ld   CrdRnIn,-1
+EP Mid Crd ,-1
+Crd  Fcd Ck FnWll,1
+SAw Mid Crd ,-1
+SAw Mid,1
+EP Mid ALd (HT),1
+Off Colour,-1
+VSAw Crd  (HT),-1
+SAw EP Crd   (HT),-1
+(R) HitRls ,-1
+SAw Fcd Ck  Crd ,-1
+Mid Rls CrdRnIn,-1
+EP Mid Ld ,-1
+Mid ClrRn,1
+SAw Fcd CkRnUp Crd,-1
+MsdBrk Mid Rls,-1
+Rls Mid Crd ,-1
+Mid Rls ClrRn,-1
+EP Mid AHandy,1
+Mid Crd,-1
+Mid CrdRnUp BCrd,-1
+EP Mid ALd,1
+Mid Crd,1
+EP Mid ALd,1
+EP Mid ALd WnWll,1
+Mid SnLd  Crd ,-1
+Mid Crd Ld,1
+StmbCrdStt Fcd Ck Crd,-1
+Mid Blk,-1
+Mid Ld ,1
+Mid W,1
+Mid,1
+SAw Mid Rls,1
+VSAw Crd Stmb Fell ,-1
+Rls Mid Crd FnWll,1
+EP Crd Fcd Ck,-1
+LckdEP Rls Mid,-1
+VSAw Rls Mid,-1
+Crd ChlFr,-1
+Crd Fcd Ck RnOn,-1
+LckdEP Rls Mid,-1
+Rls Mid Blk RnOn,-1
+Ld  Crd,1
+Crd  RnOn,-1
+Rls Mid Crd  ,-1
+EP ALd WnWll,1
+SAw Mid Crd ,-1
+EP Mid ALd,1
+Off Colour,-1
+Rls Mid RnOn,1
+(R) Crd  Bmp  RnOn,-1
+Fcd CkRnUp   Blk,-1
+(R) SAw Crd  RnOn,-1
+VSAw Mid Rls,-1
+(R) Mid Rls Crd Blk ,-1
+SAw Crd FnWll,1
+VSAw Fcd Ck,-1
+Rls Mid Crd RnOn,-1
+StmbStt Crd,-1
+Mid Rls Ld FnWll,1
+HitRls Crd,-1
+SAw Crd  LdRnIn,1
+Mid Rls Crd ,-1
+LckdEP Crd,-1
+EP Ld HldOn (HT),1
+LckdEP BdBlk (HT),-1
+Mid Rls Crd   (HT),-1
+EP Mid ALd,1
+Mid Rls Crd ,-1
+MvdOff Crd,-1
+MvdOff Crd,-1
+FAw Crd,-1
+FAw ClrRn,-1
+QAw Blk,-1
+EvAw ClrRn,-1
+EP Blk,-1
+Crd StydOn,-1
+Crd StydOn,-1
+Rls StydOn,1
+SAw Blk,-1
+EvAw Ld,1
+EvAw FddRnIn,-1
+EP AHandy,-1
+FAw And,1
+SAw ClrRn,-1
+SAw ClrRn,-1
+Blk Blk,1
+VSAw Crd Stmb Fell ,-1
+Rls Mid Crd FnWll,1
+EP Crd Fcd Ck,-1
+LckdEP Rls Mid,-1
+VSAw Rls Mid,-1
+Crd ChlFr,-1
+Crd Fcd Ck RnOn,-1
+LckdEP Rls Mid,-1
+Rls Mid Blk RnOn,-1
+Ld  Crd,1
+Crd  RnOn,-1
+Rls Mid Crd  ,-1
+EP ALd WnWll,1
+SAw Mid Crd ,-1
+EP Mid ALd,1
+Off Colour,-1
+Rls Mid RnOn,1
+(R) Crd  Bmp  RnOn,-1
+Fcd CkRnUp   Blk,-1
+(R) SAw Crd  RnOn,-1
+VSAw Mid Rls,-1
+(R) Mid Rls Crd Blk ,-1
+SAw Crd FnWll,1
+VSAw Fcd Ck,-1
+Rls Mid Crd RnOn,-1
+StmbStt Crd,-1
+Mid Rls Ld FnWll,1
+HitRls Crd,-1
+SAw Crd  LdRnIn,1
+Mid Rls Crd ,-1
+LckdEP Crd,-1
+EP Ld HldOn (HT),1
+LckdEP BdBlk (HT),-1
+Mid Rls Crd   (HT),-1
+EP Mid ALd,1
+Mid Rls Crd ,-1
+MvdOff Crd,-1
+MvdOff Crd,-1
+FAw Crd,-1
+FAw ClrRn,-1
+QAw Blk,-1
+EvAw ClrRn,-1
+EP Blk,-1
+Crd StydOn,-1
+Crd StydOn,-1
+Rls StydOn,1
+SAw Blk,-1
+EvAw Ld,1
+EvAw FddRnIn,-1
+EP AHandy,-1
+FAw And,1
+SAw ClrRn,-1
+SAw ClrRn,-1
+Blk Blk,1
+EP Crd Blk CkdBd FnLm,-1
+SAw Rls Crd RnOn,-1
+LckdEP Rls,-1
+StmbStt Fcd Ck Crd,-1
+SAw Rls,-1
+EP Rls Crd  AHandy,-1
+SAw Rls Crd ,-1
+Rls SnLd  Crd,1
+Rls Ld ,1
+SAw Rls,1
+Lame,-1
+Rls Crd  ,-1
+(Scr) CrdB Blk ,-1
+CrdStt Fcd Ck Rls,-1
+Rls Chl Fcd Ckd,-1
+(R) Rls Crd  (HT),-1
+Rls Ld  WnWll,1
+Rls SnHandy,-1
+Rls Fcd Ck ,-1
+Rls Crd (HT),1
+Rls RnOn (HT),1
+Rls Ld  (HT),1
+Rls ALd (HT),1
+Rls Chl LdRnIn,1
+Rls Crd Fcd Ck ,-1
+EP Rls Ld Crd,1
+Rls Crd Ld,1
+Rls ALd,1
+QAw Rls ALd,1
+Rls Mid SnLd,1
+DispLd Ld ,1
+BdBlk NvrShwd,-1
+EP AHandy,-1
+RlsRnUp NvrShwd,-1
+EvCh Chl,1
+EP And,1
+EP And,1
+EP And,1
+SAw Mid W Crd ,-1
+SAw Mid W Crd,-1
+Mid W Blk,-1
+EP Mid W ALd,1
+Mid W BdCrd,-1
+LdE Blk,-1
+EP Mid Ld,1
+Mid Crd ,-1
+Mid Crd  ,-1
+EP Mid W Ld,1
+EP Mid W Crd ,-1
+EP Mid W Ld NrLn,1
+SAw MvdOff  Crd,-1
+EP Mid W Ld ,1
+Mid ALd,1
+Crd Ld RnIn FnLm,-1
+Mid W,-1
+CkdBd  BdCrd (HT),-1
+EP SnLd RnIn (HT),-1
+EP SnLd NrLn (HT),1
+EP Mid ALd (HT),1
+SAw Mid,1
+SAw Mid,-1
+Mid Ld  ,1
+EP Mid Bmp  ,-1
+SAw Mid,-1
+EP Mid LeftClr,1
+EP Mid,-1
+EP Mid SnLd,1
+EP Chl StruckInto ,-1
+Mid Ld   AHandy,1
+EP Mid SnLd,1
+VSAw Crd BdCrd,-1
+Mid Crd  Bmp,-1
+EP Mid Ld RnIn,1
+Mid EP Ld RnIn,1
+QAw Ld NrLn,1
+EP Rls Chl Fcd Ckd,-1
+EP Rls Chl Blk,-1
+EP Rls SnLd Crd,1
+SAw EP Rls Mid,1
+MsdBrk EP Rls Crd,1
+SAw EP Chl Crd,-1
+SAw EP Crd RnOn,1
+EP Rls Crd  RnOn,1
+EP Chl Fcd Ckd,-1
+EP Rls Blk,-1
+EP Rls Chl Crd,-1
+Rls Crd,-1
+EP SnLd RnIn,-1
+EP Rls SnLd HldOn,1
+EP Chl  Crd,1
+EP Rls EvCh,1
+EP Fcd Ck Crd,-1
+EP SnLd ,1
+EP Rls SnLd  ,1
+Crd  LdRnIn NrLn,1
+Chl  Fcd Ck Crd,1
+SAw Rls Mid,1
+(R) NotChasing BdBlk  ,-1
+EP Rls Ld  ,-1
+EP Rls Ld   Crd,-1
+EP SnLd WnWll,1
+SAw EP Chl Fcd Ckd ,-1
+SAw EP Ld NrLn,1
+Chl Crd (HT),1
+Off Colour,-1
+Crd   Fcd Ck (HT),-1
+Rls ALd,1
+Rls Ld  ,-1
+Eased Blk  ALd,1
+Rls Blk,1
+Fcd Ck BdBlk Fell,-1
+Rls Ld RnOn,1
+Rls Crd,-1
+Rls Crd   (HT),-1
+SAw Rls (HT),-1
+Stmb  (HT),-1
+Rls Mid (HT),-1
+EP Mid Ld RnIn,-1
+EP Mid Crd FnWll,1
+QAw Mid Ld RnIn,1
+SAw EP Ld  ,-1
+Mid Rls ALd,1
+EP Mid Rls,-1
+EP Rls Mid AHandy,1
+QAw LdE Fcd Ck ,1
+ChlE Crd ,-1
+EP Mid Crd Ld,1
+Fcd Ck Crd FnWll,1
+Mid ALd,1
+Rls Mid SnLd,1
+Mid Rls Ckd,-1
+Mid Rls Crd,-1
+SAw Rls Mid Crd,-1
+EP Crd ChlFr EvCh,1
+SAw Crd Blk ,-1
+(R) Mid Rls Crd   ,-1
+Mid Rls Chl CrdRnIn,-1
+(R) Crd (HT),-1
+Mid Rls Crd ,-1
+Mid Rls BdBlk,-1
+Mid Rls Chl CrdNrLn,-1
+EP Mid Rls Chl Crd,-1
+EP Mid ALd,1
+EP Mid ChlThr'Out,1
+EP Mid ChlThr'Out,1
+EP Mid,-1
+SAw Mid Crd,-1
+EP Mid,-1
+EP Chl  Bmp  ,-1
+SAw Mid,-1
+EP Mid,1
+EP Mid SnLd,1
+EP SnLd HldOn,1
+EP Mid Fcd Ck,-1
+SAw EP Mid ChlFr ,1
+EP SnLd StydBst,1
+EP Mid SnLd NrLn,1
+VSAw Bmp Crd ,-1
+Mid EP Ld NrLn,1
+Mid ALd,1
+EP Mid Crd,1
+SAw EP Mid,-1
+SAw EP AHandy,-1
+Mid Ld,1
+(R) Mid EP Bmp Styd  ,1
+QAw MidRnUp Ld RnIn,-1
+Rls Mid SnLd,1
+Off Colour,-1
+SAw EP Mid Rls Crd ,-1
+EP Mid Rls Crd  Chl,-1
+SAw CrdStt EP Bmp,-1
+SAw EP Chl ,-1
+Mid Crd Bmp,-1
+EP Mid SnLd,1
+EP Mid LdNrLn,1
+Mid SnLd (HT),1
+Chl Fcd Ck,1
+SAw EP Mid Rls,-1
+SAw Crd Fcd Ck ,-1
+EP Crd Ld RnIn,1
+Mid Crd Ld  RnIn,-1
+Mid Rls Fcd Ck,-1
+EP Mid Ld,1
+SAw EP Bmp ,-1
+SAw EP Crd Ld NrLn,1
+EP Bmp  Fcd Ck ,-1
+Mid BdCrd ,-1
+Mid ALd,1
+Eased  Stmb,-1
+Mid Ld  Bmp ,-1
+SAw Mid,-1
+Off Colour,-1
+Mid Blk,1
+EP Mid Blk ,-1
+EP Mid ALd,1
+Mid ALd,1
+EP Mid ALd,1
+Ld Mid,1
+FAw FnWll,-1
+EvAw Blk,-1
+SAw NvrShwd,-1
+EvAw RnOn,1
+SAw RnOn,-1
+SAw,-1
+SAw RnOn,-1
+SAw RnOn,-1
+Off Colour,-1
+Mid Blk,1
+EP Mid Blk ,-1
+EP Mid ALd,1
+Mid ALd,1
+EP Mid ALd,1
+Ld Mid,1
+FAw FnWll,-1
+EvAw Blk,-1
+SAw NvrShwd,-1
+EvAw RnOn,1
+SAw RnOn,-1
+SAw,-1
+SAw RnOn,-1
+SAw RnOn,-1
+SAw Mid,-1
+Mid Crd,-1
+SAw Fcd CkRnUp Bmp ,-1
+Mid ClrRn,1
+Mid Ld RnIn,1
+Ld RnIn Waited,1
+Mid ClrRn,1
+Mid,1
+Mid LckdEP RnOn,-1
+EP Mid Ld HldOn,1
+Mid Blk FnWll,1
+EP Mid Ld,1
+VSAw EP Chl Blk ,-1
+Mid Crd ,-1
+Mid Crd ,-1
+EP Mid SnLd,1
+Mid Crd    RnOn,-1
+SAw Mid BdCrd,-1
+SAw Mid RnOn,-1
+VSAw Mid Fcd Ck ,-1
+VSAw Mid,-1
+Mid BdBlk,-1
+VSAw Mid Crd,-1
+Crd  Blk ,-1
+SAw Crd Ld FnWll,1
+Mid Crd   ,-1
+Fcd Ck  Chl ,-1
+VSAw Mid Crd,-1
+Mid ClrRn,-1
+SAw Mid RnOn,1
+VSAw Mid,-1
+Mid Ld,1
+Mid W CrdRnUp ,-1
+Mid,-1
+Mid Ld,1
+Mid Blk,-1
+Mid SAw,1
+Mid Ld Bmp,-1
+Mid Crd ,-1
+Mid ClrRn,-1
+Mid ClrRn,1
+Mid Crd,1
+Mid ClrRn,-1
+Mid Crd,1
+Mid SAw Crd,-1
+Mid SAw,-1
+Mid SAw Ld,1
+Mid Ld,1
+Mid ClrRn,1
+SAw Bmp  RnOn (HT),-1
+Fcd Ck  (HT),-1
+BdCrd  Bmp (HT),-1
+Mid Crd,-1
+SAw Mid RnOn,1
+(R) SAw EP Crd RnOn,-1
+Mid Crd   ,-1
+Mid RnOn,-1
+VSAw Mid RnOn,-1
+SAw Mid Crd,-1
+Mid Crd   ,-1
+(R) Mid SnLd   Crd,1
+Mid Crd Ld ,1
+VSAw Mid W Bmp,-1
+SAw Mid W RnOn,-1
+SAw Mid WRnUp Crd ,-1
+EP Mid,1
+SAw Mid FnBest,1
+SAw Fcd CkRnUp,1
+VSAw Mid,-1
+VSAw Mid RnOn,1
+EP Mid Crd  ,-1
+Mid ClrRn,-1
+SAw Mid RnOn,1
+Off Colour,-1
+EP Mid Ld ,1
+(R) EP Mid (HT),-1
+VSAw Crd Bmp ,-1
+SAw Crd Fcd Ck ,-1
+Mid ClrRn,-1
+Mid Crd  ,-1
+Mid Bmp ,-1
+Mid ClrRn,-1
+EP Fcd Ck Crd,-1
+(Scr) Fcd Ck CrdRnIn,-1
+SAw EP Mid Ld,1
+VSAw Mid Crd,-1
+EP Mid Ld,1
+BmpRnUp   Fcd Ck ,1
+SAw Crd  Fcd Ck ,-1
+(R) VSAw Mid Fcd Ck,-1
+Mid Fcd Ck RnOn,-1
+Mid ALd,1
+Mid Crd LdRnIn,1
+SAw Mid Bmp  Imp,-1
+SAw Mid Bmp  RnOn,1
+Mid BdCrdRnUp,-1
+VSAw Mid,-1
+EP Mid RnOn,1
+VSAw Fcd Ck ,-1
+SAw Mid Crd RnOn,1
+SAw Mid FnWll,1
+SAw Mid,-1
+VSAw Mid Fcd Ck Crd,-1
+SAw Mid Bmp  ,-1
+SAw Mid LdRnIn,1
+Mid W EP Ld ,1
+Mid EvCh (HT),1
+Mid (HT),1
+Mid Crd ,-1
+EP Mid Ld,1
+EP Mid SnLd ,1
+EP Crd  Fcd Ck Blk ,-1
+(R) SAw AHandy,-1
+Crd  Blk  Fcd Ck,-1
+Crd   RnOn,1
+Crd  Fcd Ck,-1
+Fcd Ck  ChlRnIn,-1
+Rls Mid ALd HldOn,1
+Mid Crd  Fcd Ck,-1
+Crd Fcd Ck,-1
+(R) Chl Fcd Ckd Crd ,-1
+EP SnLd  RnOn,1
+(R) Mid Rls Ld  Blk,1
+EP Disp Thr'Out,1
+DispLdFr RnIn,1
+EP Rls Mid Chl  ,-1
+Rls Mid SnLd  ,1
+EP Rls Mid Ld  Crd,1
+QAw Rls ALd,1
+EP Mid ALd,1
+Ld  Fr RnIn (HT),1
+EP Mid ALd (HT),1
+Mid Crd (HT),-1
+DispLd StydBst,1
+EP Disp  RnIn,1
+Ld  Blk  CrdRnIn,-1
+EP Mid Rls Chl RnIn,1
+CrdStt Mid Rls Blk,-1
+Mid Crd Ld ,-1
+CrdRnUp   Fcd Ck,-1
+Mid Rls Ld  Crd,-1
+EP Mid Rls ALd,1
+Mid Rls Crd  Ld RnIn,1
+QAw Ld  Crd Crd,-1
+(R) SnHandy Ld HldOn,1
+Rls Mid Crd,-1
+QAw Mid Rls ALd,1
+Mid Rls Crd ,-1
+EP Mid Rls ALd,1
+Crd   Fcd CkRnIn RnOn,1
+Rls Mid Chl ,-1
+EP Mid Rls Crd,-1
+(R) Crd Chl Crd,-1
+EP SnLd HldOn,1
+Crd    Fcd Ck ,-1
+Fcd Ck Bmp Crd ,-1
+EP Mid Ld NrLn,1
+Mid Rls Crd,-1
+EP Ld  StydBst,1
+EP Ld   Crd   RnIn,-1
+Rls Mid Fcd Ck Crd,-1
+Rls Mid Crd  Ld ,-1
+Fcd CkStt Crd,-1
+QAw Mid Rls Crd ,1
+EP Mid Rls SnLd  ,-1
+EP Ld   Crd,1
+CrdRnUp RnIn,-1
+Mid Crd,-1
+CrdStt RnUp,-1
+CrdRnUp   ChlRnIn,1
+EP Mid Ld,1
+Blk Crd Crd,-1
+Rls Mid Crd Handy,-1
+Blk Ld RnIn (HT),1
+Crd    FnWll,1
+Crd Blk Crd,-1
+SAw Crd   RnOn,1
+Chl Fcd CkRnIn,1
+Handy  Crd  ,-1
+(R) QAw Ld  Crd,-1
+SAw Mid ClrRn,-1
+SAw Mid W BdImp,-1
+Mid W Blk  Ld RnIn,1
+Mid,1
+Mid Crd ,-1
+EP Mid Ld,1
+EP Mid SnLd ,1
+EP Crd  Fcd Ck Blk ,-1
+(R) SAw AHandy,-1
+Crd  Blk  Fcd Ck,-1
+Crd   RnOn,1
+Crd  Fcd Ck,-1
+Fcd Ck  ChlRnIn,-1
+Rls Mid ALd HldOn,1
+Mid Crd  Fcd Ck,-1
+Crd Fcd Ck,-1
+(R) Chl Fcd Ckd Crd ,-1
+EP SnLd  RnOn,1
+(R) Mid Rls Ld  Blk,1
+EP Disp Thr'Out,1
+DispLdFr RnIn,1
+EP Rls Mid Chl  ,-1
+Rls Mid SnLd  ,1
+EP Rls Mid Ld  Crd,1
+QAw Rls ALd,1
+EP Mid ALd,1
+Ld  Fr RnIn (HT),1
+EP Mid ALd (HT),1
+Mid Crd (HT),-1
+DispLd StydBst,1
+EP Disp  RnIn,1
+Ld  Blk  CrdRnIn,-1
+EP Mid Rls Chl RnIn,1
+CrdStt Mid Rls Blk,-1
+Mid Crd Ld ,-1
+CrdRnUp   Fcd Ck,-1
+Mid Rls Ld  Crd,-1
+EP Mid Rls ALd,1
+Mid Rls Crd  Ld RnIn,1
+QAw Ld  Crd Crd,-1
+(R) SnHandy Ld HldOn,1
+Rls Mid Crd,-1
+QAw Mid Rls ALd,1
+Mid Rls Crd ,-1
+EP Mid Rls ALd,1
+Crd   Fcd CkRnIn RnOn,1
+Rls Mid Chl ,-1
+EP Mid Rls Crd,-1
+(R) Crd Chl Crd,-1
+EP SnLd HldOn,1
+Crd    Fcd Ck ,-1
+Fcd Ck Bmp Crd ,-1
+EP Mid Ld NrLn,1
+Mid Rls Crd,-1
+EP Ld  StydBst,1
+EP Ld   Crd   RnIn,-1
+Rls Mid Fcd Ck Crd,-1
+Rls Mid Crd  Ld ,-1
+Fcd CkStt Crd,-1
+QAw Mid Rls Crd ,1
+EP Mid Rls SnLd  ,-1
+EP Ld   Crd,1
+CrdRnUp RnIn,-1
+Mid Crd,-1
+CrdStt RnUp,-1
+CrdRnUp   ChlRnIn,1
+EP Mid Ld,1
+Blk Crd Crd,-1
+Rls Mid Crd Handy,-1
+Blk Ld RnIn (HT),1
+Crd    FnWll,1
+Crd Blk Crd,-1
+SAw Crd   RnOn,1
+Chl Fcd CkRnIn,1
+Handy  Crd  ,-1
+(R) QAw Ld  Crd,-1
+SAw Mid ClrRn,-1
+SAw Mid W BdImp,-1
+Mid W Blk  Ld RnIn,1
+Mid,1
+LckdEP W,-1
+EP W Ld,1
+VSAw W,-1
+SAw W,-1
+W Crd Fcd Ck,-1
+SAw W Crd,-1
+SAw W ChlRnIn,1
+Crd Fcd CkRnUp W,-1
+Fcd Ck Handy ,-1
+SAw W,-1
+SAw W,-1
+W RnOn,-1
+SAw W,-1
+VSAw VW,-1
+Mid W LckdEP,-1
+W,-1
+SAw LckdEP FnLm,-1
+Mid W LckdEP,-1
+LckdEP Mid W,-1
+Mid W Crd,-1
+Mid W,-1
+SAw Blk Fell (HT),-1
+StmbStt Mid W (HT),-1
+SAw Fcd Ck Bmp ,-1
+Mid (HT),-1
+Mid (HT),-1
+Mid W (HT),-1
+W Fr  (HT),-1
+SAw Mid,-1
+QAw W ALd,1
+W Crd  BdCrd,-1
+W ChlE,-1
+LckdEP Crd ,-1
+EP W Crd   ,-1
+SAw Mid W Crd,-1
+LckdEP VW,-1
+QAw W Crd ALd,1
+W LdE AHandy,1
+W ChlE,-1
+LckdEP W Crd   RnOn,-1
+W Crd ,-1
+EP W LdNrLn,1
+SAw W,-1
+LckdEP Crd,-1
+SAw StmbStt Crd,-1
+EP W SnLd,1
+EP W ALd,1
+W ALd,1
+Mid W Crd Ckd (HT),-1
+QAw Ld NrLn,1
+EP W ClrRn,-1
+W Crd RnOn,-1
+Mid W Crd  ,-1
+QAw Mid W Ld ,-1
+ChlE FnWll,1
+Mid W Bmp Fcd CkRnIn,-1
+StmbStt Fcd Ck  RnOn,-1
+Mid W Crd ,-1
+Mid W Crd (HT),-1
+Mid W BdCrd (HT),-1
+Crd Blk  (HT),-1
+Crd Fcd CkStt Bmp,-1
+SAw W Crd,-1
+Ld  CmAgnNrLn (HT),1
+EP W Crd,-1
+Blk  CrdRnIn RnOn,-1
+QAw Ld  BlkCrd ,-1
+Mid W Fcd Ck,-1
+EP W SnHandy  ,-1
+QAw W ChlE,-1
+EP ChlFr Ld StydBst,1
+(R) Mid W Crd  RnOn,-1
+Mid W HandyFr,-1
+W Fcd Ck Crd ,-1
+EP W AHandy,1
+Mid W Chl  FnWll,1
+SAw Mid W RnOn,-1
+W Crd ,-1
+Mid W FnWll,1
+SAw W Fcd Ck,-1
+Mid W Blk ,-1
+Mid W Crd ,-1
+(Scr) LckdEP Mid W RnOn,-1
+Mid W Crd RnOn,1
+LckdEP Chl Fcd CkRnIn,1
+Mid W Crd,-1
+SAw Fcd Ck  RnOn,-1
+Mid W ClrRn,-1
+(R) W Ld  FnWll,1
+Mid W RnOn,-1
+Mid W Crd Fcd Ck,-1
+Mid W Crd,-1
+Mid W FnWll,1
+LckdEP Crd Fcd Ck,-1
+Mid W Crd RnOn,1
+CrdRnUp   RnOn,-1
+Mid W BdBlk,-1
+Mid W ChlE Crd ,-1
+EP Mid W Ld  ,-1
+Mid W Fcd Ck ,-1
+EP Mid W SnLd,1
+Mid W Crd ,-1
+Crd  Blk LdRnIn,1
+Mid W RnOnWll,-1
+Crd  BmpRnIn,-1
+CrdStt Fcd Ck ,-1
+HandyFr FnWll,1
+W Ld  ,1
+Off Colour,-1
+Mid W Crd  ,-1
+Mid W Fcd Ck ,-1
+Chl  Blk  Crd ,-1
+Mid W Crd Fcd Ck ,-1
+W LckdEP,-1
+W LckdEP,-1
+MsdBrk W,-1
+EP W Ld RnOn,1
+QAw Mid W,-1
+Mid W Chl BlkRnIn,-1
+ChlE RnOn,1
+Mid W Crd RnIn,-1
+LckdEP W Crd  ,-1
+W BdBlk,-1
+CrdStt   Mid W,-1
+CrdRnUp RnOn,-1
+CrdStt Mid W RnOn,-1
+EP Ld   BlkFcd Ck,-1
+W Crd   Ld ,1
+EP W Crd FnWll,1
+SAw Crd RnOn,1
+Mid W Blk  ,-1
+MsdBrk Mid W,-1
+SAw Mid W CrdRnUp,-1
+Mid W BdCrd RnOn,-1
+Mid W,-1
+Mid W Crd  StrFn,1
+Mid W Crd ,-1
+SAw Mid W RnOn,-1
+SAw CrdStt Mid W,-1
+StmbStt W RnOn,-1
+StmbStt CrdRnUp ,-1
+CrdStt Fcd CkRnUp,-1
+Mid W ALd,1
+Mid W Crd  ,-1
+SAw Crd,-1
+SAw,-1
+SAw,-1
+SAw WRnUp,-1
+Ld ,1
+CrdStt FnWll,1
+EP Mid W,-1
+MsdBrk Mid W,1
+RnOn LdNrLn,1
+BdCrdRnUp,1
+Bmp,-1
+Mid,1
+BmpRnUp,-1
+Mid,-1
+Mid VSAw,1
+Mid CrdRnUp,1
+EP Mid Ld,1
+Mid Fcd Ck  Blk,-1
+Blk Blk Stmb ,-1
+EP Fcd Ck  Bmp,-1
+SAw MvdOff   BdCrd,-1
+Blk  Crd ChlFr,-1
+Rls Mid Ld,1
+SAw Rls Mid ClrRn,-1
+TurnedInTrps,-1
+VSAw Mid Rls,-1
+VSAw Rls Mid Ckd FnLm,-1
+LckdEP FnWll,1
+VSAw Crd RnOnWll,1
+SAw Rls RnOn,-1
+VSAw Chl Fcd Ckd RnOn,1
+VSAw Crd Fcd Ck ,-1
+SAw Rls Mid Crd RnOn,1
+VSAw Mid Rls RnOn,-1
+Rls Mid LckdEP RnOn,-1
+Rls Mid Crd FnWll,1
+LckdEP Crd Blk ,-1
+LckdEP Fcd Ck,-1
+LckdEP RnOnWll,1
+CrdStt EP Ld FnWll,1
+SAw BdBlk,-1
+VSAw CrdStt  RnOn,-1
+Mid Rls RnOn,-1
+MsdBrk Rls Mid Crd,-1
+Rls Mid ALd,1
+LckdEP Ckd FnLm,-1
+SAw Rls Mid Bmp,-1
+CrdStt    FnWll,1
+Chl   Fcd CkRnOn,1
+CrdRnUp   ChlRnIn,1
+HitRls RnOn,-1
+SAw EP Crd (HT),-1
+VSAw Crd  ,-1
+SAw Crd Ld FnWll,1
+VSAw Crd RnOn,-1
+StmbBdStt RnOn,-1
+SAw Rls Mid Crd   ,-1
+SAw Fcd Ck  Crd RnOn,-1
+Rls Mid ClrRn,-1
+SAw RnOn,-1
+Fcd Ck  Crd (HT),-1
+Rls Mid ClrRn (HT),-1
+CrdRnUp EvCh (HT),-1
+SAw Rls Mid ClrRn,-1
+SAw Mid Rls RnOn,-1
+SAw Rls Mid Crd ,1
+SAw Ld  FnWll,1
+Rls Mid Blk Crd,-1
+CrdStt RnUp,-1
+Rls Mid Blk Ld  FnWll,1
+(R) Rls Mid Ld  RnOn,1
+Rls Crd,-1
+Fcd Ck  FnWll,1
+VSAw Mid Rls,-1
+CrdRnUp Fcd Ck ,-1
+StmbStt Fcd Ck Crd,-1
+CrdStt Fcd Ck (HT),-1
+Mid Crd RnOn,1
+Mid RnOn,1
+SAw Mid,-1
+VSAw Rls Mid Crd,-1
+SAw Mid Crd ,-1
+SAw Crd ,-1
+VSAw Ld,1
+Rls Mid,1
+VSAw StrFn,1
+VSAw Rls Mid Ckd FnLm,-1
+LckdEP FnWll,1
+VSAw Crd RnOnWll,1
+SAw Rls RnOn,-1
+VSAw Chl Fcd Ckd RnOn,1
+VSAw Crd Fcd Ck ,-1
+SAw Rls Mid Crd RnOn,1
+VSAw Mid Rls RnOn,-1
+Rls Mid LckdEP RnOn,-1
+Rls Mid Crd FnWll,1
+LckdEP Crd Blk ,-1
+LckdEP Fcd Ck,-1
+LckdEP RnOnWll,1
+CrdStt EP Ld FnWll,1
+SAw BdBlk,-1
+VSAw CrdStt  RnOn,-1
+Mid Rls RnOn,-1
+MsdBrk Rls Mid Crd,-1
+Rls Mid ALd,1
+LckdEP Ckd FnLm,-1
+SAw Rls Mid Bmp,-1
+CrdStt    FnWll,1
+Chl   Fcd CkRnOn,1
+CrdRnUp   ChlRnIn,1
+HitRls RnOn,-1
+SAw EP Crd (HT),-1
+VSAw Crd  ,-1
+SAw Crd Ld FnWll,1
+VSAw Crd RnOn,-1
+StmbBdStt RnOn,-1
+SAw Rls Mid Crd   ,-1
+SAw Fcd Ck  Crd RnOn,-1
+Rls Mid ClrRn,-1
+SAw RnOn,-1
+Fcd Ck  Crd (HT),-1
+Rls Mid ClrRn (HT),-1
+CrdRnUp EvCh (HT),-1
+SAw Rls Mid ClrRn,-1
+SAw Mid Rls RnOn,-1
+SAw Rls Mid Crd ,1
+SAw Ld  FnWll,1
+Rls Mid Blk Crd,-1
+CrdStt RnUp,-1
+Rls Mid Blk Ld  FnWll,1
+(R) Rls Mid Ld  RnOn,1
+Rls Crd,-1
+Fcd Ck  FnWll,1
+VSAw Mid Rls,-1
+CrdRnUp Fcd Ck ,-1
+StmbStt Fcd Ck Crd,-1
+CrdStt Fcd Ck (HT),-1
+Mid Crd RnOn,1
+Mid RnOn,1
+SAw Mid,-1
+VSAw Rls Mid Crd,-1
+SAw Mid Crd ,-1
+SAw Crd ,-1
+VSAw Ld,1
+Rls Mid,1
+VSAw StrFn,1
+SAw Crd ,-1
+SAw EP Crd  Blk ,-1
+W AHandy,-1
+EP W ALd,1
+QAw W ChlFr ,-1
+EP W Ld Crd ,1
+W ClrRn,-1
+SAw EP SnHandy ,1
+SAw EP StmbB,-1
+SAw EP Chl  ,-1
+SAw Mid W Blk,-1
+Mid W BdBmp,-1
+Mid W CrdRnUp  ,-1
+EP W Ld  RnOn,-1
+SAw W Crd RnOn,-1
+EP W Ld HldOn,1
+Crd Fcd CkRnIn RnOn,-1
+Crd B Crd,-1
+MvdOff Blk Crd ,-1
+EP Mid W Blk,-1
+Mid W Crd RnOn,-1
+SAw EP Ld  FnWll,1
+SAw Mid W RnOn,-1
+SAw Mid W,-1
+VSAw Fcd CkW,-1
+Mid W Crd ,-1
+W Bmp RnOn,1
+Bitten,-1
+VSAw Blk Fcd CkRnIn,-1
+SAw W RnOn,1
+EP W Ld  ,1
+SAw W Crd ,-1
+Mid W LckdEP,-1
+SAw Blk Crd ,-1
+EP W Ld Clr,1
+Mid W BdBlk,-1
+EP W Crd  ,-1
+SAw EP Mid W Ld,1
+SAw Mid W Ld RnIn,1
+Mid W ClrRn (HT),1
+SAw Mid Rls,-1
+W ClrRn,1
+Cough,-1
+SAw Fcd Ck ,-1
+EP Mid W SnLd,1
+EP Mid W Bmp,-1
+Mid Crd ,-1
+Mid Ld ,1
+Mid W Crd ,1
+Mid W ALd,1
+W RnOn,-1
+W RnOn,-1
+SAw W,-1
+EP W Ld,1
+VSAw W,-1
+SAw W,-1
+SAw W ClrRn,-1
+W Blk RnOn,1
+SAw CrdRnUp RnOn,-1
+EP W Ld  ,1
+SAw W,-1
+EP W LdStydBst,1
+StmbBdStt Ckd,-1
+Outp NvrShwd,-1
+Outp NvrShwd,-1
+Outp NvrShwd,-1
+Outp NvrShwd,-1
+Outp NvrShwd,-1
+Mid Crd,-1
+Mid Crd,-1
+EP Mid Crd,-1
+EP Mid SnLd  ,-1
+EP Mid LeftClr,1
+Ld   BlkCrd Ld RnIn,-1
+StmbStt Fcd Ck BdBlk,-1
+Ld   Blk ,1
+Fcd Ck  ChlRnIn,1
+Mid Crd,-1
+ALd MvdOff ,1
+SAw BlkRnUp Mid,1
+In Season,-1
+Mid Blk Ld NrLn,1
+VSAw Bmp (HT),-1
+Rls Mid ClrRn (HT),-1
+Rls Mid ClrRn (HT),-1
+SAw Fcd Ck Crd,-1
+CrdStt   Fcd Ck,-1
+SAw Mid Crd,-1
+BlkRnUp ,-1
+Mid ClrRn,-1
+Mid W Crd,-1
+Mid W,-1
+Ld   Blk CmAgn,1
+Lame,-1
+Ld  AHandy Crd,-1
+Mid Crd ,-1
+(Scr) SAw Mid RnOn,-1
+Mid Ld FnWll,1
+SAw Mid Crd Blk ,-1
+CrdStt Mid RnOn,-1
+Mid Ld  FnWll,1
+Mid Bmp,-1
+Mid ALd RnOn,1
+Mid Blk Ld,1
+Mid Rls Crd (HT),1
+Rls Mid ClrRn (HT),1
+SAw Mid RnOn,1
+Mid Crd   RnIn,-1
+CrdRnUp Chl FnWll,1
+Crd  Chl Fcd CkRnIn,1
+SAw Mid Crd ,-1
+SAw EP Crd (HT),-1
+Mid Fcd Ck,-1
+EP Mid FnBest,1
+Mid RnOn,1
+Mid Crd  ,-1
+EP Mid Rls Ld   ,1
+EP Mid Bmp RnOn,1
+SAw Mid Fcd Ck,-1
+EP Mid Ld ,1
+SAw EP Mid Ld EvCh,1
+SAw EP Mid Ld EvCh,1
+(R) Rls Mid AHandy,1
+SAw CrdStt Fcd Ck ,-1
+Rls Mid Fcd Ck ,-1
+Mid Rls Crd  Bmp,-1
+EP Mid Rls Ld,1
+Mid ALd Crd ,1
+VSAw Rls Mid ClrRn,-1
+EP Mid Blk,-1
+EP Mid ALd,1
+EP Mid Chl ,-1
+EP Mid ALd,1
+EP Mid Crd,-1
+EP Mid Ld RnIn,1
+EP Crd Ld NrLn,1
+EP Mid SnLd,1
+EP Mid SnHandy RnIn,-1
+EP Crd Ld  BlkRnIn,-1
+EP Mid Ld ,-1
+CrdRnUp Handy,-1
+CrdStt  ,-1
+EP Mid Crd ,-1
+StmbStt EP Ld  ,-1
+EP Mid Blk,-1
+StmbStt EP Blk,-1
+EP Mid Ld ,-1
+EP Mid Ld RnIn,-1
+Mid CkdW ,-1
+EP Mid SnLd,1
+Mid Crd ,-1
+Mid,-1
+Mid,-1
+SAw NvrShwd,-1
+Ld EvCh,1
+Ld  Fdd,-1
+AHandy EvCh,-1
+FAw FnWll,1
+FAw FnWll,1
+ClrRn RnOn,-1
+ClrRn RnOn,-1
+ClrRn RnOn,-1
+ClrRn RnOn,-1
+SAw HitRls Blk,-1
+Mid Rls Crd Fcd Ck,-1
+Mid Handy  RnIn,-1
+SAw Mid Rls RnOn,1
+EP Mid Ld,1
+(R) EP Blk  ,-1
+SAw EP Chl Fcd Ckd,-1
+EP Rls Mid ALd,1
+(R) Handy  Fcd CkRnIn,-1
+Mid Crd   RnOn,1
+(R) Crd  Fcd Ck  Chl,-1
+(R) Mid Rls ChlFr ,-1
+SAw Rls Mid RnOn,1
+CrdRnUp Chl  Fcd Ck,-1
+Rls Mid Crd  FnWll,1
+SAw EP RnOn,1
+SAw Rls Mid Crd,-1
+EP Mid Rls Chl ,-1
+(R) SAw EP Chl Blk,-1
+EP Rls Mid Ld,1
+EP Mid Rls Ld  NrLn,-1
+Mid Rls Blk,-1
+Rls Mid Ld RnIn,1
+Mid Rls ChlRnIn,-1
+SAw Chl Crd ,-1
+EP Mid Fcd Ck,-1
+EP Chl LdRnIn (HT),1
+EP Crd RnOn (HT),-1
+SAw Mid Rls Fcd Ck,-1
+SAw Mid Rls Bmp (HT),-1
+Crd BlkRnIn (HT),1
+SAw Rls Mid (HT),-1
+SAw EP Ld NrLn (HT),1
+SAw Mid Rls RnOn (HT),-1
+Crd  Blk RnOn (HT),1
+Mid Rls Crd Fcd Ck,-1
+SAw Rls ClrRn,-1
+SAw Rls EP Fcd Ck,-1
+EP Rls Mid SnLd,1
+Rls LdRnIn,1
+Rls,1
+Crd Ld RnIn FnCrmp,-1
+Mid Rls FnCrmp,-1
+Bmp RnOn (HT),1
+Rls Mid Crd (HT),-1
+Rls Mid ClrRn (HT),1
+Rls Mid ALd (HT),1
+EP Crd  ,-1
+Mid CrdRnUp RnOn,-1
+Mid RnOn,1
+Bmp BroughtDown,-1
+StmbStt Mid Rls Fcd Ck,-1
+SAw Mid Crd Fcd Ck,-1
+EP Mid SnLd,1
+Mid RnOn,1
+SAw EP Mid,-1
+SAw Mid Crd RnOn,-1
+EP Mid SnLd,1
+SAw EP Bmp ,-1
+SAw Mid RnOn,1
+Mid Ld NrLn,1
+SAw Mid ClrRn,1
+SAw BmpStt Imp ,-1
+VSAw Crd  Bmp RnOn,1
+MidStt Ld,1
+SAw Rls Mid Chl  Crd,-1
+SAw EP Crd RnOn,1
+LeftStt Mid RnOn,-1
+(R) SAw Mid Crd,-1
+Mid LdE VW,-1
+VSAw Mid Ld ,1
+VSAw Mid,1
+Lame,-1
+Mid W RnOn,-1
+EP Mid W Bmp LdRnIn,1
+Mid W Fcd Ck,-1
+Crd Blk Ld FnWll,1
+EP Mid W FnWll,1
+EP Crd Blk,-1
+EP Mid W RnOn,1
+Mid W Fcd Ck ,-1
+EP Mid W Crd,-1
+Mid W Crd  ,-1
+Mid W ALd,1
+QAw Ld Blk Stmb,-1
+LckdEP W Blk,-1
+VSAw Mid W Crd ,-1
+SAw StmbStt Fcd Ck ,-1
+Mid W Crd  Fcd Ck,-1
+LckdEP RnOn,1
+Mid W Crd ,-1
+Mid W Blk RnOn,-1
+Fcd CkRnUp Blk,-1
+Mid W Crd RnOn,1
+SnHandy Ld  FnWll,1
+SAw Crd Fcd Ck,-1
+Crd BdCrd  (HT),-1
+Mid W Blk,-1
+EP Mid W Ld ,1
+EP W SnLd HldOn,1
+W Crd FnWll,1
+EP W AHandy (HT),1
+Mid W ChlE (HT),-1
+SAw Mid W Crd  (HT),-1
+ChlE RnOn (HT),-1
+W ALd (HT),1
+Mid W Chl (HT),1
+SAw StmbStt,-1
+LckdEP Mid W ClrRn,-1
+SAw Mid W Crd ,-1
+EP ALd WnWll,1
+Mid W Crd RnOn,1
+Mid W Crd RnOn,-1
+StmbStt Crd  RnOn,-1
+QAw Mid W ChlE,1
+QAw Mid W Crd,1
+Mid W Crd Ld  ,1
+Mid W Crd FnWll,1
+QAw Mid W Bmp FnWll,1
+W ClrRn,-1
+W Crd StmbB,-1
+W Crd ,-1
+W Bmp,-1
+W RnOn,-1
+Mid W Crd  RnOn,1
+W Crd  ,-1
+Mid W ClrRn,-1
+EP Crd  StydBest,1
+W BdBmp,-1
+EP W Crd  FnWll,1
+EP Mid W Crd Ld ,1
+Mid W ChlRnIn,1
+W CrdRnIn RnOn,1
+Mid W Crd ,-1
+W ClrRn,-1
+Mid W SnLd,1
+QAw Ld  Crd  ,-1
+Bmp Crd ,-1
+EP SnLd Bmp,1
+StmbStt Bmp Blk ,-1
+MsdBrk Crd  ,-1
+EP SnLd Crd Crd,1
+Crd W ,-1
+EP Disp  Crd ,-1
+EP SnLd,1
+EP SnLd Mid W,1
+Mid W,1
+BdBlk ,-1
+Bmp ,-1
+QAw Ld  ,-1
+QAw SnLd,1
+EP Fcd Ck,-1
+SAw EP Imp,-1
+Mid,-1
+ClrRn,-1
+Rls Mid,-1
+LckdEP Rls Mid Crd,-1
+Rls Mid LckdEP,-1
+(R) Mid Rls Blk ,-1
+SAw Rls Fcd Ck,-1
+Mid Rls Crd RnOn,-1
+LdE Crd  RnOn,-1
+Mid Rls Blk,-1
+Rls Mid RnOn,1
+Mid Rls LckdEP,-1
+Rls Mid LckdEP,-1
+Mid Crd,-1
+(R) Mid Rls Bmp (HT),-1
+Mid Rls,-1
+Rls Mid Ld  FnWll,1
+(Scr) Mid Rls Crd RnOn,-1
+(R) Mid Rls CrdRnIn RnOn,1
+Fcd CkCrd Crd RnOn,-1
+SAw Crd RnOn,-1
+LckdEP Rls Mid RnOn,-1
+LckdEP RnOn,1
+CrdStt ChlRnIn,-1
+SAw Rls Mid CrdRnIn,-1
+SAw CrdRnIn,-1
+LckdEP Fcd Ck RnOn,-1
+SAw RnOn,-1
+SAw Crd  StrFn,1
+SAw Rls Fcd Ck ,-1
+Rls LckdEP,-1
+SAw Rls Mid,-1
+SAw Crd FnWll,1
+SAw Crd  RnOn,-1
+StmbStt Rls Mid,-1
+SAw Rls Mid Crd,-1
+(R) Mid Rls FnWll (HT),1
+Fcd Ck  FnWll,1
+(Scr) Mid Rls ChlRnIn (HT),1
+SAw CrdStt Fcd Ck,-1
+SAw Crd   Fcd CkRnIn,-1
+SAw Fcd Ck (HT),-1
+Rls Mid Crd  (HT),-1
+(R) SAw Blk   (HT),-1
+(Scr) SAw Rls Mid RnOnWll,1
+(Scr) SAw Crd Fcd Ck,-1
+Rls Mid Crd Ld,1
+SAw Mid Rls Bmp,-1
+Rls Mid Bmp BdBlk,-1
+VSAw Crd   RnIn,-1
+VSAw Crd Blk,-1
+StmbStt HitRls,-1
+SAw Rls Mid Crd ,-1
+Rls Mid ClrRn,1
+CrdStt Mid Rls Ld,1
+StmbStt Mid Rls,1
+LckdEP Rls Mid Crd,-1
+Rls Mid LckdEP,-1
+(R) Mid Rls Blk ,-1
+SAw Rls Fcd Ck,-1
+Mid Rls Crd RnOn,-1
+LdE Crd  RnOn,-1
+Mid Rls Blk,-1
+Rls Mid RnOn,1
+Mid Rls LckdEP,-1
+Rls Mid LckdEP,-1
+Mid Crd,-1
+(R) Mid Rls Bmp (HT),-1
+Mid Rls,-1
+Rls Mid Ld  FnWll,1
+(Scr) Mid Rls Crd RnOn,-1
+(R) Mid Rls CrdRnIn RnOn,1
+Fcd CkCrd Crd RnOn,-1
+SAw Crd RnOn,-1
+LckdEP Rls Mid RnOn,-1
+LckdEP RnOn,1
+CrdStt ChlRnIn,-1
+SAw Rls Mid CrdRnIn,-1
+SAw CrdRnIn,-1
+LckdEP Fcd Ck RnOn,-1
+SAw RnOn,-1
+SAw Crd  StrFn,1
+SAw Rls Fcd Ck ,-1
+Rls LckdEP,-1
+SAw Rls Mid,-1
+SAw Crd FnWll,1
+SAw Crd  RnOn,-1
+StmbStt Rls Mid,-1
+SAw Rls Mid Crd,-1
+(R) Mid Rls FnWll (HT),1
+Fcd Ck  FnWll,1
+(Scr) Mid Rls ChlRnIn (HT),1
+SAw CrdStt Fcd Ck,-1
+SAw Crd   Fcd CkRnIn,-1
+SAw Fcd Ck (HT),-1
+Rls Mid Crd  (HT),-1
+(R) SAw Blk   (HT),-1
+(Scr) SAw Rls Mid RnOnWll,1
+(Scr) SAw Crd Fcd Ck,-1
+Rls Mid Crd Ld,1
+SAw Mid Rls Bmp,-1
+Rls Mid Bmp BdBlk,-1
+VSAw Crd   RnIn,-1
+VSAw Crd Blk,-1
+StmbStt HitRls,-1
+SAw Rls Mid Crd ,-1
+Rls Mid ClrRn,1
+CrdStt Mid Rls Ld,1
+StmbStt Mid Rls,1
+SAw Mid Eased,-1
+Mid,-1
+LckdEP Mid W,-1
+Mid,-1
+CrdRnUp Ckd,-1
+EP Mid Ld,1
+VSAw Mid,-1
+SAw EP Bmp,-1
+Mid Crd,-1
+(R) SAw Mid,-1
+Mid LckdEP,-1
+Mid LdNrLn,1
+SAw Mid Blk FnLm,-1
+EP Mid Ld  Fcd Ck,-1
+Mid ClrRn,-1
+EP Mid Ld,1
+Mid Fcd Ck ,-1
+Mid Crd  (HT),-1
+EP Mid ClrRn,-1
+EP Mid Ld  Crd,-1
+EP Mid ALd,1
+EP Mid Ld ,-1
+EP Mid ALd,1
+Mid LdRnIn,1
+Eased Ckd,-1
+EP Ld   Fcd Ck (HT),-1
+Mid ClrRn (HT),-1
+Mid Crd  (HT),-1
+SAw Mid Crd (HT),-1
+EP Mid SnLd,1
+EP Mid Crd,-1
+Mid Crd,-1
+MsdBrk Fcd Ck,-1
+EP Mid ALd,1
+Mid Crd,-1
+EP Mid Ld HldOn,1
+EP Mid SnHandy ,-1
+EP Mid Ld  Fcd Ck,-1
+EP Mid Ld  ,1
+EP Mid Ld FnWll,1
+Mid ClrRn,-1
+Mid Fcd Ck  Crd,-1
+Mid Crd ,-1
+CrdRnUp RnOn,-1
+Mid ClrRn,-1
+Mid ClrRn,-1
+EP Mid ALd,1
+EP Mid SnLd HldOn,1
+Mid Crd HandyFr,1
+Crd Fcd Ck Blk,-1
+QAw Mid Ld ,1
+Mid MvdOff,-1
+SAw Crd,-1
+SAw Crd,-1
+BdBlk,1
+BdBlk,1
+BdBlk,1
+BdBlk,1
+Crd   RnOn,-1
+SAw Mid Crd,-1
+Crd   Fcd Ck  FnWll,1
+CrdRnUp Bmp  FnWll,1
+(R) Fcd Ck Crd  Crd RnOn,1
+(R) Fcd Ck  LdRnIn NrLn,1
+ChlE Blk StmbB,-1
+Mid Crd  RnOn,1
+CrdRnUp RnOn,-1
+EP Crd Ld ,1
+Mid SnHandy,-1
+Mid SnHandy ,-1
+Mid ClrRn,1
+Mid LdE,1
+Mid W ClrRn,1
+Mid W ClrRn,1
+Mid Ckd Crd FnLm,-1
+Mid Crd Blk,-1
+Mid Crd FnWll,1
+Crd Ld FnWll,1
+SAw Crd Fcd Ck ,-1
+SAw W Crd  ,-1
+(R) SAw W Blk  ,-1
+W ClrRn,1
+SAw Blk Stmb Fell ,-1
+SAw W Blk RnOn,-1
+W Crd   RnOn,-1
+SAw Fcd Ck RnOn,1
+Fcd Ck Crd RnOn,1
+W Crd FnWll,1
+(R) W Ld FnWll,1
+W RnOn,1
+VSAw Crd RnOnWll,1
+SAw W RnOn,-1
+SAw Fcd CkRnIn RnOn,-1
+SAw W Crd StrFn,1
+Fcd CkW RnOn,-1
+SAw W RnOn,-1
+W Blk Ld RnOn,1
+W Crd RnOn,-1
+W Crd RnOn,-1
+Blk FnWll,1
+SAw FnWll,1
+EvAw Outp,-1
+SAw Blk,-1
+Ld Styd,1
+SAw RnOn,-1
+FAw FnWll,1
+FAw FnWll,1
+FAw FnWll,1
+EvAw FnWll,1
+EvAw Crd,-1
+EvAw RnOn,1
+EvAw FnWll,1
+FAw Outp,-1
+FAw FnWll,1
+FAw ALd,1
+EvAw Crd,-1
+EvAw FnWll,1
+EvAw Imp,-1
+Blk KO,-1
+EvAw RnOn,1
+KOFn,-1
+Outp RnOn,-1
+Outp RnOn,-1
+EvAw Bmp,-1
+EvAw RnOn,1
+EvAw RnOn,1
+EvAw RnOn,-1
+EvAw RnOn,1
+EvAw RnOn,1
+EvAw RnOn,1
+EP Rls Mid,-1
+SAw Rls Bmp,-1
+EP Rls Mid SnLd NrLn,1
+EP Rls Mid Ld RnIn,1
+CrdStt EP Rls ALd,1
+EP CrdRnUp ALd,1
+(R) Ld   Crd,-1
+(R) Chl Crd FnWll,1
+Rls Crd Fcd Ck ,-1
+Rls Bmp,-1
+Rls Fcd Ck,-1
+Rls Bmp ,-1
+QAw Rls ALd,1
+(R) Rls Ld NrLn,1
+EP Crd Ld,1
+ChlE ClrRn,-1
+EP Rls SnLd  Crd,-1
+SAw Rls Fcd Ck,-1
+EP Mid Rls SnLd,1
+EP Rls Ld ,1
+Off Colour,-1
+SAw Rls Fcd Ck,-1
+(R) Mid Rls Chl Crd,-1
+EP Rls Crd,-1
+EP Rls Ld,1
+EP Crd Ld  ,1
+EP Rls ClrRn,-1
+QAw Rls Ld ,-1
+Rls Crd,-1
+Rls Crd FnWll,1
+Mid Rls LckdEP,-1
+Mid Rls,-1
+Mid ClrRn,-1
+Rls Mid Crd (HT),1
+Lame,-1
+SAw Crd,-1
+SAw LdNrLn,1
+EP,1
+Rls Mid,1
+Lame,-1
+SnLd ,1
+Mid ClrRn (HT),-1
+Crd RnOn,-1
+VSAw Mid (HT),-1
+EP Bmp,-1
+VSAw Crd  (HT),-1
+EP ALd,1
+SAw Crd,-1
+EP Mid SnLd,1
+VSAw Bmp,-1
+EP Crd,-1
+SAw Mid Fcd Ck ,-1
+EP Crd ,-1
+EP Ld RnIn,1
+EP BdBmp Fell,-1
+SAw Crd,-1
+SAw Crd,-1
+SnLd,1
+EP RnOn,1
+Crd,-1
+EP,-1
+EP,-1
+EP Ld ,-1
+EP Ld ,1
+SAw,-1
+Fcd Ck,-1
+ALd Mid,1
+SAw Crd,-1
+SnLd  Ld,1
+Rls Mid,1
+Off Colour,-1
+EP Ld,1
+SAw RnOn,1
+SnLd,1
+Bitten,-1
+SAw Crd ,-1
+SAw Crd,-1
+Crd RnOn,1
+EP Crd Mid,-1
+ALd W,1
+SAw RnOn,-1
+EvAw Ld,1
+EvAw Ld,1
+Bmp Bmp,-1
+Bmp Bmp,-1
+Bmp Bmp,-1
+QAw Rls Mid Crd,-1
+(Scr) Rls Crd RnOn,-1
+CrdRnUp RnOn,1
+CrdRnUp EP AHandy,-1
+Mid Rls ChlE RnOn,1
+(Scr) LckdEP Mid Rls,-1
+Mid Rls Crd RnOn,-1
+Mid Rls LckdEP,-1
+Rls LckdEP,-1
+Rls Crd,-1
+QAw Rls Mid ALd,1
+Rls Mid Crd,-1
+Rls Mid Ld  Crd,-1
+Rls Ld FnWll,1
+CrdStt Rls Mid,-1
+LckdEP Mid Rls Bmp,-1
+(R) Rls Crd ,-1
+Rls Mid Crd Blk ,-1
+QAw Rls Crd,-1
+ChlE Crd  FnWll,1
+ChlE Crd  RnOn,-1
+(R) HitRls,-1
+ChlE Crd,-1
+Blk Crd RnOn,1
+(R) Crd  Blk  (HT),-1
+Rls ClrRn,-1
+LdE CmAgn,1
+(Scr) Rls ClrRn,-1
+EP Bmp  BdCrd,-1
+(Scr) Mid Rls LckdEP (HT),-1
+(Scr) Mid Rls Crd (HT),-1
+Rls Mid ClrRn,-1
+Rls Crd (HT),-1
+Rls Chl EvCh (HT),1
+Mid Rls RnOn (HT),1
+Rls Crd  RnOn,-1
+LckdEP Rls,-1
+CrdStt Rls,-1
+Rls ALd,1
+Mid Rls ClrRn,-1
+Rls Mid LckdEP,-1
+(Scr) HitToRls,-1
+Rls Ld FnWll,1
+QAw Rls Crd,-1
+HitRls,-1
+Crd Ld WnWll,1
+Rls Crd   ,-1
+Rls Crd,-1
+QAw Rls Ld ,-1
+EP Rls ALd,1
+(Scr) Rls ClrRn,-1
+EP Rls ALd WnWll,1
+QAw Rls Ld ,-1
+EP Rls ALd,1
+QAw Rls LdRnIn,1
+Rls Blk,-1
+Rls Crd,-1
+EP Rls SnHandy,1
+Rls CrdRnUp ,-1
+Rls Crd,-1
+QAw Mid Rls Crd,-1
+EP Mid Rls ALd,1
+QAw Crd StydBst,1
+CrdRnUp ,-1
+Rls Mid ClrRn,1
+BdBlk Fell,-1
+EP Rls Ld  ,-1
+Rls Crd  Blk ,-1
+Rls Blk,-1
+EP Rls Mid ALd,1
+EP Rls ALd,1
+Rls,1
+Mid ClrRn,-1
+(R) SAw Crd Fcd Ck RnOn,1
+Mid Rls Crd   RnIn,-1
+EP Mid AHandy,-1
+CrdRnUp EP AHandy,-1
+EP Mid Rls ALd,1
+BdBlk Fell,-1
+EP Mid Rls ALd WnWll,1
+SAw Rls Mid Crd  ,-1
+Mid ClrRn,-1
+VSAw Mid Rls,-1
+Crd   ,-1
+Rls Mid Crd RnOn,1
+EP Mid Rls Crd Blk ,-1
+Bmp Chl Bmp,-1
+Mid Rls Bmp,-1
+EP Mid Rls Ld RnIn,1
+Mid Rls Blk Crd,-1
+EP Mid Rls Ld NrLn,1
+EP Mid Rls Blk,-1
+SAw Fcd CkRnUp,-1
+EP Mid Ld NrLn,-1
+EP Rls Mid,-1
+EP Mid Rls SnLd,1
+Mid Rls SnLd Blk,1
+EP SnLd RnIn,1
+EP Rls Mid ALd,1
+Mid Rls LdRnIn NrLn,1
+EP Ld Crd HldOn,1
+EP Mid Rls Ld  RnIn,1
+EP Blk Crd Ld,1
+SAw EP Rls Mid,-1
+CrdStt ChlFr Crd,-1
+Mid Rls Blk StmbB,-1
+Rls Mid Ld ,1
+EP Mid ALd (HT),1
+StmbStt Mid Rls (HT),1
+W Crd ,-1
+Mid W ClrRn,-1
+LckdEP W,-1
+W BdBlk ,-1
+VSAw W,-1
+EP W ALd,1
+EP Mid W RnOn,-1
+Mid W Crd  RnOn,-1
+W Crd,-1
+SAw W RnOn,-1
+SAw W,-1
+ChlRnIn LdNrLn,1
+HandyFr Ld  StydBst,1
+SAw EP W Chl,-1
+SAw W RnOn,1
+EP W Chl  Crd,-1
+SnHandy ChlRnIn,-1
+(R) SAw BlkStt Fcd Ck,-1
+EP W Ld NrLn,1
+EP W Crd ,-1
+CrdStt  ChlFr,1
+Mid W Ld FnWll,1
+StmbStt EP Mid W,-1
+Mid W ChlFr,1
+Mid W ChlRnIn,1
+Crd    Ld NrLn (HT),1
+MsdBrk Crd,-1
+CrdRnUp ,-1
+Crd,1
+MsdBrk Imp,-1
+Crd  ,-1
+CrdRnUp ,-1
+EP W Ld,1
+SAw Mid W,-1
+EP W Crd ,-1
+EP W EvCh,-1
+MsdBrk W Crd,-1
+Mid W EvCh,-1
+Mid W EvCh,-1
+MsdBrk Crd  ,-1
+EP W Crd,-1
+W EvCh,-1
+EP Ld,1
+MsdBrk Crd,-1
+QAw Mid EvCh,-1
+Mid W,-1
+Mid,-1
+EP EvCh,1
+EP Ld RnOn,1
+Crd,-1
+Crd RnOn,-1
+Imp,-1
+EvCh,-1
+Crd,-1
+EP RnOn,1
+Crd,-1
+Crd RnOn,-1
+EP Ld RnOn,1
+EP Crd,1
+SAw Crd,-1
+MsdBrk W Crd,-1
+Mid LdNrLn,1
+EP Crd RnOn,1
+LdNrLn (HT),1
+Crd ,-1
+W EvCh,-1
+MsdBrk RnOn,-1
+Crd ,-1
+SAw W,-1
+W Crd,1
+QAw W EvCh,1
+W,1
+W EvCh,1
+Mid,1
+Mid Fcd Ck,-1
+Mid CrdRnIn,1
+Mid BdBlk Fell ,-1
+Mid Crd Chl Crd,-1
+Mid Crd StrFn,1
+CrdRnUp Crd Fcd Ck,-1
+Mid Crd RnOn,-1
+Crd Blk  RnOn,-1
+Mid Crd  ,-1
+Mid Crd ,-1
+SAw Mid,-1
+Crd RnIn RnOn,-1
+EP Mid AHandy,1
+Mid Crd Ld,1
+(R) Mid Fcd Ck ,-1
+EP Mid Ld,1
+(R) Crd Ld  FnWll,1
+Fcd Ck Bmp,-1
+(Scr) BlkStt RnOnWll (HT),1
+Mid Rls Blk RnOn,-1
+CrdStt EP Ld,1
+(Scr) SAw Mid Rls Crd (HT),-1
+Mid Blk RnOn,-1
+QAw Mid Crd,-1
+Mid Crd FnWll,1
+Ld  Fr (HT),1
+Mid Rls (HT),1
+EP And,1
+Blk NvrShwd,-1
+Blk NvrShwd,-1
+BdBlk Fdd,-1
+SAw NvrShwd,-1
+EP ALd,1
+CkdNvrShwd,-1
+EvAw BdBlk,-1
+EP RnOn,-1
+EP Ld,-1
+EvAw Bmp,-1
+EvAw RnOn,1
+FAw ALd,1
+EP BdBlk,-1
+EvAw ClrRn,-1
+EvAw Ld,1
+EvAw ChlRnIn,-1
+EvAw Crd,-1
+CkdW,-1
+CkdW,-1
+Blk Crd,-1
+QAw Bmp,-1
+LdRnUp BdBlk,-1
+FAw AHandy,-1
+FAw AHandy,-1
+FAw AHandy,-1
+FAw AHandy,-1
+FAw AHandy,-1
+FAw AHandy,-1
+LckdEP Fcd Ck Crd,-1
+StmbStt StrFn,1
+VW Crd RnOnWll,1
+W LdRnIn HldOn,1
+(Scr) StmbBdStt RnOn,-1
+LckdEP Blk RnOn,-1
+SAw Mid W Crd  ,-1
+Mid W ClrRn,-1
+SAw W,-1
+Mid W Crd ,-1
+Mid W Blk,-1
+SAw Crd RnIn,-1
+SAw Mid W Crd,-1
+Mid W Crd Blk,-1
+SAw Mid Blk  RnOn,-1
+SAw Mid Ld  FnWll,1
+SAw Blk Crd  RnIn,-1
+EP Mid Ld  ,1
+CrdRnUp Mid Ld,1
+SAw Mid (HT),-1
+LckdEP Fcd Ck Crd,-1
+StmbStt StrFn,1
+VW Crd RnOnWll,1
+W LdRnIn HldOn,1
+(Scr) StmbBdStt RnOn,-1
+LckdEP Blk RnOn,-1
+SAw Mid W Crd  ,-1
+Mid W ClrRn,-1
+SAw W,-1
+Mid W Crd ,-1
+Mid W Blk,-1
+SAw Crd RnIn,-1
+SAw Mid W Crd,-1
+Mid W Crd Blk,-1
+SAw Mid Blk  RnOn,-1
+SAw Mid Ld  FnWll,1
+SAw Blk Crd  RnIn,-1
+EP Mid Ld  ,1
+CrdRnUp Mid Ld,1
+SAw Mid (HT),-1
+Lame,-1
+EP LongLd NrLn,1
+EP Mid Rls Ld RnIn,-1
+Rls Fcd Ck Blk,-1
+(R) Rls ALd HldOn,1
+Rls ClrRn,-1
+SAw EP ChlFr,-1
+EP Rls Ld  ,-1
+(R) EP Rls Ld RnIn,1
+Rls Crd Chl ,-1
+Fcd Ck Chl Ld,1
+Non Arrival,-1
+Rls Ld RnIn,-1
+EP Rls DispLd,-1
+EP Rls ALd,1
+EP Rls Ld RnIn,1
+SAw Crd  ,-1
+EP Mid Rls Ld,1
+(R) EP Rls Ld RnIn,-1
+QAw Mid Rls Ld  Crd,-1
+EP Rls Mid,-1
+Rls Ld ,1
+Rls,1
+(R) Rls Ld  Crd (HT),-1
+EP Rls SnLd NrLn,1
+StmbStt EP Distracted,-1
+EP Rls AHandy,1
+(R) CrdStt EP Ld   (HT),-1
+(R) EP Rls Ld  (HT),1
+Rls Ld  (HT),-1
+CrdStt EP Rls (HT),-1
+EP Ld RnIn (HT),-1
+EP Rls Ld,1
+EP Rls Chl ,1
+Rls Ld ,-1
+SAw EP Rls,1
+Rls Ld RnIn,-1
+Rls,-1
+EvAw NvrShwd,-1
+ChlRnUp RnOn,-1
+EvAw FddRnIn,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+Lame,-1
+EP LongLd NrLn,1
+EP Mid Rls Ld RnIn,-1
+Rls Fcd Ck Blk,-1
+(R) Rls ALd HldOn,1
+Rls ClrRn,-1
+SAw EP ChlFr,-1
+EP Rls Ld  ,-1
+(R) EP Rls Ld RnIn,1
+Rls Crd Chl ,-1
+Fcd Ck Chl Ld,1
+Non Arrival,-1
+Rls Ld RnIn,-1
+EP Rls DispLd,-1
+EP Rls ALd,1
+EP Rls Ld RnIn,1
+SAw Crd  ,-1
+EP Mid Rls Ld,1
+(R) EP Rls Ld RnIn,-1
+QAw Mid Rls Ld  Crd,-1
+EP Rls Mid,-1
+Rls Ld ,1
+Rls,1
+(R) Rls Ld  Crd (HT),-1
+EP Rls SnLd NrLn,1
+StmbStt EP Distracted,-1
+EP Rls AHandy,1
+(R) CrdStt EP Ld   (HT),-1
+(R) EP Rls Ld  (HT),1
+Rls Ld  (HT),-1
+CrdStt EP Rls (HT),-1
+EP Ld RnIn (HT),-1
+EP Rls Ld,1
+EP Rls Chl ,1
+Rls Ld ,-1
+SAw EP Rls,1
+Rls Ld RnIn,-1
+Rls,-1
+EvAw NvrShwd,-1
+ChlRnUp RnOn,-1
+EvAw FddRnIn,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+Lame,-1
+EP LongLd NrLn,1
+EP Mid Rls Ld RnIn,-1
+Rls Fcd Ck Blk,-1
+(R) Rls ALd HldOn,1
+Rls ClrRn,-1
+SAw EP ChlFr,-1
+EP Rls Ld  ,-1
+(R) EP Rls Ld RnIn,1
+Rls Crd Chl ,-1
+Fcd Ck Chl Ld,1
+Non Arrival,-1
+Rls Ld RnIn,-1
+EP Rls DispLd,-1
+EP Rls ALd,1
+EP Rls Ld RnIn,1
+SAw Crd  ,-1
+EP Mid Rls Ld,1
+(R) EP Rls Ld RnIn,-1
+QAw Mid Rls Ld  Crd,-1
+EP Rls Mid,-1
+Rls Ld ,1
+Rls,1
+(R) Rls Ld  Crd (HT),-1
+EP Rls SnLd NrLn,1
+StmbStt EP Distracted,-1
+EP Rls AHandy,1
+(R) CrdStt EP Ld   (HT),-1
+(R) EP Rls Ld  (HT),1
+Rls Ld  (HT),-1
+CrdStt EP Rls (HT),-1
+EP Ld RnIn (HT),-1
+EP Rls Ld,1
+EP Rls Chl ,1
+Rls Ld ,-1
+SAw EP Rls,1
+Rls Ld RnIn,-1
+Rls,-1
+EvAw NvrShwd,-1
+ChlRnUp RnOn,-1
+EvAw FddRnIn,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+BdBlk NvrShwd,-1
+LckdEP Mid Crd ,-1
+SAw Mid,-1
+Mid LckdEP,-1
+Mid ClrRn,-1
+(Scr) SAw Crd ,-1
+Mid Crd RnOn,-1
+Mid Crd  ,-1
+(R) SAw Mid RnOn,-1
+VSAw ChlRnIn,1
+SAw MvdOff RnOn,-1
+Mid LckdEP,-1
+Crd Ld FnWll,1
+SAw Mid,1
+SAw Blk Fell ,-1
+SAw Blk   RnOn,-1
+VSAw Mid Crd,-1
+CrdStt LckdEP,-1
+SAw Mid Blk,-1
+VSAw Mid W,-1
+Mid LdE,-1
+Mid LdE,-1
+Mid LdE,-1
+Crd RnOn,-1
+Bmp Outp,-1
+Bmp Outp,-1
+Bmp Outp,-1
+Bmp Outp,-1
+Bmp,-1
+(Scr) SAw ClrRn,-1
+EP Bmp Ld,1
+Crd,-1
+Bmp Ld,1
+SnLd ,-1
+EP Mid Ld  ,-1
+Rls Mid Ld ,1
+Mid Bmp Ld,1
+SAw LdNrLn,1
+SAw LdNrLn,1
+SAw LdNrLn,1
+SAw LdNrLn,1
+SAw RnOn,-1
+EvAw BdBlk,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+Bmp,-1
+(Scr) SAw ClrRn,-1
+EP Bmp Ld,1
+Crd,-1
+Bmp Ld,1
+SnLd ,-1
+EP Mid Ld  ,-1
+Rls Mid Ld ,1
+Mid Bmp Ld,1
+SAw LdNrLn,1
+SAw LdNrLn,1
+SAw LdNrLn,1
+SAw LdNrLn,1
+SAw RnOn,-1
+EvAw BdBlk,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+(R) RlsRnUp Chl BdCrd,-1
+(R) ClrRn,-1
+(R) EvCh,-1
+(Scr) CrdStt RnUp ,-1
+Crd Fcd Ck,-1
+ClrRn,-1
+Ld  WnWll,1
+(R) Ld ,-1
+Mid AHandy Ld,1
+(R) Fcd Ck Chl Fcd Ck,-1
+(R) ClrRn,-1
+(R) LdRnIn NrLn,1
+(R) ClrRn,-1
+(R) Crd Fcd Ck,-1
+MidStt ClrRn,-1
+RnOn,1
+Crd Fcd Ck ,-1
+(R) BdCrd,-1
+(R) Ld,1
+ClrRn,-1
+(R) Fcd Ck,-1
+(R) Crd,-1
+Handy  Fcd Ck,-1
+LdBrflyRnIn,1
+Crd,-1
+SnHandy LdNrLn,1
+Fcd Ck,-1
+(R) ClrRn,-1
+(R) BdBlk RnOn,-1
+(R) Crd RnOn,1
+(R) Fcd Ck LdNrLn,1
+(R) FcdW LdRnIn,1
+(R) Fcd Ck ,-1
+(R) ClrRn,-1
+(R) BmpStt Ld CghtNrLn,1
+(R) EvCh,1
+(R) Crd,-1
+(R) Crd Chl Crd LdNrLn,1
+(R) Fcd Ck ,-1
+Mid SnLd DrewClr,1
+Bmp Fcd Ck Crd,-1
+CrdStt ,-1
+CrdStt,-1
+SAw,-1
+Crd,-1
+Bmp,-1
+QAw Ld NrLn,1
+QAw ALd Clr Fr,1
+Handy  ,-1
+(R) LdRnIn,1
+(R) EvCh,-1
+LdRnUp Bmp,-1
+ndFr ,1
+(R) Crd,-1
+(R) Bmp,-1
+(Scr) Bmp,-1
+(R) ChlRnIn,-1
+FcdVW ,-1
+(R) Crd,-1
+(R) Bmp Ld   ,1
+(R) Ld NrLn,1
+Ld ,-1
+Ld,1
+(R) Ld,1
+(R) ClrRn,-1
+Mid ClrRn,-1
+Mid Rls RnOn,1
+Mid Ld ,1
+Mid Rls ClrRn,-1
+EP Mid Rls Ld,1
+Mid Rls ALd,1
+Mid Rls Crd  Fcd Ck,-1
+Rls Mid ClrRn,-1
+EP Rls Mid ClrRn,-1
+Mid Rls Fcd Ck,1
+EP Mid Rls Ld,1
+Rls Mid EP Ld,1
+EP Mid Rls,-1
+SAw Rls Mid Bmp,-1
+Rls Mid Ld,1
+SAw Ld  MvdMid,1
+EP Stmb  Crd,-1
+SAw Mid Rls Ld,1
+SAw EP Crd (HT),-1
+Mid ALd (HT),1
+EP Mid W SnLd (HT),1
+Mid (HT),1
+Mid W ClrRn,-1
+W ClrRn,-1
+EP W LdRnIn NrLn,1
+Ld Bmp,-1
+Mid W ClrRn,1
+Chl Imp  (ReQul),-1
+QAw Ld ,-1
+QAw ClrRn,-1
+(R) Mid W ClrRn,-1
+Ld  MidRnUp,1
+ClrRn,-1
+W SnHandy,1
+QAw Handy CmAgnRnIn,1
+ChlFr  LdNrLn,1
+ChlFr LdNrLn,1
+W MsdTrbl Ld ,1
+Crd FcdW,-1
+W Ld  CmAgnRnIn,-1
+FcdVW,-1
+QAw Ld  RnOn,1
+SAw ClrRn,-1
+SnLd ,-1
+AHandy ChlNrLn,1
+Fcd CkRnIn,-1
+W Fcd Ck,-1
+W ClrRn,-1
+RnOn,-1
+Crd,-1
+QAw Mid W,-1
+Mid W,-1
+QAw ALd DrewClr (ReQul),1
+Chl Fcd Ck (HT),-1
+QAw Ld  StydHandy,1
+EP Fcd CkBd,-1
+QAw Ld  StydHandy,-1
+Chl Bmp,1
+Mid Ld  (HT),1
+Mid W,1
+Handy  W,-1
+QAw Ld WnWll,1
+FcdW,-1
+SAw ClrRn,-1
+Mid W ClrRn,-1
+EP Handy ,-1
+EP Handy BmpRnIn,-1
+Ld WnWll,1
+W ClrRn,-1
+Crd HandyFr LdNrLn,1
+AndRnOn,1
+EvCh,-1
+Ld  Ld,1
+Crd,-1
+QAw Ld  StmbRnIn,1
+ClrRn,-1
+(R) BmpStt,-1
+Ld  Mid W,1
+QAw StruckInto Bmp (ReQul),-1
+(R) ClrRn,-1
+Mid W Ld ,1
+Bmp Crd Fcd Ck,-1
+DispLd Rls Mid,-1
+Mid SnLd,1
+Mid W,1
+MsdTrbl Ld ,1
+CkdVW VGreen,1
+BdCrd StmbB,-1
+Rls Crd ,-1
+ClrRn,-1
+EP Rls ndFr RnIn,-1
+Rls ClrRn,-1
+Rls ClrRn,-1
+LckdEP Crd,-1
+Rls LdRnIn,1
+ClrRn,-1
+Rls ClrRn,-1
+EP Rls,1
+Rls RnOn,1
+RlsStt Crd KO (ReQul),-1
+Rls Crd,-1
+Rls,-1
+Rls,-1
+Bmp Fcd Ck,-1
+Rls EvCh,-1
+Ld,1
+EP AHandy ChlRnIn,1
+ClrRn,-1
+Rls ClrRn,-1
+Crd,-1
+ClrRn,-1
+ClrRn,-1
+Ld DrewClr,1
+Ld   Crd,1
+Ld CghtNrLn,1
+Rls SnLd,1
+Rls FddFr ,-1
+ClrRn,1
+(R) Rls ClrRn,-1
+ClrRn,-1
+Crd,-1
+Handy  RnOn,-1
+ClrRn,-1
+Rls Crd,-1
+Rls SnLd WnWll,1
+Rls Bmp,-1
+Rls Ld ,1
+ClrRn,1
+Rls ClrRn,1
+Lame,-1
+Rls ClrRn,-1
+Rls ClrRn,1
+Rls Crd,-1
+SnLd,1
+Rls LdRnIn,1
+(R) ClrRn,-1
+(R) SAw Chl Crd,-1
+Rls ClrRn,-1
+Crd,-1
+Crd Bmp,-1
+SAw ClrRn,-1
+Crd,-1
+Rls ClrRn,1
+Rls ALd,1
+Bmp Ld Mid Rls,1
+Mid Rls,1
+MsdBrk W Bmp,-1
+Mid W ClrRn,-1
+MsdBrk Mid W,-1
+MsdBrk,-1
+Ld NrLn,1
+EP Mid Ld  ,-1
+Bmp,-1
+EP SnLd   Blk,-1
+MidRnUp ALd Clr,1
+ClrRn,1
+Mid Ld,1
+SAw Mid LdRnIn,1
+SAw Mid,1
+(Scr) FnWll,1
+(Scr) Fcd CkRnUp FnWll,1
+(R) BdCrd,-1
+(Scr) Fcd Ck ,-1
+(Scr) Rn FnWll,1
+(Scr) Crd RnOn,1
+(Scr) Fcd Ckd,-1
+(Scr) Fcd Ck RnOn,-1
+(Scr) LckdEP ClrRn,-1
+(Scr) RnOn,1
+(Scr) Rn FnWll,1
+(Scr) ClrRn,-1
+(Scr) Rn FnWll,1
+(Scr) Fcd Ck  LdRnIn,1
+(Scr) LdNrLn,1
+(Scr) ClrRn,-1
+(Scr) LdRnIn,1
+(Scr) Crd RnOn,1
+(Scr) Rn FnWll,1
+(Scr) CrdRnUp LdNrLn,1
+(R) Ld WnWll,1
+(R) LdNrLn,1
+(R) VSAw Fcd Ck ,-1
+(R) Bmp LdRnIn,1
+(Scr) Crd  RnOn,-1
+(Scr) Crd,-1
+(Scr) RnOn,1
+(R) RnOn,-1
+(Scr) ClrRn,-1
+(Scr) ClrRn (HT),-1
+(Scr) Rn FnWll,1
+(Scr) Bmp Crd  LdRnIn,1
+(R) RnOn,-1
+(R) LdNrLn,1
+Bmp,-1
+(R) Bmp RnOn,1
+(R) RnOn,1
+BmpStt Crd FnWll,1
+RnOn,1
+Fcd CkBd,-1
+(Scr) RnOn,-1
+Chl Crd  RnOn,1
+(Scr) EP Chl Crd,-1
+(Scr) Bmp StydOn,-1
+(Scr) RnOn,1
+Mid SnLd,1
+(Scr) RnOnWll,1
+(Scr) Rn FnWll,1
+(R) Ld  DrewClr,1
+(Scr) Chl Crd Ld ,1
+Blk,-1
+(Scr) RnOn,1
+LdNrLn,1
+LdNrLn,1
+Fcd Ck,-1
+SAw ClrRn,1
+SAw Bmp Fcd Ck,1
+(Scr) LdRnIn DrewClr,1
+(Scr) HitRls,-1
+ndFr,1
+(Scr) ClrRn,-1
+(Scr) CrdStt  Blk,-1
+(Scr) Fcd Ck FnWll,1
+EvCh,1
+(Scr) Bmp LdRnIn,1
+(Scr) RnOn,1
+Fcd Ck Fcd CkBmp,-1
+Blk (HT),-1
+Crd,-1
+Bmp,-1
+Rn FnWll,1
+Crd Fcd Ck,-1
+Ld ,1
+SAw Mid BdBmp KO (ReQul),-1
+Mid W LdNrLn,1
+AHandy Mid,1
+Mid W Ld,1
+LdRnIn,1
+Crd ChlRnIn,1
+BdBlk Crd ,-1
+SAw Mid,-1
+Mid W EvCh,-1
+Off Colour,-1
+W Bmp,-1
+SAw Mid W,-1
+SAw BdBmp Crd,-1
+Crd,-1
+EP Mid W Ld,1
+Mid W Crd,-1
+W DispLdThr'Out,1
+Mid EvCh,1
+Mid W,1
+QAw Mid,1
+SAw Crd Blk Ckd,-1
+Crd BlkRnIn,-1
+SAw Mid,-1
+Mid Ld   Crd,1
+Mid RnOn,1
+EP Mid W EasedSltSough,1
+Mid Ld ,1
+SAw Mid,1
+(R) Handy  ,-1
+Bmp,-1
+(R) Ld NrLn,1
+Handy  Crd,-1
+ndFr,1
+Fcd Ckd ,-1
+QAw Ld   LooseJkt,-1
+Ld   Crd,-1
+(R) Ld  ,-1
+(R) ClrRn,-1
+(R) SnLd Crd,-1
+ClrRn,-1
+(R) ClrRn,-1
+ClrRn,-1
+(R) Ld  ,1
+VQAw Ld  ,-1
+QAw ALd WnWll,1
+(R) Ld,1
+(R) Ld  ,-1
+Handy  ,-1
+QAw ALd,1
+Mid EP,1
+Mid Ld Crd,-1
+Ld StruckInto ,1
+By Stewards,-1
+(R) Ld ,-1
+(R) Bmp Stmb,-1
+(R) Ld ,-1
+Ld  ,-1
+LdRnUp ,-1
+EP SnLd ,1
+QAw Ld RnIn,1
+EP Ld  CmAgn ,1
+ClrRn,-1
+(R) EP Crd,-1
+Crd,-1
+LdRnUp RnIn,-1
+ClrRn,-1
+(R) ClrRn,-1
+QAw Ld ,1
+ALd,1
+ClrRn,-1
+ClrRn,-1
+QAw Ld  Fcd Ck ,-1
+(R) ClrRn,-1
+QAw Ld ,1
+QAw Ld  Crd,-1
+Ld  ,-1
+EP Bmp Crd,-1
+QAw ALd,1
+ClrRn,1
+Crd (ReQul),-1
+(R) ClrRn,-1
+QAw Ld ,1
+(R) Crd,-1
+QAw Ld RnIn,1
+(R) ClrRn,-1
+(R) ALd,1
+(R) Ld,1
+(R) Crd,-1
+(R) And,1
+Fcd Ckd,-1
+StmbStt,-1
+ClrRn,-1
+ClrRn,-1
+SnLd  BdBlk,1
+CrdStt BdBlk (ReQul),-1
+(R) VSAw Bmp,-1
+EP ClrRn,-1
+Blk,-1
+ALd,1
+(R) SnLd  Blk,-1
+LdRnUp ,-1
+Bmp Crd   ,-1
+ClrRn,-1
+Mid Ld ,1
+Non Arrival,-1
+ALd,1
+Crd,-1
+(R) ClrRn,-1
+(R) Ld NrLn,-1
+(R) Ld ,-1
+Ld  ,-1
+SnLd ,1
+ClrRn,-1
+MvdOff Bmp,-1
+Mid EP ClrRn,1
+ClrRn Mid,-1
+EP Ld  Mid W,1
+ClrRn Mid W,-1
+Ld ,1
+In Season,-1
+(R) ClrRn,-1
+Mid ALd,1
+Mid Crd Fcd Ck,-1
+Cough,-1
+Ld ,1
+Mid Crd,-1
+(R) Blk (ReQul),-1
+Ld NrLn (HT),1
+Mid Rls ClrRn,-1
+Lame,-1
+(R) AClrHldOn,1
+(R) Ld NrLn,1
+Mid ALd,1
+Mid Rls Crd,-1
+Mid SAw,-1
+SnLd ,1
+Ld NrLn,1
+(R) Handy  ,-1
+Bmp,-1
+(R) Ld NrLn,1
+Handy  Crd,-1
+ndFr,1
+Fcd Ckd ,-1
+QAw Ld   LooseJkt,-1
+Ld   Crd,-1
+(R) Ld  ,-1
+(R) ClrRn,-1
+(R) SnLd Crd,-1
+ClrRn,-1
+(R) ClrRn,-1
+ClrRn,-1
+(R) Ld  ,1
+VQAw Ld  ,-1
+QAw ALd WnWll,1
+(R) Ld,1
+(R) Ld  ,-1
+Handy  ,-1
+QAw ALd,1
+Mid EP,1
+Mid Ld Crd,-1
+Ld StruckInto ,1
+By Stewards,-1
+(R) Ld ,-1
+(R) Bmp Stmb,-1
+(R) Ld ,-1
+Ld  ,-1
+LdRnUp ,-1
+EP SnLd ,1
+QAw Ld RnIn,1
+EP Ld  CmAgn ,1
+ClrRn,-1
+(R) EP Crd,-1
+Crd,-1
+LdRnUp RnIn,-1
+ClrRn,-1
+(R) ClrRn,-1
+QAw Ld ,1
+ALd,1
+ClrRn,-1
+ClrRn,-1
+QAw Ld  Fcd Ck ,-1
+(R) ClrRn,-1
+QAw Ld ,1
+QAw Ld  Crd,-1
+Ld  ,-1
+EP Bmp Crd,-1
+QAw ALd,1
+ClrRn,1
+Crd (ReQul),-1
+(R) ClrRn,-1
+QAw Ld ,1
+(R) Crd,-1
+QAw Ld RnIn,1
+(R) ClrRn,-1
+(R) ALd,1
+(R) Ld,1
+(R) Crd,-1
+(R) And,1
+Fcd Ckd,-1
+StmbStt,-1
+ClrRn,-1
+ClrRn,-1
+SnLd  BdBlk,1
+CrdStt BdBlk (ReQul),-1
+(R) VSAw Bmp,-1
+EP ClrRn,-1
+Blk,-1
+ALd,1
+(R) SnLd  Blk,-1
+LdRnUp ,-1
+Bmp Crd   ,-1
+ClrRn,-1
+Mid Ld ,1
+Non Arrival,-1
+ALd,1
+Crd,-1
+(R) ClrRn,-1
+(R) Ld NrLn,-1
+(R) Ld ,-1
+Ld  ,-1
+SnLd ,1
+ClrRn,-1
+MvdOff Bmp,-1
+Mid EP ClrRn,1
+ClrRn Mid,-1
+EP Ld  Mid W,1
+ClrRn Mid W,-1
+Ld ,1
+In Season,-1
+(R) ClrRn,-1
+Mid ALd,1
+Mid Crd Fcd Ck,-1
+Cough,-1
+Ld ,1
+Mid Crd,-1
+(R) Blk (ReQul),-1
+Ld NrLn (HT),1
+Mid Rls ClrRn,-1
+Lame,-1
+(R) AClrHldOn,1
+(R) Ld NrLn,1
+Mid ALd,1
+Mid Rls Crd,-1
+Mid SAw,-1
+SnLd ,1
+Ld NrLn,1
+(R) SnHandy EvCh,-1
+(R) ClrRn,-1
+(R) RnOn,-1
+(R) Handy BdCrd,-1
+Mid W LdRnIn,1
+Lame,-1
+(Scr) Fcd Ckd,-1
+(Scr) Ld RnIn,1
+(Scr) Crd,-1
+(Scr) EP Bmp ndFr,1
+(Scr) RnOn,-1
+(R) LdRnIn,1
+(R) Crd,-1
+(R) SnHandy Ld DrewClr,1
+(R) FcdW SnHandy,1
+(R) EP ChlRnIn,1
+(R) ALd WnWll,1
+(R) Bmp,-1
+(R) Ld ,-1
+(Scr) ClrRn,-1
+(R) Ld,1
+(R) ClrRn,-1
+(R) ClrRn,-1
+(R) StruckInto,-1
+(R) Handy ,-1
+(Scr) EP,-1
+(R) EP ChlFr,-1
+(R) SnHandy,-1
+(R) ClrRn,-1
+(R) Ld StydOn,1
+(R) Ld RnUp StydHandy,-1
+(R) Ld ,1
+(R) Ld CghtNrLn,-1
+(R) Ld RnIn,-1
+(R) Ld ,-1
+(R) ClrRn,-1
+(R) ClrRn,-1
+(R) HandyEChl ,-1
+(R) ClrRn,-1
+(R) ClrRn (HT),-1
+Mid ClrRn,1
+In Season,-1
+(Scr) Bmp,-1
+(Scr) RnOn,-1
+(Scr) ClrRn,-1
+RnOn,-1
+(Scr) RnOn,1
+DispLd  CmAgn,1
+(Scr) ClrRn,-1
+LdNrLn,1
+(R) RnOn,1
+RnOn,1
+(R) ClrRn,-1
+(Scr) ChlRnIn,1
+(Scr) VBdBlk,-1
+(R) ALd,1
+(R) ClrRn,-1
+(R) RnOn,-1
+(R) Ld,1
+(R) EP ChlFr LdNrLn,1
+(R) Ld,1
+ClrRn,-1
+(R) Crd,1
+(R) ClrRn,-1
+(R) LdNrLn,1
+(R) ClrRn,-1
+(R) Bmp,-1
+(R) ClrRn,-1
+(R) ClrRn,1
+(R) ClrRn,-1
+(R) SnHandyCrd,-1
+(R) ClrRn,-1
+(Scr) ClrRn,-1
+(Scr) QAw ClrRn,-1
+(Scr) Crd,-1
+(R) SnHandyLd,1
+(R) ClrRn,-1
+(R) Crd,-1
+(R) BdBlk,-1
+(Scr) FnWll,1
+(R) Crd ,-1
+(R) ClrRn,-1
+(R) RnOn,-1
+(Scr) ClrRn,-1
+(Scr) ClrRn,-1
+(Scr) Crd,-1
+(R) ClrRn,-1
+(R) RnOn,-1
+(R) RnOn,1
+(R) LdRnIn,1
+(R) FnWll,1
+(R) RnOn,1
+(R) RnOn,1
+(Scr) Crd,-1
+(R) RnOn,1
+(R) Ld RnIn,1
+(Scr) ClrRn,-1
+(Scr) Crd RnIn,-1
+(R) Crd,-1
+(R) Crd,-1
+(R) Crd,-1
+(R) RnOn,1
+(Scr) Crd FnWll,1
+(R) Ld,1
+(R) Crd,-1
+(R) Fcd Ck,-1
+Ld ,1
+ClrRn,-1
+ClrRn,1
+SAw Blk,-1
+Blk,-1
+Fcd Ckd,-1
+Blk,-1
+Crd  LdNrLn,1
+W ClrRn,-1
+W LdNrLn,1
+ClrRn,-1
+FnWll,1
+Crd,-1
+ClrRn,-1
+ClrRn,-1
+(Scr) RnOn,-1
+ClrRn,-1
+Bmp,-1
+Bmp RnOn,1
+Bmp,-1
+Ld  Crd,-1
+Mid ClrRn,1
+Bitten,-1
+Crd,1
+Crd,-1
+Crd,-1
+Ld,1
+(R) SnLd  Ld,1
+BdBlk,-1
+LdRnIn,1
+Mid Ld,1
+Mid Ld,1
+Mid Rls Ld ,1
+Mid Ld ,1
+Mid ClrRn,1
+Green,1
+Mid W Ld WnWll,1
+ClrRn,-1
+W ClrRn,-1
+(R) W ClrRn,-1
+Fcd Ck,-1
+EP SnLd Bmp,1
+Mid W ClrRn,1
+BroughtDown (ReQul),-1
+W Bmp RnOn,-1
+Bmp,-1
+SAw W ClrRn,-1
+W Bmp,-1
+W ALd,1
+SAw Blk,-1
+W RnOnLate,-1
+RnOn,-1
+Crd FcdW,-1
+RnOn,-1
+W LdNrLn,1
+RnOn,1
+SAw W,-1
+Handy ,1
+LckdEP,-1
+BdBlk,-1
+BdBmp KO (ReQul),-1
+SAw Fcd Ck,-1
+SAw W ClrRn,-1
+Ld ,-1
+SnLd WnWll,1
+SAw BdBlk,-1
+ClrRn,-1
+Crd ,-1
+QAw Ld NrLn,1
+In Season,-1
+W FnWll,1
+StmbRnUp,-1
+(R) VW Ld ,-1
+(R) ClrRn,-1
+LeftClrStt,1
+Ld  Bmp,-1
+Bmp Fcd Ck,-1
+EP StruckInto ,-1
+LdRnUp WnWll,1
+ClrRn,1
+Crd ,-1
+SAw,-1
+Fcd Ckd,-1
+Mid W,-1
+BdBlk (ReQul),-1
+FcdW ,-1
+ALd,1
+(R) W ClrRn,1
+(R) Handy  ,1
+SAw ClrRn,-1
+ClrRn,-1
+ClrRn,-1
+Ld,1
+SAw Mid W LdNrLn,1
+Mid W,1
+Fcd Ck,-1
+Ld  RnOn,1
+Ld DrewClr,1
+SAw FcdW,-1
+ClrRn,-1
+SnndRnOn,1
+Bmp,-1
+ALd Clr Fr ,1
+(R) Ld ,-1
+(R) Ld ,-1
+Mid W Ld ,1
+(R) W ClrRn,-1
+EP Ld  Fcd Ck,-1
+DispFr   Crd,-1
+(R) Ld  Mid W,1
+Bmp,-1
+LckdEP (HT),-1
+BmpStt,-1
+(R) Fcd Ck,-1
+Crd   RnOn,1
+CrdRnUp Bmp,-1
+Mid ClrRn,1
+Mid Ld   Ld,1
+Mid W,1
+ClrRn,-1
+AHandy LdRnIn NrLn,1
+ChlFr,1
+ClrRn,-1
+(R) Ld  Handy Crd,-1
+Bmp ,-1
+Mid ALd,1
+DispThr'Out,1
+ClrRn,-1
+Rls ClrRn,1
+Chl RnIn,1
+Bmp,-1
+Bmp ndFr,1
+Fcd Ck Bmp,-1
+(R) ALd HldOn,1
+MvdOff,-1
+Crd,-1
+(R) Ld  Fcd Ck,-1
+BdCrd,1
+(R) ALd,1
+LckdEP,-1
+(R) Ld RnIn (HT),-1
+(R) Ld ,-1
+(R) Ld ,-1
+(R) Snnd ,-1
+(R) Ld  Crd,-1
+(R) Ld NrLn,1
+Crd Fcd Ck,-1
+(R) Ld  ,-1
+ClrRn,-1
+BlkBlk,-1
+EvCh,1
+W,-1
+(R) Ld RnIn,-1
+(R) Ld  BdCrd ,-1
+Ld,1
+ClrRn,1
+ClrRn,-1
+Crd,-1
+Ld ,-1
+In Season,-1
+(R) Ld ,-1
+W,-1
+Crd Fcd Ck,-1
+ALd,1
+(R) Ld RnIn,-1
+Fcd CkVW Fcd Ck,-1
+SnLd CghtNrLn,1
+SwrvdRlsStt ClrRn,-1
+ClrRn (HT),1
+Crd,-1
+Mid Rls SnHandyLdNrLn,1
+Bmp W Fcd CkRnIn,-1
+(R) Ld  Blk Crd,-1
+(R) Ld  Crd,-1
+(R) Ld RnIn Bmp,1
+Ld RnIn,-1
+(R) Ld RnIn,-1
+(R) Ld  ,-1
+(R) Ld  ,-1
+(R) LongLd HldOn,1
+(R) Ld   Fcd CkRnIn,-1
+(R) Ld   Crd,-1
+(R) ALd HldOn,1
+(R) Ld ,-1
+(R) Ld  ,-1
+(R) Ld ,-1
+(R) Ld  ,-1
+Crd,-1
+BmpStt Blk,-1
+BmpStt Blk,-1
+Fcd Ck  ,-1
+Mid ClrE,1
+Mid SnLd CghtNrLn,1
+Fcd Ck Crd,-1
+CrdRnUp  Chl ,1
+ClrRn,1
+In Season,-1
+ChlRnIn,-1
+(R) Bmp Ld  ,-1
+CrdRnIn,-1
+SnLd  Crd (HT),-1
+Blk,-1
+(R) AHandy,-1
+Fcd Ck,-1
+Ld RnIn,-1
+Mid Rls Ld,-1
+Rls HitRls,-1
+Rls HitRls,-1
+CrdRnUp Crd,-1
+CrdRnUp Crd,-1
+CrdRnUp Crd,-1
+MsdBrk FcdVW,-1
+MsdBrk W,-1
+SAw W,-1
+SnHandy LdNrLn,1
+SAw W ChlRnIn,1
+Bmp,-1
+SAw W ChlFr,1
+SAw Bmp,-1
+VSAw ClrRn,1
+SAw Bmp,-1
+VSAw BdBlk,-1
+SAw Bmp Ld ,1
+SAw SnHandy Ld ,1
+VSAw SnHandy Ld,1
+SAw Fcd Ck Bmp,-1
+StmbStt Handy  VW,-1
+VSAw Bmp,-1
+(R) VSAw CkdSough (ReQul),-1
+LeftStt RnOnWll,-1
+SAw Mid Ld,1
+SAw Fcd Ck Ld,1
+MsdBrk BMid W,1
+BdMsdBrk RnOn,-1
+MsdBrk FcdVW,-1
+MsdBrk W,-1
+SAw W,-1
+SnHandy LdNrLn,1
+SAw W ChlRnIn,1
+Bmp,-1
+SAw W ChlFr,1
+SAw Bmp,-1
+VSAw ClrRn,1
+SAw Bmp,-1
+VSAw BdBlk,-1
+SAw Bmp Ld ,1
+SAw SnHandy Ld ,1
+VSAw SnHandy Ld,1
+SAw Fcd Ck Bmp,-1
+StmbStt Handy  VW,-1
+VSAw Bmp,-1
+(R) VSAw CkdSough (ReQul),-1
+LeftStt RnOnWll,-1
+SAw Mid Ld,1
+SAw Fcd Ck Ld,1
+MsdBrk BMid W,1
+BdMsdBrk RnOn,-1
+MsdBrk EP ClrRn,1
+MsdBrk Fcd Ck RnOn,1
+Ld,1
+Ld CghtNrLn,-1
+Handy  Crd,-1
+EP Handy ,1
+Ld Clr WnWll,1
+EP Mid Ld NrLn,1
+Handy ,-1
+SAw Bmp,-1
+ndFr,1
+SnHandy Chl Fcd CkRnIn,-1
+(R) Blk ,-1
+EP SnLd RnIn,-1
+EP,-1
+Ld NrLn,-1
+(R) Chl BdCrd ,-1
+MsdBrk Crd,-1
+(Scr) EP SnHandy LdNrLn,1
+Ld CghtRnIn,1
+MsdBrk Bmp Chl,-1
+Crd  BmpRnIn,-1
+Ld   Bmp,-1
+Ld WnWll,1
+QAw Ld CghtNrLn,-1
+(Scr) Bmp,-1
+Ld RnIn,1
+Chl ,-1
+SnLd,1
+Handy ,-1
+Chl Crd,1
+LdRnUp  ,-1
+EP SnLd,1
+EP Handy ,-1
+Chl Fcd Ck,-1
+QAw Ld  WnWll,1
+CrdStt Fcd Ck,-1
+EvCh,1
+Fcd Ckd,-1
+Crd,-1
+Bmp,-1
+Fcd Ckd ,-1
+RnOn,1
+(R) BdMsdBrk,-1
+SAw Crd,1
+Handy  ,-1
+BmpStt  Fcd Ck ,-1
+QAw LdRnUp RnIn,1
+MsdBrk EP BdBmp,-1
+Ld RnIn,1
+Mid LdRnUp RnIn,-1
+Mid ClrRn,-1
+MsdBrk RnOn,-1
+Ld  RnOn,1
+MvdOff Blk,1
+MvdOff Blk,1
+MvdOff Blk,1
+(R) LdRnIn,1
+EP ClrRn,-1
+Rls AHandy,1
+BdCrd BroughtDown (ReQul),-1
+AHandy,-1
+And,1
+VBdBlk KO (ReQul),-1
+Chl Fcd Ck RnOn,-1
+ndFr ,1
+ClrRn,-1
+ClrRn,-1
+Crd,-1
+Crd,-1
+LdRnUp,1
+ClrRn,-1
+CrdStt,-1
+Ld,1
+MsdBrk Crd,-1
+ClrRn,-1
+ClrRn,-1
+RnOn,1
+(R) ClrRn,-1
+ClrRn,-1
+Handy  ,-1
+AHandy,-1
+SnHandy ChlNrLn,1
+SAw,-1
+Crd,-1
+AHandy,1
+Crd,-1
+Crd,-1
+(Scr) Crd ,-1
+ndFr,1
+LdRnUp WnWll,1
+Ld,1
+EvCh,1
+Mid Rls Handy  ,1
+BdBmp,-1
+Bmp,-1
+(R) Ld  HldOn,1
+(R) StruckIntoStt,-1
+EvCh,-1
+ClrRn,-1
+Crd,-1
+LdRnUp ,1
+ClrRn,-1
+(R) BdBlk,-1
+Handy ,1
+LdRnIn,1
+EP SnLd RnIn,1
+QAw Ld NrLn,1
+Ld NrLn,-1
+ClrRn,-1
+LdRnIn,1
+SAw ndFr RnIn,-1
+SAw,-1
+SAw LdRnIn NrLn,1
+Crd,-1
+ClrRn,-1
+UpWithTrps Crd ,-1
+LdRnIn CghtNrLn,1
+AHandy,-1
+Rls ChlFr ,1
+MsdBrk Crd,-1
+Crd,1
+Ld ,1
+Rls ClrRn,-1
+ClrRn,-1
+(R) Crd,-1
+Mid Ld ,1
+SAw HitRls Crd,-1
+Mid LdRnUp,1
+Mid Rls ClrRn,-1
+Mid SnLd,1
+Mid,1
+Mid W,1
+W Crd ,-1
+W ClrRn,-1
+W Bmp RnOn,1
+Crd FcdW,-1
+Handy ,-1
+HandyFr  LdNrLn,1
+Bmp,-1
+MsdBrk W,-1
+BdCrd FcdW,-1
+SAw Ld,1
+W ClrRn,-1
+Crd Fcd Ck,-1
+W LdRnIn,1
+W EvCh,1
+EP W,-1
+W StruckInto,-1
+Fcd Ck,-1
+LdNrLn,1
+(Scr) LdNrLn,1
+Fcd Ckd,-1
+Mid W ClrRn,-1
+W RnOn,1
+ClrRn,-1
+Mid W,-1
+QAw Ld DrewClr (ReQul),1
+Ld   StydHandy(HT),1
+ClrRn,-1
+ClrRn,-1
+Crd Fcd Ck,-1
+(R) BmpRnUp And,1
+BdCrd Fcd Ck,-1
+(R) ClrRn,-1
+VBdCrd,-1
+(R) ClrRn,-1
+Mid W ClrRn,-1
+BmpStt BdBlk (ReQul),-1
+Mid ALd,1
+Mid W ALd,1
+Mid SnLd,1
+Mid W ALd,1
+Mid Ld CghtNrLn,1
+In Season,-1
+W,-1
+Fcd CkW,-1
+SnHandy LdNrLn,1
+EvCh,1
+Blk,-1
+Crd Fcd Ck ,-1
+ChlFr,1
+ClrRn,-1
+SAw W,-1
+BdCrd RnOn,1
+MidRnUp ClrRn,1
+ChlThr'Out,1
+VW,-1
+(R) SAw Mid W,-1
+(R) SAw Mid W,-1
+(R) Mid W Ld  CmAgn,1
+(R) Mid W Ld  CmAgn,1
+(R) Mid W ClrRn,-1
+(R) SAw Mid W,-1
+(R) Mid W ClrRn,-1
+(R) Mid W ClrRn,-1
+(R) SAw Mid W Crd,-1
+(Scr) W ClrRn,-1
+(R) Mid W ClrRn,-1
+(R) Mid W ClrRn,-1
+(R) Mid W ClrRn,-1
+(R) Mid W Ld ,1
+(R) SAw Crd  ,-1
+(R) Mid W LdRnIn,1
+(R) Mid W Ld ,-1
+(R) Mid W Crd VW,-1
+(R) Mid VW,-1
+(R) Mid W ClrRn,-1
+(R) SAw Crd VW,-1
+(R) StmbStt VW,-1
+In Season,-1
+(R) Mid W Ld,1
+(R) W Ld ,1
+(R) W Ld  CmAgn,1
+(R) QAw Ld,1
+(R) W Ld VW,-1
+(R) Ld W,-1
+(R) W Ld,1
+(R) Mid ClrRn,-1
+ALd WnWll,1
+Ld  Ld ,1
+Ld  StruckInto,-1
+Mid ALd,1
+Disp  Crd (ReQul),-1
+EP Handy  Crd,-1
+SnLd,1
+LdRnUp  BmpRnIn,-1
+Ld  ,1
+Fcd Ckd ,-1
+QAw Ld  StruckInto Bd,-1
+Mid,-1
+Ld WnWll,1
+MidRnUp ALd,1
+ALd,1
+LdRnUp  Ld   RnIn,1
+Mid Rls,1
+Fcd Ckd,1
+Ld,1
+LckdEP Crd,1
+ClrRn,-1
+LckdEP Rls Crd,-1
+ClrRn,-1
+RnOn,1
+Ld,1
+LckdEP Crd Fcd Ck,-1
+Rls ClrRn,-1
+ClrRn,1
+EvCh,-1
+Crd,-1
+Fcd Ckd,-1
+(R) Ld WnWll,1
+BdBmp,-1
+LdRnIn,1
+EvCh,1
+ClrRn,-1
+RnOn,1
+LdRnIn HldOn,1
+ClrRn,-1
+Crd,-1
+RnOn,1
+(R) Chl Fcd Ck ,-1
+Crd,-1
+Fcd Ck ,-1
+RnOn,-1
+ClrRn,-1
+EP SnLd RnIn,-1
+Rls Mid Ld,1
+Mid Rls Ld,1
+Mid Rls ClrRn,-1
+Mid Rls RnOn,1
+EvCh,-1
+LdRnIn,1
+ClrRn,-1
+Mid LdRnUp,1
+Mid LdRnUp,1
+Crd,1
+QAw EvCh,1
+RnOn,1
+Crd RnOn,1
+Crd,-1
+EvCh,1
+CrdRnUp,-1
+EvCh,1
+Mid Rls,1
+Ld,1
+SAw Crd,-1
+Mid Rls Bmp LdNrLn,1
+Mid,1
+Crd,-1
+Mid Rls EvCh,1
+SAw Mid Rls,-1
+SAw,-1
+Mid Rls,-1
+RnOn,1
+SAw ClrRn,-1
+EP Bmp,-1
+SAw,-1
+Rls Mid,-1
+SAw Rls,-1
+CrdRnUp,-1
+LdRnUp,1
+Mid,1
+(R) HandyFr,1
+(R) LckdEP,1
+(R) Bmp,1
+(Scr) CrdStt RnUp ,-1
+(R) ClrRn,-1
+ClrRn,-1
+By Stewards,-1
+ALd,1
+(R) SnHandy Ld  NrLn,1
+(R) Ld RnIn,1
+(R) ClrRn,-1
+(R) Crd LdRnIn,1
+(R) Blk,-1
+(Scr) FcdW,-1
+LckdEP Crd ,-1
+Crd HitRls,-1
+ClrRn,-1
+ClrRn,-1
+Ld,1
+SAw FnWll,1
+SAw HandyFr LdNrLn,1
+Crd Fcd Ck,-1
+LdRnIn,1
+W ClrRn,-1
+(R) Blk Crd,-1
+(R) Blk Crd,-1
+(R) Ld RnIn,1
+(R) VSAw Crd,-1
+StmbStt LdNrLn,1
+Crd FcdW,-1
+Blk Ld,1
+Mid AHandy,1
+Mid W,1
+VSAw Mid,1
+VSAw W RnOnLate,-1
+W RnOnLate,-1
+W RnOnLate,-1
+W LdNrLn,1
+BdBlk,-1
+W Fcd Ck,-1
+W LdRnIn,1
+W RnOn,1
+SAw W FnWll,1
+SAw RnOn,-1
+OutpE W RnOn,-1
+SAw Fcd Ck  FnWll,1
+OutpE W Rn FnWll,1
+SAw RnOn,1
+W Crd RnOn,-1
+Crd RnOn,1
+SAw RnOn,-1
+BdBmp FcdVW,-1
+Mid ALd Crd,1
+AHandy Fcd Ck,1
+ALd Mid,1
+ALd,1
+CkdSough NrLn,1
+Mid SnLd,1
+EP EvCh,1
+(R) Crd ,-1
+EP SnLd   Blk,-1
+nd RnIn,-1
+ClrRn,-1
+Rls Mid,-1
+Fcd Ck,1
+BmpRnIn,1
+Rls CrdRnUp SnLd,1
+Mid,1
+W ClrRn,-1
+Bmp FcdVW,-1
+W ClrRn,-1
+ClrRn,-1
+Mid ClrRn,-1
+W ClrRn VW,1
+SAw Crd,-1
+W Ld ,1
+EvCh,-1
+W EvCh,-1
+EvCh,-1
+Crd,-1
+QAw Ld NrLn,1
+SAw Crd,-1
+Blk ,-1
+EP W Ld,1
+W Blk,-1
+SAw W,-1
+SAw BdBmp Crd ,-1
+SAw W,-1
+SAw BlkRnUp ,-1
+SAw W Ld ,1
+(Scr) SAw W Crd,-1
+SAw Crd,-1
+EvCh,-1
+W EvCh,1
+QAw W Crd Ckd,-1
+W DispLd Ld,1
+W Ckd ,1
+W ALd,1
+SAw,-1
+RnOn,-1
+QAw ALd,1
+VSAw Ckd ,-1
+Mid W,-1
+VW RnOn,-1
+Blk ,1
+SAw VW Mid,-1
+PckdStt W Mid,-1
+Mid W,-1
+Off Colour,-1
+CrdStt MidRnUp,-1
+Ld  Mid W,1
+Crd  Mid W,-1
+ClrRn Mid,-1
+ClrRn Mid,-1
+EP Ld Mid W,1
+Fcd Ck Rls Mid,-1
+Crd Rls Mid,-1
+Crd Mid Rls,-1
+Crd  Mid Rls,1
+SAw Fcd Ck,-1
+SAw StruckInto,-1
+CkdW Mid,-1
+Mid Rls,-1
+SAw Mid Rls,-1
+SAw Eased,-1
+LdRnIn Mid Rls,1
+Rls Mid,1
+SAw Crd,-1
+Mid Rls,-1
+CrdStt Bmp Fcd Ck,-1
+MsdBrk Mid Rls,-1
+PckdStt Ld Rls Mid,1
+Mid,1
+Mid Rls ClrRn,-1
+SAw W,-1
+(R) Ld  ,-1
+(R) Ld  Crd,-1
+(R) Ld ,-1
+(R) Ld   Crd,-1
+(R) ALd HldOn,1
+Crd,-1
+(R) Ld ,1
+(R) Ld  Crd,-1
+(R) Ld   Crd,-1
+(R) Ld  Crd,-1
+(R) Ld ,1
+(R) Ld   Ld NrLn (HT),1
+Crd Fcd Ck ,-1
+(R) Ld ,1
+(R) Ld  BdCrd,-1
+(R) Ld  Fcd Ck,-1
+(R) Ld  Crd,-1
+(R) Ld ,-1
+(R) Ld StruckIntoNrLn,1
+(R) Ld ,-1
+(R) Ld   CmAgn,1
+(R) StmbStt Ld ,-1
+Crd,-1
+(R) LongLd ALd,1
+CrdRnUp ,-1
+Crd,-1
+ClrRn,-1
+(R) ALd,1
+Bmp,-1
+(R) Ld  BdCrd,-1
+(R) Ld  ,-1
+(R) Ld  Crd (HT),-1
+StruckInto Crd,-1
+(R) Ld  Crd,-1
+(R) Crd,-1
+Crd,-1
+(R) Ld ,-1
+ndFr  ,-1
+Crd,-1
+(R) Ld ,-1
+(R) Ld RnIn,-1
+(R) ALd,1
+ClrRn,-1
+(R) SAw Crd,-1
+SAw Crd,-1
+ClrRn,-1
+CrdStt LdRnIn NrLn,1
+ClrRn,-1
+SAw BdCrd,-1
+Ld ,-1
+SAw,-1
+Rls,-1
+Rls Mid,-1
+Bmp Ld ,-1
+Ld RnIn Crd,1
+Mid Rls,1
+EP SnHandy LdRnIn,1
+(R) ClrRn,-1
+(R) EP Ld ,1
+(R) SnHandy,1
+Mid ALd ClrFr,1
+Crd,-1
+Disp ,1
+LckdEP Crd,-1
+CrdRnUp,-1
+ClrRn,-1
+EP Crd,1
+EP SnLd,1
+Ld   BdCrd,-1
+SAw Ckd (ReQul),-1
+ALd,1
+BdCrd,-1
+Chl BdCrd,-1
+BdCrd,-1
+VSAw,-1
+Blk RnOn,1
+Fcd Ck Bmp,-1
+EP Ld,1
+Bmp,-1
+ClrRn,-1
+SAw ClrRn,-1
+Mid,-1
+CheckingThr'Out (ReQul),-1
+SAw,-1
+LdRnUp,1
+Ld,1
+Mid,1
+Crd,-1
+BdCrd,-1
+BdCrd,-1
+Crd,-1
+SAw BdCrd Fcd Ck,-1
+SAw Crd,-1
+EP Ld,1
+Crd,1
+MsdBrk EP BdBlk (ReQul),-1
+Mid,-1
+Fcd Ck Crd  Fdd (ReQul),-1
+Fcd CkRnUp Ld RnIn,-1
+(R) Ld RnIn (HT),1
+Chl Fcd Ck,-1
+Mid LdRnUp ,1
+Mid,1
+Mid,1
+SAw Mid,-1
+SAw Ld Mid,1
+(R) HandyFr Crd,1
+Crd Fcd Ck,-1
+(R) ClrRn,-1
+(Scr) Blk,-1
+(Scr) Crd Fcd Ck  RnOn,-1
+(Scr) Chl Stmb ,-1
+(Scr) Chl BdCrd  GngWll,1
+(Scr) RnOn,1
+(Scr) SnHandy Ld  WnWll,1
+(Scr) Crd Fcd Ck Crd,-1
+Crd Bmp,-1
+ClrRn,-1
+(Scr) Bmp Ld WnWll,1
+BdBlk,-1
+(Scr) Chl Ld ,1
+Crd,-1
+SnLd HldOn,1
+(R) Ld ,1
+Ld RnIn,-1
+SAw SnHandy Ld NrLn,1
+Ld,1
+Ld,1
+(Scr) SAw BdCrd Fcd Ck,-1
+Bmp Fcd CkBmp,-1
+EP Crd,-1
+Rls Mid,-1
+Mid Rls Ld,1
+Mid Rls ClrRn,-1
+EvAw Crd,-1
+EvAw Crd,-1
+EvAw Crd,-1
+Crd NvrShwd,-1
+SAw Crd,-1
+Crd RnOn,-1
+Ld HldOn,1
+Crd FnWll,1
+EP Ld,1
+Ld StydWll,1
+Ld StydWll,1
+MsdBrk NvrShwd,-1
+SAw Blk,-1
+SAw RnOn,-1
+SAw RnOn,-1
+Mid RnOn,1
+Ld Ld,1
+Ld Ld,1
+Ld Ld,1
+Ld Ld,1
+Ld Ld,1
+Mid W ClrRn,-1
+(R) ClrRn,-1
+(Scr) RnOn,1
+(R) Fcd Ck RnOn,-1
+(Scr) Bmp,-1
+(R) LckdEP Crd  ,-1
+(R) Ld  RnIn,1
+(Scr) LdNrLn,1
+(Scr) Crd StydOn,-1
+(R) Bmp LdNrLn,1
+(Scr) Chl Crd,-1
+(Scr) ClrRn,-1
+(Scr) LdNrLn,1
+(Scr) Fcd Ck  Ld,1
+SAw Crd RnOn,1
+(R) Rn FnWll,1
+SAw RnOn,-1
+(Scr) BdCrd,-1
+(R) Ld,1
+(R) EvCh,1
+(R) LckdEP FcdW,-1
+ClrRn,1
+LdRnUp,1
+(R) Crd,1
+(R) BdBlk,-1
+SAw Fcd Ck,-1
+(Scr) RnOn,-1
+SAw,-1
+(R) Bmp RnOn,-1
+(Scr) SAw Crd ,-1
+(R) EvCh,1
+EvCh,1
+(R) Ld  HldOn,1
+(R) ChlRnIn,1
+(R) Ld,1
+(R) SAw ClrRn,-1
+(R) ClrRn,-1
+(R) Bmp  EvCh,1
+(R) Ld ,1
+(R) ChlFr ,1
+AHandy,1
+(Scr) CrdStt ,-1
+(R) RnOn,1
+Mid StmbStt,-1
+LdRnUp,1
+(R) EvCh,1
+(R) Ld ,1
+(Scr) EvCh,-1
+Mid Ld,1
+Lame,-1
+(R) EvCh,1
+(R) Ld,1
+VSAw Crd,-1
+Bmp,-1
+(R) SAw Crd,-1
+VSAw Crd  FnWll,1
+(R) HitRls Bmp,1
+(R) SAw Ld,1
+SAw Fcd Ck Bmp,-1
+Mid Fcd Ck,-1
+Mid Rls Ld,1
+VSAw Mid,1
+BdMsdBrk Green,1
+Mid,1
+(R) ClrRn,-1
+CrdRnUp,1
+ChlRnIn,1
+nd  BdBmp,-1
+ClrRn,-1
+Rls Mid Ld  ,-1
+ClrRn,-1
+Ld,1
+(R) nd  Crd,-1
+(R) ClrRn,-1
+(R) SnLd RnIn,1
+ClrRn,1
+Bitten,-1
+(R) ChlFr,-1
+ClrRn,-1
+Handy ,1
+(R) LckdEP Bmp,-1
+RnOn,1
+(R) ClrRn,-1
+Ld  Crd,1
+RnOn,1
+CrdRnUp,-1
+(R) Ld ,-1
+ClrRn,-1
+ClrRn,-1
+SnHandy EvCh,1
+ClrRn,-1
+MsdBrk,-1
+Crd MsdTrbl,-1
+LdRnUp,1
+Crd Bmp ,-1
+MsdBrk,-1
+Mid Rls ClrRn,-1
+Rls And,1
+Rls Mid Ld,1
+(R) SAw,-1
+(R) SAw ClrRn,-1
+SAw RnOn,1
+(R) SAw,-1
+(R) SAw MvdOff RnOn,1
+DispThr'Out LdRnIn,1
+Mid,1
+DispThr'Out LdRnIn,1
+Ld RnIn,1
+Ld RnIn,1
+(R) SAw Fcd Ck (ReQul),-1
+ClrRn,-1
+LckdEP NvrShwd (ReQul),-1
+ClrRn,1
+(R) SAw BdBlk (ReQul),-1
+RlsRnUp LdNrLn,1
+(R) SAw BdCrd KO,-1
+Mid Rls AHandy Chl ,1
+SAw Mid ClrRn,1
+Ld ,1
+SAw Rls Mid,1
+Mid Rls ClrRn,1
+ClrRn,-1
+LckdEP Fcd JmpW,-1
+QAw ALd WnWll,1
+Crd Fcd Ck ,-1
+Mid SnLd,1
+Mid,1
+Handy  ,-1
+Chl Ld,1
+ndFr,1
+SAw,-1
+RnOn,1
+ClrRn,-1
+Crd,-1
+ClrRn,-1
+Handy  ,-1
+ALd,1
+EP Bmp Ld,1
+Fcd Ck Bmp (HT),-1
+Ld WnWll,1
+Crd,-1
+ClrRn,1
+LdRnUp RnIn,-1
+VQAw Ld ,-1
+QAw Mid,-1
+Ld ,-1
+Ld RnIn,1
+Mid ALd,1
+LdRnUp ClrFr,1
+Ld HldOn,1
+ClrRn,-1
+EP W Handy ,-1
+FcdW,-1
+MsdBrk EP Crd,-1
+Handy ,-1
+ChlFr  Crd (HT),1
+EvCh,-1
+SAw,-1
+QAw Ld CghtNrLn,1
+SAw,-1
+QAw LdRnUp Clr Fr,1
+Bmp,-1
+Bmp Ld NrLn,-1
+DispFr ImpRnIn,-1
+Mid W ALd,1
+SAw Crd Fcd Ck  (ReQul),-1
+Ld NrLn,1
+Mid ALd,1
+Bmp FddFr  (ReQul),-1
+EP SnLd RnIn,1
+MsdBrk EP Chl ,-1
+Mid W SnLd RnIn,-1
+SnLd Mid W,1
+LdRnUp  RnIn Fdd,-1
+EP ALd,1
+Mid LdRnUp RnIn,1
+Mid W,1
+LckdEP RnOn,-1
+Ld  RnOn,1
+Ld EvCh,1
+Disp AHandy,1
+Disp AHandy,1
+Disp AHandy,1
+Disp AHandy,1
+BdCrd Fcd Ck (ReQul),-1
+W BmpRnIn,1
+ClrRn,-1
+Ld DrewClr,1
+SnHandy ChlNrLn,1
+MsdBrk Mid BdCrd,-1
+Mid,-1
+QAw ALd,1
+EP Chl BdCrd,-1
+Ld RnIn,-1
+SnLd Clr,1
+SnLd ,-1
+Mid,-1
+Mid,-1
+BdCrd Fcd Ck (ReQul),-1
+W BmpRnIn,1
+ClrRn,-1
+Ld DrewClr,1
+SnHandy ChlNrLn,1
+MsdBrk Mid BdCrd,-1
+Mid,-1
+QAw ALd,1
+EP Chl BdCrd,-1
+Ld RnIn,-1
+SnLd Clr,1
+SnLd ,-1
+Mid,-1
+Mid,-1
+StruckInto  BmpRnIn,-1
+RnOn,-1
+Crd Bmp,-1
+W,-1
+Crd,-1
+BdCrd,-1
+Ld,1
+StruckInto W,-1
+EP SnLd,1
+EP Chl Fcd Ck,-1
+ALd WnWll,1
+MsdBrk EP Crd,-1
+Ld ,1
+Ld RnIn,1
+MsdBrk Crd Fcd Ck,-1
+BdMsdBrk Mid,1
+Mid ALd,1
+ClrRn,1
+(R) Mid W ClrRn,-1
+(R) EP Mid W Ld ,1
+(R) Mid Ld  ,1
+(R) W ClrRn,1
+Ld RnOn,1
+BmpRnUp NvrShwd,-1
+BmpRnUp NvrShwd,-1
+BmpRnUp NvrShwd,-1
+BmpRnUp NvrShwd,-1
+BmpRnUp NvrShwd,-1
+SAw Ld ,1
+BdBlk ,-1
+Crd Fcd Ck ,-1
+Ld,1
+RnOn,1
+EvCh,-1
+SAw BdCrd,-1
+EP SnLd,1
+SAw EP Crd,-1
+SAw EP Bmp Ld ,1
+Ld RnIn,1
+Fcd CkW,-1
+BdCrd ,-1
+EvCh,-1
+Ld ,1
+Ld   Stmb Fell(ReQul),-1
+Chl Crd,-1
+ChlFr,-1
+EP Disp  Fcd Ck,-1
+SnLd,1
+Handy ,-1
+EP,1
+SnLd ,1
+Chl Crd,-1
+EP SnLd,1
+ALd,1
+DispLd ,1
+SnLd DrewClr,1
+Mid ALd,1
+LdRnUp,1
+EP Ld ,-1
+Mid Rls OutpFr,1
+QAw Ld VW ,-1
+EP Crd,-1
+LckdEP ClrRn,-1
+Mid,-1
+ClrRn,-1
+Ld  Bmp,-1
+EP Handy  Crd,-1
+AHandy LdNrLn,1
+HitRls (ReQul),-1
+CrdRnUp Bmp,-1
+QAw SnLd,1
+LckdEP ClrRn,-1
+Ld  Crd,-1
+QAw ALd,1
+Crd,-1
+LckdEP Crd,-1
+BdBlk,-1
+Ld   Crd,-1
+Bmp LdRnIn,1
+LdNrLn,1
+QAw Ld   LdRnIn NrLn,1
+Crd,-1
+ClrRn,-1
+Crd,-1
+ClrRn,-1
+EP Fcd Ckd,-1
+QAw Ld  Bmp,-1
+Fcd Ck Bmp,-1
+QAw ALd,1
+AHandy,-1
+Mid ClrRn,1
+Fcd Ck BdCrd ,-1
+Ld,1
+Bmp,-1
+Ld  LdRnIn,1
+ClrRn,-1
+QAw Handy ,-1
+ClrRn,-1
+QAw Ld ,-1
+ClrRn,1
+ClrRn,-1
+Handy ,-1
+LdRnIn,1
+LdRnUp,1
+EP BdBlk,-1
+BmpStt Crd (HT),-1
+Ld CghtNrLn,1
+Ld ,1
+SnLd CghtNrLn,1
+PckdStt ClrRn,-1
+AndRnOn,1
+Bmp,-1
+(R) HitRls Bmp(HT),-1
+Crd Bmp RnOn,1
+ClrRn,-1
+Bmp Crd  Bmp,-1
+Ld  StydHandy,1
+SnLd  Ld ,1
+(R) ChlFr LdRnIn,1
+(R) MsdBrk,-1
+Mid,-1
+LdRnUp Mid W,1
+Ld Mid,1
+Mid,1
+Mid W,1
+(Scr) ClrRn,-1
+(R) Crd  ,-1
+Chl Fcd Ck,-1
+EP SnLd,1
+(R) SAw,-1
+(R) EvCh,-1
+EP Crd Fcd Ck ,-1
+Ld ,-1
+QAw Ld  BmpChlRnIn,1
+SAw,-1
+ClrRn,-1
+Rls AHandy,1
+Mid Rls Crd Ld,1
+Mid,1
+In Season,-1
+ClrRn,-1
+EvCh,1
+ClrRn,-1
+ClrRn,-1
+Mid Crd Ld ,1
+Lame,-1
+ClrRn,-1
+ALd LeftClr ,1
+Crd,1
+Lame,-1
+(R) Fcd CkdRnUp,-1
+(R) ClrRn,-1
+(R) Crd,-1
+Crd,-1
+ClrRn,-1
+Handy ,1
+Mid ClrRn,1
+BmpRnUp LdNrLn,1
+AHandy,1
+Off Colour,-1
+(Scr) Fcd Ckd,-1
+(Scr) ClrRn,-1
+(Scr) EP LdRnIn,1
+Ld  DrewClr,1
+RnOn,-1
+Crd ,-1
+SAw HandyFr,-1
+By Stewards,-1
+BmpStt RnOn (HT),1
+ClrRn,-1
+RnOn,1
+LdRnIn NrLn,1
+(R) ClrRn,-1
+ClrRn,-1
+(R) SAw Blk,-1
+ClrRn,-1
+ALd WnWll,1
+Handy ,-1
+ClrRn,-1
+ALd,1
+Ld ,1
+In Season,-1
+LdRnUp  StydHandy,-1
+Bmp,-1
+(R) ClrRn,-1
+(R) ClrRn,-1
+Rls Mid ClrRn,-1
+MsdTrbl LdRnUp,1
+Bmp  Crd,-1
+(Scr) ClrRn,-1
+ClrRn,-1
+AHandy LdRnIn,1
+CrdStt SnLd,1
+Crd,-1
+ClrRn,-1
+(R) ClrRn,-1
+Rls Bmp,-1
+LdRnUp,1
+ClrRn,1
+Non Arrival,-1
+EP LdRnIn,1
+(R) ClrRn,-1
+Ld  Rls Mid,1
+BdCrdRnUp ALd,1
+Crd,-1
+Crd,-1
+EP SnLd,1
+(Scr) EvCh,1
+(R) LdRnIn,1
+(R) Fcd Ck Bmp,-1
+Crd LdRnIn,1
+ClrRn,-1
+(Scr) Crd ,-1
+(R) ClrRn,-1
+(Scr) ndFr ,1
+(Scr) ndFr ,1
+(Scr) EP Rls Ld ,1
+SnLd   Crd,-1
+(Scr) ClrRn,-1
+(R) ClrRn,-1
+RlsStt ALd,1
+(Scr) RnOn (HT),-1
+(Scr) BmpLd,1
+(Scr) Crd,-1
+SnLd,1
+LdNrLn,1
+Ld  RnOn,1
+(Scr) Crd Fcd Ck,-1
+CrdStt,-1
+(R) LdNrLn,1
+QAw,-1
+(R) Crd Blk Crd,-1
+Crd RnOn,1
+Ld NrLn,1
+ClrRn,1
+(Scr) Crd  RnOn,1
+CrdStt,-1
+(R) Blk,-1
+Crd,-1
+SnLd,1
+Crd ,-1
+Mid,-1
+Mid ALd,1
+Rls Crd Bmp Ld,1
+In Season,-1
+SnLd,1
+Crd RnOn,1
+Crd,-1
+Crd,-1
+Ld  Blk,1
+Ld  ,1
+BdBlk,-1
+Crd ,-1
+Mid LdRnUp,1
+Mid Rls AHandy,1
+ClrRn,1
+FnCrmp,-1
+SnLd Mid Rls,1
+MsdBrk BmpRnIn,-1
+Bmp,-1
+ClrRn,-1
+EP W EvCh,-1
+ClrRn,-1
+EP Mid Crd,-1
+EP W Handy ,-1
+EP W SnLd Clr ,1
+Mid ALd,1
+EP Bmp Stmb Fell  (ReQul),-1
+HandyFr RnIn,-1
+SnLd,1
+RnOn,1
+Chl Crd,-1
+EP W Ld  ,1
+SnLd NrLn,1
+Ld RnIn,1
+Ld CghtNrLn,1
+EP W Ld Crd,-1
+Bmp FcdW LdNrLn,1
+W ClrRn,-1
+LckdEP StruckInto (HT),-1
+Bmp,-1
+SAw EP,1
+SAw Fcd Ck ,-1
+W Ld HldOn,1
+EP Ld NrLn,-1
+EP Ld NrLn,-1
+EvCh,1
+EP W Ld NrLn,1
+SAw SnHandy  RnIn,-1
+Bmp,-1
+LdRnUp ,-1
+StruckInto Crd,-1
+Ld LeftClr,1
+Ld ,-1
+SnLd,1
+Disp Ld WnWll,1
+Ld  NrLn,1
+W Crd,-1
+ClrRn,-1
+ClrRn,-1
+ClrRn (HT),-1
+Ld ,-1
+LdRnUp RnIn,-1
+FcdVW (ReQul),-1
+Handy  ,-1
+Chl BmpRnIn,-1
+ClrRn,-1
+Bmp,-1
+ClrRn,-1
+FcdW,-1
+Ld RnIn LdNrLn,1
+Ld,1
+Bmp,-1
+ClrRn,-1
+MsdBrk W Blk RnOn,1
+Ld,1
+W EvCh,-1
+FcdW,-1
+SAw Ld ,1
+MsdBrk W,-1
+EP W Ld,1
+MsdBrk,-1
+SAw,-1
+SAw Bmp,-1
+Crd,-1
+MsdBrk Bmp,-1
+FcdW  Stmb,-1
+Ld ,1
+Ld,1
+SAw Crd,-1
+LdRnUp ,-1
+ClrRn,1
+DispFr,1
+BdBlk Crd,-1
+(R) Blk,-1
+Fcd Ck Ld NrLn,1
+W ClrRn (HT),-1
+SnLd Disp ,1
+MsdBrk HandyFr  RnIn,-1
+W Ld  NrLn,1
+ClrRn,-1
+ClrRn,-1
+Ld,1
+Mid W SnLd,1
+BdBlk (ReQul),-1
+CutIn BndsCrd Ld,1
+Mid BdBlk,1
+Ld  Mid Rls,1
+BmpRnIn,-1
+BmpRnIn,-1
+BmpRnIn,-1
+BmpRnIn,-1
+BmpRnIn,-1
+BdCrd FddFr (ReQul),-1
+MsdBrk Fcd Ck,-1
+ClrRn,-1
+ClrRn,-1
+QAw ALd,1
+SAw BdCrd Ld  DrewClr,1
+RnOn,-1
+Blk,-1
+ClrRn,-1
+Crd,-1
+LckdEP,-1
+ALd,1
+Crd,-1
+SAw Bmp,-1
+Rls AHandy ChlRnIn,1
+Weight Variation,-1
+Mid ClrRn,1
+Rls Mid SAw ClrRn,1
+Ld  RnIn,1
+EP Handy  RnIn,-1
+UpWithTrps,-1
+MsdBrk BdCrd,-1
+SnLd HldOn,1
+UpWithTrps Fcd Ck,-1
+Rls Mid Crd ,-1
+EP BdCrd,-1
+SAw,-1
+VSAw EP Ld ,-1
+SnHandy Ld ,1
+EP Ld LongLd ,1
+SAw,-1
+LdRnUp RnIn,-1
+EP Bmp,-1
+SAw Blk,-1
+EP Ld NrLn,1
+EP Ld,1
+EP,-1
+LdRnUp ,-1
+SAw,-1
+SAw,-1
+MsdBrk Crd,-1
+SnLd,1
+(R) EP Ld HldOn,1
+MsdBrk EP BdCrd,-1
+(R) Ld RnIn,1
+UpWithTrps EP AHandy,-1
+(R) Bmp Ld  CghtNrLn,1
+Crd,-1
+(R) MsdBrk ClrRn,-1
+Ld RnIn,-1
+AHandy,-1
+SAw Bmp,-1
+(R) Bmp  ndFr,1
+EP EvCh,1
+BdCrd,-1
+Crd,-1
+EP Ld Clr ,1
+Crd,-1
+AHandy,-1
+Ld CghtNrLn,1
+ClrRn,-1
+AHandy,-1
+EP SnLd,1
+Ld CghtNrLn,1
+Ld ,-1
+Crd StruckInto,-1
+Fcd Ckd,-1
+(R) SnHandy Ld NrLn,1
+SnLd ClrFr,1
+EP EvCh,-1
+Ld ,-1
+LdNrLn BmpRnIn,-1
+Ld,1
+Ld  ,-1
+Ld RnIn,1
+ClrRn,-1
+Bmp EvCh,-1
+Bmp,-1
+QAw SnLd JstHldOn,1
+HitRls Disp RnIn,-1
+Mid Rls ClrRn,-1
+VSAw FddFr (ReQul),-1
+SAw Crd,-1
+Ld  Handy ,-1
+QAw Ld NrLn,-1
+SnLd ,-1
+Ld  ,-1
+EP ndFr,1
+Ld ,1
+Crd,-1
+MsdBrk Handy RnIn,-1
+DispLdThr'Out,1
+Ld,1
+Ld  CghtNrLn,1
+(R) Ld ,-1
+Ld,1
+Ld  ,-1
+LckdEP,-1
+Handy  ,-1
+SAw Crd,-1
+MsdTrbl Ld NrLn,1
+Blk,-1
+SAw Ld RnIn,-1
+Bmp ,-1
+Ld NrLn,-1
+SAw HandyFr,-1
+Bmp,-1
+SAw,-1
+Bmp,-1
+SAw,-1
+SAw,-1
+EP SnLd,1
+Bmp,-1
+Ld  ,-1
+LckdEP Crd ,-1
+VSAw CrdB Blk ,-1
+SAw HandyFr LdNrLn,1
+Handy  Crd,-1
+ClrRn,-1
+MsdBrk Crd,-1
+Crd,-1
+Crd RnOn,-1
+Ld,1
+SAw,-1
+MsdBrk Crd  RnIn,-1
+EP Ld  NrLn,-1
+SnLd,1
+UpWithTrps,-1
+Ld NrLn,1
+SAw,-1
+SnLd  ,1
+Crd,-1
+SnLd ,-1
+Ld NrLn,1
+Ld RnIn,1
+Ld,1
+ALd,1
+DispLd Ld ,1
+Rls SnLd,1
+SAw Fcd Ck,-1
+Blk,-1
+Ld,1
+Crd,-1
+SAw,-1
+ClrRn,-1
+ClrRn,-1
+SAw Blk,-1
+RnOn,1
+SAw RnOn,-1
+ClrRn,-1
+Crd,1
+SAw,-1
+Chl Crd,-1
+SAw Crd,-1
+Crd,-1
+SnLd Mid Rls,1
+UpWithTrps CkdSough,1
+Mid,1
+Crd ,1
+Mid,1
+LckdEP,-1
+OutpE Mid W ClrRn,-1
+SAw Mid W Ld RnOn,1
+Mid W ClrRn,1
+LckdEP ClrRn,-1
+SAw LckdEP,-1
+OutpE W,-1
+MsdBrk W Crd,-1
+MsdBrk W,-1
+VSAw ClrRn,-1
+MsdBrk W,-1
+LckdEP,-1
+Mid W,-1
+SAw RnOn,-1
+SAw W FnWll,1
+SAw VW,1
+SAw W ndFr RnOn,1
+MsdBrk BdBmpW,-1
+Mid W,-1
+W Ld DrewClr (ReQul),1
+VSAw LdRnIn,1
+CkdRnIn,1
+LckdEP LdNrLn,1
+SAw Ld ,1
+SAw NvrShwd(ReQul),-1
+OutpE RnOn,-1
+(R) Ld,1
+W ClrRn,-1
+Fcd CkRnUp Ld ,1
+CrdStt Fcd Ck,-1
+LckdEP W ,-1
+(R) SAw Mid W ClrRn,-1
+(R) ClrRn,-1
+MsdBrk Mid ClrRn,-1
+SAw,-1
+Mid Fcd CkRnUp Ld,1
+CkdWStt LdNrLn,1
+(Scr) RnOn,1
+(R) Bmp,-1
+(Scr) RnOnWll,1
+(Scr) Rn FnWll,1
+(Scr) RnOn,-1
+(R) LdNrLn,1
+Crd,-1
+(R) SnHandy Ld,1
+(R) LdNrLn,1
+(R) Bmp RnOn,1
+(Scr) ClrRn,-1
+(R) Ld DrewClr,1
+EvCh,1
+(R) AHandy LdRnIn,1
+(R) Ld,1
+(R) SnLd ,-1
+(R) Ld ,-1
+(R) ClrRn,-1
+(R) EvCh,-1
+(R) Fcd Ck,-1
+CrdRnUp,1
+(Scr) ClrRn,-1
+Chl Bmp LdRnIn,1
+In Season,-1
+(Scr) ClrRn,-1
+(R) ClrRn (HT),-1
+(Scr) RnOn,-1
+(R) ClrRn,1
+(Scr) RnOn,-1
+(Scr) ClrRn,-1
+(R) LckdEP,-1
+(Scr) RnOn,-1
+(Scr) RnOn,-1
+(Scr) HandyFr,-1
+(R) ClrRn,-1
+(Scr) HandyFr LdNrLn,1
+(Scr) LdRnIn,1
+(Scr) ClrRn,-1
+(Scr) Crd,-1
+(Scr) Crd,-1
+(Scr) EvCh,1
+(Scr) Bmp Stmb,-1
+(Scr) RnOn,1
+ClrRn (TRec),-1
+(Scr) RnOn,1
+(Scr) RnOn,1
+(Scr) RnOn,-1
+(Scr) LdRnIn,1
+(Scr) RnOn,1
+(Scr) HandyFr Bmp RnIn,1
+(R) ClrRn,-1
+LdRnIn,1
+Mid Rls,1
+Mid LdRnUp Bmp,1
+(Scr) Bmp FddFr (ReQul),-1
+(R) ClrRn (HT),-1
+Crd RnOn,-1
+AHandy,1
+(R) ClrRn,-1
+Fcd CkRnUp  RnOn,-1
+(Scr) ClrRn,-1
+ClrRn,-1
+(Scr) ClrRn,-1
+Mid SnLd,1
+(R) Fcd Ck Crd Fell,-1
+(Scr) Crd  RnOn,-1
+(Scr) Ld WnWll,1
+(Scr) Crd LdRnIn,1
+(Scr) SAw FnWll,1
+FnWll,1
+(Scr) Blk,-1
+(Scr) ClrRn,-1
+(Scr) Ld,1
+(Scr) ClrRn RnOn,-1
+(Scr) Crd,-1
+(R) RnOn,1
+(R) ClrRn,-1
+(Scr) ClrRn,-1
+Mid,-1
+BdBlk,-1
+Ld ,-1
+(Scr) SnHandy,1
+(Scr) Ld (HT),1
+(R) EvCh,1
+(R) RnOn,1
+(Scr) Crd ,-1
+(Scr) RnOn,-1
+Rls Mid,-1
+Mid ClrRn,1
+(Scr) Bmp Fcd Ck,-1
+Crd,-1
+(Scr) LdRnIn,1
+(R) RnOn,-1
+(R) RnOn,1
+Blk,-1
+(Scr) Crd,-1
+(R) Crd,-1
+(Scr) Fcd Ck FnWll,1
+Mid ClrRn,1
+(R) Crd,-1
+(R) Crd ,-1
+Ld,1
+Crd,-1
+Ld  BmpLdNrLn,1
+(Scr) RnOn,-1
+Crd Bmp,-1
+(R) RnOn,1
+(R) Crd Ld,1
+(R) LdNrLn,1
+Bmp Blk,-1
+Crd,-1
+CrdStt  FnWll,1
+(R) CrdRnUp,-1
+Blk RnOn,1
+RnOn,1
+(Scr) Ld,1
+SAw Crd ,-1
+Crd RnOn,-1
+FnWll LdNrLn,1
+RnOn,1
+SAw,-1
+Crd,-1
+(Scr) Crd FnWll,-1
+Crd,-1
+Crd,1
+StmbStt,-1
+Blk,1
+ClrRn,-1
+Ld,1
+LdRnIn,1
+RnOn,1
+SAw,-1
+(R) EvCh,-1
+SAw,-1
+VSAw RnOn,-1
+Mid Rls ALd,1
+Mid Rls ALd,1
+RlsStt Bmp,1
+Mid Rls,1
+Lame,-1
+(R) LdRnIn NrLn,1
+(R) DispLdFr RnIn,1
+(R) Ld NrLn,1
+(R) SnLd  Crd,-1
+(R) SnLd,1
+Crd,-1
+Bmp,-1
+(R) ClrRn,-1
+(R) Crd ,-1
+AHandy,1
+In Season,-1
+(Scr) EvCh,1
+(R) LdRnIn,1
+Crd,-1
+(R) Crd,-1
+(R) LdRnIn CghtNrLn,1
+(R) LdNrLn,1
+(R) Crd,1
+(Scr) Ld,1
+(R) ClrRn,-1
+(Scr) ClrRn,-1
+(R) Ld (HT),1
+(R) EvCh,1
+(R) ClrRn (HT),-1
+(R) ClrRn,-1
+(R) Ld ,1
+(R) EvCh,1
+(R) EvCh,1
+(R) EP ChlFr,1
+(R) Bmp,-1
+(Scr) EvCh,1
+(R) LdRnIn NrLn,1
+(Scr) ClrRn,-1
+(R) Ld,1
+(Scr) EP Fcd Ckd,-1
+(Scr) Fcd Ckd,-1
+(Scr) RnOn,-1
+(Scr) ClrRn,-1
+(R) HandyFr,1
+(R) Crd,-1
+(Scr) ClrRn,-1
+Mid Rls EP,1
+Bitten,-1
+(Scr) Handy ,1
+(Scr) Bmp,-1
+(Scr) RnOn (HT),1
+FcdW,-1
+(Scr) ChlFr,1
+(Scr) RnOn,-1
+(R) ClrRn,-1
+LdNrLn,1
+(Scr) Bmp RnOn,1
+(R) RnOn (HT),-1
+(R) Handy ,-1
+(R) LdRnIn,1
+SnLd,1
+Crd KO,-1
+(R) Ld NrLn,1
+Mid Rls,1
+Off Colour,-1
+(R) AHandy,-1
+(R) Crd AHandy LdNrLn,1
+(R) SnLd ,-1
+(R) SnHandy ,-1
+(R) SnHandy Disp RnIn,1
+(R) ClrRn,-1
+(R) Crd ,-1
+Mid Rls RnOn,1
+(Scr) Blk (ReQul),-1
+(R) Ld DrewClr,1
+(R) Blk Crd,-1
+(R) ndFr,1
+(R) ChlRnIn,-1
+Crd,-1
+Crd,-1
+Mid Rls,-1
+(R) SAw ClrRn,-1
+(R) SnLd,1
+(R) ClrRn (HT),-1
+(R) ClrRn,-1
+(R) ClrRn,-1
+(R) ClrRn,-1
+(R) ClrRn,-1
+(R) Bmp,-1
+(Scr) ClrRn,-1
+SnLd  RnOn,1
+Mid Fcd Ck RnOn,1
+Bitten,-1
+ALd (HT),1
+(Scr) Crd RnOn,1
+EvCh,1
+Crd,-1
+(R) QAw RnOn LdNrLn,1
+(Scr) Crd Bmp,-1
+(R) Fcd Ckd,-1
+(Scr) ClrRn,-1
+(Scr) Bmp Crd,-1
+Crd Fcd Ck,1
+Ld,1
+EP,-1
+Bmp Fcd Ck Ld ,1
+Blk Fell (ReQul),-1
+(R) ClrRn,-1
+ClrRn,-1
+(R) RnOn,1
+Blk,-1
+Ld,1
+Blk,-1
+Blk,-1
+Crd,-1
+Crd,-1
+ClrRn Mid,-1
+Fcd CkBd,-1
+Ld,1
+ClrRn,-1
+Crd,-1
+Ld,1
+Crd RnOn,-1
+Crd,1
+(R) Blk Crd,-1
+(R) Bmp Crd,-1
+And,1
+Crd,-1
+(R) Ld NrLn,1
+(R) Ld  Crd,1
+(R) Ld  CmAgn,1
+Mid AHandy,1
+Crd ,1
+Mid Rls CrdStt,-1
+Mid Ld  Ld,1
+Mid SnLd,1
+Mid Rls,1
+(R) ClrRn,-1
+(R) ClrRn,-1
+(R) ClrRn,1
+(R) ChlRnIn,-1
+(R) ndFr,-1
+(R) Crd,1
+(R) Crd,-1
+(R) AHandy,-1
+(R) Crd,-1
+(R) ClrRn,-1
+(R) Fcd Ck StmbNrLn,-1
+(R) Bmp,-1
+(R) ClrRn,-1
+(R) EvCh,1
+(R) LdNrLn,1
+(R) ClrRn,1
+(R) Bmp,-1
+(R) RnOn,1
+(R) Ld ,-1
+W ClrRn,1
+Lame,-1
+(R) SnLd ,-1
+(R) Crd,-1
+(R) ClrRn,-1
+Bmp,-1
+AHandy,1
+Mid W,1
+Mid W,1
+Bmp LdRnIn Mid W,1
+ClrRn,-1
+(R) ClrRn,-1
+(R) Ld ,-1
+(R) ClrRn,-1
+Mid,-1
+BdCrd,-1
+ClrRn,-1
+SAw,-1
+Mid ALd,1
+(R) BdCrd Fcd Ck,-1
+(R) Ld  StydHandy,1
+Mid,1
+LckdEP ClrRn,-1
+LckdEP Crd,-1
+Bmp FcdW,-1
+LdNrLn,1
+ClrRn,-1
+Mid Bmp Ld,1
+Crd Ld Mid,1
+Mid Fcd Ck AHandy,1
+BdBlk KO,-1
+EvCh,-1
+QAw Ld ,-1
+Ld  Mid,1
+RnOn,1
+RnOn,1
+Mid CrdRnUp,-1
+Mid Crd,-1
+Mid,-1
+Mid,-1
+Rls,-1
+Mid Crd Bmp,-1
+SAw Rls Mid RnOn,-1
+Rls Mid Crd Ld ,1
+Mid ALd,1
+Rls,1
+Mid ALd,1
+Mid Ld ,1
+(R) Ld ,-1
+(R) Ld RnIn,-1
+(R) Ld ,-1
+EP Mid Rls,1
+(R) SAw,-1
+(R) SAw Crd Ld Mid Rls,1
+SAw ClrRn,-1
+(R) StruckInto,-1
+Mid Rls Crd,-1
+SAw Mid LdNrLn,1
+Mid CrdRnUp,-1
+RlsStt Ld  ,1
+Mid Disp ,1
+SAw Crd,-1
+SAw RnOn,-1
+BdCrd,-1
+Mid ClrRn,1
+VSAw,-1
+VSAw,-1
+BdCrd,-1
+SAw,-1
+Crd RnOn,-1
+SAw,-1
+SAw RnOn,-1
+VSAw,-1
+SAw Stmb,-1
+SAw,-1
+VSAw Mid RnOn,-1
+SAw,-1
+SAw NvrShwd,-1
+Chl FnWll,1
+Chl FnWll,1
+SAw NvrShwd,-1
+SAw NvrShwd,-1
+SAw NvrShwd,-1
+(R) Crd Bmp,-1
+(R) Bmp RnOn,-1
+(R) ClrRn,-1
+(R) Fcd Ck ,-1
+(R) EvCh,1
+(R) AHandy Ld,1
+(R) RnOn,-1
+(R) ClrRn,-1
+(R) LckdEP,-1
+(R) Crd,-1
+(R) Crd ,1
+(R) ClrRn,-1
+Crd,-1
+(Scr) ClrRn,1
+(R) ClrRn,-1
+(R) Crd,-1
+(R) ClrRn,-1
+(R) Bmp LdRnIn,1
+(R) Crd Fcd Ck,-1
+(R) ClrRn,-1
+(R) RnOn,-1
+(R) Fcd Ck Ld CghtNrLn,1
+(R) Ld,1
+(R) Handy ,-1
+(R) ClrRn,-1
+(R) SAw LdNrLn,1
+(R) ClrRn,-1
+(R) Ld WnWll,1
+(R) Crd,-1
+Ld,1
+LckdEP Bmp (HT),-1
+VSAw Mid,-1
+SAw RnOn,1
+Bmp RnOn,-1
+SAw RnOn,-1
+SAw ClrRn,-1
+SAw RnOn,-1
+SAw FnWll,1
+VSAw RnOn,-1
+BdBlk RnOn,-1
+Crd,-1
+Mid Ld,1
+Mid Crd,1
+Bmp Ld DrewClr,1
+ALd,1
+Mid Rls Ld,1
+(R) ALd,1
+(R) SAw Ld  StydHandy,1
+(R) Ld,1
+(R) Handy ,-1
+(R) LckdEP ClrRn,-1
+(R) VSAw,-1
+(R) Blk,-1
+(R) SAw Crd,-1
+(R) ALd HldOn,1
+(R) ClrRn,-1
+(R) Ld ,-1
+(R) Ld ,1
+VSAw ClrRn,-1
+(R) ClrRn,-1
+LckdEP ClrRn,-1
+(R) Bmp,-1
+(R) BmpRnUp,-1
+(R) Ld NrLn,-1
+(R) Blk,-1
+(R) SAw ALd,1
+(R) Crd,-1
+SAw LdRnIn,1
+(R) ClrRn,-1
+(R) ClrRn,-1
+SAw ClrRn,1
+Non Arrival,-1
+RnOn,1
+(R) Ld,1
+(R) SAw Bmp,-1
+AHandy Ld DrewClr,1
+LckdEP RnOn,-1
+LckdEP ClrRn,-1
+OutpE,-1
+OutpE,-1
+LckdEP Crd,-1
+LckdEP,-1
+LckdEP Crd,-1
+Crd  ,-1
+LdNrLn,1
+LdRnIn,1
+RnOn,1
+Crd  RnOn,1
+LdRnIn,1
+LckdEP,-1
+Blk Ld,1
+LdNrLn,1
+Mid ChlFr,1
+(R) Ld NrLn,1
+(R) Ld Bmp,-1
+(R) LckdEP,-1
+(R) SnLd ,-1
+(R) ALd,1
+(R) Ld RnIn,1
+(R) VSAw,-1
+(R) Ld ,-1
+(R) ClrRn (HT),-1
+LckdEP,-1
+LckdEP Fcd Ck,-1
+LckdEP Rls Bmp,-1
+(R) ClrRn,-1
+ALd SnClr,1
+Fcd Ckd,-1
+(R) MvdOff Crd,-1
+(R) ALd HldOn Wll,1
+(R) Crd,-1
+(R) AHandy,1
+ClrRn,-1
+Mid,-1
+(R) Ld,1
+Fcd Ck CrdRnIn,-1
+Fcd Ckd,-1
+Fcd Ck,-1
+VSAw Outp,-1
+ClrRn,-1
+LckdEP RnOn,1
+SAw ClrRn,-1
+ClrRn (HT),-1
+LckdEP Bmp,-1
+SAw Bmp,-1
+Mid Ld  DrewClr,1
+Mid Rls Fcd CkRnUp,1
+LdRnIn,1
+Mid ClrRn,-1
+SAw NvrShwd,-1
+SAw NvrShwd,-1
+SAw NvrShwd,-1
+Mid StmbSltRnUp,-1
+Crd,-1
+BdMsdBrk,-1
+EP SnLd  NrLn W,1
+EP SnLd,1
+EP,-1
+Ld Bmp RnIn,-1
+SnLd,1
+EP ALd HldOn,1
+Lame,-1
+SnLd  ,-1
+QAw SnClr,1
+Lame,-1
+ClrRn,-1
+Crd,-1
+Ld ,1
+EP Fcd Ck Fell (ReQul),-1
+Crd W,-1
+Ld W,-1
+ALd W,1
+ClrRn,-1
+Handy ,-1
+EP,-1
+ALd,1
+Ld  Crd,-1
+Crd,-1
+EP Ld,1
+EP Ld  NrLn,1
+Handy  StruckInto,-1
+And,1
+AHandy,1
+RnOn,1
+BdCrd,-1
+Ld  ,-1
+LdRnUp SnClr,1
+Handy  ,-1
+EP SnLd LeftClr,1
+ClrRn,-1
+SnLd  ,1
+Crd,-1
+ALd DrewClr,1
+FcdW Crd,-1
+MsdBrk,-1
+VQAw SwrvdWStt Ld ,-1
+VQAw Clr EWnWll,1
+(R) Ld ,1
+LdRnUp  ,-1
+LdRnUp  ,-1
+ALd,1
+Mid SnLd ,-1
+QAw Mid SnLd ,-1
+Mid EP Bmp,-1
+Ld ,1
+Lame,-1
+LdRnUp ,-1
+Mid ClrRn,-1
+QAw Ld  CkdRnIn,-1
+Mid EP Ld ,1
+Mid StmbSltRnUp,-1
+Crd,-1
+BdMsdBrk,-1
+EP SnLd  NrLn W,1
+EP SnLd,1
+EP,-1
+Ld Bmp RnIn,-1
+SnLd,1
+EP ALd HldOn,1
+Lame,-1
+SnLd  ,-1
+QAw SnClr,1
+Lame,-1
+ClrRn,-1
+Crd,-1
+Ld ,1
+EP Fcd Ck Fell (ReQul),-1
+Crd W,-1
+Ld W,-1
+ALd W,1
+ClrRn,-1
+Handy ,-1
+EP,-1
+ALd,1
+Ld  Crd,-1
+Crd,-1
+EP Ld,1
+EP Ld  NrLn,1
+Handy  StruckInto,-1
+And,1
+AHandy,1
+RnOn,1
+BdCrd,-1
+Ld  ,-1
+LdRnUp SnClr,1
+Handy  ,-1
+EP SnLd LeftClr,1
+ClrRn,-1
+SnLd  ,1
+Crd,-1
+ALd DrewClr,1
+FcdW Crd,-1
+MsdBrk,-1
+VQAw SwrvdWStt Ld ,-1
+VQAw Clr EWnWll,1
+(R) Ld ,1
+LdRnUp  ,-1
+LdRnUp  ,-1
+ALd,1
+Mid SnLd ,-1
+QAw Mid SnLd ,-1
+Mid EP Bmp,-1
+Ld ,1
+Lame,-1
+LdRnUp ,-1
+Mid ClrRn,-1
+QAw Ld  CkdRnIn,-1
+Mid EP Ld ,1
+SnLd,1
+MsdBrk EP Ld ,1
+EP Rls,-1
+EP LdRnIn,1
+MsdBrk EP Crd,-1
+Crd,1
+SnLd,1
+ClrRn,-1
+MsdBrk EP Chl Crd,-1
+MsdBrk EP,-1
+ClrRn,-1
+SAw,-1
+Rls SnLd,1
+EP Rls Chl,-1
+DispThr'Out,1
+Rls LeftClr Stt,1
+ALd,1
+Ld ,-1
+ClrRn,-1
+MvdOff Fdd (ReQul),-1
+Crd Fcd Ck,-1
+Ld RnIn,-1
+ClrRn,-1
+Rls Mid ALd,1
+Outp Fr,-1
+Crd FddFr  (ReQul),-1
+MsdBrk EP,-1
+Ld,1
+(R) SAw BdBmp (ReQul),-1
+BdCrd,-1
+(R) SAw Crd ,-1
+Ld DrewClr,1
+(R) Crd  (ReQul),-1
+Rls Ld RnIn,-1
+Ld  ,1
+Outp,1
+ClrRn,1
+EvCh,1
+MsdBrk EP Fcd Ck,-1
+SnLd ClrFr ,1
+MsdBrk EP Crd,-1
+HitRls,-1
+EP,-1
+ALd Clr Fr,1
+EP Chl Blk,-1
+EP Ld  ,-1
+Ld CghtNrLn,1
+Ld ,-1
+(R) Chl Crd,-1
+(R) ClrRn,-1
+Crd,-1
+Rls SnClr CghtNrLn,1
+Mid Rls ALd,1
+Mid SnLd RnIn,-1
+VSAw RnOn,1
+SnLd,1
+MsdBrk EP Ld ,1
+EP Rls,-1
+EP LdRnIn,1
+MsdBrk EP Crd,-1
+Crd,1
+SnLd,1
+ClrRn,-1
+MsdBrk EP Chl Crd,-1
+MsdBrk EP,-1
+ClrRn,-1
+SAw,-1
+Rls SnLd,1
+EP Rls Chl,-1
+DispThr'Out,1
+Rls LeftClr Stt,1
+ALd,1
+Ld ,-1
+ClrRn,-1
+MvdOff Fdd (ReQul),-1
+Crd Fcd Ck,-1
+Ld RnIn,-1
+ClrRn,-1
+Rls Mid ALd,1
+Outp Fr,-1
+Crd FddFr  (ReQul),-1
+MsdBrk EP,-1
+Ld,1
+(R) SAw BdBmp (ReQul),-1
+BdCrd,-1
+(R) SAw Crd ,-1
+Ld DrewClr,1
+(R) Crd  (ReQul),-1
+Rls Ld RnIn,-1
+Ld  ,1
+Outp,1
+ClrRn,1
+EvCh,1
+MsdBrk EP Fcd Ck,-1
+SnLd ClrFr ,1
+MsdBrk EP Crd,-1
+HitRls,-1
+EP,-1
+ALd Clr Fr,1
+EP Chl Blk,-1
+EP Ld  ,-1
+Ld CghtNrLn,1
+Ld ,-1
+(R) Chl Crd,-1
+(R) ClrRn,-1
+Crd,-1
+Rls SnClr CghtNrLn,1
+Mid Rls ALd,1
+Mid SnLd RnIn,-1
+VSAw RnOn,1
+SnLd,1
+MsdBrk EP Ld ,1
+EP Rls,-1
+EP LdRnIn,1
+MsdBrk EP Crd,-1
+Crd,1
+SnLd,1
+ClrRn,-1
+MsdBrk EP Chl Crd,-1
+MsdBrk EP,-1
+ClrRn,-1
+SAw,-1
+Rls SnLd,1
+EP Rls Chl,-1
+DispThr'Out,1
+Rls LeftClr Stt,1
+ALd,1
+Ld ,-1
+ClrRn,-1
+MvdOff Fdd (ReQul),-1
+Crd Fcd Ck,-1
+Ld RnIn,-1
+ClrRn,-1
+Rls Mid ALd,1
+Outp Fr,-1
+Crd FddFr  (ReQul),-1
+MsdBrk EP,-1
+Ld,1
+(R) SAw BdBmp (ReQul),-1
+BdCrd,-1
+(R) SAw Crd ,-1
+Ld DrewClr,1
+(R) Crd  (ReQul),-1
+Rls Ld RnIn,-1
+Ld  ,1
+Outp,1
+ClrRn,1
+EvCh,1
+MsdBrk EP Fcd Ck,-1
+SnLd ClrFr ,1
+MsdBrk EP Crd,-1
+HitRls,-1
+EP,-1
+ALd Clr Fr,1
+EP Chl Blk,-1
+EP Ld  ,-1
+Ld CghtNrLn,1
+Ld ,-1
+(R) Chl Crd,-1
+(R) ClrRn,-1
+Crd,-1
+Rls SnClr CghtNrLn,1
+Mid Rls ALd,1
+Mid SnLd RnIn,-1
+VSAw RnOn,1
+SnLd,1
+MsdBrk EP Ld ,1
+EP Rls,-1
+EP LdRnIn,1
+MsdBrk EP Crd,-1
+Crd,1
+SnLd,1
+ClrRn,-1
+MsdBrk EP Chl Crd,-1
+MsdBrk EP,-1
+ClrRn,-1
+SAw,-1
+Rls SnLd,1
+EP Rls Chl,-1
+DispThr'Out,1
+Rls LeftClr Stt,1
+ALd,1
+Ld ,-1
+ClrRn,-1
+MvdOff Fdd (ReQul),-1
+Crd Fcd Ck,-1
+Ld RnIn,-1
+ClrRn,-1
+Rls Mid ALd,1
+Outp Fr,-1
+Crd FddFr  (ReQul),-1
+MsdBrk EP,-1
+Ld,1
+(R) SAw BdBmp (ReQul),-1
+BdCrd,-1
+(R) SAw Crd ,-1
+Ld DrewClr,1
+(R) Crd  (ReQul),-1
+Rls Ld RnIn,-1
+Ld  ,1
+Outp,1
+ClrRn,1
+EvCh,1
+MsdBrk EP Fcd Ck,-1
+SnLd ClrFr ,1
+MsdBrk EP Crd,-1
+HitRls,-1
+EP,-1
+ALd Clr Fr,1
+EP Chl Blk,-1
+EP Ld  ,-1
+Ld CghtNrLn,1
+Ld ,-1
+(R) Chl Crd,-1
+(R) ClrRn,-1
+Crd,-1
+Rls SnClr CghtNrLn,1
+Mid Rls ALd,1
+Mid SnLd RnIn,-1
+VSAw RnOn,1
+Crd Fcd Ck,-1
+ClrRn,-1
+(R) ClrRn,-1
+SnHandy Ld,1
+(R) Ld ,1
+(R) QAw Crd ,-1
+Fcd CkBd Bmp,-1
+ClrRn,-1
+Fcd Ck Crd ,-1
+Fcd Ckd,-1
+(R) Crd,-1
+Crd  ,-1
+Crd RnOn,1
+RnOn,1
+Bmp ,-1
+Blk,-1
+(R) BdCrd,-1
+ClrRn,-1
+LdNrLn,1
+ClrRn,-1
+HitRls,1
+QAw ALd WnWll,1
+AHandy,1
+Fcd Ck,-1
+LckdEP,-1
+EP ClrRn,-1
+Bmp ,-1
+ClrRn,-1
+ChlFr  Crd  BdCrd,-1
+Rls Mid ClrRn,1
+Mid Rls ClrRn,-1
+ClrRn,1
+Mid ClrRn,-1
+Mid ClrRn,1
+Lame,-1
+Crd RnOn,1
+Bmp,-1
+BmpRnUp,-1
+Crd,1
+Mid Rls ClrRn,-1
+QAw ALd (HT),1
+SAw BdCrd,-1
+Bmp,-1
+Crd,-1
+BmpRnUp  RnOn,1
+SAw RnOn,1
+KO,-1
+BdBmp LdRnIn,1
+EvCh,1
+Bmp RnOn,-1
+EvCh,-1
+Ld ,1
+Crd,-1
+Crd,1
+(R) Mid Rls ClrRn,-1
+In Season,-1
+EvCh,1
+Ld  ,1
+CrdStt,-1
+BdCrd,1
+EvCh,1
+Ld,1
+SAw Crd,-1
+Bmp,-1
+ALd CrdRnUp,1
+SAw BdCrd,-1
+EvCh,-1
+Mid Rls,-1
+LdRnUp,1
+HitRls,-1
+Mid Rls BdCrdRnUp,-1
+Mid Rls ALd,1
+Mid Rls,1
+Bmp StmbBdRnUp,-1
+Mid W Crd  RnIn,-1
+(R) ClrRn,-1
+HandyFr,1
+AHandy,1
+BdCrd,-1
+Ld,1
+SAw,-1
+(R) BmpStt Chl CrdRnIn,-1
+ClrRn,1
+Crd,-1
+Mid AHandy,1
+Mid RnOn,1
+MidRnUp,1
+VSAw Disp  CrdRnIn,1
+Bmp StmbBdRnUp,-1
+Mid W Crd  RnIn,-1
+(R) ClrRn,-1
+HandyFr,1
+AHandy,1
+BdCrd,-1
+Ld,1
+SAw,-1
+(R) BmpStt Chl CrdRnIn,-1
+ClrRn,1
+Crd,-1
+Mid AHandy,1
+Mid RnOn,1
+MidRnUp,1
+VSAw Disp  CrdRnIn,1
+Bmp StmbBdRnUp,-1
+Mid W Crd  RnIn,-1
+(R) ClrRn,-1
+HandyFr,1
+AHandy,1
+BdCrd,-1
+Ld,1
+SAw,-1
+(R) BmpStt Chl CrdRnIn,-1
+ClrRn,1
+Crd,-1
+Mid AHandy,1
+Mid RnOn,1
+MidRnUp,1
+VSAw Disp  CrdRnIn,1
+Rls SnHandy LdRnIn,1
+ClrRn,-1
+Rls LdRnIn NrLn,1
+Ld  ,-1
+Ld  Crd,-1
+ClrRn,-1
+ClrRn,-1
+Crd,-1
+Rls ClrRn,-1
+Crd,-1
+Ld   Bmp,-1
+BdBmp,-1
+Fcd CkBmp,-1
+ALd,1
+Chl Bmp Crd LdNrLn,1
+Fcd Ck Crd,-1
+ALd,1
+ClrRn,1
+Rls ALd Clr,1
+LckdEP SltCrd,-1
+LdFr,1
+EP Ld ,1
+SAw,-1
+BdBmp,-1
+RnOn Chl BmpRnIn,1
+EP RnOn LdNrLn,1
+EP,-1
+EP LdRnUp,1
+RnOnWll,1
+LdRnUp,1
+SAw Rls,-1
+SAw Rls,-1
+Blk,-1
+Blk Crd,-1
+Blk,-1
+Crd,-1
+EP Ld   Crd RnIn,-1
+ClrRn,1
+Crd ,1
+Crd,-1
+Crd HitRls,-1
+Rls Mid,-1
+EP Ld  Crd,-1
+EP Ld   LdNrLn,1
+EP Ld ,1
+EP Ld  StruckInto,-1
+Rls,-1
+MsdBrk Crd,-1
+QAw Ld   Crd,-1
+Mid Rls,-1
+MsdBrk EP Crd  Bmp,-1
+SnLd   Bmp Crd ,-1
+Crd   ,-1
+Crd  ,-1
+Bmp ,-1
+EP Disp Crd Crd,-1
+Crd MvdOff Crd,-1
+EP SnLd Mid Rls,1
+EP SnLd MvdOff ,1
+EP SnLd Mid Rls,1
+FAw HldOn,1
+FAw HldOn,1
+ChlRnUp ClrRn,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+EvAw ClrRn,-1
+Crd HandyFr,1
+(R) SAw,-1
+UpWithTrps Bmp,-1
+MsdBrk,-1
+LdRnIn,1
+(R) SAw,-1
+(R) ndFr LdRnIn,1
+(R) EvCh,1
+(R) ALd,1
+RnOn,1
+Crd (ReQul),-1
+SAw,-1
+Handy ,1
+(R) ClrRn,-1
+Mid Rls ClrRn,1
+Lame,-1
+LckdEP,-1
+ClrRn,-1
+MidRnUp LdRnIn,1
+Mid Ld,1
+VSAw Crd,-1
+SAw RnOn,-1
+Mid BmpRnUp,-1
+VSAw Crd,-1
+OutpE RnOnWll,-1
+Rls Mid RnOn,1
+ALd Rls,1
+Rls Mid,1
+SAw Rls Mid,1
+Chl  ,-1
+SAw Crd,-1
+Crd Fcd Ck,-1
+BdCrd,-1
+(R) MsdTrbl LdNrLn,1
+(R) ClrRn,-1
+ClrRn,-1
+(R) SAw ClrRn,-1
+EP SnLd,1
+AHandy,1
+Ld  ,1
+ClrRn,-1
+ClrRn,-1
+EP Handy ,-1
+EP Handy ,-1
+QAw SnLd,1
+Crd,-1
+ClrRn,-1
+QAw Ld ,-1
+Handy ,-1
+ClrRn,-1
+Ld HldOn,1
+W ClrRn,-1
+Crd Fcd Ck,-1
+MsdBrk,-1
+Fcd Ck BdBlk,-1
+W ClrRn,-1
+Ld,1
+BmpStt FcdW,-1
+LdRnUp  CmAgn,1
+Fcd Ck  RnOn,1
+MvdOff Fell (HT)(ReQul),-1
+Ld,1
+QAw DispLd  StydHandy,-1
+W ChlThr'Out,1
+ClrRn,-1
+Bmp ,-1
+SAw Ld  FcdW,-1
+Ld ,-1
+EvCh,-1
+Ld CghtNrLn,1
+Disp ,-1
+QAw Ld ,1
+QAw EvCh,1
+Handy ,-1
+Ld RnIn,1
+LdNrLn,1
+QAw Ld  ,-1
+Ld ,1
+Mid W ALd,1
+QAw Handy  ,-1
+(R) CrdRnUp RnOn,-1
+(R) EvCh,-1
+(R) EP SnHandy,-1
+Blk Crd,-1
+QAw LdRnUp,1
+BdBlk,-1
+QAw ALd,1
+SnLd,1
+ClrRn,-1
+(R) ClrRn,-1
+Mid ALd,1
+(Scr) Mid RnOn,1
+AHandy Ld,1
+(R) Fcd Ck RnOn,1
+(R) Ld,1
+(R) QAw Ld,1
+(R) Bmp FcdW,-1
+(R) QAw Ld,1
+(R) Blk (HT),-1
+(R) QAw Ld ,-1
+(R) ClrRn,-1
+SnLd  ,1
+Mid LdRnUp ,-1
+SnLd,1
+Mid ALd,1
+Mid Fcd Ckd,-1
+Mid ClrRn,1
+Mid CrdRnUp ,1
+Ld HldOn,1
+Chl  EvCh,1
+And Fdd,-1
+SAw,-1
+EvAw Ld,-1
+EP And,1
+Blk Blk,-1
+EvAw EvCh,-1
+SAw,-1
+EP Ld NrLn,1
+EP Ld NrLn,1
+EP Ld NrLn,1
+EP Ld NrLn,1
+(R) ndFrRnUp,1
+Mid W LdRnIn,1
+Mid LckdEP Ld,1
+(R) Crd WaitedRnIn (ReQul),1
+Fcd Ckd,-1
+Mid W HandyFr LdNrLn,1
+BdBlk Fcd Ck Bmp,-1
+SAw Mid W Crd,-1
+Handy  ,-1
+Rls Mid Ld NrLn,1
+CrdRnUp Ld,1
+SnLd   Ld,1
+Ld,1
+Mid W ClrRn,1
+BmpStt,-1
+Mid BmpRnUp,-1
+Mid W,-1
+Crd FellRnUp,-1
+LckdEP,-1
+BmpStt Ld ,1
+Handy ,-1
+Mid W,-1
+SAw Mid W,-1
+EP LdRnUp RnIn,-1
+BmpStt Ld  Clr ,1
+(R) Ld CrdRnIn,-1
+QAw Ld  ,-1
+ALd WnWll,1
+Rls Mid Ld  ,1
+Rls Ld  ,1
+Mid ALd,1
+Mid ALd,1
+(R) Ld NrLn,1
+(R) Chl Bmp,-1
+(R) SAw,-1
+(R) ClrRn,-1
+CrdRnUp ,-1
+AHandy,-1
+(R) SnLd RnIn,1
+Ld ,-1
+(R) ALd Clr Fr,1
+EP Disp  Fcd CkRnIn,-1
+BdCrd Crd,-1
+(R) ClrRn,-1
+EP Ld Bmp Crd,-1
+Bmp,-1
+Crd,1
+(R) Ld  Eased(ReQul),-1
+(R) Mid W Ld ,-1
+Mid W ALd,1
+SnHandy Bmp KO,-1
+Fcd CkRnUp,-1
+(R) Ld CghtNrLn W,1
+Ld  LdBrflyRnIn,1
+(R) nd  ,-1
+Blk,1
+(R) Ld  ,-1
+(R) Ld ,-1
+Ld  BmpBmp ,-1
+(R) ALd,1
+(R) Ld   Crd,-1
+(R) Ld  ,-1
+(R) LongLd  ,-1
+(R) Mid W Ld ,-1
+Mid,-1
+Mid ClrRn,-1
+SAw Mid W,-1
+Mid ClrRn,-1
+AHandy,1
+Ld StruckInto RnOn,1
+(R) Ld,1
+ClrRn,-1
+(Scr) EP LdNrLn,1
+(R) Crd,1
+(Scr) Crd ,-1
+Handy ,-1
+ALd HldOn,1
+ALd HldOn,1
+QAw Crd ,-1
+QAw LdRnIn  NrLn,1
+(Scr) Ld,1
+Ld   StydOn,1
+(R) EP Ld  NrLn,1
+Crd,-1
+(Scr) Chl Crd GngWll,-1
+(Scr) ClrRn,-1
+(R) SnHandy Ld WnWll,1
+(Scr) ClrRn,1
+HitRls,-1
+(R) Ld,1
+(Scr) Crd RnOn ChlNrLn,1
+Chl,1
+Ld RnIn,-1
+FcdW,-1
+Ld DrewClr,1
+ClrRn,-1
+ndFr  Crd,-1
+EP Crd,-1
+MsdBrk EP Ld BmpRnIn,1
+Ld  BdCrd,-1
+SnLd HldOn,1
+LdRnUp HldOn,1
+Mid,1
+Ld RnIn,1
+HandyCkdBd ,-1
+QAw Ld,1
+Mid CrdStt Crd Fcd Ck,-1
+Ld,1
+(R) Ld ,1
+SAw Crd,-1
+Ld,1
+Ld ,1
+SnHandy Bmp Ld,1
+(R) Crd ,1
+(Scr) SAw Crd Fcd Ck ,-1
+Mid,-1
+BdBlk (ReQul),-1
+(Scr) LdNrLn,1
+Ld,1
+(R) Ld ,1
+HandyFr Ld  NrLn,1
+Bmp Mid,1
+AHandy Mid Rls,-1
+BdCrd,-1
+BdCrd,-1
+SAw RnOn,1
+(R) StruckInto  (ReQul),-1
+LckdEP Crd,1
+SAw LckdEP Mid,-1
+BdMsdBrk,-1
+Mid RnOn (HT),1
+MsdBrk MidRnUp,-1
+MsdBrk RnOn,1
+Mid LdRnIn,1
+Mid EvCh,1
+(R) BmpStt FddFr,-1
+LckdEP FnWll,1
+(R) LckdEP RnOn,-1
+SAw CrdRnIn RnOn,1
+BtnFrEP Fcd Ck,-1
+LckdEP RnOn,-1
+Crd,-1
+Outp Fr (HT),-1
+Rn FnWll,1
+UpWithTrps,-1
+BtnFrEP Crd FnWll,1
+Crd,1
+VSAw,-1
+Ld ,1
+Fcd Ckd ,-1
+StmbStt Crd RnOn,-1
+Blk ,-1
+Mid CrdStt,-1
+SAw RnOn,-1
+Bmp RnOn,-1
+BtnFrEP LdRnIn,1
+SAw Fcd Ck,-1
+Crd RnOn,1
+CrdStt,-1
+Fcd Ck Bmp,-1
+MsdTrbl Ld,1
+LdNrLn,1
+VSAw Crd Bmp,-1
+BmpStt RnOn,-1
+SAw Mid ClrRn,-1
+Fcd Ck Blk,-1
+Crd RnOn,-1
+Bmp,-1
+Mid LdRnIn,1
+Mid LdNrLn,1
+Mid UpWithTrps,1
+Mid LdRnIn,1
+Mid Crd,1
+Mid CrdRnUp Ld ,1
+(R) Fcd CkRnUp  BdCrd,-1
+MsdBrk Rls ndFr,1
+Rls MsdTrbl Ld,1
+LdNrLn,1
+ClrRn,1
+Rls Mid LdRnUp HldOn,1
+MsdTrbl LeftClr,1
+Ld  HldOn,1
+Rls ClrRn,1
+Ld,1
+SnOutp (ReQul),-1
+LckdEP Rls,-1
+(R) Crd Fcd Ck CkdIn ,-1
+SAw Fcd Ck,-1
+SAw Chl Fcd Ck ,-1
+Fcd CkStt BdBlk,-1
+Chl Crd,-1
+(R) Ld CghtNrLn,1
+(R) Ld RnIn,-1
+(R) BdBmp,-1
+Crd ,-1
+(R) ALd,1
+(R) ClrRn,-1
+LdRnUp RnIn,1
+RlsStt Ld RnIn,1
+(R) Rls Mid ClrRn,-1
+(R) Rls Mid ALd Styd,1
+(R) HitRls RnOn,1
+(R) Rls Mid Ld ,-1
+(R) Rls Mid ClrRn,-1
+(R) Rls Mid LdRnIn,1
+Rls Crd,-1
+Off Colour,-1
+Fcd Ck RnOn,1
+(R) Ld  StruckInto  (ReQul),-1
+BmpRnUp,-1
+ClrRn,1
+Blk,-1
+Crd,-1
+Ld  (HT),1
+Fcd Ck,-1
+ClrRn,1
+Rls ClrRn,1
+SnLd,1
+Mid Rls ClrRn,1
+SAw Rls ClrRn,-1
+MsdBrk Mid W,-1
+Mid W Ld,1
+DispFr Waiting RnIn (ReQul),1
+FcdW,-1
+ClrRn,-1
+ClrRn,-1
+Bmp FcdW,-1
+SnHandy LdNrLn,1
+Blk Crd,-1
+(R) EvCh,-1
+(R) Crd ,-1
+(R) StruckInto ,-1
+ClrRn,-1
+ClrRn,-1
+Crd Fcd Ck,-1
+Mid W LdRnUp,1
+Crd Bmp,1
+ClrRn,1
+SAw,1
+BroughtDown (ReQul),-1
+Crd,-1
+ClrRn,-1
+StmbBdStt,-1
+Mid W SnHandy Ld,1
+(R) Ld  ,1
+(R) Ld NrLn,-1
+(R) ClrRn,-1
+Bmp,-1
+SAw,-1
+(R) SnLd,1
+Mid RnOn (HT),1
+Mid Blk,1
+BdBmp,-1
+SAw,-1
+Mid ClrRn,-1
+Mid EvCh,1
+Mid W ALd,1
+ClrRn,-1
+SAw CrdRnUp Bmp,-1
+ClrRn,-1
+(R) SAw,-1
+SAw Crd,-1
+(R) Handy  W,-1
+Mid W,-1
+Fcd Ck,-1
+Mid W Blk,1
+Mid ClrRn,1
+Mid ClrRn,1
+W ClrRn,-1
+EP W LdRnUp,1
+EP W BdCrd,-1
+Ld,1
+(R) Ld CghtNrLn,1
+Ld   ChlFr,-1
+(R) Ld  ,-1
+W ClrRn,-1
+(R) W ALd,1
+W ClrRn,-1
+(R) Ld   Crd ,-1
+Fcd Ckd,-1
+nd ,-1
+(R) W Handy ,-1
+W ClrRn,-1
+SAw ClrRn,-1
+ClrRn,1
+EP W Ld ,-1
+W ClrRn,-1
+ClrRn,-1
+AHandy ChlNrLn,1
+Blk (ReQul),-1
+ClrRn,-1
+ClrRn,-1
+ClrRn,-1
+Ld NrLn,1
+FddFr (ReQul),-1
+HandyFr  LdNrLn,1
+EP SnLd,1
+Ld  RnIn Bmp,-1
+W EvCh,-1
+W ClrRn,-1
+W ClrRn,-1
+W Ld,1
+W Handy  ,-1
+W ClrRn,-1
+W HandyFr LdNrLn,1
+ClrRn,-1
+StmbStt (ReQul),-1
+Ld,1
+(R) Ld RnIn,1
+SAw W,-1
+Bmp,-1
+ChlFr ,1
+Ld RnIn,1
+W ClrRn,-1
+W LckdEP ClrRn,-1
+VW ClrRn,-1
+QAw W ALd,1
+Mid ClrRn,-1
+Non Arrival,-1
+W EvCh,1
+FcdW,-1
+W ClrRn,-1
+W Ld (HT),1
+W Ld  ,-1
+Mid W ClrRn,1
+W LdRnUp  ,-1
+ClrRn,1
+W Ld ,-1
+FcdW (ReQul),-1
+SAw,-1
+SAw Fcd CkW,-1
+Disp  ,1
+Non Arrival,-1
+SnLd RnIn,1
+EP Ld NrLn,1
+ChlFr ,-1
+ClrRn,-1
+Mid W ClrRn,1
+AHandy,-1
+Blk Fcd Ck,-1
+W Ld ,1
+Mid ALd,1
+Mid W EP ClrRn,-1
+Blk BdBlk,-1
+W ClrRn,-1
+Mid ClrRn,1
+EP,-1
+AHandy,1
+(R) Ld RnIn,-1
+Mid W LdRnUp,1
+KO (ReQul),-1
+RnOn,-1
+(R) ClrRn,-1
+Mid Rls LdRnUp ,1
+Mid Crd,-1
+Mid Rls Ld ,-1
+Ld RnIn,-1
+Ld,1
+Ld NrLn,1
+Mid ALd,1
+Mid W ClrRn,1
+W Ld ,1
+Crd,-1
+Mid CrdRnUp Ld NrLn,1
+Mid CrdRnUp Ld NrLn,1
+Blk,-1
+(R) LdRnUp   Bmp,-1
+SAw BdCrd,-1
+(R) BdBmp,-1
+RnOn,1
+(R) LdNrLn,1
+CrdRnUp ,-1
+Mid Ld  NrLn,1
+(R) Mid ALd,1
+Ld ,1
+(R) Mid Rls ClrRn,-1
+SAw Mid,-1
+(R) QAw Blk Fcd Ck,-1
+(R) Ld,1
+(R) SnLd,1
+LckdEP Crd,-1
+LdNrLn,1
+Mid Ld Ckd,-1
+Crd Fell  (ReQul),-1
+Rls Mid SnLd,1
+Ld ,1
+Crd (ReQul),-1
+(R) Ld NrLn,-1
+MsdTr Fcd Ck,-1
+MidStt ALd,1
+Ld ,-1
+ClrRn,-1
+Ld  Crd Blk,-1
+BdCrd,-1
+Rls Mid LdRnUp,1
+Rls Mid Disp ,-1
+MsdBrk EP LdRnUp,1
+EP Eased Crd ,-1
+SAw,-1
+LckdEP Mid,-1
+AHandy Ld,1
+SAw,-1
+CrdRnUp,-1
+Mid,-1
+W BmpStt Crd Fell,-1
+SAw Mid,-1
+MsdBrk EP LdRnUp,1
+Mid W,-1
+LdRnUp,1
+BmpStt Ld  ,1
+AHandy,1
+Mid,1
+Mid,1
+Ld  MvdOff Crd (ReQul),-1
+Fcd Ckd,-1
+CrdRnUp,-1
+Ld ,1
+SnLd,1
+Crd,-1
+(R) QAw ALd,1
+EP Fcd CkRnUp,-1
+(R) StmbStt,-1
+(R) Handy  ,-1
+BdBmp,-1
+QAw Mid SnClr,1
+Crd Fdd (ReQul),-1
+(R) EP ALd,1
+(R) SnLd,1
+EP Fcd Ck  BmpRnIn,-1
+LdRnUp ClrFr,1
+Bmp LdRnUp Clr ,1
+UpWithTrps Crd Fell,-1
+SnLd Mid W ClrFr,1
+Mid Ld LeftClr,1
+SnLd,1
+ClrRn,1
+Mid SnLd NrLn,1
+StmbBdStt,-1
+EP SnLd   Crd,-1
+Bmp,-1
+LdNrLn,1
+Handy  Fcd Ck,-1
+ClrRn,-1
+Bmp Ld RnIn,1
+EP Mid Crd,-1
+Handy ,-1
+Chl ,-1
+Handy ,-1
+EP Handy ,-1
+EP SnLd RnIn,-1
+ClrRn,-1
+EP Bmp,-1
+QAw LdRnUp  ,-1
+Ld ,-1
+QAw ALd HldOn,1
+EP SnLd LongLd ,1
+MsdBrk EP Crd ,-1
+QAw SnLd LeftClr,1
+LdRnUp W OnWll,1
+QAw Ld ,-1
+StmbStt,-1
+StmbStt,-1
+EP Handy  ,-1
+ALd,1
+Bmp,-1
+Mid Handy  ,1
+Bmp Fdd (ReQul),-1
+EP SnClr CghtNrLn,-1
+SnLd RnIn,-1
+Bmp,-1
+CrdRnUp BdCrd,-1
+Ld  Disp  Bmp,-1
+BmpStt Crd,-1
+QAw LongLd Fr,1
+LdRnUp  ,-1
+Handy ,-1
+ClrRn,-1
+EP Chl,-1
+Mid,-1
+LdRnUp  ,1
+SnLd CghtNrLn,1
+ALd Clr Fr,1
+ClrRn,-1
+Blk,-1
+QAw Ld   Crd ,-1
+ClrRn,-1
+QAw Ld ,-1
+ClrRn,-1
+QAw Ld,1
+ALd WnWll,1
+Fcd CkdBmp,-1
+Ld  NrLn,1
+Bmp,-1
+(R) ClrRn,-1
+Fcd Ck,-1
+(R) BdBmp Crd,-1
+MsdBrk EP Disp ,1
+(R) SnLd CghtNrLn,1
+Handy  ,-1
+QAw Ld CghtNrLn,1
+Fcd Ckd,1
+Mid AHandy,1
+Mid LdRnIn,1
+LdRnUp Mid W,1
+LckdEP W,-1
+ClrRn,-1
+Mid W SnHandy ChlRnIn,1
+EvCh,1
+ChlNrLn,1
+(R) SnLd WnWll,1
+(R) Ld  ,-1
+By Stewards,-1
+(R) BmpStt,-1
+(R) EP,-1
+(R) ClrRn,-1
+(R) LckdEP ClrRn,-1
+(R) ClrRn,-1
+ClrRn,-1
+LckdEP,-1
+(R) ClrRn,-1
+LckdEP ClrRn,-1
+ClrRn,-1
+Crd FcdW,-1
+Mid W ALd,1
+ClrRn,-1
+ClrRn,-1
+Crd,-1
+Crd,-1
+ClrRn,-1
+Fcd Ckd,-1
+W LdNrLn,1
+Bmp Fcd Ck (ReQul),-1
+Ld WnWll,1
+Mid W,1
+Ld DrewClr (ReQul),1
+W LdRnIn,1
+FcdVW,-1
+SAw LckdEP,-1
+By Stewards,-1
+ClrRn,-1
+W FnWll,1
+RnOn,1
+W ClrRn,-1
+LckdEP Crd  StmbB,-1
+Crd,1
+Bmp,-1
+ClrRn,-1
+QAw Handy  ,-1
+LdNrLn,1
+Crd RnOn,1
+(R) BdCrd (ReQul),-1
+(R) Crd,-1
+(R) ClrRn,-1
+(R) RnOn,-1
+(R) Mid W ClrRn,-1
+(R) ClrRn,-1
+(R) SAw Bmp,-1
+Mid W,-1
+Mid,-1
+SnLd DrewClr (ReQul),1
+ClrRn,-1
+Crd Ld ,-1
+Bmp,-1
+CrdRnUp,-1
+(R) VSAw Crd FnWll,1
+Crd,-1
+ClrRn,-1
+(R) ALd,1
+CrdRnUp ,-1
+SnLd BdCrd,1
+Mid LdRnIn,1
+Mid,1
+ClrRn,-1
+EvCh,-1
+ClrRn,-1
+ALd,1
+Ld ,1
+Ld CghtNrLn,-1
+(R) Fcd Ckd ,-1
+Crd,-1
+By Stewards,-1
+MsdBrk,-1
+Handy ,-1
+QAw SnLd  ,1
+AHandy Fcd Ck,-1
+Fcd CkRnUp Crd,-1
+EP Ld Clr ,1
+ChlFr LdNrLn,1
+EvCh,1
+EvCh,1
+EvCh,1
+LdNrLn,1
+QAw,1
+ClrRn,-1
+Fcd Ck ,-1
+Ld ,-1
+Crd Fcd Ck,-1
+ALd,1
+Crd,-1
+ClrRn,-1
+SAw ClrRn,-1
+RnOn,-1
+Crd W,1
+Crd,-1
+Crd,-1
+Ld,1
+Bitten,-1
+ClrRn,1
+Crd,-1
+LdRnUp WnWll,1
+Mid,1
+Non Arrival,-1
+BdCrd,-1
+ClrRn,-1
+Crd ,-1
+Handy  Crd,-1
+SnLd,1
+Ld,1
+SnLd CghtNrLn,1
+SnClr,1
+ClrRn,-1
+Mid ALd,1
+LdRnUp ,-1
+Non Arrival,-1
+Mid Rls RnOn,1
+Crd ,1
+BroughtDown,-1
+Crd Fcd Ck,-1
+BdBmp,-1
+ClrRn,-1
+EP SnLd LeftClr,1
+EP SnLd,1
+(R) Fcd Ck,-1
+Crd,-1
+(R) ALd,1
+(R) ALd,1
+Fcd Ck  Crd,-1
+EP DispFr ,-1
+Mid ClrRn,1
+EP BdBlk KO (ReQul),-1
+Mid AHandy,1
+Mid ALd,1
+Mid Handy  ,1
+Mid FddFr,-1
+Mid ClrRn,-1
+ClrRn,-1
+EvCh,-1
+ClrRn,-1
+ALd,1
+Ld ,1
+Ld CghtNrLn,-1
+(R) Fcd Ckd ,-1
+Crd,-1
+By Stewards,-1
+MsdBrk,-1
+Handy ,-1
+QAw SnLd  ,1
+AHandy Fcd Ck,-1
+Fcd CkRnUp Crd,-1
+EP Ld Clr ,1
+ChlFr LdNrLn,1
+EvCh,1
+EvCh,1
+EvCh,1
+LdNrLn,1
+QAw,1
+ClrRn,-1
+Fcd Ck ,-1
+Ld ,-1
+Crd Fcd Ck,-1
+ALd,1
+Crd,-1
+ClrRn,-1
+SAw ClrRn,-1
+RnOn,-1
+Crd W,1
+Crd,-1
+Crd,-1
+Ld,1
+Bitten,-1
+ClrRn,1
+Crd,-1
+LdRnUp WnWll,1
+Mid,1
+Non Arrival,-1
+BdCrd,-1
+ClrRn,-1
+Crd ,-1
+Handy  Crd,-1
+SnLd,1
+Ld,1
+SnLd CghtNrLn,1
+SnClr,1
+ClrRn,-1
+Mid ALd,1
+LdRnUp ,-1
+Non Arrival,-1
+Mid Rls RnOn,1
+Crd ,1
+BroughtDown,-1
+Crd Fcd Ck,-1
+BdBmp,-1
+ClrRn,-1
+EP SnLd LeftClr,1
+EP SnLd,1
+(R) Fcd Ck,-1
+Crd,-1
+(R) ALd,1
+(R) ALd,1
+Fcd Ck  Crd,-1
+EP DispFr ,-1
+Mid ClrRn,1
+EP BdBlk KO (ReQul),-1
+Mid AHandy,1
+Mid ALd,1
+Mid Handy  ,1
+Mid FddFr,-1
+Mid ClrRn,-1
+MsdBrk,-1
+VSAw VW ,-1
+SAw RnOn,-1
+ClrRn,-1
+SAw W,-1
+W StruckInto,-1
+VWBnds EvCh,1
+BmpStt VW,-1
+SAw ClrRn,-1
+Chl Crd LdNrLn,1
+SAw StmbStt Fcd Ck,-1
+MsdBrk W Fcd Ck ,-1
+SAw RnOn,1
+Ld,1
+HandyFr,-1
+ClrRn,-1
+Mid W ClrRn,1
+SAw ClrRn,-1
+SAw,-1
+VSAw,-1
+RnOn,1
+VSAw LdFr,1
+VSAw,-1
+LckdEP Crd,-1
+W Ld,1
+WRnUp RnOn,1
+W,1
+VSAw Mid,1
+CkdBd ,-1
+VSAw ClrRn,-1
+CrdRnUp,-1
+SAw ClrRn,-1
+Crd,-1
+Chl Crd,-1
+(R) SAw Bmp,-1
+Mid ALd DrewClr ,1
+Disp Ld DrewClr ,1
+StruckInto Fell ,-1
+SAw Mid,-1
+SltStmbB RnOnWll,1
+MidRnUp Ld,1
+Ld  Mid,-1
+SAw EP W Blk RnIn,-1
+EP W LdRnUp HldOn,1
+Handy  ,-1
+EP W SnLd,1
+EP W Ld,1
+EP W Ld  NrLn,-1
+Ld ,1
+(R) W Ld CghtRnIn,-1
+(R) ALd HldOn,1
+(R) Ld ,-1
+(R) Ld RnIn,-1
+EP,-1
+MsdBrk W,-1
+ClrRn,1
+In Season,-1
+EP W BdBmp,-1
+Ld,1
+W ClrRn,-1
+LckdEP W,-1
+Mid W,-1
+Ckd (ReQul),-1
+LckdEP W,-1
+W Ld LeftClr,1
+SAw,-1
+SAw BdCrd ,-1
+W EvCh,1
+W ClrRn,-1
+EvCh,-1
+W RnOn,1
+FnWll,1
+EP,-1
+W EvCh,-1
+SAw BdBlk,-1
+SAw Fcd Ck,-1
+VSAw,-1
+SAw,-1
+Crd,1
+Mid W,1
+Fcd Ck,-1
+ClrRn,-1
+(R) FddFr (ReQul),-1
+Mid Outp,1
+Mid ClrRn,1
+Mid,1
+Mid Rls BmpRnIn,-1
+Mid W ClrRn,1
+Rls EvCh,-1
+ClrRn,-1
+(R) Ld RnIn,1
+Rls EvCh,1
+Rls Bmp,-1
+(R) Ld ,-1
+(R) ClrRn,-1
+EP Rls Bmp,-1
+Handy ,-1
+ClrRn,-1
+Rls ClrRn,-1
+Rls ClrRn,-1
+Rls,-1
+Crd,-1
+Rls Fcd Ck,-1
+Rls ClrRn,-1
+ClrRn,-1
+Ld,1
+Rls ClrRn,-1
+Rls Ld HldOn,1
+Ld HldOn,1
+Bmp RnOn,1
+AHandy Chl Crd,1
+Bmp RnOn,1
+Bmp,-1
+LdNrLn,1
+(R) ALd,1
+(R) And,1
+(R) Handy ,-1
+(R) EvCh,1
+(R) And,1
+Rls ndFr RnOn,1
+AHandy,1
+LckdEP ClrRn,-1
+LdRnIn CghtNrLn,1
+Rls ClrRn,-1
+Rls ndFr,1
+Fcd CkRnUp,-1
+Rls HandyFr,-1
+ClrRn,-1
+Rls Fcd CkStt,-1
+Ld DrewClr,1
+Bmp Chl Crd,-1
+Rls ClrRn,-1
+Crd,-1
+Crd,-1
+OutpE RnOn,-1
+Rls,-1
+SAw LckdEP Crd,-1
+Rls RnOn,-1
+(R) ClrRn,1
+ClrRn,-1
+RnOn,-1
+LdRnIn,1
+(R) Bmp BdCrd,-1
+(R) Ld  ,-1
+(R) ALd,1
+(R) Blk Stmb,-1
+(R) Ld RnIn,1
+(R) Ld   Crd,-1
+BdCrd,-1
+ClrRn,-1
+(R) SAw BmpRnIn,-1
+HitRls,-1
+RnOn,-1
+SAw,-1
+Mid Rls Ld,1
+Mid Rls ClrRn,1
+Rls ALd,1
+ALd Rls Mid,1
+Mid,1
+(R) Fcd Ck,-1
+SAw Fcd Ck,-1
+ClrRn,-1
+(R) SAw Crd,-1
+StydOn,-1
+Crd Fcd Ck,-1
+LckdEP Crd ,1
+Fcd Ck BmpRnIn,-1
+LdNrLn,1
+CrdStt ,-1
+ClrRn,-1
+(R) CrdRnUp ,-1
+ClrRn,1
+ClrRn,-1
+EP Bmp  ChlRnIn,1
+(R) ClrRn,-1
+(R) ClrRn,1
+(R) SnLd,1
+LckdEP,-1
+Bmp ,-1
+Fcd Ck Ld,1
+SAw (HT),-1
+MsdBrk Crd,-1
+ClrRn,-1
+SAw,-1
+BdCrd Fcd Ck,-1
+ClrRn,-1
+Mid ALd,1
+BdCrd Imp (ReQul),-1
+SAw Mid Bmp (HT),-1
+SAw Crd,-1
+EvCh,1
+SAw Ld DrewClr,1
+Fcd Ckd,-1
+StruckInto,-1
+RnOn,1
+ClrRn,-1
+LckdEP,-1
+(R) ClrRn,-1
+Crd Fcd CkRnIn,-1
+(R) Crd,-1
+(R) Fcd Ck ,-1
+(R) Crd,-1
+(R) ClrRn,-1
+Bmp,-1
+LdNrLn,1
+AHandy Ld,1
+(R) ClrRn,-1
+Ld,1
+(R) ALd,1
+(R) ChlRnIn Crd,-1
+(R) And,1
+(R) Ld  ,-1
+Fcd Ckd,-1
+Ld  CghtNrLn,-1
+Bmp,-1
+Mid ALd,1
+Crd,1
+Bmp Crd Fcd Ck,-1
+ClrRn,-1
+Mid,-1
+(R) BmpRnUp BdBlk (ReQul),-1
+ClrRn,-1
+Bmp,-1
+AHandy,-1
+LdRnUp SnClr,1
+(R) MsdBrk Fcd Ck   (ReQul),-1
+Ld  Mid,1
+Fcd Ck VBdCrd (ReQul),-1
+SAw,-1
+Mid Ld ,1
+(R) RnPoor (ReQul),-1
+Crd LdRnIn,1
+(R) Bmp ,-1
+EvCh,1
+Mid ClrRn,1
+Cough,-1
+(R) Ld ,-1
+(R) SAw Fcd Ck,-1
+Mid RnOn,1
+Mid LdRnIn,1
+Mid ClrRn,1
+Mid Ld ,1
+Green Mid,1
+Crd,-1
+EP Crd ,1
+(R) ClrRn,-1
+Bmp,-1
+EP,-1
+(R) ClrRn,-1
+(R) Fcd Ck ,-1
+Disp Ld  Ld,1
+(R) ClrRn,-1
+Mid CrdStt,-1
+ClrRn,-1
+(R) Handy ,-1
+ClrRn,-1
+Fcd Ck,-1
+(R) SnLd,1
+ClrRn,-1
+ClrRn,-1
+(R) Ld CghtNrLn,1
+Bmp,-1
+SnLd HldOn,1
+(R) ClrRn,-1
+(R) LdRnUp  Fcd Ck,-1
+LdRnUp,1
+Mid Bmp,-1
+Mid ClrRn,1
+Mid SnLd RnIn,1
+Mid Bmp,-1
+ClrRn,-1
+W AHandy,1
+SAw W,1
+VWThr'Out,-1
+VW HandyFr Ld,1
+EP W ALd,1
+FcdW BdImp  (ReQul),-1
+RnOn,1
+W LdNrLn,1
+VW EvCh,-1
+VWThr'Out,-1
+W ClrRn,-1
+VWThr'Out,-1
+EvCh,1
+VW EvCh,-1
+VW EvCh,-1
+VW Bmp LdNrLn,1
+VWThr'Out Bmp,1
+ClrRn,-1
+W ClrRn,-1
+BdCrd,-1
+Bmp FcdW,-1
+VW ClrRn,1
+W ClrRn,-1
+W Blk,-1
+Mid W ClrRn,-1
+ALd (ReQul),1
+Crd,-1
+(R) Ld RnIn VW,1
+SAw VW,-1
+VW,-1
+BdCrd,-1
+W HandyFr,1
+By Stewards,-1
+SAw W Bmp,-1
+W Crd,-1
+ClrRn,-1
+W ClrRn,-1
+SAw W,-1
+W ClrRn,-1
+SAw StruckInto,-1
+VW Ld  CmAgn,1
+ClrRn,-1
+W ClrRn,-1
+Mid W ClrRn,-1
+W ClrRn,-1
+ClrRn,-1
+W ClrRn,-1
+SAw W RnOn,-1
+LckdEP W ClrRn,-1
+FcdW VW,-1
+Bmp FcdW,-1
+VSAw W,-1
+W Ld,1
+SAw W LdNrLn,1
+VW RnOn (HT),1
+FcdW,-1
+Bmp FcdW,-1
+Blk,-1
+W Fcd Ck ChlRnIn,1
+LckdEP W RnOn,-1
+Bmp RnOn,-1
+W BdBlk RnOn,-1
+W LdNrLn,1
+ClrRn,-1
+SAw W RnOn,1
+Mid ClrRn,-1
+Mid W SnLd ,-1
+Mid W ClrRn,1
+Mid,1
+CkdRnUp Fdd (ReQul),-1
+Mid Bmp Ld,1
+(R) NvrShwd(ReQul),-1
+(R) EP Ld,1
+Mid ALd,1
+(R) FddFr (ReQul),-1
+Bmp,-1
+LdRnIn,1
+(R) ClrRn,-1
+(R) Fcd CkRnUp,-1
+BdCrd Fcd Ck,-1
+(R) SAw,-1
+ClrRn,-1
+SnHandy Ld  RnIn,1
+(R) SAw Bmp,-1
+Bmp,-1
+LckdEP,-1
+(R) Bmp,-1
+Crd BdBmp,-1
+ClrRn,-1
+Ld ClrFr,1
+ClrRn,-1
+(R) Handy ,-1
+SAw FcdW,-1
+ClrRn,-1
+ChlRnIn,-1
+AHandy,1
+W Bmp,-1
+Ld RnIn,1
+Bmp,-1
+Fcd Ckd,-1
+Bmp,-1
+W,-1
+QAw W,-1
+Ld WnWll,1
+MvdOff Bmp,-1
+LdNrLn,1
+MvdOff Blk Bmp,-1
+Fcd CkW,-1
+SAw Crd Fcd Ck,-1
+SAw Mid ClrRn,-1
+ClrRn,1
+SAw W RnOn,-1
+BdBlk Fcd Ck,-1
+SAw Bmp RnOn,-1
+Mid W ,1
+Mid,1
+W  RnOn,1
+Mid W,1
+Crd ,-1
+Ld (HT),1
+LckdEP Crd,-1
+Ld,1
+CrdRnUp  ,-1
+FnWll LdNrLn,1
+Crd  Mid,1
+CrdRnUp BdBmp ,1
+EP Ld ,1
+Mid Rls,1
+QAw ALd Mid,1
+Lame,-1
+(R) Bmp,-1
+(R) Crd RnIn,1
+(R) Crd,-1
+(R) Crd RnOn,-1
+(R) Crd,-1
+(R) Crd,-1
+(R) LdRnIn,1
+(R) Bmp Fcd Ck,-1
+(R) Fcd Ck B,-1
+(Scr) Crd ,-1
+(Scr) CutIn Fcd CkStt RnOn,-1
+(R) Ld,1
+(R) Crd  (HT),1
+(R) Crd,1
+(R) LdH,1
+(R) LdB,1
+(R) HitH,-1
+(R) BdBmp Bmp,-1
+(R) BmpStt  B,-1
+(Scr) Bmp,-1
+(R) CrdRnUp B B,-1
+(R) Bmp BdCrdB,-1
+(R) LdB,1
+(R) Ld ,1
+(R) JmpHighH,-1
+(R) CrdB JmpHigh H,-1
+Mid Rls,-1
+FellH,-1
+Mid Rls,-1
+EvCh,1
+Chl CrdRnIn,1
+VQAw ALd,1
+(R) Crd ChlFr,-1
+QAw Ld RnIn,1
+(R) EvCh,-1
+Bmp  ,-1
+(R) Chl  Crd,-1
+Bmp,-1
+EP Ld ,-1
+Mid Rls,-1
+Crd   BmpRnIn,-1
+Bmp Crd (HT),-1
+CrdRnUp Bmp Mid,-1
+QAw ALd,1
+(Scr) Fcd Ck Crd,-1
+Crd BmpRnUp LdRnIn,1
+Bmp   RnOn,1
+Bmp   Crd,-1
+QAw Crd,1
+EP Ld ,1
+RnOn,-1
+EvCh Mid Rls,1
+Mid Rls,1
+SAw Crd Mid Rls,-1
+AHandy Ld,1
+Bmp Crd Ld,1
+Outp Bmp,-1
+MsdBrk NvrShwd,-1
+EvAw RnOn,1
+EvAw RnOn,1
+FAw Blk,-1
+FAw Crd,-1
+FAw Crd,-1
+SAw RnOn,-1
+EvAw Ld,1
+EvAw Ld,1
+EvAw Ld,1
+EP Ld  (HT),1
+VSAw BdBmp  ,-1
+MsdBrk,-1
+QAw ALd Mid,1
+Crd,-1
+SAw Crd Mid,-1
+ClrRn Mid,1
+Crd LdNrLn,1
+ChlRnIn Mid Rls,1
+Crd,-1
+Handy  RnIn Crd,-1
+QAw Ld ,1
+EvCh Rls,-1
+Mid Rls,-1
+QAw ALd Mid Rls,1
+Mid Rls,1
+Off Colour,-1
+LdRnIn Rls Mid,1
+Ld Rls Mid,1
+Bmp Rls Mid,1
+Lame,-1
+LdRnIn W,1
+ClrRn (HT),-1
+Bmp,-1
+LckdEP CrdW,-1
+FcdW ,-1
+QAw Ld Chl,1
+QAw Ld W,1
+Crd VW RnOn,-1
+CkdWStt CrdRnUp LdRnIn,1
+Crd ,-1
+Bmp Ld,1
+Crd RnOn LdNrLn,1
+Crd Bmp,-1
+Crd,-1
+Bmp  ,-1
+EvCh Mid W,1
+ClrRn W,-1
+Crd BdCrd,-1
+Bmp Crd  ,-1
+CrdRnUp  ,-1
+Crd ,-1
+Crd W,-1
+QAw ALd W,1
+EvCh W,-1
+QAw W,-1
+RnOn W,1
+Bmp,1
+Bitten,-1
+Crd W,-1
+LdNrLn W,1
+RnOn,-1
+Crd ,-1
+QAw Ld  Bmp,1
+Ld Mid W,1
+In Season,-1
+Crd,-1
+Fcd Ck BmpRnIn,-1
+Crd ,-1
+Crd ,-1
+LdNrLn W,1
+Crd W,-1
+Crd ,-1
+LdRnIn W,1
+Ld,1
+Crd,-1
+Crd,-1
+Bmp  ,-1
+Bmp CkdW BdBmp,-1
+QAw ALd,1
+AHandy,1
+Crd ,-1
+Crd RnIn,-1
+Crd,-1
+ChlFr ,-1
+Bmp W,-1
+EvCh W,-1
+EvCh,-1
+EvCh,-1
+Crd ,-1
+EvCh W,-1
+Crd,1
+Crd RnOn,1
+EvCh W,-1
+EvCh W,-1
+Crd,-1
+EvCh,-1
+Ld,1
+Bmp,-1
+EvCh,-1
+Crd ,-1
+QAw Crd Ld ,1
+Crd ,-1
+EvCh,-1
+QAw Ld W,1
+Bmp,-1
+EvCh W,-1
+Ld W,1
+QAw ALd W,1
+W,1
+Crd BdCrd,-1
+SAw,1
+Bmp,-1
+ClrRn,1
+EvCh,-1
+SAw Mid W BmpRnIn,1
+SAw MidRnUp,1
+EvAw RnOn,-1
+ClrRn EvCh,-1
+EvAw Blk,-1
+BmpBmp,-1
+EvAw Bmp,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+Lame,-1
+LdRnIn W,1
+ClrRn (HT),-1
+Bmp,-1
+LckdEP CrdW,-1
+FcdW ,-1
+QAw Ld Chl,1
+QAw Ld W,1
+Crd VW RnOn,-1
+CkdWStt CrdRnUp LdRnIn,1
+Crd ,-1
+Bmp Ld,1
+Crd RnOn LdNrLn,1
+Crd Bmp,-1
+Crd,-1
+Bmp  ,-1
+EvCh Mid W,1
+ClrRn W,-1
+Crd BdCrd,-1
+Bmp Crd  ,-1
+CrdRnUp  ,-1
+Crd ,-1
+Crd W,-1
+QAw ALd W,1
+EvCh W,-1
+QAw W,-1
+RnOn W,1
+Bmp,1
+Bitten,-1
+Crd W,-1
+LdNrLn W,1
+RnOn,-1
+Crd ,-1
+QAw Ld  Bmp,1
+Ld Mid W,1
+In Season,-1
+Crd,-1
+Fcd Ck BmpRnIn,-1
+Crd ,-1
+Crd ,-1
+LdNrLn W,1
+Crd W,-1
+Crd ,-1
+LdRnIn W,1
+Ld,1
+Crd,-1
+Crd,-1
+Bmp  ,-1
+Bmp CkdW BdBmp,-1
+QAw ALd,1
+AHandy,1
+Crd ,-1
+Crd RnIn,-1
+Crd,-1
+ChlFr ,-1
+Bmp W,-1
+EvCh W,-1
+EvCh,-1
+EvCh,-1
+Crd ,-1
+EvCh W,-1
+Crd,1
+Crd RnOn,1
+EvCh W,-1
+EvCh W,-1
+Crd,-1
+EvCh,-1
+Ld,1
+Bmp,-1
+EvCh,-1
+Crd ,-1
+QAw Crd Ld ,1
+Crd ,-1
+EvCh,-1
+QAw Ld W,1
+Bmp,-1
+EvCh W,-1
+Ld W,1
+QAw ALd W,1
+W,1
+Crd BdCrd,-1
+SAw,1
+Bmp,-1
+ClrRn,1
+EvCh,-1
+SAw Mid W BmpRnIn,1
+SAw MidRnUp,1
+EvAw RnOn,-1
+ClrRn EvCh,-1
+EvAw Blk,-1
+BmpBmp,-1
+EvAw Bmp,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvCh Rls,-1
+BmpStt (HT),-1
+Ld ,1
+Ld ,1
+SAw Crd Rls,-1
+AHandy LdBrfly Rls,1
+SAw Mid Rls,-1
+(R) Fcd Ck,-1
+Crd Rls,-1
+Rls Mid,-1
+Rls Mid,-1
+EvCh Rls,-1
+ClrRn Rls,1
+VSAw NvrShwd,-1
+MsdTrbl,1
+Rls EvCh,-1
+SAw Rls Crd RnOn,-1
+VSAw Rls ClrRn,-1
+VSAw Rls Crd,-1
+Rls RnOn,1
+CrdThr'Out,1
+Rls Crd Ld  NrLn,1
+Rls Mid LckdEP,-1
+LckdEP Ckd LdNrLn,1
+SAw Mid Rls Ld,1
+Mid Rls Ld,1
+Rls RnOn,1
+Rls LdRnIn,1
+Rls ClrRn,1
+SAw Rls ClrRn,1
+Lame,-1
+Rls,-1
+Rls Mid,-1
+Ld  Mid,1
+BdCrd RnOn,-1
+Crd   RnOn,-1
+Ld (HT),1
+SAw Rls RnOn (HT),-1
+Ld (HT),1
+Ld Rls (HT),1
+SAw Crd (HT),-1
+Rls (HT),-1
+RnOn (HT),1
+CrdRnUp ,-1
+SAw Crd  Ld,1
+Chl Fcd Ckd RnOn,1
+QAw,1
+SAw Crd,-1
+Ld Rls,1
+Crd LdRnIn,1
+QAw Crd ,-1
+SAw Crd RnOn,1
+SAw Crd LdNrLn,1
+Rls,-1
+RnOn Rls,1
+SAw Rls RnOn,-1
+Ld Rls,1
+Ld,1
+CrdStt  ,-1
+SAw Crd,-1
+RnOn,1
+Crd Rls,-1
+CrdRnIn,-1
+Crd Rls,-1
+Fcd Ck RnOn,1
+Crd RnOn,1
+SAw Crd ,-1
+SAw Crd,-1
+SAw Crd  ,-1
+SAw Rls,-1
+Crd LdRnIn,1
+SAw Crd Fcd Ck,-1
+SAw Rls,-1
+SAw Crd  ,-1
+Crd  ,-1
+SAw Crd,-1
+Ld  Fr,1
+RnOn Rls,-1
+LdRnIn,1
+RnOn Rls,1
+SAw Rls,-1
+Ld Mid,1
+Cough,-1
+SAw Crd,-1
+Crd  ,-1
+EP Ld Mid,1
+SAw Crd,-1
+EP Ld   Crd,-1
+EP Ld RnIn Rls,1
+Crd Rls,-1
+Ld Rls,1
+ALd Rls Mid,1
+Ld Rls Mid,1
+Crd Mid,-1
+Rls Mid,-1
+Bmp  Crd,-1
+Crd Fcd Ck ,-1
+BmpStt (HT),-1
+Bmp,-1
+Bmp,-1
+EP Ld NrLn,1
+EP Ld RnIn,-1
+QAw ALd Mid,1
+QAw Ld RnIn,1
+Crd Ld Mid Rls,1
+Crd Fcd Ck ,-1
+SAw Crd,-1
+EP Ld RnIn,1
+Ld   BlkRnIn,-1
+EvCh,-1
+QAw Ld RnIn,-1
+Ld B Crd,-1
+EP Fcd Ck  ,-1
+Ld RnIn Mid Rls,1
+BdCrd  LdRnIn,1
+ALd Mid,1
+SAw RnOn,-1
+BmpStt,-1
+VSAw RnOn,1
+(R) RnOn FnWll,1
+(R) Crd RnOn,1
+RnOn Rls,-1
+Mid Rls,-1
+(R) CrdRnUp ,-1
+LeftMid,-1
+NotChasing,-1
+SAw Mid Rls,1
+Rls,1
+(R) LckdEP,-1
+(Scr) LckdEP,-1
+(Scr) ClrRn,-1
+Crd,-1
+(Scr) ClrRn,-1
+(R) Bmp LdRnIn,1
+(Scr) ClrRn,-1
+(Scr) LckdEP,-1
+(Scr) EvCh,-1
+VSAw Crd ,-1
+SAw Fcd Ck RnOn,1
+(Scr) Bmp,-1
+(Scr) RnOn,1
+(Scr) Bmp,-1
+(Scr) Chl Crd,-1
+(Scr) Crd ,-1
+(Scr) Fcd Ck,-1
+(Scr) CrdRnIn,-1
+(R) CrdB  H,-1
+(Scr) LdNrLn,1
+(Scr) Crd RnIn,1
+(Scr) SAw Ld,1
+Mid Rls,1
+(R) Crd,-1
+(R) CrdB B,1
+(R) BmpStt B,-1
+(R) Fcd CkH CrdB,-1
+(R) LckdEP,-1
+(R) CrdB,-1
+(R) CrdB HitH,-1
+(R) Crd LdB,1
+SAw Mid Rls,1
+(R) Crd Bmp  ,-1
+(R) CrdB RnOn,-1
+(R) LckdEP RnOn,1
+MsdBrk Mid,1
+(Scr) LdB JmpEarlyH,1
+(R) LdNrLn,1
+Mid,1
+(Scr) BdBmp Fcd Ck,-1
+(R) OutpE,-1
+(R) VSAw BmpH,-1
+VSAw CrdB H (TRec),-1
+(Scr) Crd   B,-1
+(R) Ld CrdH,1
+(Scr) RnOn,-1
+(Scr) CrdB B Crd ,-1
+(Scr) LdNrLn,1
+JmpHighstH,1
+HitH,-1
+BmpRnIn,1
+HitH RnOn,-1
+RnOn Mid Rls,-1
+BmpRlsH Bmp ,-1
+SAw HitH,-1
+BdCrd  BmpH RnOn,-1
+MsdBrk CrdH BdCrd ,-1
+Hit H,-1
+BmpStt BdCrdH RnOn,-1
+BmpStt   BmpRls,-1
+Disp LdH Mid WH,1
+LdH CrdB Mid,1
+ndFr  RnOn,1
+Crd  B Mid,-1
+EvCh,-1
+LdRnIn DInt Disqualified,1
+EvCh,1
+Crd,-1
+Bmp ,-1
+Crd,-1
+EvCh Mid Rls,1
+Mid,1
+Mid,1
+EvCh Rls Mid,1
+Fcd Ck RnOn,1
+Crd Fcd Ck RnOn,-1
+Ld,1
+LckdEP Crd,-1
+SAw EvCh,-1
+Crd Ld,1
+Fcd CkRnUp,-1
+Crd LdRnIn,1
+SAw EvCh,-1
+SAw HitRls ,-1
+SAw Rls Mid,1
+Ld ,1
+QAw Ld  ,1
+QAw ALd Rls,1
+Crd Crd Fcd CkRnIn,-1
+LckdEP,-1
+(R) BmpStt  RnIn,-1
+(R) EP SnLd  Bmp,1
+(R) EvCh,-1
+Crd,-1
+Crd Fcd Ck,1
+Crd Fcd Ck,-1
+Crd Ld ,1
+ClrRn,-1
+EP Ld ,-1
+Crd Ld,1
+Lame,-1
+(R) Crd  Ld,1
+BmpStt Ld RnIn,1
+Ld Fcd Ck Rls,-1
+Crd   Bmp,1
+Crd Rls Mid,1
+Crd ,1
+CrdRnUp ,-1
+RnOn,1
+ClrRn,1
+Ld  Mid,1
+(R) Ld Mid Rls,1
+Crd,-1
+SAw Rls Mid,-1
+Crd Fcd Ck,-1
+SAw Ld  ,1
+Ld  Rls Mid,1
+Ld RnIn,1
+Ld RnIn,1
+Crd Crd Fcd CkRnIn,-1
+LckdEP,-1
+(R) BmpStt  RnIn,-1
+(R) EP SnLd  Bmp,1
+(R) EvCh,-1
+Crd,-1
+Crd Fcd Ck,1
+Crd Fcd Ck,-1
+Crd Ld ,1
+ClrRn,-1
+EP Ld ,-1
+Crd Ld,1
+Lame,-1
+(R) Crd  Ld,1
+BmpStt Ld RnIn,1
+Ld Fcd Ck Rls,-1
+Crd   Bmp,1
+Crd Rls Mid,1
+Crd ,1
+CrdRnUp ,-1
+RnOn,1
+ClrRn,1
+Ld  Mid,1
+(R) Ld Mid Rls,1
+Crd,-1
+SAw Rls Mid,-1
+Crd Fcd Ck,-1
+SAw Ld  ,1
+Ld  Rls Mid,1
+Ld RnIn,1
+Ld RnIn,1
+Chl LdNrLn,1
+Crd RnIn,-1
+Bmp ,-1
+(R) EvCh,-1
+EvCh Mid Rls,-1
+CrdStt RnOn Mid,1
+Bmp,-1
+LckdEP RnOn Mid,-1
+CrdRnUp Ld  Mid W,1
+SAw Mid,-1
+SAw ClrRn,-1
+AHandy,1
+EvCh Mid W,-1
+SAw BdBmp,-1
+Crd,-1
+Mid,-1
+CkdBd RnUp Stopped,-1
+Fcd Ck Mid,-1
+Checking(ReQul),-1
+Mid Rls,-1
+Mid,-1
+Crd ,-1
+CrdRnIn,1
+Snnd,1
+Ld,1
+SAw Crd   ,-1
+EvCh,-1
+Crd ,-1
+Bmp ,-1
+Bmp Crd ,-1
+Ld,1
+Ld,1
+CrdRnUp Bmp,1
+VSAw,-1
+SAw Crd Ld,1
+EvCh,1
+VSAw Crd   ,-1
+CrdStt Ld Mid Rls,1
+Bmp  Mid Rls,1
+Chl LdNrLn,1
+Crd RnIn,-1
+Bmp ,-1
+(R) EvCh,-1
+EvCh Mid Rls,-1
+CrdStt RnOn Mid,1
+Bmp,-1
+LckdEP RnOn Mid,-1
+CrdRnUp Ld  Mid W,1
+SAw Mid,-1
+SAw ClrRn,-1
+AHandy,1
+EvCh Mid W,-1
+SAw BdBmp,-1
+Crd,-1
+Mid,-1
+CkdBd RnUp Stopped,-1
+Fcd Ck Mid,-1
+Checking(ReQul),-1
+Mid Rls,-1
+Mid,-1
+Crd ,-1
+CrdRnIn,1
+Snnd,1
+Ld,1
+SAw Crd   ,-1
+EvCh,-1
+Crd ,-1
+Bmp ,-1
+Bmp Crd ,-1
+Ld,1
+Ld,1
+CrdRnUp Bmp,1
+VSAw,-1
+SAw Crd Ld,1
+EvCh,1
+VSAw Crd   ,-1
+CrdStt Ld Mid Rls,1
+Bmp  Mid Rls,1
+(R) Crd ,-1
+QAw Fcd Ck ,-1
+(R) Ld   Crd,-1
+ClrRn,-1
+Chl ,-1
+CrdRnUp,-1
+Crd,-1
+Crd Fcd Ck CrdRnIn,-1
+Crd RnIn,-1
+Crd  Fdd,-1
+QAw Crd,-1
+Crd LdNrLn,1
+Ld JstHldOn,1
+Chl Crd ,1
+BdCrd FcdWRnIn,1
+BdCrd Fcd Ck,-1
+(R) Ld  Mid,-1
+BmpRnUp,-1
+QAw Crd,1
+BmpStt ,-1
+CrdRnUp RnOn,-1
+Fcd Ck,-1
+Crd,1
+Crd ,-1
+Crd ,-1
+Crd  ,-1
+Bmp   Mid,-1
+CrdStt  ,-1
+CrdStt RnIn,-1
+Fcd CkRnUp Crd,-1
+Fcd Ck RnOn,1
+CrdRnUp,-1
+Bmp  ,-1
+CrdRnUp LdRnIn,1
+ClrRn,-1
+Crd  Fcd Ck,-1
+Crd   ,-1
+Crd ,-1
+Bmp  Crd,-1
+(R) EvCh,-1
+CkdW Bmp Bmp ,-1
+Bmp   Crd,-1
+Ld ,1
+EvCh,-1
+Bmp   ,-1
+BmpRnUp Crd Bmp ,-1
+Bmp Fcd Ck Crd ,-1
+QAw Crd Mid,-1
+BmpStt Rls Mid,-1
+BdBmp ,1
+SAw Fcd Ck,-1
+EvAw NvrShwd,-1
+EvAw NvrShwd,-1
+EvAw NvrShwd,-1
+EvAw NvrShwd,-1
+Crd,-1
+SAw LdNrLn,1
+SAw Crd   ,-1
+LckdEP FnWll,1
+LckdEP RnOn,1
+LckdEP LdRnIn,1
+VSAw Bmp RnOn,-1
+(R) Crd HandyFr NrLn,1
+CrdRnUp  ,-1
+SAw Bmp,-1
+SAw RnOn,-1
+CrdRnUp RnOn,1
+(R) Chl CrdRnIn,-1
+(R) LdNrLn Mid,1
+Crd BmpRnUp RnOn,1
+Crd Fcd Ck  ,-1
+MsdBrk RnOn,1
+Bmp CrdRnUp,-1
+(Scr) ClrRn,-1
+SAw Fcd Ck ,-1
+SAw RnOn,1
+RnOn LdRnIn,1
+LckdEP Mid Rls,-1
+SAw Crd RnOn,-1
+RnOn Mid,-1
+RnOn Mid,-1
+Fcd CkRnUp,-1
+BdBmp  Mid,-1
+Bmp,-1
+Crd   Mid,-1
+Fcd Ck RnOn,1
+(R) ClrRn,-1
+(R) ClrRn Mid,-1
+(R) QAw Ld  Mid W,1
+LdNrLn,1
+SAw RnOn Mid,-1
+SAw LdRnIn,1
+SAw RnOn,1
+By Stewards,-1
+Bmp  Fcd Ck,-1
+Bmp ,1
+SAw Fcd Ck Crd ,-1
+Bmp   RnOn,1
+Bmp,-1
+SAw Crd ,-1
+(R) Crd  ,-1
+(R) VSAw Crd ,-1
+(R) VSAw,-1
+(R) SAw LdRnIn,1
+CrdRnUp ,-1
+(R) VSAw Crd  RnIn,-1
+(R) Bmp Bmp Fcd Ck,-1
+(R) Bmp  Crd,1
+VSAw Crd,-1
+VSAw Crd ,-1
+(R) Crd  ,-1
+(R) Bmp  RnOn,-1
+SAw Crd RnOn,1
+Crd  ,1
+ALd Mid Rls,1
+(R) LckdEP Bmp,-1
+EvCh Rls Mid,1
+Bmp Mid Rls,1
+Crd,1
+(R) Bmp ,-1
+(R) Ld,1
+(Scr) Crd Bmp,-1
+(Scr) Crd Fcd Ck,-1
+EvCh Rls Mid,1
+Off Colour,-1
+LckdEP RnOn,1
+(R) Ld ,1
+(R) Crd Crd Ld,1
+(R) Ld RnIn,1
+(R) Crd ,1
+(R) Ld NrLn,-1
+Ld ,1
+EvCh,-1
+VSAw Crd ,-1
+VSAw Ld Crd,1
+Bmp   Ld  Rls,1
+EvCh Rls Mid,1
+Outp RnOn,-1
+SAw NvrShwd,-1
+EvAw Imp,-1
+CrdRnUp Blk,-1
+SAw NvrShwd,-1
+SAw NvrShwd,-1
+EvAw RnOn,1
+EvAw Bmp,-1
+EvAw RnOn,-1
+SAw NvrShwd,-1
+EvAw Imp,-1
+EvAw RnOn,1
+EvAw NvrShwd,-1
+EvAw RnOn,-1
+EvAw FnWll,1
+SAw RnOn,-1
+EvAw Imp,-1
+EvAw RnOn,-1
+EvAw RnOn,1
+EvAw Imp,-1
+SAw RnOn,1
+SAw RnOn,1
+EvCh Ld,1
+SAw RnOn,-1
+FAw Imp,-1
+EvAw RnOn,-1
+MsdBrk NvrShwd,-1
+EvAw ClrRn,1
+EvAw Chl ,-1
+EvAw Chl ,-1
+Slipped Blk,1
+EvAw Imp,-1
+EvAw Imp,-1
+EvAw Imp,-1
+EvAw Imp,-1
+EvAw Imp,-1
+EvAw Imp,-1
+Handy  RnIn,-1
+Crd   ,-1
+EP Ld NrLn,1
+EvCh,1
+SAw Fcd Ck Crd,-1
+(R) BdCrd Fcd CkStt,-1
+CrdRnUp   Rls Mid,-1
+EP Ld ,1
+(Scr) SAw Fcd Ck Crd,-1
+AHandy Rls,1
+SAw RnOn Ld RnIn,1
+Crd Ld CrdRnIn,1
+QAw Ld RnIn,1
+Crd  Bmp,-1
+EP Ld,1
+Ld  CmAgn,1
+SAw Ld  NrLn,1
+SAw Crd ,-1
+SAw Fcd Ck,-1
+Ld RnIn,1
+Crd RnOn,1
+Bmp Crd,-1
+(R) Crd ,-1
+Crd Ld Mid Rls,1
+Fcd Ckd ,-1
+MsdBrk Ld  ,1
+VSAw Crd (HT),-1
+Ld  StruckInto Bmp,1
+Non Arrival,-1
+Bmp  Ld  Crd (HT),1
+Ld RnIn Crd ,-1
+LdNrLn,1
+Ld RnIn,1
+SAw Crd  Bmp,-1
+Bmp,-1
+BmpStt RnOn,1
+(R) EvCh,-1
+(R) Crd  Bmp,-1
+Bmp Crd,-1
+Crd,-1
+Fcd Ck Crd ,-1
+SAw EP Ld,1
+EP Ld,1
+Ld Rls Mid,1
+SAw Crd ,-1
+Crd,-1
+Bmp Crd Fcd Ck ,-1
+Crd Ld  Crd,1
+EP HitRls Chl,1
+Crd  Fcd CkRnIn,-1
+SAw Crd BmpRnIn,-1
+Crd,-1
+SAw EP Ld  Bmp,-1
+ClrRn,-1
+Ld RnIn,1
+Ld NrLn Crd NrLn,-1
+Bmp Crd,-1
+Crd Rls Mid,1
+Crd,-1
+VSAw RnOn Rls,1
+Ld,1
+VSAw Bmp,-1
+EvCh Rls,-1
+SAw Rls,-1
+Green Rls,-1
+MsdBrk Green,-1
+Handy  RnIn,-1
+Crd   ,-1
+EP Ld NrLn,1
+EvCh,1
+SAw Fcd Ck Crd,-1
+(R) BdCrd Fcd CkStt,-1
+CrdRnUp   Rls Mid,-1
+EP Ld ,1
+(Scr) SAw Fcd Ck Crd,-1
+AHandy Rls,1
+SAw RnOn Ld RnIn,1
+Crd Ld CrdRnIn,1
+QAw Ld RnIn,1
+Crd  Bmp,-1
+EP Ld,1
+Ld  CmAgn,1
+SAw Ld  NrLn,1
+SAw Crd ,-1
+SAw Fcd Ck,-1
+Ld RnIn,1
+Crd RnOn,1
+Bmp Crd,-1
+(R) Crd ,-1
+Crd Ld Mid Rls,1
+Fcd Ckd ,-1
+MsdBrk Ld  ,1
+VSAw Crd (HT),-1
+Ld  StruckInto Bmp,1
+Non Arrival,-1
+Bmp  Ld  Crd (HT),1
+Ld RnIn Crd ,-1
+LdNrLn,1
+Ld RnIn,1
+SAw Crd  Bmp,-1
+Bmp,-1
+BmpStt RnOn,1
+(R) EvCh,-1
+(R) Crd  Bmp,-1
+Bmp Crd,-1
+Crd,-1
+Fcd Ck Crd ,-1
+SAw EP Ld,1
+EP Ld,1
+Ld Rls Mid,1
+SAw Crd ,-1
+Crd,-1
+Bmp Crd Fcd Ck ,-1
+Crd Ld  Crd,1
+EP HitRls Chl,1
+Crd  Fcd CkRnIn,-1
+SAw Crd BmpRnIn,-1
+Crd,-1
+SAw EP Ld  Bmp,-1
+ClrRn,-1
+Ld RnIn,1
+Ld NrLn Crd NrLn,-1
+Bmp Crd,-1
+Crd Rls Mid,1
+Crd,-1
+VSAw RnOn Rls,1
+Ld,1
+VSAw Bmp,-1
+EvCh Rls,-1
+SAw Rls,-1
+Green Rls,-1
+MsdBrk Green,-1
+Handy  RnIn,-1
+Crd   ,-1
+EP Ld NrLn,1
+EvCh,1
+SAw Fcd Ck Crd,-1
+(R) BdCrd Fcd CkStt,-1
+CrdRnUp   Rls Mid,-1
+EP Ld ,1
+(Scr) SAw Fcd Ck Crd,-1
+AHandy Rls,1
+SAw RnOn Ld RnIn,1
+Crd Ld CrdRnIn,1
+QAw Ld RnIn,1
+Crd  Bmp,-1
+EP Ld,1
+Ld  CmAgn,1
+SAw Ld  NrLn,1
+SAw Crd ,-1
+SAw Fcd Ck,-1
+Ld RnIn,1
+Crd RnOn,1
+Bmp Crd,-1
+(R) Crd ,-1
+Crd Ld Mid Rls,1
+Fcd Ckd ,-1
+MsdBrk Ld  ,1
+VSAw Crd (HT),-1
+Ld  StruckInto Bmp,1
+Non Arrival,-1
+Bmp  Ld  Crd (HT),1
+Ld RnIn Crd ,-1
+LdNrLn,1
+Ld RnIn,1
+SAw Crd  Bmp,-1
+Bmp,-1
+BmpStt RnOn,1
+(R) EvCh,-1
+(R) Crd  Bmp,-1
+Bmp Crd,-1
+Crd,-1
+Fcd Ck Crd ,-1
+SAw EP Ld,1
+EP Ld,1
+Ld Rls Mid,1
+SAw Crd ,-1
+Crd,-1
+Bmp Crd Fcd Ck ,-1
+Crd Ld  Crd,1
+EP HitRls Chl,1
+Crd  Fcd CkRnIn,-1
+SAw Crd BmpRnIn,-1
+Crd,-1
+SAw EP Ld  Bmp,-1
+ClrRn,-1
+Ld RnIn,1
+Ld NrLn Crd NrLn,-1
+Bmp Crd,-1
+Crd Rls Mid,1
+Crd,-1
+VSAw RnOn Rls,1
+Ld,1
+VSAw Bmp,-1
+EvCh Rls,-1
+SAw Rls,-1
+Green Rls,-1
+MsdBrk Green,-1
+Handy  RnIn,-1
+Crd   ,-1
+EP Ld NrLn,1
+EvCh,1
+SAw Fcd Ck Crd,-1
+(R) BdCrd Fcd CkStt,-1
+CrdRnUp   Rls Mid,-1
+EP Ld ,1
+(Scr) SAw Fcd Ck Crd,-1
+AHandy Rls,1
+SAw RnOn Ld RnIn,1
+Crd Ld CrdRnIn,1
+QAw Ld RnIn,1
+Crd  Bmp,-1
+EP Ld,1
+Ld  CmAgn,1
+SAw Ld  NrLn,1
+SAw Crd ,-1
+SAw Fcd Ck,-1
+Ld RnIn,1
+Crd RnOn,1
+Bmp Crd,-1
+(R) Crd ,-1
+Crd Ld Mid Rls,1
+Fcd Ckd ,-1
+MsdBrk Ld  ,1
+VSAw Crd (HT),-1
+Ld  StruckInto Bmp,1
+Non Arrival,-1
+Bmp  Ld  Crd (HT),1
+Ld RnIn Crd ,-1
+LdNrLn,1
+Ld RnIn,1
+SAw Crd  Bmp,-1
+Bmp,-1
+BmpStt RnOn,1
+(R) EvCh,-1
+(R) Crd  Bmp,-1
+Bmp Crd,-1
+Crd,-1
+Fcd Ck Crd ,-1
+SAw EP Ld,1
+EP Ld,1
+Ld Rls Mid,1
+SAw Crd ,-1
+Crd,-1
+Bmp Crd Fcd Ck ,-1
+Crd Ld  Crd,1
+EP HitRls Chl,1
+Crd  Fcd CkRnIn,-1
+SAw Crd BmpRnIn,-1
+Crd,-1
+SAw EP Ld  Bmp,-1
+ClrRn,-1
+Ld RnIn,1
+Ld NrLn Crd NrLn,-1
+Bmp Crd,-1
+Crd Rls Mid,1
+Crd,-1
+VSAw RnOn Rls,1
+Ld,1
+VSAw Bmp,-1
+EvCh Rls,-1
+SAw Rls,-1
+Green Rls,-1
+MsdBrk Green,-1
+Bmp W,-1
+Crd,-1
+EP Ld,1
+EP Disp Ld ,-1
+W,-1
+BdBmp StruckInto,-1
+VSAw ClrRn Mid W,-1
+AHandy LdNrLn,1
+BdCrd Stmb,-1
+Crd Fcd Ck,-1
+Ld Mid W,1
+EP Ld  NrLn,1
+SAw RnOn,-1
+QAw ALd W,1
+EvCh Mid W,-1
+MsdBrk Mid W,-1
+Crd  W,1
+Crd  W,1
+RnOn,1
+EP ALd,1
+QAw Ld ,1
+(R) EvCh,1
+(R) Ld ,1
+QAw Ld JstHldOn,1
+Crd,-1
+(R) Crd FcdW RnOn,-1
+BmpRnUp Rls,1
+EvCh,-1
+Crd Mid,-1
+SAw Crd,-1
+(R) Ld RnIn Mid,-1
+EvCh Rls,-1
+ClrRn Mid Rls,-1
+ClrRn Rls,-1
+SAw Crd ,-1
+Bmp,-1
+Crd ,-1
+Fcd CkdRnUp,-1
+RnOn,1
+QAw AHandy,-1
+CrdRnUp LdNrLn,1
+CrdRnUp RnOn,1
+EP ALd,1
+SAw Crd RnIn,-1
+SAw RnOn Rls Mid,-1
+Rls Mid,-1
+ClrRn Rls Mid,-1
+SAw RnOn ChlNrLn,1
+(Scr) Bmp ,-1
+(Scr) EvCh,-1
+Crd Mid Rls,1
+ClrRn,-1
+CrdRnUp,-1
+EvCh,1
+RnOn,1
+QAw Ld RnIn,-1
+Crd  ,1
+Fcd Ckd,-1
+Crd,-1
+Bmp BdBmp  Rls,-1
+Fcd Ck Rls Mid,1
+QAw ALd Mid Rls,1
+Fcd CkRlsRnUp EvCh,-1
+EP LdFr ,1
+MsdBrk,-1
+EP EvCh (HT),1
+QAw RlsStt ALd,1
+QAw MidStt SnClr,1
+Off Colour,-1
+EP Mid Ld,1
+SAw Mid,-1
+Mid EP SnLd,1
+SAw Rls Mid RnOn,1
+Mid ClrRn,-1
+Rls Mid Bmp Fcd Ck,-1
+Mid,-1
+SAw MvdOff Mid,1
+QAw ALd,1
+FAw FnWll,1
+FAw FnWll,1
+FAw FnWll,1
+(R) Crd,-1
+LckdEP,-1
+SAw Crd ,-1
+(R) EvCh,1
+EvCh,-1
+LdRnIn Mid Rls,1
+LckdEP ClrRn,-1
+SAw ClrRn Rls,-1
+(R) Crd Fcd Ck,-1
+SAw RnOn,-1
+CrdRnUp RnOn,-1
+SAw,-1
+LckdEP RnOn,1
+SAw Bmp CrdRnIn,-1
+(R) ClrRn,-1
+AHandy RnOn,1
+RnOn,1
+SAw Crd,-1
+(R) Bmp RnOn (HT),1
+Chl BmpRnIn,1
+CrdRnUp LdRnIn,1
+MsdBrk RnOn,1
+BmpStt RnOn Mid,1
+BmpStt CrdRnIn,-1
+SAw Crd  RnOn,1
+SAw ClrRn Mid,-1
+ClrRn,-1
+Crd,-1
+ClrRn,-1
+Bmp,-1
+SAw BmpStt ,-1
+Ld,1
+MsdBrk Crd,-1
+(R) Bmp,-1
+CrdRnIn,-1
+CrdRnIn RnOn,1
+Bmp  Fcd Ck ,-1
+LdNrLn,1
+Bmp,-1
+Bmp,-1
+SAw Bmp,-1
+Crd Rls Mid,1
+SAw Crd ,-1
+Ckd ,-1
+(Scr) Crd  RnOn,1
+Fcd Ck Bmp  Crd,-1
+OutpE,-1
+(R) Ld  Crd,-1
+VSAw Fcd Ck Bmp ,-1
+SAw Fcd Ck,-1
+Crd ,-1
+SAw LdNrLn,1
+Ld,1
+BdBlk,-1
+Crd,1
+BdBmp,-1
+(R) Ld  Fcd Ck,-1
+Fcd CkBdRnIn,-1
+SAw RnOn,-1
+Chl Fcd Ck,-1
+VSAw Fcd Ck,-1
+(R) Crd  Fcd Ck ,-1
+VSAw Crd ,-1
+Crd LdRnIn,1
+VSAw Bmp,1
+SAw EvCh,-1
+Crd,-1
+Crd Bmp,-1
+StruckInto Stmb,-1
+Fcd Ck  RnOn,1
+Fcd Ck,-1
+EvCh Rls Mid,1
+BmpRnUp RnIn,-1
+ClrRn Mid,-1
+VSAw Rls Mid,-1
+Rls Mid,-1
+CrdRnUp RnOn,-1
+(Scr) RnOn,-1
+Crd ,-1
+(Scr) LckdEP RnOn,-1
+(Scr) Bmp Crd ,-1
+EvCh Rls Mid,1
+Bmp  RnOn,-1
+EvCh Mid,-1
+Crd,-1
+SAw BdCrd,-1
+SAw Crd LdRnIn,1
+Ld Mid,1
+Crd  RnOn,-1
+Crd  Mid,1
+Crd  ,-1
+CrdStt Mid,-1
+Ld,1
+BdBlk Fell,-1
+Fcd Ckd,-1
+Chl Fcd Ck ,1
+Crd RnOn,-1
+Ld Mid Rls,1
+ClrRn Mid,1
+Mid SAw Bmp,-1
+Mid,-1
+Lame,-1
+SAw Bmp,-1
+SAw Mid,-1
+EP Mid Rls Crd,1
+SAw Mid Blk  RnOn,-1
+Mid Crd,-1
+Fcd Ck Mid,-1
+Mid Crd Bmp,-1
+SAw Mid Rn FnWll,1
+MsdBrk Mid Crd,-1
+SAw Mid Blk,-1
+VSAw Mid ClrRn,-1
+Mid,-1
+Mid RnOn,1
+EP Mid Fcd Ck RnOn,1
+VSAw Mid Rls ClrRn,-1
+LckdEP Mid ClrRn,-1
+Ld ,1
+(R) Ld,1
+RnOn,1
+(R) EP SnLd  ,-1
+(R) Bmp,1
+Crd LdRnIn,1
+(R) Crd,-1
+EvCh Mid W,-1
+RnOn Mid,-1
+CrdRnUp RnOn,-1
+CrdRnUp Mid W,-1
+CkdW ,-1
+Crd Mid,-1
+CkdW,-1
+Ld ,1
+Bmp,-1
+CkdW Bmp ,-1
+Crd LdRnIn,1
+CrdRnUp Fcd Ck,1
+Crd,-1
+(R) Crd,-1
+CrdRnUp ,-1
+Ld,1
+SAw ClrRn,-1
+Crd Fcd CkRnUp,-1
+CrdRnUp RnOn Mid,1
+RnOn Mid,-1
+Crd Mid W,-1
+W,-1
+W,-1
+EvAw NvrShwd,-1
+SAw Blk,-1
+SAw Blk,-1
+SAw Blk,-1
+BmpStt RnUp Crd,-1
+RnOn,1
+(R) EvCh,-1
+Ld Rls Mid,1
+Crd,-1
+SAw,-1
+LckdEP Mid W,-1
+Crd,-1
+Mid,-1
+Bmp Fcd Ck,-1
+Crd ,-1
+CrdRnUp ,1
+CrdRnUp Fcd Ck,-1
+Crd ,-1
+CrdRnUp Fcd Ck,-1
+EP Ld Mid,1
+Bmp Crd ,-1
+Bmp,-1
+RnOn,1
+SAw Mid,-1
+Crd  (HT),-1
+SAw ClrRn,1
+QAw ALd Mid Rls,1
+Mid Rls,1
+BmpStt,-1
+AHandy,1
+QAw EvCh,-1
+CrdRnUp Ld ,1
+(R) EvCh,-1
+Snnd,1
+EvCh,-1
+(R) Ld  Mid Rls,-1
+(R) Crd,-1
+Fcd Ck FcdW (HT),-1
+(R) BdBmp,-1
+(R) FcdW RnOn,1
+Mid Rls,1
+Ld  ,1
+Fcd Ck,-1
+CrdRnUp  RnOn,1
+(R) CrdRnUp RnOn,-1
+Crd    ,-1
+(R) Ld Crd,1
+SAw Crd,-1
+(Scr) Bmp Fcd Ck,1
+Crd Bmp  Mid Rls,-1
+Crd Fcd Ck ,1
+Crd Ld Rls Mid,1
+EP Ld ,-1
+SAw,-1
+EvCh,-1
+Blk ,-1
+EvCh,1
+MsdBrk,-1
+RnOn,-1
+SAw BdBlk,-1
+QAw Ld  ,1
+SAw LdRnIn,1
+RnOn,-1
+Crd RnOn,-1
+Non Arrival,-1
+Bmp,-1
+Bmp   RnOn,1
+SAw RnOn,-1
+Ld  RnOn,1
+RnOn,1
+Crd,-1
+Ld  DispLd Ld,1
+Crd,-1
+Rls Mid,-1
+CrdRnUp ,-1
+ClrRn,-1
+EP ALd,1
+Rls,1
+Rls,1
+CrdStt,-1
+Crd ,-1
+Crd,-1
+Crd ,-1
+Crd,-1
+Crd,-1
+QAw ALd,1
+Ld  FrRnIn NrLn,1
+Ld,1
+ClrRn,-1
+EP Ld,1
+ClrRn,-1
+EP SnLd,1
+SAw Blk,-1
+Crd ,-1
+Stmb ,-1
+EP ALd,1
+EP SnLd,1
+EP Ld RnIn,1
+Ld RnIn DispLd,1
+EP Ld,1
+EP SnLd ,-1
+CrdRnUp Blk,-1
+CrdRnUp,-1
+EP SnLd,1
+Blk Stmb,-1
+Ld ,1
+SAw EvCh,-1
+CrdRnUp,1
+Crd (HT),-1
+EP Ld  Rls Mid,1
+DispFr CrdRnIn,1
+EvAw RnOn,-1
+FAw ALd,1
+Disp Blk,-1
+RlsRnUp StydOn,-1
+SAw Blk,-1
+SAw Blk,-1
+SAw Blk,-1
+Fcd Ck Mid W,-1
+BmpStt Crd,-1
+Mid,-1
+QAw ALd,1
+EP AHandy,1
+EvCh Mid,1
+SAw EP,1
+SAw Mid,-1
+Fcd Ck Mid,1
+MsdBrk Rls Mid,1
+BmpRnUp BdCrd,-1
+SAw CrdB Bmp,-1
+Crd  RnIn,-1
+Snnd,1
+Ld ,-1
+VSAw Ld,1
+BdCrd Fcd Ck,-1
+CrdRnUp ,-1
+SAw Fcd Ck,-1
+EP Ld  Mid W,1
+Crd Ld RnIn,-1
+EP Ld  Mid W,-1
+FcdW,-1
+Fcd CkW,-1
+CrdRnIn (HT),1
+Bmp,-1
+Ld RnIn,1
+EP Ld,1
+SAw Crd RnIn,-1
+CrdRnUp ,-1
+Mid W,-1
+BdBlk Mid Rls,-1
+Crd    ,-1
+Mid,-1
+SAw FcdWRnIn,-1
+Bmp Fcd Ck Mid Rls,-1
+Crd Bmp  (HT),1
+SAw Mid Rls,-1
+DispLd ,-1
+Crd BmpRnIn,-1
+(R) Crd  ,-1
+QAw Ld RnIn,1
+Bmp,-1
+Bmp Ld RnIn,-1
+EvCh,-1
+ClrRn,-1
+Rls Snnd,1
+Outp NvrShwd,-1
+EP DispLd,1
+EP HldOn,1
+Outp NvrShwd,-1
+Blk Fdd,-1
+FAw Stmb,-1
+FAw Stmb,-1
+EvAw Outp,-1
+EvAw Outp,-1
+EvAw Outp,-1
+EvAw Outp,-1
+DispLd ,-1
+Crd BmpRnIn,-1
+(R) Crd  ,-1
+QAw Ld RnIn,1
+Bmp,-1
+Bmp Ld RnIn,-1
+EvCh,-1
+ClrRn,-1
+Rls Snnd,1
+Outp NvrShwd,-1
+EP DispLd,1
+EP HldOn,1
+Outp NvrShwd,-1
+Blk Fdd,-1
+FAw Stmb,-1
+FAw Stmb,-1
+EvAw Outp,-1
+EvAw Outp,-1
+EvAw Outp,-1
+EvAw Outp,-1
+DispLd ,-1
+Crd BmpRnIn,-1
+(R) Crd  ,-1
+QAw Ld RnIn,1
+Bmp,-1
+Bmp Ld RnIn,-1
+EvCh,-1
+ClrRn,-1
+Rls Snnd,1
+Outp NvrShwd,-1
+EP DispLd,1
+EP HldOn,1
+Outp NvrShwd,-1
+Blk Fdd,-1
+FAw Stmb,-1
+FAw Stmb,-1
+EvAw Outp,-1
+EvAw Outp,-1
+EvAw Outp,-1
+EvAw Outp,-1
+Crd Ld,1
+(R) EP SnLd Mid,1
+Crd Bmp,-1
+Bmp Fcd Ck,-1
+EP SnLd   Crd,-1
+CrdRnIn Rls,-1
+(R) EP Crd,-1
+QAw Ld  Crd,-1
+QAw ALd Mid,1
+EP Ld Crd,-1
+SAw Crd,-1
+QAw Ld ,-1
+(R) Crd Ld  Mid,1
+Bmp Crd,-1
+Ld  Crd LdRnIn,-1
+CrdStt Fcd Ck,-1
+Bmp,1
+Fcd Ck ,-1
+Crd,-1
+Crd Bmp ,-1
+Crd  Rls,-1
+QAw ALd,1
+Crd ,-1
+Ld RnIn BdCrdNrLn,-1
+EP Ld Mid Rls,1
+(R) EP LdRnUp Mid,1
+Chl  Crd,-1
+Ld  Bmp,-1
+QAw Ld  Bmp,-1
+EP Ld Fcd Ck ,-1
+Crd Ld  Crd,-1
+SAw Mid Rls,-1
+(R) Ld Rls Mid,1
+(R) ALd,1
+EP Ld RnIn,-1
+CrdRnUp Ld  Mid Rls,1
+BmpStt  (HT),-1
+Crd,-1
+QAw Ld NrLn,1
+Fcd Ck ,-1
+LdNrLn,1
+QAw ALd Rls Mid,1
+Crd ,-1
+Ld  Rls Mid,1
+Ld Rls Mid,1
+Crd Rls Mid,1
+Blk NvrShwd,-1
+Blk NvrShwd,-1
+Blk NvrShwd,-1
+BmpStt  Fcd Ck,-1
+SAw Fcd Ck  Mid Rls,-1
+Crd Rls Mid,-1
+Ld Rls Mid,1
+(Scr) LdRnIn,1
+(Scr) EvCh,-1
+Ld  FrRnIn,1
+QAw Crd,-1
+Bmp,-1
+ALd Mid Rls,1
+MsdBrk,-1
+EvCh Rls Mid,-1
+Crd Rls Mid,-1
+Ld Rls,1
+Rls Mid,1
+EvCh,1
+EP Ld,1
+(R) SAw,1
+(R) EP Ld ,1
+SAw Crd,-1
+VSAw CrdRnIn,-1
+Crd  Rls,-1
+SnLd NrLn,1
+LdRnIn Rls,1
+AHandy Rls,1
+Bmp LdRnIn,1
+EP Ld  NrLn,1
+Crd Fcd Ck,-1
+(R) Crd ChlRnIn,1
+MsdBrk RnOn,-1
+Crd Mid Rls,-1
+SnHandy,1
+Crd RnIn,-1
+EvCh,1
+Crd,-1
+Chl  CrdRnIn,-1
+Bmp,-1
+EvCh,1
+DispLdThr'Out,1
+MsdBrk Ld RnIn,-1
+QAw ALd,1
+ClrRn,-1
+Crd Chl ,1
+EP Ld RnIn,1
+Fcd Ck ,-1
+CrdStt  Fcd Ck,-1
+ClrRn,-1
+SAw Ld,1
+(R) EP Ld,1
+SnHandy,1
+Ld   CkdSough,1
+SAw Fcd Ck Crd ,-1
+Crd Ld  NrLn,1
+Crd,-1
+SAw Crd  ,-1
+Bmp Ld NrLn,1
+SAw CkdW,-1
+(R) Fcd Ck ,-1
+(Scr) VSAw Fcd Ck Bmp,-1
+(R) Crd Ld,1
+ChlRnIn Mid Rls,1
+Crd Fcd Ck ,-1
+VSAw ChlNrLn,1
+BmpRnIn,-1
+SAw Bmp Fcd Ck,-1
+SAw Bmp Fcd Ck,-1
+Ld Rls,1
+Ld RnIn,1
+Fcd Ck CkdSough,-1
+ClrRn,-1
+Eased Crd,-1
+Blk Crd BlkRnIn,-1
+SAw Blk Crd,-1
+SnLd  Blk,-1
+Ld  Rls Mid,1
+CrdStt Blk Crd Fr,-1
+Crd,-1
+Ld RnIn,1
+SAw ClrRn Rls Mid,-1
+EvCh,1
+EP Ld,1
+(R) SAw,1
+(R) EP Ld ,1
+SAw Crd,-1
+VSAw CrdRnIn,-1
+Crd  Rls,-1
+SnLd NrLn,1
+LdRnIn Rls,1
+AHandy Rls,1
+Bmp LdRnIn,1
+EP Ld  NrLn,1
+Crd Fcd Ck,-1
+(R) Crd ChlRnIn,1
+MsdBrk RnOn,-1
+Crd Mid Rls,-1
+SnHandy,1
+Crd RnIn,-1
+EvCh,1
+Crd,-1
+Chl  CrdRnIn,-1
+Bmp,-1
+EvCh,1
+DispLdThr'Out,1
+MsdBrk Ld RnIn,-1
+QAw ALd,1
+ClrRn,-1
+Crd Chl ,1
+EP Ld RnIn,1
+Fcd Ck ,-1
+CrdStt  Fcd Ck,-1
+ClrRn,-1
+SAw Ld,1
+(R) EP Ld,1
+SnHandy,1
+Ld   CkdSough,1
+SAw Fcd Ck Crd ,-1
+Crd Ld  NrLn,1
+Crd,-1
+SAw Crd  ,-1
+Bmp Ld NrLn,1
+SAw CkdW,-1
+(R) Fcd Ck ,-1
+(Scr) VSAw Fcd Ck Bmp,-1
+(R) Crd Ld,1
+ChlRnIn Mid Rls,1
+Crd Fcd Ck ,-1
+VSAw ChlNrLn,1
+BmpRnIn,-1
+SAw Bmp Fcd Ck,-1
+SAw Bmp Fcd Ck,-1
+Ld Rls,1
+Ld RnIn,1
+Fcd Ck CkdSough,-1
+ClrRn,-1
+Eased Crd,-1
+Blk Crd BlkRnIn,-1
+SAw Blk Crd,-1
+SnLd  Blk,-1
+Ld  Rls Mid,1
+CrdStt Blk Crd Fr,-1
+Crd,-1
+Ld RnIn,1
+SAw ClrRn Rls Mid,-1
+Crd Rls,-1
+Ld ,1
+(Scr) Crd,-1
+SAw BdCrd,-1
+QAw EvCh,1
+SAw Crd,-1
+EP Ld JstHldOn,1
+ClrRn Rls,1
+SAw Crd,-1
+EP And,1
+Crd,-1
+SAw Rls,-1
+QAw ALd,1
+BdCrd Fcd Ck,-1
+Ld,1
+Crd,-1
+AHandy,1
+Ld,1
+Fcd Ckd,-1
+ALd Crd ,1
+Crd Rls,-1
+Rls,-1
+Rls,-1
+Disp Imp,1
+Crd RnOn,1
+CrdRnUp CkdRnUp,-1
+ChlRnUp And,1
+ChlRnUp And,1
+ChlRnUp And,1
+Crd Rls,-1
+Ld ,1
+(Scr) Crd,-1
+SAw BdCrd,-1
+QAw EvCh,1
+SAw Crd,-1
+EP Ld JstHldOn,1
+ClrRn Rls,1
+SAw Crd,-1
+EP And,1
+Crd,-1
+SAw Rls,-1
+QAw ALd,1
+BdCrd Fcd Ck,-1
+Ld,1
+Crd,-1
+AHandy,1
+Ld,1
+Fcd Ckd,-1
+ALd Crd ,1
+Crd Rls,-1
+Rls,-1
+Rls,-1
+Disp Imp,1
+Crd RnOn,1
+CrdRnUp CkdRnUp,-1
+ChlRnUp And,1
+ChlRnUp And,1
+ChlRnUp And,1
+Crd Rls,-1
+Ld ,1
+(Scr) Crd,-1
+SAw BdCrd,-1
+QAw EvCh,1
+SAw Crd,-1
+EP Ld JstHldOn,1
+ClrRn Rls,1
+SAw Crd,-1
+EP And,1
+Crd,-1
+SAw Rls,-1
+QAw ALd,1
+BdCrd Fcd Ck,-1
+Ld,1
+Crd,-1
+AHandy,1
+Ld,1
+Fcd Ckd,-1
+ALd Crd ,1
+Crd Rls,-1
+Rls,-1
+Rls,-1
+Disp Imp,1
+Crd RnOn,1
+CrdRnUp CkdRnUp,-1
+ChlRnUp And,1
+ChlRnUp And,1
+ChlRnUp And,1
+QAw ALd,1
+EvCh Mid W,-1
+LdRnIn,1
+Bmp ,-1
+Ld NrLn,1
+Crd LdRnIn W,1
+CrdRnUp  ,-1
+EvCh,-1
+ALd Mid W,1
+Off Colour,-1
+ClrRn Mid W,-1
+QAw ALd Mid W,1
+LdNrLn,1
+Bmp Fcd Ck,-1
+Bmp ,-1
+Crd RnOn,1
+EvCh W,-1
+Bmp ,1
+QAw ALd Mid W,1
+ClrRn Mid,-1
+ClrRn Mid,-1
+Crd ,1
+ClrRn Mid W,-1
+ALd Mid W,1
+EP Ld,1
+EvCh,1
+EvCh,-1
+LdRnIn,1
+Ld ,1
+Chl Fcd CkRnIn,-1
+Bmp Ld,1
+BdBmp,-1
+QAw ALd,1
+SnLd,1
+EvCh,1
+Bmp  ,-1
+Bmp CrdRnIn,-1
+EP Ld ,1
+QAw SnLd  Crd,1
+RnOn Mid W,1
+Crd W,-1
+Crd  ,-1
+EvCh Mid W,-1
+QAw ALd Mid,1
+BdCrd,-1
+QAw Ld ,-1
+EvCh,-1
+Fcd Ck  Bmp,-1
+QAw ALd,1
+Bmp RnOn,1
+EP Ld Mid,1
+Bmp LdRnIn,1
+QAw ALd Crd,1
+Crd,-1
+Crd,1
+EvCh Mid,1
+ChlNrLn,1
+CrdRnUp BdBmp,-1
+QAw ALd Mid,1
+Crd ,-1
+LdMid,1
+ALd Mid,1
+Off Colour,-1
+Crd Ld NrLn,1
+ALd Mid,1
+Crd Ld  Mid,1
+BdBmp Crd  Ld,1
+Crd Crd Ld,1
+QAw ALd,1
+EvCh,-1
+EvCh,1
+Crd,-1
+Rls Mid (HT),-1
+RnOn,1
+BdBmp,-1
+Mid,-1
+EvCh Mid,1
+Crd,-1
+EvCh,-1
+Crd ,1
+CrdRnUp ,1
+Crd RnOn,1
+EP Ld,1
+QAw Ld ,1
+Blk,-1
+Crd Ld,1
+ChlRnIn,1
+Bmp,1
+EvCh,1
+QAw ALd,1
+EvCh Mid,1
+Bmp,-1
+EvCh,1
+QAw ALd,1
+QAw ALd,1
+ALd Mid,1
+ALd Rls Mid,1
+QAw ALd,1
+Off Colour,-1
+Crd Ld RnIn,1
+ALd Mid,1
+Crd,-1
+Crd,1
+Fcd Ck ,-1
+EvCh,-1
+Blk,-1
+Mid (HT),-1
+Crd,-1
+Rls Mid,-1
+EP Ld RnIn W,-1
+QAw ALd,1
+EvCh,1
+QAw ALd,1
+Cough,-1
+Ld,1
+SAw EvCh,1
+EP Ld,1
+Rls Mid,1
+Crd Mid,-1
+Ld,1
+CrdStt,-1
+Mid,-1
+Crd,1
+VSAw Bmp,-1
+QAw ALd,1
+EP SnLd,1
+EP Ld,1
+Blk,1
+EP Ld  DispLd,1
+EP Ld ,1
+EvCh,1
+Ld Mid Rls,1
+EP SnLd Rls,1
+Ld (HT),1
+Ld,1
+Green,1
+QAw Ld RnIn,1
+QAw ALd,1
+SnClr,1
+EP Ld  CkdW,1
+EP Ld ,1
+MsdBrk Mid,-1
+QAw Crd Ld RnIn,1
+QAw Ld RnIn BdBmp,1
+VQAw Ld RnIn,1
+ClrRn Mid,1
+VSAw Fcd Ck,-1
+SnLd,1
+QAw ALd Mid W,1
+SAw Crd ,-1
+Ld RnIn Mid,1
+Crd,-1
+Rls Mid Bmp,-1
+QAw ALd Mid,1
+Mid,1
+Fcd Ck  ,-1
+Crd RnOn,-1
+QAw DispThr'Out,1
+ALd Mid,1
+Mid,1
+ALd Mid Rls,1
+Ld Mid,1
+QAw ALd Mid W,1
+Rls Mid,1
+VSAw BdBmp,-1
+EP Ld Mid Rls,1
+EP Ld NrLn,1
+SAw Fcd Ck,1
+ALd Rls Mid,1
+QAw ALd,1
+Ld FddRnIn,-1
+Ld NrLn ImpRnIn,1
+Crd RnOn,-1
+Crd RnOn,-1
+Crd RnOn,-1
+QAw Ld NrLn VW,1
+QAw Ld RnIn W,1
+ClrRn,-1
+VSAw,-1
+EvCh,-1
+AHandy W,1
+QAw VW Eased,-1
+Ld W,1
+QAw ALd W,1
+(Scr) CrdRnIn W,-1
+Ld  VW,-1
+(Scr) FcdVW,-1
+EvCh VW,-1
+EvCh VW,-1
+SAw W,-1
+Ld W,1
+ChlFr W,1
+VSAw BmpRnIn,-1
+(Scr) EvCh,-1
+SAw RnOn W,1
+QAw ALd W,1
+CrdRnIn,1
+FcdWRnIn,-1
+EvCh VW,-1
+Ld  W,-1
+EvCh Mid,1
+Mid W,1
+SAw Crd,-1
+LdRnIn Mid Rls,1
+Bmp,-1
+QAw ALd,1
+BdCrd,-1
+EP Ld,1
+QAw Crd,-1
+EP Ld Mid,1
+CrdRnUp ,-1
+RnOn FnWll,1
+BdBmp,-1
+(R) Ld ,1
+ALd Mid LseMuzzle,1
+BdCrd  ,-1
+Fcd Ck,-1
+QAw ALd,1
+VQAw ALd,1
+Crd  ,-1
+ALd Mid,1
+Crd ,-1
+Bmp,-1
+QAw Crd Mid W,-1
+(R) BmpRnIn,-1
+Fcd Ck,-1
+Crd ,-1
+QAw ALd,1
+Ld   Mid W (HT),1
+EvCh Mid W,-1
+Mid W,-1
+Crd Mid Rls,-1
+VSAw Ld ,1
+Mid,1
+Crd  ,-1
+Crd Fcd Ck ,1
+BmpStt Fcd Ck ,-1
+EvCh,-1
+EvCh,-1
+Bmp ,-1
+QAw Crd Fcd Ck,-1
+SAw Crd  RnOn,-1
+Crd Mid Rls,1
+Fcd Ckd ,-1
+Chl Crd RnIn Mid,-1
+LdRnIn,1
+Crd ,-1
+SAw Crd,-1
+SAw Crd,-1
+EvCh,1
+Crd,1
+Fcd Ck Crd,-1
+CrdRnIn,1
+EvCh,-1
+QAw ALd,1
+CrdStt ,-1
+CrdStt  Fcd Ck,-1
+RnOn Mid Rls,1
+QAw ALd,1
+ClrRn,1
+EvCh Mid Rls,-1
+LdNrLn,1
+SAw RnOn,-1
+Crd,1
+ALd Rls (HT),1
+Rls,1
+ALd Rls,1
+Ld Rls,1
+Bmp Crd ,-1
+Crd  ,-1
+EP Ld Rls Mid,1
+Lame,-1
+EvCh Rls,1
+Mid Rls,1
+EP SnLd Mid Rls,1
+Fcd Ck Rls Mid,-1
+Ld ,1
+ClrRn Rls Mid,1
+Mid Rls,1
+EP ALd,1
+EP ALd,1
+EP ALd,1
+AHandy,-1
+(Scr) LdRnIn Rls Mid,1
+VSAw Crd   Rls,-1
+SAw Rls,-1
+Crd ,-1
+VSAw,1
+EvCh,-1
+QAw AHandy,1
+EP,1
+Crd Rls Mid,-1
+SAw Rls,-1
+SAw Rls,-1
+SAw LdRnIn Rls,1
+SAw Rls,-1
+Crd Rls,-1
+ClrRn Rls,-1
+EP Rls,1
+ClrRn Rls,1
+ClrRn Rls,-1
+Crd Mid Rls,1
+RnOn Rls,1
+SAw Rls,-1
+Fcd Ck Rls,-1
+SAw BdCrd Rls,-1
+Crd Rls Mid,-1
+ChlRnIn Rls,1
+SnLd Rls,1
+Ld Mid,1
+ALd Rls,1
+Non Arrival,-1
+SAw Crd Rls,-1
+VSAw,-1
+EP Ld Rls,1
+Bmp Crd,-1
+QAw ALd Rls,1
+QAw ALd Rls,1
+RnOn Mid Rls,1
+Ld Mid Rls,1
+SAw BdCrd Rls,-1
+Crd Rls Mid,-1
+Crd Mid Rls,-1
+By Stewards,-1
+Mid Rls ClrRn,-1
+QAw Crd ,-1
+SAw RnOn Mid Rls,-1
+SAw Rls Mid,-1
+Crd Mid,-1
+RlsStt Ld,1
+EP Ld   Mid Rls,-1
+EP Mid,-1
+ClrRn Mid,-1
+SAw Bmp Crd,-1
+Bmp  ,-1
+EP VBdBlk,-1
+Fcd Ck Mid Rls,1
+Crd Mid Rls,-1
+Crd,-1
+Crd ,1
+QAw ALd Mid Rls,1
+Ld RnIn,1
+QAw Fcd Ck,-1
+SAw Crd RnOn,-1
+BdCrd,-1
+Ld Rls Mid,1
+Crd Ld   Rls Mid,1
+Fcd Ck,1
+BdCrd,1
+SAw Fcd Ck,1
+ClrRn Rls Mid,-1
+EP Ld RnIn,-1
+EP Ld RnIn,-1
+QAw Ld  Rls Mid,-1
+QAw ALd Mid Rls,1
+Ld ,-1
+QAw ALd Mid,1
+LdRnUp NrLn,1
+EP Crd Mid Rls,-1
+QAw ALd Mid Rls,1
+QAw Ld  Bmp,-1
+QAw Rls,1
+EP Mid Rls,1
+Ld  Rls Mid,-1
+BmpStt Chl ,-1
+BdCrd,-1
+QAw Ld NrLn,1
+CrdStt LdRnUp RnIn,1
+EP Ld RnIn,-1
+QAw Ld ,-1
+Fcd Ck,-1
+Crd,-1
+SAw Chl ,-1
+SAw Ld,1
+Crd,-1
+LdRnUp,1
+Ld  ,-1
+Crd,-1
+VSAw,-1
+LdRnUp,1
+SAw Crd ,-1
+Crd LdRnUp RnIn,1
+Ld NrLn Mid Rls,1
+EP Chl ,-1
+ClrRn Mid,-1
+ClrRn,-1
+QAw ALd Mid,1
+ClrRn,-1
+SAw HitRls Bmp,-1
+Fcd Ckd,-1
+Crd Mid,-1
+Crd Fcd Ck,-1
+Ld Mid Rls,1
+EP LdRnUp RnIn,1
+EP Ld Mid Rls,1
+SAw Bmp Mid,-1
+ClrRn Mid Rls,-1
+SAw Bmp ,-1
+SAw Crd Mid Rls,-1
+EP Ld  ,-1
+ALd Mid,1
+Ld Mid,1
+ALd Mid,1
+Mid,1
+Ld  FnCrmp,-1
+EP Ld,1
+EvAw Bmp,-1
+EvAw Bmp,1
+EvAw Bmp,1
+EvAw Bmp,1
+EvAw Bmp,1
+LdNrLn,1
+Crd Fcd Ck ,-1
+EP SnLd,1
+Bmp Fcd Ck ,-1
+Crd Fcd Ck,-1
+QAw ALd,1
+ClrRn Mid,-1
+Mid,-1
+(R) RnOn LdRnIn,1
+Crd LdNrLn,1
+CrdStt RnUp,-1
+Crd Bmp Bmp,1
+Mid,1
+Mid Rls,1
+Mid,1
+CrdRnUp Mid,1
+(Scr) RnOn,-1
+Crd,-1
+Crd RnOn Mid,-1
+Mid Rls,-1
+Mid,-1
+Rls,-1
+Rls,-1
+EP Mid Fcd Ck  ,-1
+Rls Mid,-1
+Ld ,1
+QAw ALd DrewClr,1
+Sn nd,1
+Fcd Ck Crd,-1
+(R) SAw Crd,-1
+Rls Mid,-1
+Mid Rls,-1
+Fcd Ck  Bmp ,-1
+(R) LdRnIn,1
+Fcd Ck CrdRnIn,-1
+Fcd Ck ,-1
+SAw Bmp  Crd ,-1
+Crd  Bmp Fcd Ck ,-1
+Crd Bmp ,-1
+Ld Mid Rls,1
+Mid,1
+Rls Mid,1
+QAw ALd,1
+QAw ALd,1
+SAw EvCh,-1
+SAw Mid,-1
+SnLd Mid,1
+Ld Mid,1
+Crd Ld ,1
+Mid,1
+EvCh Rls,-1
+Fcd Ck Crd,-1
+Crd,-1
+LckdEP EvCh,1
+EP Rls,-1
+HandyFr,1
+MsdBrk Crd,-1
+EP EvCh,1
+Crd,-1
+Ld Mid,1
+AHandy LdRnIn,1
+Crd   LdRnIn,1
+Ld,1
+AHandy,1
+Crd  RnOn,1
+Crd ,1
+Bmp RnOn,1
+Mid Rls,1
+ClrRn Mid,1
+Bmp Ckd,-1
+Rls Mid,-1
+QAw ALd,1
+EP SnLd RnIn,1
+QAw SnClr,1
+Mid Rls,1
+Fcd Ck LdRnIn,1
+Crd  Bmp,1
+VQAw ALd,1
+Mid Rls,1
+Bmp  Crd,-1
+RnOn,1
+EvCh Mid Rls,1
+Mid Rls,1
+Mid Rls,1
+Rls Mid,1
+Off Colour,-1
+EP Rls Crd,-1
+Crd  Blk,-1
+Crd,-1
+SAw Fcd Ck,-1
+Bmp Fcd Ck,-1
+Bmp,-1
+Mid Rls,-1
+Mid Rls,-1
+Crd Ld,1
+QAw Ld NrLn,1
+EP Ld Rls,1
+EP Ld,1
+VSAw Crd ,-1
+Crd,1
+EP ALd Mid,1
+LdRnIn Rls,1
+Ld Mid Rls,1
+QAw ALd Mid Rls,1
+EvAw And,1
+EvAw RnOn,-1
+EvAw Ld,1
+EvAw FnWll,1
+EvAw Crd,-1
+QAw Blk,-1
+QAw Blk,-1
+EvAw BdBlk,-1
+EvAw Crd,-1
+EvAw NvrShwd,-1
+Blk NvrShwd,-1
+EvAw FnWll,-1
+EvAw Fcd Ck,1
+EvAw StruckRls,-1
+EvAw ChlRnIn,1
+EvAw Blk,-1
+EvAw Imp,-1
+EvAw Bmp,-1
+EvAw Bmp,-1
+EvAw Bmp,-1
+EvAw Bmp,1
+ImpRnUp Bmp,-1
+EP Ld,1
+Bmp Ld ,1
+Bmp Ld ,1
+Bmp Ld ,1
+Bmp Ld ,1
+Crd Chl Crd  Rls,1
+CrdRnIn,-1
+CrdRnUp RnOn,-1
+QAw AHandy,-1
+Crd Bmp,-1
+QAw EvCh,-1
+StruckInto ,-1
+QAw EvCh,1
+BdCrd Fell,-1
+EP Ld RnIn,1
+Crd RnOn,-1
+Crd Ld NrLn,-1
+BmpStt Mid Rls,-1
+QAw ALd,1
+EvCh,1
+Bmp Chl Fcd Ck ,-1
+Crd ,-1
+Bmp,1
+Crd ,-1
+Crd Mid,-1
+BdCrd,1
+Ld ,1
+CrdRnUp BdCrd,1
+QAw Ld NrLn Bmp,1
+QAw Ld RnIn,-1
+EvCh,1
+Fcd Ck  BdCrd Stmb ,-1
+Bmp ,1
+BdBlk,-1
+RnOn Mid Rls,1
+CrdRnUp Ld Mid Rls,1
+Crd Ld,1
+EvCh,1
+RnOn,1
+VSAw Fcd Ck,1
+QAw ALd,1
+EP Ld   CrdRnIn,-1
+EvCh,-1
+EP Ld,1
+EP Ld,1
+Crd  ,-1
+Crd ,-1
+Mid Rls,-1
+Non Arrival,-1
+EP SnLd,1
+EvCh,-1
+LdRnIn,1
+Blk Crd,-1
+Fcd Ck ,-1
+AHandy Crd Mid,-1
+EP Ld,1
+EvCh Mid,-1
+Blk LdRnIn,1
+Bmp Crd Mid,-1
+EvAw Blk,-1
+Outp NvrShwd,-1
+EvAw Blk,-1
+EvAw SnLd,1
+EvAw Ld,1
+EvAw Ld,1
+Blk,1
+Blk,1
+Mid,1
+Bmp Fell,-1
+EvCh,-1
+QAw Ld  Crd,-1
+EvCh,1
+ClrRn Mid,-1
+Snnd,1
+Crd  RnOn,-1
+FcdW Mid,-1
+Crd  LdRnIn,1
+QAw Imp  ,-1
+EP W Ld NrLn,1
+EP Crd,1
+QAw Mid Ld  CmAgn,1
+Mid ALd,1
+EP Mid EvCh,1
+Mid W,1
+Mid,1
+Mid Ld Crd,1
+QAw AHandy,1
+Crd RnOn,-1
+Crd RnOn,-1
+EvAw Ckd,-1
+EvAw Crd,-1
+QAw Bmp,-1
+BdBlk KO,-1
+LdRnIn StydWll,1
+QAw EvCh,-1
+EP ALd,1
+EvAw EvCh,1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvAw RnOn,-1
+EvCh Mid,1
+Bmp,-1
+Crd Fcd Ck ,-1
+ClrRn,-1
+ClrRn,-1
+EvCh,-1
+EvCh Mid W,1
+Crd ,-1
+LdNrLn Mid,1
+Fcd Ck Mid,-1
+LckdEP RnOn,-1
+Crd,-1
+Crd  Mid,-1
+Crd Ld ,1
+Crd  RnOn,-1
+AHandy LdRnIn,1
+Crd   ,-1
+Crd Mid,-1
+RnOn,-1
+SAw BdCrd Mid,-1
+Crd RnOn,1
+Mid,1
+Mid,1
+Mid,1
+Crd Fcd Ck ,-1
+EvCh Mid,1
+Off Colour,-1
+EP Ld ,1
+LckdEP Crd RnOn,1
+Crd  Fcd Ck,-1
+QAw Ld  Crd,-1
+RnOn,-1
+EP EvCh,-1
+EvCh,-1
+Fcd Ck Crd,-1
+Bmp Crd  ,-1
+Ld,1
+QAw ALd DrewClr,1
+SAw Fcd Ck Bmp,1
+Crd Ld,1
+(R) ChlFr,1
+Crd,-1
+Crd  ,-1
+Handy  CrdRnIn,-1
+Bmp Crd,-1
+RnOn,1
+Crd   LdNrLn,1
+Ld Mid,1
+BdCrd KO,-1
+EvCh,-1
+EvCh,1
+CrdStt,-1
+EvCh,-1
+Crd Bmp ,-1
+Crd,-1
+Bmp,-1
+Bmp RnOn Mid,1
+EP Bmp Crd,-1
+LdRnIn Mid,1
+Bmp Mid,-1
+LdRnIn,1
+ALd Mid Rls,1
+Crd Ld Mid Rls,1
+Crd  ,-1
+Rn FnWll,1
+SAw Bmp,-1
+CrdRnUp  Mid Rls,-1
+QAw SnLd,1
+SAw Crd ,-1
+SAw Fcd Ck,-1
+Crd  Mid Rls,1
+RnOn Mid Rls,1
+Ld Rls,1
+Ld (HT),1
+EvCh Mid W,-1
+SAw Mid W,-1
+CkdWStt Crd LdNrLn,1
+ClrRn,-1
+SAw EP Ld,1
+QAw ALd,1
+EvCh W,-1
+QAw EvCh,-1
+EvCh,1
+ALd W,1
+SnLd Mid W,1
+Crd   ,-1
+QAw ALd W,1
+BmpStt ,1
+LdRnIn W,1
+Handy  ,-1
+Bmp,-1
+AHandy Ld ,1
+Ld RnIn W,1
+Crd  ,-1
+SAw W,-1
+QAw ALd W,1
+Bmp Crd ,1
+Crd  W,-1
+ClrRn,1
+RnOn W,1
+ALd Crd Mid W,1
+Bmp LdRnIn,1
+CrdRnUp  Mid,-1
+Crd ,1
+EvCh,-1
+Bmp,-1
+Mid,-1
+Mid,-1
+QAw ALd,1
+Crd,-1
+Bmp Fcd Ck Mid,-1
+Crd Ld  Mid,1
+EvCh Mid Rls,1
+EvCh Mid Rls,1
+EvCh Mid Rls,1
+(R) EvCh,1
+Crd  Bmp RnIn,-1
+SAw Crd RnIn,-1
+(R) QAw Ld,1
+(R) Ld  NrLn,-1
+Rls,-1
+Off Colour,-1
+SAw Rls,1
+(R) RnOn Mid Rls,-1
+(R) BdCrd Bmp,-1
+(Scr) RnOn Mid Rls,1
+Crd  RnOn,-1
+(Scr) Chl BmpRnIn,-1
+(R) Crd  ,-1
+(R) Ld,1
+Bmp,-1
+RnOn Rls,1
+Rls,1
+Bmp,-1
+LdRnIn,1
+Bmp Fcd Ck,-1
+EvCh Mid Rls,-1
+RnOn Rls,-1
+Crd,-1
+CrdRnUp ,-1
+Rls,-1
+Crd RnIn,-1
+Crd Ld  Crd,1
+(R) Crd Bmp,-1
+(R) Crd Bmp ,-1
+(R) QAw Ld ,1
+Crd RnOn,-1
+Crd ,-1
+Crd,-1
+(R) Crd Ld NrLn,1
+(R) Crd RnIn,-1
+Fcd Ck ,-1
+LdNrLn,1
+(R) BmpRnUp Crd ,-1
+LdNrLn,1
+Crd RnOn,1
+Crd ,-1
+Rls,-1
+Lame,-1
+(Scr) Crd,1
+Bmp Fcd Ck Crd,-1
+Crd LdNrLn,1
+Bmp Crd,-1
+Rls,-1
+Bmp Crd RnOn,1
+SAw EvCh,-1
+Chl Fcd Ckd,1
+Crd  LdRnIn,1
+Crd Fcd Ck ,-1
+Bmp,-1
+Crd,-1
+Crd,-1
+LckdEP ClrRn,-1
+EvCh Rls,-1
+LckdEP RnOn,-1
+EvCh,-1
+ClrRn,1
+VSAw Rls,1
+(Scr) SAw Bmp,-1
+(Scr) Ld Crd,1
+(Scr) Crd,-1
+Rls,-1
+ALd Rls Mid,1
+LckdEP,-1
+VSAw Crd,-1
+BdCrd  HitRls,-1
+Bmp LdRnIn,1
+Ld,1
+Bmp Crd ,-1
+Crd,1
+Rn FnWll,1
+(R) Ld DrewClr,1
+Crd  RnOn,1
+SAw Rls Mid,-1
+Fcd Ckd,1
+RnOn,1
+Mid Bmp Crd,1
+ClrRn Rls Mid,1
+Crd,-1
+Crd,-1
+Crd ,-1
+BmpStt RnOn,-1
+Ld,1
+EvCh,-1
+EvCh,1
+Crd  LdRnIn (HT),1
+SAw Crd RnOn,1
+Crd,-1
+Crd ,1
+Crd   ,-1
+Ld ,1
+Crd   Rls,-1
+SAw Crd LdRnIn,1
+Crd RnOn,-1
+SAw Fcd Ck,-1
+CkdStt Crd Rls,-1
+SAw EvCh,-1
+SAw EvCh,1
+ALd Mid Rls,1
+Rls,1
+Rls Mid,1
+Rls Mid,1
+BmpStt Rls Mid,-1
+Crd Chl Crd,1
+(Scr) Crd,1
+SAw LdRnIn,1
+(Scr) LdRnIn,1
+CrdStt,-1
+Crd Ld Rls Mid,1
+MsdBrk BdCrd,-1
+SAw Crd RnOn,1
+Bmp Ld Rls,1
+EvCh Rls,1
+EvCh Rls,1
+SAw Ckd,-1
+SAw Ckd,-1
+SAw Ckd,-1
+Crd ,-1
+(R) ALd,1
+RnOn LdNrLn,1
+(R) Ld ,-1
+Crd RnOn,-1
+QAw Ld   Crd,-1
+(R) Ld   Bmp,-1
+(R) Ld  Crd Fcd Ck,-1
+Ld Crd,1
+Off Colour,-1
+RnOn,-1
+QAw Ld  Bmp,-1
+Fcd CkRnUp,-1
+QAw Ld   Crd,-1
+Crd Fcd CkRnUp,-1
+(R) ALd,1
+ClrRn Rls,1
+Crd Mid Rls,1
+QAw ALd Rls Mid,1
+(R) Ld  Crd,-1
+Crd ,-1
+(R) BdBmp Crd,-1
+SAw Rls,-1
+(R) Bmp Crd,-1
+BmpRnUp,-1
+Bmp ,-1
+Bmp,-1
+Crd Fcd Ck,-1
+SAw Crd Rls,-1
+Ld   CmAgn,1
+Fcd Ck LdNrLn,1
+MsdBrk LdNrLn,1
+CrdRnUp RnIn,-1
+BmpStt RnOn,1
+(R) Crd LdBrflyRnIn,1
+Bmp  ,-1
+Crd  BmpRnIn,-1
+Crd BmpRnIn,-1
+(R) Bmp Crd,-1
+LckdEP Rls Mid (HT),-1
+BdBmp   Crd,-1
+(R) Bmp Fcd Ck ,-1
+Crd,-1
+CrdStt Fcd Ck,-1
+RnOn Rls Mid,1
+ClrRn Rls,-1
+ALd Mid Rls,1
+VQAw ALd,1
+EvCh Mid W,-1
+EP Ld  Bmp,-1
+EP SnLd JstHldOn,1
+(R) EvCh,-1
+EP Ld ,-1
+QAw Crd  ,-1
+QAw Ld ,-1
+EP SnLd,1
+Bmp,-1
+EP Ld   (HT),-1
+Bmp Ld RnIn,-1
+QAw Ld  ,1
+CrdStt Ld ,-1
+AHandy Mid W,1
+QAw Crd ,-1
+ALd Mid W,1
+(R) ClrRn W,-1
+(Scr) ClrRn Mid,-1
+(Scr) Crd  RnOn (HT),-1
+(Scr) EvCh,-1
+BmpRnUp Crd ,-1
+Rn FnWll,1
+LdRnIn Mid,1
+QAw Ld   Mid W,-1
+ClrRn,-1
+ClrRn,-1
+ClrRn Mid,-1
+BmpRnUp Mid W,-1
+Crd ,-1
+EP Ld RnIn,-1
+Crd ,-1
+QAw ALd,1
+ClrRn Mid W,-1
+(Scr) HitRls Crd,-1
+(Scr) HitRls Crd,-1
+EP Crd ,-1
+Crd ,-1
+QAw ALd,1
+QAw Ld ,-1
+QAw Ld RnIn,1
+EP Ld ,1
+EP Handy ,-1
+EP Ld ,-1
+QAw Ld RnIn Crd,-1
+EP SnLd,1
+(R) Ld   ,-1
+RnOn Mid,1
+Crd Ld   ,-1
+Ld  Mid Rls,1
+Bmp Crd  Mid,-1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+VQAw ALd,1
+EvCh Mid W,-1
+EP Ld  Bmp,-1
+EP SnLd JstHldOn,1
+(R) EvCh,-1
+EP Ld ,-1
+QAw Crd  ,-1
+QAw Ld ,-1
+EP SnLd,1
+Bmp,-1
+EP Ld   (HT),-1
+Bmp Ld RnIn,-1
+QAw Ld  ,1
+CrdStt Ld ,-1
+AHandy Mid W,1
+QAw Crd ,-1
+ALd Mid W,1
+(R) ClrRn W,-1
+(Scr) ClrRn Mid,-1
+(Scr) Crd  RnOn (HT),-1
+(Scr) EvCh,-1
+BmpRnUp Crd ,-1
+Rn FnWll,1
+LdRnIn Mid,1
+QAw Ld   Mid W,-1
+ClrRn,-1
+ClrRn,-1
+ClrRn Mid,-1
+BmpRnUp Mid W,-1
+Crd ,-1
+EP Ld RnIn,-1
+Crd ,-1
+QAw ALd,1
+ClrRn Mid W,-1
+(Scr) HitRls Crd,-1
+(Scr) HitRls Crd,-1
+EP Crd ,-1
+Crd ,-1
+QAw ALd,1
+QAw Ld ,-1
+QAw Ld RnIn,1
+EP Ld ,1
+EP Handy ,-1
+EP Ld ,-1
+QAw Ld RnIn Crd,-1
+EP SnLd,1
+(R) Ld   ,-1
+RnOn Mid,1
+Crd Ld   ,-1
+Ld  Mid Rls,1
+Bmp Crd  Mid,-1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+Crd Ld Mid Rls,1
+AHandy,1
+QAw Ld  ,-1
+BmpRnUp Crd,-1
+(Scr) Blk ,-1
+SAw,-1
+ClrRn,-1
+VQAw ALd Mid Rls,1
+LdNrLn Mid,1
+QAw Ld  ,-1
+ClrRn Rls,-1
+SnLd,1
+Crd,-1
+(Scr) EvCh Rls Mid,-1
+Bmp,-1
+Rls,-1
+Crd ,-1
+EvCh Mid Rls,-1
+SAw Rls Mid,-1
+QAw ALd Mid,1
+ClrRn Mid,-1
+Fcd Ck,-1
+QAw Ld  ,-1
+Fcd Ckd,-1
+EP Ld   Mid Rls,-1
+QAw Ld   Fcd Ck,-1
+QAw ALd,1
+CrdRnUp ,-1
+QAw ALd,1
+Crd Fcd Ck,-1
+Bmp Fcd Ck,-1
+VQAw ALd,1
+EvCh,-1
+Bmp Crd,-1
+ClrRn,1
+Crd Ld,1
+QAw Crd  ,-1
+EP Snnd,1
+QAw ALd,1
+Crd  ,-1
+Crd,-1
+Mid Rls,-1
+QAw EvCh,-1
+Bmp Crd ,-1
+VQAw ALd Mid Rls,1
+Mid Rls,1
+QAw ALd,1
+Ld,1
+Crd ,-1
+BdBmp Crd ,-1
+QAw Ld RnIn,1
+Crd  ,-1
+Crd ,-1
+QAw ALd,1
+QAw Crd,1
+QAw ALd,1
+QAw ALd Mid,1
+Ld  Crd,1
+QAw SnLd,1
+Crd,-1
+EP Handy  Crd,-1
+Blk Mid,-1
+QAw ALd,1
+Crd ,-1
+AHandy LdRnIn,1
+EvCh,-1
+Crd,-1
+Crd  ,-1
+Crd ,-1
+QAw ALd,1
+QAw ALd,1
+QAw ALd,1
+EvCh,-1
+Off Colour,-1
+QAw ALd,1
+Crd Bmp Mid,1
+Ld  Mid,1
+Ld  Crd,1
+Rls Mid,1
+ClrRn W,-1
+EvCh W,-1
+ClrRn W,-1
+VSAw Ld ,1
+(R) EP Ld  W,-1
+EvCh W,-1
+AHandy,1
+Crd Bmp,-1
+EvCh W,-1
+Bmp VW BdCrd,-1
+Crd  ,-1
+Ld W,1
+MsdBrk W,-1
+MsdBrk W Imp,-1
+MsdBrk W RnOn,1
+SAw Crd RnOn,-1
+EP W Ld RnOn,1
+MsdBrk W Crd,-1
+SAw Fcd Ck,-1
+EP W Imp  Crd,-1
+EP W LdRnUp,1
+SAw EP Ld,1
+Crd,-1
+VW ALd,1
+W EvCh,-1
+W,-1
+SAw Mid ClrRn,-1
+Crd RnOn,-1
+Blk RnOn,-1
+Blk RnOn,-1
+Blk RnOn,-1
+Crd Rls,1
+BmpRnUp ,1
+LckdEP RnOn,1
+(R) Ld  ,-1
+SAw Crd,-1
+EvCh Rls Mid,-1
+EvCh Mid Rls,-1
+Crd Mid Rls,1
+CrdRnIn,-1
+Fcd Ck Crd ,-1
+Ld Mid Rls,1
+CkdW Crd FcdWRnIn,-1
+MsdBrk CrdRnIn,-1
+ClrRn Mid,-1
+Ld DrewClr,1
+Crd  ,-1
+Crd  RnOn,1
+(R) Bmp,-1
+(R) Ld,1
+SAw,-1
+Crd,1
+Chl BdImp,1
+Crd,-1
+CkdW,-1
+(R) Crd ,-1
+Mid Rls,-1
+ClrRn Mid,1
+Bmp   LdRnIn Mid,1
+ChlRnIn,-1
+FcdWFr,-1
+FcdW Bmp Crd ,-1
+ChlRnIn,1
+EP Ld ,-1
+EvCh Mid (HT),-1
+Crd Mid,-1
+Crd  Mid Rls,-1
+Bmp   ,-1
+StmbStt Mid W Ld ,1
+EP Mid ALd,1
+(R) EP Ld ,-1
+Ld  Bmp,-1
+Bmp,-1
+EP SnLd   CmAgn,-1
+EP Bmp,-1
+Crd   RnIn,-1
+CrdRnIn W,-1
+QAw Ld  ,1
+EvCh Mid W,1
+Ld RnIn,1
+Chl ,-1
+Bmp,-1
+RnOn Mid W,1
+EvCh Mid W,-1
+Crd Mid W,-1
+BmpRnUp,-1
+Crd Bmp  RnOn,1
+EvCh,-1
+BdBmp RnIn Crd ,-1
+HandyFr,-1
+BdBmp Crd,-1
+AHandy,1
+EvCh,-1
+(R) ChlRnIn,1
+Crd,-1
+Bmp DispRnIn,1
+CrdRnUp ChlRnIn,-1
+Ld  CmAgn,1
+ClrRn,-1
+Chl CrdRnIn,-1
+QAw Crd ChlRnIn,-1
+Crd,1
+RnOn Mid W,-1
+EP Fcd Ck ,-1
+(R) Fcd Ckd,-1
+QAw Ld  ,1
+Crd  Mid W,-1
+EvCh,1
+Crd RnIn,-1
+Fcd Ck,-1
+Handy  Mid W,-1
+CkdW Crd,-1
+Chl Crd   ,1
+LdNrLn,1
+Mid,1
+QAw EvCh,1
+Fcd Ckd,-1
+QAw Ld  CmAgn,1
+(Scr) Bmp ,-1
+Crd ,-1
+EvCh Mid Rls,1
+Crd Mid,1
+Blk,-1
+ClrRn Mid,-1
+ClrRn,-1
+Chl,1
+Crd,-1
+Mid,-1
+CrdRnUp ,-1
+CrdStt,-1
+Blk,-1
+ClrRn,-1
+Mid,-1
+Blk Fell,-1
+CrdRnUp,-1
+Ld  Crd,-1
+EP ALd Mid,1
+EP Ld  DispLd,-1
+Ld NrLn Mid,1
+ALd Mid,1
+Mid,1
+QAw AHandy,1
+AHandy Ld,1
+Ld Mid W,1
+Bmp Fell,-1
+Bmp,-1
+Crd,-1
+Crd Bmp,-1
+LckdEP EvCh,-1
+VSAw Fcd Ck CrdRnIn,-1
+EP AHandy LdNrLn,1
+Chl NrLn,1
+Fcd Ck Mid,1
+ChlRnIn,1
+(R) Crd ,1
+EvCh,-1
+CrdStt Fcd Ck,-1
+BmpRnUp Crd,-1
+BmpStt Crd,-1
+CrdRnIn (HT),-1
+Crd,-1
+SAw Crd RnOn,-1
+Chl LdNrLn,1
+Crd   Bmp,-1
+DispLdFr,1
+LdNrLn,1
+ClrRn,-1
+LdRnIn NrLn,1
+CkdRnUp LdBrfly  Cm AgnA,1
+(R) CrdStt  RnOn,-1
+Crd  ,-1
+RnOn,1
+Ld NrLn,1
+ChlRnIn,1
+CrdRnUp Mid W,-1
+Crd   ,-1
+Crd  ,-1
+EvCh,-1
+Crd ,-1
+SAw Mid,-1
+Chl RnIn,1
+SAw ChlFr,1
+Bmp Crd,-1
+Crd  Ld RnIn Crd,1
+BdBmp Crd ,-1
+Crd ,-1
+EvCh,-1
+Mid,-1
+CkdWBmp,-1
+CkdW Bmp Crd,-1
+SAw Mid Rls,-1
+CrdRnUp   Mid,1
+EvCh,-1
+Mid,-1
+Green,-1
+(R) EvCh,-1
+(R) Ld  ,-1
+ClrRn Mid Rls,-1
+SAw ClrRn,-1
+Crd ChlRnIn,1
+EP Ld  RnIn,1
+(R) Ld  ,-1
+CrdRnUp Ld  ,1
+BmpRnIn,1
+Ld BmpRnIn,1
+Crd Ld  ,-1
+Crd  ,-1
+Crd Bmp,1
+Crd Ld,1
+BmpRnUp Crd,-1
+Ld   Rls Mid,-1
+CrdRnUp,1
+ChlRnIn,1
+Ld Mid Rls,1
+(R) Ld  Fcd Ck,-1
+Handy  RnIn Crd,1
+SAw RnOn,1
+EvCh,-1
+Ld Mid,1
+Crd Rls Mid,-1
+Crd LdNrLn,1
+QAw Ld   Crd,-1
+Chl ,1
+Ld Rls Mid,1
+ClrRn,-1
+Mid,-1
+Crd (HT),-1
+EvCh Rls Mid,-1
+Lame,-1
+Crd ,-1
+(R) EP Crd Ld    Crd,1
+Bmp Fcd Ck,-1
+ClrRn Rls,-1
+LdNrLn,1
+(Scr) QAw Ld,1
+BdBmp Bmp  ,-1
+Ld  Crd,-1
+SAw Crd,-1
+Crd Ld ,1
+Crd,1
+ClrRn,-1
+Crd LdNrLn,1
+Crd  ChlRnIn,-1
+Crd  LdRnIn,1
+VSAw Crd ,-1
+SnLd   BmpCrd,-1
+EP Ld,1
+EP SnLd RnIn,1
+EvCh,-1
+EP SnLd JstHldOn,1
+AHandy RnOn,1
+Crd,-1
+EvCh,-1
+ClrRn Rls Mid,1
+Bitten,-1
+BmpStt,-1
+QAw Ld  Rls,-1
+BmpStt HitRls,-1
+EvCh Rls,-1
+ClrRn Rls,-1
+HitRls Crd,1
+LdNrLn,1
+(R) Ld ,-1
+Bmp,-1
+BmpRnUp ,-1
+Blk,-1
+Bmp Mid,-1
+Crd ,-1
+EP Ld   Mid,1
+DispRnIn,1
+(R) EP Ld Mid,1
+Ld  Crd,-1
+(R) Crd,-1
+CrdRnUp,-1
+Fcd Ck,1
+Crd,-1
+(R) BdCrd ,-1
+QAw ALd,1
+Bmp Crd ,1
+(R) Crd,-1
+Chl Crd,-1
+(R) Ld ,1
+Crd ,-1
+Crd  RnIn,-1
+VSAw Bmp Crd,-1
+CrdRnUp RnOn,1
+BmpStt Ld  ,-1
+Crd ,1
+EP Ld RnIn,-1
+SAw Mid,-1
+ClrRn,-1
+ALd Mid Rls,1
+Non Arrival,-1
+SAw Crd   ,-1
+BmpStt,-1
+Fcd Ck,-1
+QAw ALd,1
+Chl Crd ,-1
+LckdEP Crd Mid,-1
+Bmp ,-1
+Crd  ,-1
+Ld  NrLn,1
+Crd Bmp,-1
+SnLd Mid Rls,1
+QAw ALd Mid,1
+(R) BdBmp,-1
+Bmp Fcd Ck,-1
+Crd,-1
+SAw Bmp,-1
+Crd RnIn,-1
+(R) VSAw ClrRn,-1
+(R) Crd,-1
+(R) Bmp ,-1
+BdBmp Crd ,-1
+(R) Crd LdRnIn,1
+VSAw Fcd Ck ,-1
+EvCh Mid Rls,1
+Crd Mid Rls,1
+BmpRnOn,-1
+SAw Crd,-1
+Chl StydOn,1
+Chl EvCh,-1
+DispLd BmpRnIn,1
+EvAw Blk,-1
+LdRnUp Mid W,1
+ChlRnUp Bmp,-1
+EvAw Bmp,-1
+EvAw Bmp,-1
+SAw NvrShwd,-1
+EvAw Crd,-1
+FAw Bmp,-1
+WeightVariationTrial,-1
+WeightVariationTrial,-1
+WeightVariationTrial,-1
+WeightVariationTrial,-1
+WeightVariationTrial,-1
+(R) SAw ClrRn,-1
+Crd  ,-1
+Crd RnOn,-1
+QAw ALd,1
+QAw SnClr,1
+(R) EvCh,-1
+(Scr) Bmp W,-1
+(Scr) Crd Fcd Ck RnOn,-1
+Crd,-1
+Fcd Ck Crd,-1
+QAw ALd,1
+(R) BmpRnIn,-1
+(R) Bmp Crd,-1
+(Scr) Crd RnIn,-1
+(Scr) ClrRn Mid,-1
+Mid,-1
+QAw ALd,1
+Crd RnOn,-1
+CrdRnUp BdCrd,-1
+CrdRnUp RnOn,1
+SAw LdRnIn,1
+SAw ClrRn Mid,-1
+Crd ,-1
+SAw Bmp W RnIn,-1
+Crd Fcd Ck,-1
+Fcd CkRnUp Bmp,-1
+CrdRnUp ,-1
+QAw ALd Mid,1
+Rn FnWll,1
+SAw Fcd Ck RnOn,1
+(Scr) RnOn,-1
+Bmp  Fcd Ck (HT),-1
+CrdRnUp RnOn,1
+Bmp  RnOn,1
+Ld DrewClr Mid,1
+Handy   Crd Bmp,-1
+CrdRnUp Mid (HT),-1
+Ld  Mid (HT),1
+Ld Mid Rls,1
+Mid Rls,1
+(R) ClrRn,-1
+(Scr) ClrRn,-1
+EP And,1
+(R) BdBmp Crd,-1
+EvCh,-1
+EvCh Rls Mid,-1
+EvCh,-1
+SAw Crd ,-1
+ClrRn Rls,-1
+Crd Fcd Ck Rls,-1
+Crd RnIn,-1
+SAw Rls,-1
+EvCh Rls,1
+HitRls,-1
+Crd Ld ,1
+BdCrdStt  Rls,-1
+BmpStt  RnOnWll,1
+Crd LdRnIn Rls,1
+BdCrd Fcd Ck ,-1
+EvCh ChlNrLn,1
+SAw Crd,-1
+ClrRn Rls,1
+ClrRn,-1
+Bmp Crd,-1
+Bmp Crd RnOn,-1
+SAw Fcd Ck,-1
+SAw LdRnIn,1
+CrdStt  (HT),-1
+EvCh Rls,1
+Off Colour,-1
+Crd Fcd Ck  Rls Mid,-1
+Ld ,1
+LckdEP RnOn,-1
+LdRnIn Mid Rls,1
+Crd LdRnIn Mid,1
+Rls Mid,1
+(Scr) Crd HandyFr,1
+(Scr) ChlFr,1
+EvCh,-1
+VSAw,1
+(Scr) EvCh W,-1
+(Scr) ClrRn W,-1
+(Scr) LdRnIn,1
+(Scr) RnOn W,-1
+(Scr) EvCh W,-1
+Crd RnOn,1
+RnOn,-1
+(Scr) LdNrLn,1
+LckdEP RnOn,1
+(Scr) LdRnIn W,1
+(R) Ld,1
+(R) Ld,1
+RnOnWll,1
+(Scr) Ld,1
+(R) Fcd Ck  RnOn W,1
+(R) Rn FnWll,1
+RnOn Mid W,1
+BdBlk,-1
+(R) ClrRn,-1
+(Scr) RnOn W,1
+SAw RnOn Mid W,1
+SAw,1
+ClrRn Mid W,-1
+(Scr) Crd ,-1
+RnOn W,-1
+(R) LdRnIn,1
+(R) HandyFr,1
+Crd ,-1
+Crd  ,1
+SAw Bmp W,-1
+Bmp Fcd Ck,-1
+Chl Bmp,1
+SAw RnOn,1
+Crd  Bmp,-1
+RnOn Mid W,1
+EvCh Mid W,1
+Off Colour,-1
+Ld W,1
+Crd   W,-1
+RnOn LdNrLn,1
+BdBmp Bmp,-1
+SAw W,-1
+Crd ,-1
+EvCh W,-1
+VSAw Crd,-1
+EvCh W,-1
+SAw Ld,1
+VSAw Crd  LdRnIn,1
+EvCh W,1
+Crd LdNrLn,1
+SAw CrdRnUp Bmp,1
+Crd W,-1
+Crd LdRnIn W,1
+Ld W,1
+Off Colour,-1
+RnOn W,1
+RnOn W,1
+Ld,1
+EvCh W,1
+Mid,1
+LckdEP CkdBnds,-1
+Ld Mid,1
+VSAw Mid Rls,1
+Mid,1
+AHandy Ld W,1
+ClrRn W,-1
+ClrRn,-1
+EP SnLd,1
+Ld Mid W,1
+NvrShwd,-1
+EP Ld W,1
+ClrRn W,-1
+ClrRn W,-1
+Lame,-1
+Ld W,1
+Fcd CkW,-1
+FcdWRnIn,-1
+RnOn,1
+FcdW,-1
+RnOn W,1
+Crd W,-1
+Crd W,-1
+W,-1
+EP Ld W,1
+LdRnIn W,1
+EvCh W,1
+EvCh W,1
+QAw ALd W,1
+Crd ,-1
+ClrRn,-1
+QAw Bmp W,-1
+EP Ld W,1
+ClrRn W,-1
+Crd Mid W,-1
+W,-1
+Crd,1
+ClrRn,-1
+Crd W,-1
+Crd  ChlRnIn,1
+Crd  Bmp,-1
+Crd  Fcd Ck,-1
+EvCh,-1
+QAw AHandy W,1
+QAw Crd  ,-1
+EvCh W,-1
+EP Ld,1
+Bmp Crd W,-1
+Crd W,-1
+QAw ALd DrewClr,1
+Crd  ,-1
+EvCh W,-1
+Ld,1
+Bmp,-1
+ALd W,1
+EvCh W,1
+Bmp Crd ,-1
+EP Snnd W,1
+QAw AHandy,1
+LdRnIn W,1
+Bmp,-1
+ClrRn,-1
+SAw,-1
+Bmp LdRnIn,1
+Ld ,1
+Bmp,-1
+Bmp Crd  W,-1
+LdNrLn W,1
+EvCh,-1
+VSAw Crd W,-1
+VSAw W,-1
+Ld W,1
+Ld Mid W,1
+CkdBd,1
+AHandy Ld W,1
+ClrRn W,-1
+ClrRn,-1
+EP SnLd,1
+Ld Mid W,1
+NvrShwd,-1
+EP Ld W,1
+ClrRn W,-1
+ClrRn W,-1
+Lame,-1
+Ld W,1
+Fcd CkW,-1
+FcdWRnIn,-1
+RnOn,1
+FcdW,-1
+RnOn W,1
+Crd W,-1
+Crd W,-1
+W,-1
+EP Ld W,1
+LdRnIn W,1
+EvCh W,1
+EvCh W,1
+QAw ALd W,1
+Crd ,-1
+ClrRn,-1
+QAw Bmp W,-1
+EP Ld W,1
+ClrRn W,-1
+Crd Mid W,-1
+W,-1
+Crd,1
+ClrRn,-1
+Crd W,-1
+Crd  ChlRnIn,1
+Crd  Bmp,-1
+Crd  Fcd Ck,-1
+EvCh,-1
+QAw AHandy W,1
+QAw Crd  ,-1
+EvCh W,-1
+EP Ld,1
+Bmp Crd W,-1
+Crd W,-1
+QAw ALd DrewClr,1
+Crd  ,-1
+EvCh W,-1
+Ld,1
+Bmp,-1
+ALd W,1
+EvCh W,1
+Bmp Crd ,-1
+EP Snnd W,1
+QAw AHandy,1
+LdRnIn W,1
+Bmp,-1
+ClrRn,-1
+SAw,-1
+Bmp LdRnIn,1
+Ld ,1
+Bmp,-1
+Bmp Crd  W,-1
+LdNrLn W,1
+EvCh,-1
+VSAw Crd W,-1
+VSAw W,-1
+Ld W,1
+Ld Mid W,1
+CkdBd,1
+BmpStt,-1
+CrdRnUp ,-1
+LckdEP ClrRn,-1
+AHandy,1
+CrdRnUp  Fcd Ck,-1
+SAw Crd Fcd Ck,-1
+SAw Crd,-1
+Bmp Crd Rls Mid,-1
+SAw Crd,-1
+BdMsdBrk Crd ,-1
+SAw Bmp,-1
+CrdStt RnOn,-1
+Crd ,-1
+Crd RnOn,-1
+Bmp   Fcd Ck ,-1
+CrdStt BdBlk,-1
+Bmp Crd,-1
+EP Ld,1
+Ld ,1
+SAw Chl Fcd Ck ,-1
+Chl Crd Fr,1
+(R) SAw EvCh,-1
+Ld,1
+Crd RnOn,1
+SAw Crd ,-1
+SAw Ld Mid Rls,1
+SAw EvCh,1
+EP SnLd,1
+SAw RnOn,1
+VSAw Bmp Crd ,-1
+SAw BdBmp Mid Rls,-1
+Ld  ,1
+crd rn up  ld  bumped,1
+SAw Crd Mid Rls,1
+ClrRn Rls Mid,1
+Fcd Ck  CrdRnIn,-1
+CrdRnUp ,-1
+EP SnLd,1
+EP SnLd,1
+Crd,1
+Ld,1
+EP SnLd,1
+Blk,-1
+EvCh Mid,1
+ClrRn Mid W,1
+SAw ClrRn,-1
+SAw BdCrd,-1
+QAw ALd Mid W,1
+Ld Mid,1
+EvCh Mid,1
+Green,1
+SnHandy Crd,1
+Mid EvCh,1
+Mid,1
+By Stewards,-1
+EP MvdOff  RnOn,-1
+Ld   Crd,-1
+CrdStt Crd CkdVW,-1
+ClrRn Mid,-1
+EP Ld Mid Rls,1
+QAw Ld  CrdRnIn,-1
+Mid Rls,-1
+Mid,-1
+Crd Mid,-1
+Crd LdRnIn Mid,1
+Ld Mid,1
+Rls Mid,1
+VW,1
+EvCh Mid W,-1
+EP EvCh,-1
+QAw ALd W,1
+ClrRn Mid W,-1
+Bmp,-1
+EP EvCh,-1
+QAw Ld RnIn,-1
+Crd  W,-1
+VQAw ALd W,1
+(Scr) Crd,-1
+EvCh W,-1
+QAw Bmp Stmb ,-1
+EvCh W,1
+Crd Ld NrLn,1
+QAw Ld  W,-1
+QAw Ld RnIn,1
+QAw Ld RnIn,1
+LdNrLn W,1
+Chl Fcd Ck,-1
+Crd BdBmp,-1
+QAw ALd W,1
+EvCh VW,-1
+QAw ALd,1
+QAw ALd W,1
+QAw Ld ,1
+EvCh W,-1
+EvCh W,-1
+Chl Bmp  CrdRnIn,-1
+QAw Ld RnIn W,-1
+Fcd Ck CrdRnIn,-1
+QAw ALd W,1
+ClrRn,1
+EP Bmp RnOn,1
+EP SnLd W,1
+ClrRn,-1
+QAw Ld RnIn Crd,-1
+BmpRnIn,1
+QAw ALd,1
+BdBmp  CrdRnIn,-1
+Bmp ,-1
+QAw Ld  W,-1
+ClrRn Mid W,-1
+StmbStt Crd,-1
+QAw ALd,1
+EvCh,1
+QAw Ld  ,1
+QAw Ld  ,-1
+Mid,-1

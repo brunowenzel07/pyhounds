@@ -5,6 +5,10 @@ import re
 import nltk
 import pandas as pd
 import csv 
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.naive_bayes import MultinomialNB
+from string import digits 
 
 class Race:
 
@@ -18,7 +22,7 @@ class Race:
             "split" : normalize_text(content[4]),
             "bends" : normalize_text(content[5]),
             "fin" : normalize_text(content[6]),
-            "remarks" : normalize_text(content[9]).split(","),
+            "remarks" : normalize_text(content[9]),
             "winner_time": normalize_text(content[10]),
             "gng" : normalize_text(content[11]),
             "wght" : normalize_text(content[12]),
@@ -43,7 +47,12 @@ class Race:
             return float(self.content["split"])
 
         def remarks():
-            return self.content["remarks"]
+            
+            return self.content["remarks"].replace(
+                "/", " ").replace(
+                "&", " ").replace(
+                ",", " ").replace(
+                "-", " ").translate(None, digits)
 
         def winner_time():
             return float(self.content["winner_time"])
@@ -78,7 +87,21 @@ class Race:
         ]
         return result 
     
-    def calculate_stats(self, content):        
+    def calculate_stats(self, content):     
+
+        train_df = pd.read_csv("data/comments.csv", header=None, names=["comment", "position"])
+        # Bag of Words
+        tfidf = TfidfTransformer()
+        bow = CountVectorizer()
+        bow.fit(train_df["comment"])
+        # instanciando classificador
+        nb = MultinomialNB(alpha=1.0)
+        # treinamento, transformação do set de trainamento
+        train_X_bow = bow.transform(train_df["comment"])
+        tfidf.fit(train_X_bow)
+        train_X_tfidf = tfidf.transform(train_X_bow)
+        train_y = train_df["position"]
+        nb.fit(train_X_tfidf, train_y)
 
         def bends():
             diff = content[1][0] - content[-1]
@@ -87,24 +110,17 @@ class Race:
             else: return 0
         
         def remarks():
-            remarks_content = []
-            with open("data/txt_comments.csv", "r") as csvfile:
-                rows = csv.reader(csvfile)
-                result = 0
-                for row in rows:
-                    if row[0] in content[3]:
-                        result = int(row[1]) + result 
+            X_bow = bow.transform([content[3]])            
+            X_tfidf = tfidf.transform(X_bow)   
+            pred = nb.predict(X_tfidf)         
+            return int(pred )
 
-                if result == 0:
-                    return 0
-                if result > 0:
-                    return 1
-                if result < 0:
-                    return -1
-        # Return function
+
         result = [
             bends(),
             remarks()
         ]
+
         print(result)
-        return result
+
+        return result 

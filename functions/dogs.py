@@ -19,6 +19,8 @@ class Dogs():
             type_wait="id",
             element_wait="sortableTable")
 
+
+
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
             race = Race(tr_content.find_all("td"))
             calculated_data = race.calculate_stats(race.normalize_stats())          
