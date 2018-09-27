@@ -8,6 +8,7 @@ from tracks import Tracks
 from dogs import Dogs
 import numpy as np 
 from helper import Helper
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 
 def run(url):
     driver = webdriver.Chrome()

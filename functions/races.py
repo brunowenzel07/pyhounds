@@ -3,11 +3,12 @@
 import numpy as np 
 import re
 import nltk
-
+import pandas as pd
+import csv 
 
 class Race:
 
-    def __init__(self, content, dog):
+    def __init__(self, content):
 
         def normalize_text(txt):
             return txt.text.encode("utf-8")
@@ -77,24 +78,33 @@ class Race:
         ]
         return result 
     
-    def calculate_stats(self):
-        data = self.normalize_stats()
-        print(data)
+    def calculate_stats(self, content):        
 
         def bends():
-            diff = data[1][0] - data[-1]
+            diff = content[1][0] - content[-1]
             if diff > 0: return 1
             elif diff < 0: return -1
             else: return 0
         
         def remarks():
-            remarks = data[3]
-            comments = [re.sub("[()\[\]/]", "", i.lower()) for i in remarks]
-            print(comments)
+            remarks_content = []
+            with open("data/txt_comments.csv", "r") as csvfile:
+                rows = csv.reader(csvfile)
+                result = 0
+                for row in rows:
+                    if row[0] in content[3]:
+                        result = int(row[1]) + result 
 
+                if result == 0:
+                    return 0
+                if result > 0:
+                    return 1
+                if result < 0:
+                    return -1
+        # Return function
         result = [
             bends(),
             remarks()
         ]
-
+        print(result)
         return result

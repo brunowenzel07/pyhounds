@@ -1,41 +1,57 @@
-# -*- coding: UTF-8
-# !/usr/bin/python 
+from selenium import webdriver 
 import click 
 from database import Database
-
+import csv 
 import sys 
 sys.path.insert(0, "functions/")
 from tracks import Tracks
 from dogs import Dogs
-
-
-from sklearn.preprocessing import Normalizer
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.metrics import classification_report
-from sklearn.neighbors import KNeighborsClassifier
-from selenium import webdriver
+import numpy as np 
+from helper import Helper
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 
 def run(url):
+    driver = webdriver.Chrome()
+    tracks = Tracks(url, driver)
     dogs = Dogs()
+    helper = Helper()
+#    db = Database("data/txt_comments.csv")
+    for track in tracks.get_tracks():
+        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+        comments = []
+        for tr in page_html.find("table", {"id":"sortableTable"}).find("tbody").find_all("tr")[1:]: 
+            print(tr)
+#            for i in tr.find_all("td")[9].text.encode("utf-8").split(","):
+#                comments.append(i)
+#        a, b = np.unique(comments, return_counts=True)   
+#        
+#        with open("data/txt_comments.csv", "a") as csvfile:
+#            writer = csv.writer(csvfile)      
+#            writer.writerow(a)
 
+    driver.close()
+
+
+
+
+def run(url):
+    driver = webdriver.Chrome()
+    tracks = Tracks(url, driver)
+    dogs = Dogs()
+    helper = Helper()
     db = Database("data/data_train.csv")
-    data_test = db.load_tuning()
-    data_train = db.load()    
-
-    normalize = Normalizer()
-
-    #clf = KNeighborsClassifier(n_neighbors=15, p=3)
-    clf = AdaBoostClassifier()
-
-    data_train_scaled = normalize.fit_transform(data_train[0])
-
-    clf.fit(data_train_scaled, data_train[1])
-    
-    i, k = 0., 0.
-    Y_pred, Y_true = [], []
-    for sample in data_test:
-        sample_scaled = normalize.fit_transform([sample[:-1]])
-        Y_pred.append(int(clf.predict(sample_scaled)))
-        Y_true.append(int(sample[-1]))
-        
-    print(classification_report(Y_true, Y_pred, target_names={"Place", "Not Place"}))
+    for track in tracks.get_tracks():
+        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+        for dog in dogs.get_dogs(page_html, "meetings"):
+            dog_page = helper.get_page_code(
+                "http://greyhoundbet.racingpost.com/" + dog[2], 
+                driver, 
+                type_wait="id",
+                element_wait="sortableTable")
+            dog_comments = []
+            for tr in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
+                what = tr.find_all("td")[9].text.encode("utf-8").split(",")
+                with open("data/txt_comments.csv", "a") as csvfile:
+                    writer = csv.writer(csvfile)
+                    writer.writerow(what)
+    driver.close()
