@@ -15,10 +15,7 @@ with open("data/txt_comments.csv", "r") as csvfile:
 
 c, d = np.unique(a, return_counts=True)
 
-
- 
-for p in c:
-    with open("data/comments.csv", "a") as csvcomments:
-        writer = csv.writer(csvcomments)   
-        writer.writerow(str(p))
-        
+with open("data/comments.csv", "a") as c_csv:
+    writer = csv.writer(c_csv)
+    for h in c:
+        writer.writerow(h)
