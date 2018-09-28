@@ -8,9 +8,17 @@ from dogs import Dogs
 from helper import Helper
 
 
-def run(url):
-    print("cu")
-    driver = webdriver.Chrome()
+chrome_options = webdriver.ChromeOptions()
+prefs={
+    "profile.managed_default_content_settings.images": 2, 
+    "profile.managed_default_content_settings.stylesheet": 2, 
+    'disk-cache-size': 8192 
+    }
+chrome_options.add_experimental_option('prefs', prefs)
+
+def run(url):   
+    print(chrome_options)
+    driver = webdriver.Chrome(chrome_options=chrome_options)
     tracks = Tracks(url, driver)
     dogs = Dogs()
     helper = Helper()
@@ -20,9 +28,11 @@ def run(url):
             page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
             for dog in dogs.get_dogs(page_html, "meetings"):
                 stat = dogs.get_stats(dog, driver)
-                if int(dog[0]) <= 2: result = 0
-                else: result = 1
-                stat.append(result)
-                db.insert(stat, "solo") 
+                if len(stat) > 0:
+                    if int(dog[0]) <= 2: result = 0
+                    else: result = 1
+                    stat.append(result)
+                    db.insert(stat, "solo") 
 
     driver.close()
+

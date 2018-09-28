@@ -45,16 +45,20 @@ class Dogs():
             except Exception as a :
                 pass
 
-        df = pd.DataFrame(data=dog_races, columns=[
-            "bends", 
-            "remarks", 
-            "finishes", 
-            "gng",
-            "sp",
-            "trap",
-            "weight",
-            "split"])
-        result = [round(df[a].mean(), 3) for a in df]
+        try:
+            df = pd.DataFrame(data=dog_races, columns=[
+                "bends", 
+                "remarks", 
+                "finishes", 
+                "gng",
+                "sp",
+                "trap",
+                "weight",
+                "split"])
+            result = [round(df[a].mean(), 3) for a in df]
+        except Exception as a:
+            print(a)
+            result = []
         return result 
 
     def get_dogs(self, page_html, type_dogs):

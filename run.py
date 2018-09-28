@@ -5,6 +5,7 @@
 import click 
 import sys 
 import functions
+from multiprocessing import Process, Queue
 
 @click.command()
 @click.argument("script")
@@ -21,4 +22,6 @@ def main(script, url):
         click.secho("Invalid option, see documentation.", bold=True, color="red")
 
 if __name__ == "__main__":
-    main()
+    p = Process(target=main)
+    p.start()
+    p.join()

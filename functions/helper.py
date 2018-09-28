@@ -46,8 +46,6 @@ class Helper:
     def get_page_code(self, url, driver=False, element_wait=False, type_wait=False):
         if driver:
             driver.get(url)
-            sleep(2)
-        if element_wait and type_wait:
             if type_wait == "class": WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.CLASS_NAME, element_wait)))
             if type_wait == "id": WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.ID, element_wait)))
         return BeautifulSoup(driver.page_source, "html.parser")
