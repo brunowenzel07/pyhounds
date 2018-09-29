@@ -44,17 +44,22 @@ class Dogs():
                 race = Race(tr_content.find_all("td"), dog[3])
                 dog_races.append(race.calculate_stats(race.normalize_stats(), nb, bow, tfidf))
             except Exception: pass 
-                
-        df = pd.DataFrame(data=dog_races, columns=[
-            "bends", 
-            "remarks", 
-            "finishes", 
-            "gng",
-            "sp",
-            "trap",
-            "weight",
-            "split"])
-        result = [round(df[a].mean(), 3) for a in df]
+        try: 
+            if len(dog_races) > 0:
+                df = pd.DataFrame(data=dog_races, columns=[
+                    "bends", 
+                    "remarks", 
+                    "finishes", 
+                    "gng",
+                    "sp",
+                    "trap",
+                    "weight",
+                    "split"])
+                result = [round(df[a].mean(), 3) for a in df]
+            else: result = []
+        except Exception as a:
+            print(a)
+            result = []
         return result 
 
 
@@ -79,7 +84,6 @@ class Dogs():
                 dog_link = self.helper.normalize(dog_div.find("a", class_="gh"), "link")                    
                 dog_trap = self.helper.normalize(dog_div.find("i", class_="bigTrap"),"trap")
                 dog_comment = self.helper.normalize(dog_div.find("p", class_="comment"),"string")
-
                 row = [dog_name, dog_comment, dog_link, dog_trap]
                 rows.append(row)
         return rows

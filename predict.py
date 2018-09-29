@@ -11,7 +11,8 @@ import pandas as pd
 from helper import Helper 
 from os import system 
 from tracks import Tracks
-
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import Normalizer
 
 
 chrome_options = webdriver.ChromeOptions()
@@ -22,17 +23,24 @@ prefs={
     }
 chrome_options.add_experimental_option('prefs', prefs)
 
-def run(url):   
+def run(url):       
     driver = webdriver.Chrome(chrome_options=chrome_options)
     tracks = Tracks(url, False, "predicts")
     dogs = Dogs()
     helper = Helper()
+    db = Database("data/data_train.csv")
+    data_train = db.load()
+
+    clf = KNeighborsClassifier(n_neighbors=2, p=3)
+    clf.fit(data_train[0], data_train[1])
+
     for race in tracks.get_tracks():
         page_html = helper.get_page_code(race[3], driver, type_wait="class", element_wait="runnerBlock")
         for dog in dogs.get_dogs(page_html, "predicts"):
             stat = dogs.get_stats(dog, driver)
-            print(stat)
-            break
+            pred = clf.predict([stat])
+            print(pred, dog, race)
+            break 
         break 
     driver.close()
 
