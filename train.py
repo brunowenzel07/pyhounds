@@ -19,7 +19,7 @@ chrome_options.add_experimental_option('prefs', prefs)
 def run(url):   
     print(chrome_options)
     driver = webdriver.Chrome(chrome_options=chrome_options)
-    tracks = Tracks(url, driver)
+    tracks = Tracks(url, driver, "results")
     dogs = Dogs()
     helper = Helper()
     db = Database("data/data_train.csv")

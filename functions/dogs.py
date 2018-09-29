@@ -38,25 +38,25 @@ class Dogs():
 
         dog_races = []
 
-        try: 
-            for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
+        
+        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
+            try: 
                 race = Race(tr_content.find_all("td"), dog[3])
                 dog_races.append(race.calculate_stats(race.normalize_stats(), nb, bow, tfidf))
-            df = pd.DataFrame(data=dog_races, columns=[
-                "bends", 
-                "remarks", 
-                "finishes", 
-                "gng",
-                "sp",
-                "trap",
-                "weight",
-                "split"])
-            result = [round(df[a].mean(), 3) for a in df]
+            except Exception: pass 
+                
+        df = pd.DataFrame(data=dog_races, columns=[
+            "bends", 
+            "remarks", 
+            "finishes", 
+            "gng",
+            "sp",
+            "trap",
+            "weight",
+            "split"])
+        result = [round(df[a].mean(), 3) for a in df]
+        return result 
 
-            return result 
-        except Exception as a:
-            print(a)
-            return []
 
     def get_dogs(self, page_html, type_dogs):
         rows = []
@@ -73,5 +73,13 @@ class Dogs():
                     dog_trap
                 ]
                 rows.append(row)
-        
+        elif type_dogs == "predicts":
+            for dog_div in page_html.find("div", class_="cardTabContainer").find_all("div", class_="runnerBlock"):
+                dog_name = self.helper.normalize(dog_div.find("a", class_="gh").find("strong"), "string")[1:-1]
+                dog_link = self.helper.normalize(dog_div.find("a", class_="gh"), "link")                    
+                dog_trap = self.helper.normalize(dog_div.find("i", class_="bigTrap"),"trap")
+                dog_comment = self.helper.normalize(dog_div.find("p", class_="comment"),"string")
+
+                row = [dog_name, dog_comment, dog_link, dog_trap]
+                rows.append(row)
         return rows
