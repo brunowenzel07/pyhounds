@@ -33,6 +33,5 @@ def run(url):
                     else: result = 1
                     stat.append(result)
                     db.insert(stat, "solo") 
-
     driver.close()
 

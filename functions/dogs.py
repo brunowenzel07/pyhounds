@@ -38,14 +38,10 @@ class Dogs():
 
         dog_races = []
 
-        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
-            try: 
+        try: 
+            for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
                 race = Race(tr_content.find_all("td"), dog[3])
                 dog_races.append(race.calculate_stats(race.normalize_stats(), nb, bow, tfidf))
-            except Exception as a :
-                pass
-
-        try:
             df = pd.DataFrame(data=dog_races, columns=[
                 "bends", 
                 "remarks", 
@@ -56,10 +52,11 @@ class Dogs():
                 "weight",
                 "split"])
             result = [round(df[a].mean(), 3) for a in df]
+
+            return result 
         except Exception as a:
             print(a)
-            result = []
-        return result 
+            return []
 
     def get_dogs(self, page_html, type_dogs):
         rows = []
