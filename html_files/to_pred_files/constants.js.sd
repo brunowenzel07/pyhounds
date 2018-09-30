@@ -7,7 +7,7 @@ webApp.APP_ID = 'RPiPhone';
 
 webApp.appletUrl = 'http://applet.racingpost.com/applet?';
 
-webApp.IP_CLIENT = '191.189.232.67, 54.94.144.82, 54.94.144.82';
+webApp.IP_CLIENT = '191.189.232.67, 52.67.67.136, 52.67.67.136';
 
 
 
@@ -32,9 +32,9 @@ webApp.LADB_SPORTSBOOK_API_VERSION = 'v2/';
 
 webApp.MINT_SERVER = 'https://applications.williamhill.com/mint-rp/';
 webApp.MINT_APPID = 'RPFBAndroid';
-webApp.SERVER_TIMESTAMP = '1538257279';
+webApp.SERVER_TIMESTAMP = '1538332366';
 webApp.SERVER_TIMEZONE = '+01:00';
-webApp.SERVER_IP = '191.189.232.67, 54.94.144.82, 54.94.144.82';
+webApp.SERVER_IP = '191.189.232.67, 52.67.67.136, 52.67.67.136';
 webApp.SERVER_SERVER_GA_TRACKER_ID = 'UA-900797-99';
 webApp.BETTING_PROXY = 'betting_request_proxy';
 webApp.LADB_TOKEN_REFRESH_TIME = 500000;

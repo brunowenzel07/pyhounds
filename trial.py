@@ -1,7 +1,7 @@
 #-*- coding: UTF-8
 #!/usr/bin/python 
 
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.preprocessing import Normalizer
 from sklearn.metrics import classification_report
 from database import Database
@@ -16,7 +16,7 @@ X_scaler = scaler.fit_transform(data_train[0])
 X_test_scaler = scaler.fit_transform(data_test[0])
 
 
-clf = GradientBoostingClassifier()
+clf = LinearDiscriminantAnalysis(n_components=3)
 clf.fit(X_scaler, data_train[1])
 Y_pred = clf.predict(X_test_scaler)
 Y_true = data_test[1]

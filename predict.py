@@ -11,7 +11,7 @@ import pandas as pd
 from helper import Helper 
 from os import system 
 from tracks import Tracks
-from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.preprocessing import Normalizer
 import csv 
 
@@ -35,7 +35,7 @@ def run(url):
 
     X_data_scaled = scaler.fit_transform(data_train[0])
 
-    clf = GradientBoostingClassifier()
+    clf = LinearDiscriminantAnalysis()
     clf.fit(X_data_scaled, data_train[1])
 
     with click.progressbar(tracks.get_tracks()) as bar:
