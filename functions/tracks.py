@@ -30,7 +30,7 @@ class Tracks:
                 time = self.helper.normalize(race_li.find("strong"), "string")
                 location = self.helper.normalize(race_li.find("h4"), "string")
                 race = self.helper.normalize(race_li.find("h5"), "string")
-                link = self.helper.normalize(race_li.find("a"), "link")
+                link = self.helper.normalize(race_li.find("a"), "link").replace("tab=form", "tab=card")
                 track = [
                     time, location, race, link
                 ]

@@ -11,9 +11,9 @@ import pandas as pd
 from helper import Helper 
 from os import system 
 from tracks import Tracks
-from sklearn.neighbors import KNeighborsClassifier
+from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.preprocessing import Normalizer
-
+import csv 
 
 chrome_options = webdriver.ChromeOptions()
 prefs={
@@ -29,28 +29,32 @@ def run(url):
     dogs = Dogs()
     helper = Helper()
     db = Database("data/data_train.csv")
+    db2 = Database("predicts/predicts.csv")
     data_train = db.load()
+    scaler = Normalizer()
 
-    clf = KNeighborsClassifier(n_neighbors=2, p=3)
-    clf.fit(data_train[0], data_train[1])
+    X_data_scaled = scaler.fit_transform(data_train[0])
 
-    for race in tracks.get_tracks():
-        page_html = helper.get_page_code(race[3], driver, type_wait="class", element_wait="runnerBlock")
-        for dog in dogs.get_dogs(page_html, "predicts"):
-            stat = dogs.get_stats(dog, driver)
-            pred = clf.predict([stat])
-            print(pred, dog, race)
-            break 
-        break 
+    clf = GradientBoostingClassifier()
+    clf.fit(X_data_scaled, data_train[1])
+
+    with click.progressbar(tracks.get_tracks()) as bar:
+        for l, race in enumerate(bar):
+            page_html = helper.get_page_code(race[3], driver, type_wait="class", element_wait="runnerBlock")
+            preds = []
+            for dog in dogs.get_dogs(page_html, "predicts"):
+                try:
+                    stat = dogs.get_stats(dog, driver)
+                    pred = clf.predict_proba(scaler.fit_transform([stat[:-1]]))[0]
+                    preds.append(round(pred[0]*100, 2))
+                except Exception as a:
+                    print(a)
+
+            if len(preds) == 6:
+                row = race[:3] + preds                
+                with open("predicts/predicts.csv", "a") as short_file:
+                    writer1 = csv.writer(short_file)
+                    writer1.writerow(row)           
+
     driver.close()
 
-#    with click.progressbar(tracks.get_tracks()) as bar:
-#        for track in bar:
-#            page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
-#            for dog in dogs.get_dogs(page_html, "meetings"):
-#                stat = dogs.get_stats(dog, driver)
-#                if len(stat) > 0:
-#                    if int(dog[0]) <= 2: result = 0
-#                    else: result = 1
-#                    stat.append(result)
-#                    db.insert(stat, "solo") 

@@ -27,12 +27,14 @@ class Database:
 			print(a)
 
 	def load_tuning(self):
-		data_train = []
+		results = []
+		stats = []
 		with open("data/data_test.csv", "r") as csvfile:
 			rows = csv.reader(csvfile)
 			for r in rows:
-				data_train.append(np.array(r).astype(np.float))
-		return data_train
+				results.append(float(r[-1]))
+				stats.append(np.array(r[:-2]).astype(np.float))
+		return [stats, results]
 
 	def load(self):
 
@@ -43,5 +45,5 @@ class Database:
 			rows = csv.reader(csvfile)
 			for r in rows:
 				results.append(float(r[-1]))
-				stats.append(np.array(r[:-1]).astype(np.float))
+				stats.append(np.array(r[:-2]).astype(np.float))
 		return [stats, results]
