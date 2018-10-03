@@ -65,7 +65,7 @@ class Dogs():
         }
 
 
-        return result.values()
+        return result
 
 
 

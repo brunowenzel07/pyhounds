@@ -51,8 +51,9 @@ def run(url):
             # Stats of dog 
             stat = dogs.get_stats(dog, dog_page, remarks_clf)
 
+            stat.append(dog[0])
             
-            break 
+             
         break 
     driver.close()
 

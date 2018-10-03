@@ -73,7 +73,7 @@ class Helper:
         nb.fit(train_X_tfidf, train_y)
         return [nb, bow, tfidf]
 
-    def get_dog_data(self, dog_page, type_data):
+    def get_dog_data(self, dog_page):
         dog_age = dog_page.find("table",class_="pedigree").find_all("td")[3]
         dog_last_run = dog_page.find("table", {"id":"sortableTable"}).find_all("td", class_="c0")[0]
         last_run = self.normalize(dog_last_run, "date_diff") 
