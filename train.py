@@ -19,21 +19,40 @@ chrome_options.add_experimental_option('prefs', prefs)
 chrome_options.add_argument("--headless")
 
 def run(url):   
-    print(chrome_options)
+    # Create a instance for webdriver 
     driver = webdriver.Chrome(chrome_options=chrome_options)
+    
+    # Get tracks for URL 
     tracks = Tracks(url, driver, "results")
-    dogs = Dogs()
-    helper = Helper()
+
+    # Instance of dogs
+    dogs, helper = Dogs(), Helper()
+
+    # Create a instance for remarks classifier    
+    remarks_clf = helper.remarks_clf()
+
+    # Load data train file 
     db = Database("data/data_train.csv")
-    with click.progressbar(tracks.get_tracks()) as bar:
-        for track in bar:
-            page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
-            for dog in dogs.get_dogs(page_html, "meetings"):
-                stat = dogs.get_stats(dog, driver)
-                if len(stat) > 0:
-                    if int(dog[0]) <= 2: result = 0
-                    else: result = 1
-                    stat.append(result)
-                    db.insert(stat, "solo") 
+
+    for track in tracks.get_tracks():
+        # Get page of track 
+        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+
+        # Iterate about dogs in page
+        for dog in dogs.get_dogs(page_html, "meetings"):
+
+            # Receive dog_page 
+            dog_page = dogs.get_page(dog,driver)
+            
+            # Auxiliary array 
+            i = 0
+            dog_races = []
+
+            # Stats of dog 
+            stat = dogs.get_stats(dog, dog_page, remarks_clf)
+
+            
+            break 
+        break 
     driver.close()
 

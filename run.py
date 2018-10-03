@@ -13,6 +13,8 @@ from multiprocessing import Process, Queue
 def main(script, url):
     if script == "predict":
         functions.predict(url)
+    if script == "train":
+        functions.train(url)
 #def main(script, url, year):
 #    for i in range(1,13):
 #        for j in range(1,30):

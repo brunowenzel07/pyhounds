@@ -4,9 +4,7 @@ from helper import Helper
 from races import Race
 import pandas as pd
 import numpy as np
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.naive_bayes import MultinomialNB
+
 
 class Dogs():
 
@@ -14,53 +12,61 @@ class Dogs():
         pass
         self.helper = Helper()
     
-    def get_stats(self, dog, driver):
-        
+    def get_page(self, dog, driver):
         dog_page = self.helper.get_page_code(
             "http://greyhoundbet.racingpost.com/" + dog[2], 
             driver, 
             type_wait="id",
             element_wait="sortableTable")
+        return dog_page 
 
-        train_df = pd.read_csv("data/comments.csv", header=None, names=["comment", "position"])
-        # Bag of Words
-        tfidf = TfidfTransformer()
-        bow = CountVectorizer()
-        bow.fit(train_df["comment"])
-        # instanciando classificador
-        nb = MultinomialNB(alpha=1.0)
-        # treinamento, transformação do set de trainamento
-        train_X_bow = bow.transform(train_df["comment"])
-        tfidf.fit(train_X_bow)
-        train_X_tfidf = tfidf.transform(train_X_bow)
-        train_y = train_df["position"]
-        nb.fit(train_X_tfidf, train_y)
+    def get_stats(self, dog, dog_page, remarks_clf):
 
-        dog_races = []
+        # Define dog trap 
+        dog_trap = dog[3]
+        # Define dog extra informations 
+        dog_age, dog_last_run = self.helper.get_dog_data(dog_page)
+        print(dog_age, dog_last_run)
 
-        
+        i, dog_races = 0, []
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
             try: 
                 race = Race(tr_content.find_all("td"), dog[3])
-                dog_races.append(race.calculate_stats(race.normalize_stats(), nb, bow, tfidf))
-            except Exception: pass 
-        try: 
-            if len(dog_races) > 0:
-                df = pd.DataFrame(data=dog_races, columns=[
-                    "bends", 
-                    "remarks", 
-                    "finishes", 
-                    "gng",
-                    "sp",
-                    "trap",
-                    "weight",
-                    "split"])
-                result = [round(df[a].mean(), 3) for a in df]
-            else: result = []
-        except Exception as a:
-            print(a)
-            result = []
-        return result 
+                race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
+                dog_races.append(race_data)
+                i += 1 
+            except Exception as a :
+                pass
+            if i == 5: break        
+
+        df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
+
+        result = {
+            # Idade do cachorro (em dias)
+            "dog_age": int(dog_age),
+            # Dias desde a última corrida
+            "last_run" : int(dog_last_run),
+            # Média da troca de posições nas últimas 5 corridas
+            "bends": df["bends"].mean(),
+            # Comentários positivos para os últimas corridas
+            "remarks" : self.helper.count_unique(df["remarks"].tolist(), 0),
+            # Top 1
+            "top_1" : self.helper.count_unique(df["finishes"].tolist(), 1),
+            # Top 2
+            "top_2" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2),
+            # Top 3
+            "top_3" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2) + self.helper.count_unique(df["finishes"].tolist(), 3),
+            # gng avg
+            "gng" : df["gng"].mean(),
+            # Weight
+            "weight" : df["weight"][0],
+            # split
+            "split" : df["split"].mean()
+        }
+
+
+        return result.values()
+
 
 
     def get_dogs(self, page_html, type_dogs):

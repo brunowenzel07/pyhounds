@@ -92,7 +92,9 @@ class Race:
         ]
         return result 
     
-    def calculate_stats(self, content, clf, bow, tfidf):     
+    def calculate_stats(self, content, remarks_clf):     
+
+        clf, bow, tfidf = remarks_clf
 
         def bends():
             diff = content[1][0] - content[-1]

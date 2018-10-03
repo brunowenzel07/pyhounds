@@ -2,6 +2,7 @@
 # !/usr/bin/python
 from bs4 import BeautifulSoup
 import sys 
+import pprint
 sys.path.insert(0, "functions/")
 from dogs import Dogs
 from races import Race
@@ -82,6 +83,6 @@ result = {
     "split" : df["split"].mean()
 }
 
-print(df)
-print(result)
-print(result.values())
+
+pprint.pprint(result)
+
