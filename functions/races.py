@@ -96,8 +96,7 @@ class Race:
 
         def bends():
             diff = content[1][0] - content[-1]
-            if diff > 0: return 1
-            else: return 0
+            return diff
         
         def remarks():
             X_bow = bow.transform([content[3]])            
@@ -106,13 +105,10 @@ class Race:
             return int(pred)
 
         def finishes():
-            if int(content[-1]) > 2 : return 1
-            else: return 0
+            return int(content[-1])
 
         def gng():
-            if content[4] < 0: return 0
-            elif content[4] > 0: return 1 
-            else: return 0
+            return content[4]
         
         def sp():
             return content[6]
@@ -125,7 +121,7 @@ class Race:
             return content[8]
 
         def split():
-            return float(content[0])/content[7]
+            return content[7]
 
         try: 
             result = [
