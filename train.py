@@ -56,17 +56,15 @@ def run(url):
 
                 # Auxiliary array 
                 whelping, last_run = helper.get_dog_dates(dog_page, "train", url_date)
-
+                print(whelping, last_run)
                 dog_races = []
-                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train", url_date])
+                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train", url_date, whelping, last_run])
                 thread1.start()
                 
         thread1.join()
         while not q.empty():
             stat = q.get()
             if len(stat) > 0:
-                stat.append(whelping)
-                stat.append(last_run)
                 db.insert(stat, "solo")     
     driver.close()
 
