@@ -7,7 +7,10 @@ from tracks import Tracks
 from dogs import Dogs
 from helper import Helper
 from datetime import datetime 
-
+import threading
+import Queue
+import time 
+import multiprocessing
 
 chrome_options = webdriver.ChromeOptions()
 prefs={
@@ -40,7 +43,11 @@ def run(url):
             page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
 
             with click.progressbar(dogs.get_dogs(page_html, "meetings")) as bar2:
+
+                # create a queue
+                q = Queue.Queue()
                 # Iterate about dogs in page
+
                 for dog in bar2:
 
                     # Receive dog_page 
@@ -50,16 +57,16 @@ def run(url):
                     i = 0
                     dog_races = []
 
-                    # Stats of dog 
-                    stat = dogs.get_stats(dog, dog_page, remarks_clf)
 
-                    if len(stat.values()) > 0:
-                        s = stat.values()
-                        s.append(dog[0])
-                        
-                        db.insert(s, "solo")     
+                    thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train"])
+                    thread1.start()
 
-                    
-         
+            thread1.join()
+
+            while not q.empty():
+                stat = q.get()
+                if len(stat) > 0:
+                    db.insert(stat, "solo")     
+      
     driver.close()
 

@@ -4,7 +4,8 @@ from helper import Helper
 from races import Race
 import pandas as pd
 import numpy as np
-
+import re 
+from datetime import datetime 
 
 class Dogs():
 
@@ -20,19 +21,28 @@ class Dogs():
             element_wait="sortableTable")
         return dog_page 
 
-    def get_stats(self, dog, dog_page, remarks_clf):
+    def get_stats(self, dog, dog_page, remarks_clf, q, stat_type):
+
+        print(dog)
 
         # Define dog trap 
         dog_trap = dog[3]
         # Define dog extra informations 
-        dog_age, dog_last_run = self.helper.get_dog_data(dog_page)
+        dog_age, dog_last_run = self.helper.get_dog_data(dog_page, "train")
+
+        url_date = re.search("r_date=(.+?)&track_id", dog[2])
+        url_date = datetime.strptime(url_date.group()[7:-9], "%Y-%m-%d")
+        print(url_date)
 
         i, dog_races = 0, []
-        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
+        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):            
             try: 
-                race = Race(tr_content.find_all("td"), dog[3])
-                race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
-                dog_races.append(race_data)
+                tds = tr_content.find_all("td")
+                run_date = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")
+                if run_date < url_date:
+                    race = Race(tds, dog[3])
+                    race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
+                    dog_races.append(race_data)
                 i += 1 
             except Exception as a :
                 pass
@@ -42,35 +52,39 @@ class Dogs():
 
             df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
 
-            result = {
-                # Idade do cachorro (em dias)
-                "dog_age": int(dog_age),
+            result = [                # Idade do cachorro (em dias)
+                int(dog_age),
                 # Dias desde a última corrida
-                "last_run" : int(dog_last_run),
+                int(dog_last_run),
                 # Média da troca de posições nas últimas 5 corridas
-                "bends": df["bends"].mean(),
+                df["bends"].mean(),
                 # Comentários positivos para os últimas corridas
-                "remarks" : self.helper.count_unique(df["remarks"].tolist(), 0),
+                self.helper.count_unique(df["remarks"].tolist(), 0),
                 # Top 1
-                "top_1" : self.helper.count_unique(df["finishes"].tolist(), 1),
+                self.helper.count_unique(df["finishes"].tolist(), 1),
                 # Top 2
-                "top_2" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2),
+                self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2),
                 # Top 3
-                "top_3" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2) + self.helper.count_unique(df["finishes"].tolist(), 3),
+                self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2) + self.helper.count_unique(df["finishes"].tolist(), 3),
                 # gng avg
-                "gng" : df["gng"].mean(),
+                round(df["gng"].mean(), 3),
                 # Weight
-                "weight" : df["weight"][0],
+                round(df["weight"][0], 3),
                 # split
-                "split" : df["split"].mean()
-            }
+                round(df["split"].mean(), 3),
+                # Dog result 
+            ]
+            if stat_type == "train": 
+                dog_place = int(dog[0])
+                if dog_place == 1 or dog_place == 2:
+                    result.append(0)
+                else:
+                    result.append(1)
 
         except Exception as a:
             print(a)
             result = []
-
-
-        return result
+        q.put(result)
 
 
 
