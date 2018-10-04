@@ -21,9 +21,7 @@ class Dogs():
             element_wait="sortableTable")
         return dog_page 
 
-    def get_stats(self, dog, dog_page, remarks_clf, q, stat_type):
-
-        print(dog)
+    def get_stats(self, dog, dog_page, remarks_clf, q, stat_type, url_date):
 
         # Define dog trap 
         dog_trap = dog[3]
@@ -32,28 +30,24 @@ class Dogs():
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):            
             try: 
                 tds = tr_content.find_all("td")
-                run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")
+                run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")                
                 if run_date_tr < url_date:
-
-                    dog_age = self.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
-                    print(dog_age)
-                    break 
+                    dog_age = self.helper.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
                     race = Race(tds, dog[3])
                     race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
                     dog_races.append(race_data)
-                i += 1 
+                    i += 1 
             except Exception as a :
-                pass
+                print("tr contents",a)
             if i == 5: break        
         
         try:
 
             df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
+            
+            print(df)
 
-            result = [                # Idade do cachorro (em dias)
-                int(dog_age),
-                # Dias desde a última corrida
-                int(dog_last_run),
+            result = [                
                 # Média da troca de posições nas últimas 5 corridas
                 df["bends"].mean(),
                 # Comentários positivos para os últimas corridas
@@ -80,7 +74,7 @@ class Dogs():
                     result.append(1)
 
         except Exception as a:
-            print(a)
+            print("seri lá", a)
             result = []
         q.put(result)
 

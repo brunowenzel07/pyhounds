@@ -48,9 +48,7 @@ i = 0
 url = "http://greyhoundbet.racingpost.com/#results-dog/race_id=1580427&dog_id=510397&r_date=2018-01-01&track_id=62&r_time=11:03"
 url_date = re.search("r_date=(.+?)&track_id", url)
 url_date = datetime.strptime(url_date.group()[7:-9], "%Y-%m-%d")
-
 whelping, last_run = helper.get_dog_dates(page_html, "train", url_date)
-
 remarks_clf = helper.remarks_clf()
 
 for tr_content in page_html.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):

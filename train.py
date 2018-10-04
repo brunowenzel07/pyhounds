@@ -11,6 +11,7 @@ import threading
 import Queue
 import time 
 import multiprocessing
+import re 
 
 chrome_options = webdriver.ChromeOptions()
 prefs={
@@ -22,6 +23,7 @@ chrome_options.add_experimental_option('prefs', prefs)
 chrome_options.add_argument("--headless")
 
 def run(url):   
+    print(url)
     # Create a instance for webdriver 
     driver = webdriver.Chrome(chrome_options=chrome_options)
     
@@ -37,10 +39,13 @@ def run(url):
     # Load data train file 
     db = Database("data/data_train.csv")
 
+    url_date = re.search("(?:r_date=).*", url)
+    url_date = datetime.strptime(url_date.group()[7:], "%Y-%m-%d")
 
     for track in tracks.get_tracks():
         # Get page of track 
-        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")        
+
         with click.progressbar(dogs.get_dogs(page_html, "meetings")) as bar2:
             # create a queue
             q = Queue.Queue()
@@ -48,18 +53,20 @@ def run(url):
             for dog in bar2:
                 # Receive dog_page 
                 dog_page = dogs.get_page(dog,driver)
-                
+
                 # Auxiliary array 
-                i = 0
+                whelping, last_run = helper.get_dog_dates(dog_page, "train", url_date)
+
                 dog_races = []
-                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train"])
+                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train", url_date])
                 thread1.start()
-                break 
+                
         thread1.join()
         while not q.empty():
             stat = q.get()
             if len(stat) > 0:
+                stat.append(whelping)
+                stat.append(last_run)
                 db.insert(stat, "solo")     
-        break 
     driver.close()
 

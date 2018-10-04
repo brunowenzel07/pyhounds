@@ -13,7 +13,7 @@ from multiprocessing import Process, Queue
 def main(script, year):
     for i in range(1,13):
         for j in range(1,30):
-            url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s-%02d-%02d" % (year, i, j)
+            url = "http://greyhoundbet.racingpost.com/#results-list/r_date=2018-10-01"
             if script == "train":
                 functions.train(url)
 
