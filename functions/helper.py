@@ -44,9 +44,9 @@ class Helper:
         if bs_type == "trap":
             trap = bs_element.attrs["class"][1].replace("trap","")
             return str(trap)
-        if bs_type == "date_diff":
-            dog = datetime.strptime(bs_element.text.encode("utf-8").replace(" ", ""), "%d%b%y")
-            return float(((aux - dog).days))
+        if bs_type == "date":
+            date = datetime.strptime(bs_element.text.encode("utf-8").replace(" ", ""), "%d%b%y")
+            return date
 
     def get_page_code(self, url, driver=False, element_wait=False, type_wait=False):
         if driver:
@@ -72,22 +72,21 @@ class Helper:
         nb.fit(train_X_tfidf, train_y)
         return [nb, bow, tfidf]
 
-    def get_dog_data(self, dog, dog_page, data_type):
+    def get_dog_dates(self, dog_page, data_type, url_date):        
 
-        run_date = re.search("r_date=(.+?)&track_id", dog[2])
-        run_date = datetime.strptime(run_date.group()[7:-9], "%Y-%m-%d")
+        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
+            run_date = self.normalize(tr_content.find("td"), "date")
+            if run_date < url_date:
+                last_run_day = run_date
+                break 
+        
+        whelping = self.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
+        last_run = last_run_day
 
-        dog_age = dog_page.find("table",class_="pedigree").find_all("td")[3]
+        whelping = (url_date - whelping).days
+        last_run = (url_date - last_run).days
 
-        if data_type == "train":
-            dog_last_run = dog_page.find("table", {"id":"sortableTable"}).find_all("td", class_="c0")[1]
-        else: 
-            dog_last_run = dog_page.find("table", {"id":"sortableTable"}).find_all("td", class_="c0")[0]
-
-        last_run = self.normalize(dog_last_run, "date_diff", aux=run_date)
-        dog_age = self.normalize(dog_age, "date_diff", aux=run_date)
-        print([run_date, dog_age, last_run])
-        return [run_date, dog_age, last_run]
+        return [whelping, last_run]
 
     def count_unique(self, list_count, value_count):
         i, k = 0, 0

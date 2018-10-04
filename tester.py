@@ -41,28 +41,31 @@ nb.fit(train_X_tfidf, train_y)
 dog_races = []
 
 dog_trap = int(page_html.find("h1", class_="ghName").find("i").attrs["class"][1].replace("trap", "").encode("utf-8"))
-dog_age = page_html.find("table",class_="pedigree").find_all("td")[3]
-last_run = page_html.find("table", {"id":"sortableTable"}).find_all("td", class_="c0")[1]
 
-last_run = helper.normalize(last_run, "date_diff") # last_run muda para train e predict
-dog_age = helper.normalize(dog_age, "date_diff")
+
 
 i = 0
 url = "http://greyhoundbet.racingpost.com/#results-dog/race_id=1580427&dog_id=510397&r_date=2018-01-01&track_id=62&r_time=11:03"
 url_date = re.search("r_date=(.+?)&track_id", url)
 url_date = datetime.strptime(url_date.group()[7:-9], "%Y-%m-%d")
-print(url_date)
+
+whelping, last_run = helper.get_dog_dates(page_html, "train", url_date)
+
+remarks_clf = helper.remarks_clf()
 
 for tr_content in page_html.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
     try: 
-        tds = tr_content.find_all("td")
+        break 
+        tds = tr_content.find_all("td")        
         run_date = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")
-        if run_date < url_date:
-            race = Race(tds, dog_trap)
-            cu = race.calculate_stats(race.normalize_stats(), nb, bow, tfidf)
-            if cu[5]:
-                dog_races.append(cu)
-                i += 1 
+        
+        if run_date < url_date:      
+            dog_age_in_run = int((run_date - whelping).days)
+            days_until_last_run = last_run
+            print(last_run)
+            
+        
     except Exception as a :
-        pass
+        print(a)
+
     if i == 5: break 

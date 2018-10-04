@@ -54,11 +54,12 @@ def run(url):
                 dog_races = []
                 thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train"])
                 thread1.start()
+                break 
         thread1.join()
         while not q.empty():
             stat = q.get()
             if len(stat) > 0:
                 db.insert(stat, "solo")     
-      
+        break 
     driver.close()
 

@@ -27,15 +27,17 @@ class Dogs():
 
         # Define dog trap 
         dog_trap = dog[3]
-        # Define dog extra informations 
-        url_date, dog_age, dog_last_run = self.helper.get_dog_data(dog, dog_page, "train")
-
+        
         i, dog_races = 0, []
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):            
             try: 
                 tds = tr_content.find_all("td")
                 run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")
                 if run_date_tr < url_date:
+
+                    dog_age = self.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
+                    print(dog_age)
+                    break 
                     race = Race(tds, dog[3])
                     race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
                     dog_races.append(race_data)
