@@ -37,36 +37,28 @@ def run(url):
     # Load data train file 
     db = Database("data/data_train.csv")
 
-    with click.progressbar(tracks.get_tracks()) as bar1:
-        for track in bar1:
-            # Get page of track 
-            page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
 
-            with click.progressbar(dogs.get_dogs(page_html, "meetings")) as bar2:
-
-                # create a queue
-                q = Queue.Queue()
-                # Iterate about dogs in page
-
-                for dog in bar2:
-
-                    # Receive dog_page 
-                    dog_page = dogs.get_page(dog,driver)
-                    
-                    # Auxiliary array 
-                    i = 0
-                    dog_races = []
-
-
-                    thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train"])
-                    thread1.start()
-
-            thread1.join()
-
-            while not q.empty():
-                stat = q.get()
-                if len(stat) > 0:
-                    db.insert(stat, "solo")     
+    for track in tracks.get_tracks():
+        # Get page of track 
+        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+        with click.progressbar(dogs.get_dogs(page_html, "meetings")) as bar2:
+            # create a queue
+            q = Queue.Queue()
+            # Iterate about dogs in page
+            for dog in bar2:
+                # Receive dog_page 
+                dog_page = dogs.get_page(dog,driver)
+                
+                # Auxiliary array 
+                i = 0
+                dog_races = []
+                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, q, "train"])
+                thread1.start()
+        thread1.join()
+        while not q.empty():
+            stat = q.get()
+            if len(stat) > 0:
+                db.insert(stat, "solo")     
       
     driver.close()
 

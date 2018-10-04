@@ -18,7 +18,7 @@ class Helper:
     def __init__(self):
         pass
 
-    def normalize(self, bs_element, bs_type):
+    def normalize(self, bs_element, bs_type, aux=False):
         if bs_type == "float":
             return float(bs_element.text.encode("utf-8"))
         if bs_type == "int":
@@ -45,9 +45,8 @@ class Helper:
             trap = bs_element.attrs["class"][1].replace("trap","")
             return str(trap)
         if bs_type == "date_diff":
-            today = datetime.now()
             dog = datetime.strptime(bs_element.text.encode("utf-8").replace(" ", ""), "%d%b%y")
-            return float(((today - dog).days))
+            return float(((aux - dog).days))
 
     def get_page_code(self, url, driver=False, element_wait=False, type_wait=False):
         if driver:
@@ -73,15 +72,22 @@ class Helper:
         nb.fit(train_X_tfidf, train_y)
         return [nb, bow, tfidf]
 
-    def get_dog_data(self, dog_page, data_type):
+    def get_dog_data(self, dog, dog_page, data_type):
+
+        run_date = re.search("r_date=(.+?)&track_id", dog[2])
+        run_date = datetime.strptime(run_date.group()[7:-9], "%Y-%m-%d")
+
         dog_age = dog_page.find("table",class_="pedigree").find_all("td")[3]
+
         if data_type == "train":
             dog_last_run = dog_page.find("table", {"id":"sortableTable"}).find_all("td", class_="c0")[1]
         else: 
             dog_last_run = dog_page.find("table", {"id":"sortableTable"}).find_all("td", class_="c0")[0]
-        last_run = self.normalize(dog_last_run, "date_diff") 
-        dog_age = self.normalize(dog_age, "date_diff")
-        return [dog_age, last_run]
+
+        last_run = self.normalize(dog_last_run, "date_diff", aux=run_date)
+        dog_age = self.normalize(dog_age, "date_diff", aux=run_date)
+        print([run_date, dog_age, last_run])
+        return [run_date, dog_age, last_run]
 
     def count_unique(self, list_count, value_count):
         i, k = 0, 0

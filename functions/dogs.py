@@ -28,18 +28,14 @@ class Dogs():
         # Define dog trap 
         dog_trap = dog[3]
         # Define dog extra informations 
-        dog_age, dog_last_run = self.helper.get_dog_data(dog_page, "train")
-
-        url_date = re.search("r_date=(.+?)&track_id", dog[2])
-        url_date = datetime.strptime(url_date.group()[7:-9], "%Y-%m-%d")
-        print(url_date)
+        url_date, dog_age, dog_last_run = self.helper.get_dog_data(dog, dog_page, "train")
 
         i, dog_races = 0, []
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):            
             try: 
                 tds = tr_content.find_all("td")
-                run_date = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")
-                if run_date < url_date:
+                run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")
+                if run_date_tr < url_date:
                     race = Race(tds, dog[3])
                     race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
                     dog_races.append(race_data)
