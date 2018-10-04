@@ -26,7 +26,6 @@ class Dogs():
         dog_trap = dog[3]
         # Define dog extra informations 
         dog_age, dog_last_run = self.helper.get_dog_data(dog_page)
-        print(dog_age, dog_last_run)
 
         i, dog_races = 0, []
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
@@ -38,31 +37,37 @@ class Dogs():
             except Exception as a :
                 pass
             if i == 5: break        
+        
+        try:
 
-        df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
+            df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
 
-        result = {
-            # Idade do cachorro (em dias)
-            "dog_age": int(dog_age),
-            # Dias desde a última corrida
-            "last_run" : int(dog_last_run),
-            # Média da troca de posições nas últimas 5 corridas
-            "bends": df["bends"].mean(),
-            # Comentários positivos para os últimas corridas
-            "remarks" : self.helper.count_unique(df["remarks"].tolist(), 0),
-            # Top 1
-            "top_1" : self.helper.count_unique(df["finishes"].tolist(), 1),
-            # Top 2
-            "top_2" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2),
-            # Top 3
-            "top_3" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2) + self.helper.count_unique(df["finishes"].tolist(), 3),
-            # gng avg
-            "gng" : df["gng"].mean(),
-            # Weight
-            "weight" : df["weight"][0],
-            # split
-            "split" : df["split"].mean()
-        }
+            result = {
+                # Idade do cachorro (em dias)
+                "dog_age": int(dog_age),
+                # Dias desde a última corrida
+                "last_run" : int(dog_last_run),
+                # Média da troca de posições nas últimas 5 corridas
+                "bends": df["bends"].mean(),
+                # Comentários positivos para os últimas corridas
+                "remarks" : self.helper.count_unique(df["remarks"].tolist(), 0),
+                # Top 1
+                "top_1" : self.helper.count_unique(df["finishes"].tolist(), 1),
+                # Top 2
+                "top_2" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2),
+                # Top 3
+                "top_3" : self.helper.count_unique(df["finishes"].tolist(), 1) + self.helper.count_unique(df["finishes"].tolist(), 2) + self.helper.count_unique(df["finishes"].tolist(), 3),
+                # gng avg
+                "gng" : df["gng"].mean(),
+                # Weight
+                "weight" : df["weight"][0],
+                # split
+                "split" : df["split"].mean()
+            }
+
+        except Exception as a:
+            print(a)
+            result = []
 
 
         return result

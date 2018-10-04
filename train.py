@@ -34,26 +34,32 @@ def run(url):
     # Load data train file 
     db = Database("data/data_train.csv")
 
-    for track in tracks.get_tracks():
-        # Get page of track 
-        page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
+    with click.progressbar(tracks.get_tracks()) as bar1:
+        for track in bar1:
+            # Get page of track 
+            page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")
 
-        # Iterate about dogs in page
-        for dog in dogs.get_dogs(page_html, "meetings"):
+            with click.progressbar(dogs.get_dogs(page_html, "meetings")) as bar2:
+                # Iterate about dogs in page
+                for dog in bar2:
 
-            # Receive dog_page 
-            dog_page = dogs.get_page(dog,driver)
-            
-            # Auxiliary array 
-            i = 0
-            dog_races = []
+                    # Receive dog_page 
+                    dog_page = dogs.get_page(dog,driver)
+                    
+                    # Auxiliary array 
+                    i = 0
+                    dog_races = []
 
-            # Stats of dog 
-            stat = dogs.get_stats(dog, dog_page, remarks_clf)
+                    # Stats of dog 
+                    stat = dogs.get_stats(dog, dog_page, remarks_clf)
 
-            stat.append(dog[0])
-            
-             
-        break 
+                    if len(stat.values()) > 0:
+                        s = stat.values()
+                        s.append(dog[0])
+                        
+                        db.insert(s, "solo")     
+
+                    
+         
     driver.close()
 
