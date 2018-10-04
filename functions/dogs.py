@@ -79,8 +79,6 @@ class Dogs():
             result = []
         q.put(result)
 
-
-
     def get_dogs(self, page_html, type_dogs):
         rows = []
         if type_dogs == "meetings":            
