@@ -9,13 +9,12 @@ from multiprocessing import Process, Queue
 
 @click.command()
 @click.argument("script")
-@click.option("--year")
-def main(script, year):
-    for i in range(1,13):
-        for j in range(1,30):
-            url = "http://greyhoundbet.racingpost.com/#results-list/r_date=2018-10-01"
-            if script == "train":
-                functions.train(url)
+@click.option("--date")
+def main(script, date):
+    url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
+    print("Accessing data from: %s" % url )
+    if script == "train":
+        functions.train(url)
 
 if __name__ == "__main__":
     main()

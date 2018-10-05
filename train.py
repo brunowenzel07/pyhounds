@@ -23,7 +23,6 @@ chrome_options.add_experimental_option('prefs', prefs)
 chrome_options.add_argument("--headless")
 
 def run(url):   
-    print(url)
     # Create a instance for webdriver 
     driver = webdriver.Chrome(chrome_options=chrome_options)
     
@@ -43,6 +42,9 @@ def run(url):
     url_date = datetime.strptime(url_date.group()[7:], "%Y-%m-%d")
 
     for track in tracks.get_tracks():
+
+        print("Getting data from: %s" % track)
+
         # Get page of track 
         page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")        
 

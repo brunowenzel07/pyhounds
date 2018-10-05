@@ -1,20 +1,7 @@
-import threading
-import Queue
-import time 
-import multiprocessing
+with open('data/data_train.csv','r') as in_file, open('data/data_test.csv','w') as out_file:
+    seen = set() # set for fast O(1) amortized lookup
+    for line in in_file:
+        if line in seen: continue # skip duplicate
 
-def get_page(q):
-    
-    q.put(my_str)
-
-my_queue = Queue.Queue()
-
-for i in range(20):
-    thread1 = threading.Thread(target=stringFunction, args=[i, my_queue])
-    thread1.start()
-
-thread1.join()
-
-while not my_queue.empty():
-    print(my_queue.get())
-    time.sleep(1)
+        seen.add(line)
+        out_file.write(line)
