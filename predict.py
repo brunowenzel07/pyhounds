@@ -11,12 +11,12 @@ import pandas as pd
 from helper import Helper 
 from os import system 
 from tracks import Tracks
-from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from sklearn.preprocessing import Normalizer
 import csv 
 from datetime import datetime 
 import Queue
 import threading 
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.preprocessing import Normalizer
 
 chrome_options = webdriver.ChromeOptions()
 prefs={
@@ -28,6 +28,15 @@ chrome_options.add_experimental_option('prefs', prefs)
 
 def run():   
     
+    db = Database("data/data_train.csv")
+    db2 = Database("predicts/predicts.csv")
+    data_train = db.load()
+    data_test = db.load_tuning()
+    scaler = Normalizer()
+    X_scaler = scaler.fit_transform(data_train[0])
+    clf = LinearDiscriminantAnalysis()
+    clf.fit(X_scaler, data_train[1])
+
     
     # Get tracks for URL 
     tracks = Tracks(type_track="predicts")
@@ -37,9 +46,6 @@ def run():
 
     # Create a instance for remarks classifier    
     remarks_clf = helper.remarks_clf()
-
-    # Load data train file 
-    db = Database("data/data_train.csv")
 
     url_date = datetime.now()
 
@@ -66,10 +72,15 @@ def run():
                 print(whelping, last_run)
                 thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, "predict", q, url_date, whelping, last_run])
                 thread1.start()
-                break 
+                
         thread1.join()
+        preds = []
         while not q.empty():
             stat = q.get()
-            
-        break   
+            if len(stat) > 0:
+                pred = round(clf.predict_proba(scaler.fit_transform([stat]))[0][0], 2)
+                preds.append(pred)
+        if len(preds) == 6:
+            row = track[:3] + preds
+            db2.insert(row, "solo")
     driver.close()

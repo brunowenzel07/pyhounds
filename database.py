@@ -33,7 +33,7 @@ class Database:
 			rows = csv.reader(csvfile)
 			for r in rows:				
 				results.append(float(r[-1]))
-				stats.append(np.array(r[:-2]).astype(np.float))
+				stats.append(np.array(r[:-1]).astype(np.float))
 		return [stats, results]
 
 	def load(self):
@@ -45,5 +45,5 @@ class Database:
 			rows = csv.reader(csvfile)
 			for r in rows:				
 				results.append(float(r[-1]))
-				stats.append(np.array(r[:-2]).astype(np.float))
+				stats.append(np.array(r[:-1]).astype(np.float))
 		return [stats, results]
