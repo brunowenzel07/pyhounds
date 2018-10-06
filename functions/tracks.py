@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 class Tracks:
     
-    def __init__(self, url, driver, type_track):
+    def __init__(self, url=False, driver=False, type_track=False):
 
         self.url = url 
         self.driver = driver         

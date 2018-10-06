@@ -14,6 +14,9 @@ from tracks import Tracks
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.preprocessing import Normalizer
 import csv 
+from datetime import datetime 
+import Queue
+import threading 
 
 chrome_options = webdriver.ChromeOptions()
 prefs={
@@ -23,38 +26,50 @@ prefs={
     }
 chrome_options.add_experimental_option('prefs', prefs)
 
-def run(url):       
-    driver = webdriver.Chrome(chrome_options=chrome_options)
-    tracks = Tracks(url, False, "predicts")
-    dogs = Dogs()
-    helper = Helper()
+def run():   
+    
+    
+    # Get tracks for URL 
+    tracks = Tracks(type_track="predicts")
+
+    # Instance of dogs
+    dogs, helper = Dogs(), Helper()
+
+    # Create a instance for remarks classifier    
+    remarks_clf = helper.remarks_clf()
+
+    # Load data train file 
     db = Database("data/data_train.csv")
-    db2 = Database("predicts/predicts.csv")
-    data_train = db.load()
-    scaler = Normalizer()
 
-    X_data_scaled = scaler.fit_transform(data_train[0])
+    url_date = datetime.now()
 
-    clf = LinearDiscriminantAnalysis()
-    clf.fit(X_data_scaled, data_train[1])
+    # Create a instance for webdriver 
+    driver = webdriver.Chrome(chrome_options=chrome_options)
 
-    with click.progressbar(tracks.get_tracks()) as bar:
-        for l, race in enumerate(bar):
-            page_html = helper.get_page_code(race[3], driver, type_wait="class", element_wait="runnerBlock")
-            preds = []
-            for dog in dogs.get_dogs(page_html, "predicts"):
-                try:
-                    stat = dogs.get_stats(dog, driver)
-                    pred = clf.predict_proba(scaler.fit_transform([stat[:-1]]))[0]
-                    preds.append(round(pred[0]*100, 2))
-                except Exception as a:
-                    print(a)
+    for track in tracks.get_tracks():
 
-            if len(preds) == 6:
-                row = race[:3] + preds                
-                with open("predicts/predicts.csv", "a") as short_file:
-                    writer1 = csv.writer(short_file)
-                    writer1.writerow(row)           
+        print("Getting data from: %s" % track)
 
+        # Get page of track 
+        page_html = helper.get_page_code(track[3], driver, type_wait="class", element_wait="runnerBlock")        
+
+        with click.progressbar(dogs.get_dogs(page_html, "predicts")) as bar2:
+            # create a queue
+            q = Queue.Queue()
+            # Iterate about dogs in page
+            for dog in bar2:
+                # Receive dog_page 
+                dog_page = dogs.get_page(dog,driver)
+
+                # Auxiliary array 
+                whelping, last_run = helper.get_dog_dates(dog_page, url_date)
+                print(whelping, last_run)
+                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, "predict", q, url_date, whelping, last_run])
+                thread1.start()
+                break 
+        thread1.join()
+        while not q.empty():
+            stat = q.get()
+            
+        break   
     driver.close()
-

@@ -21,7 +21,7 @@ class Dogs():
             element_wait="sortableTable")
         return dog_page 
 
-    def get_stats(self, dog, dog_page, remarks_clf, q, stat_type, url_date, whelping, last_run):
+    def get_stats(self, dog, dog_page, remarks_clf,stat_type, q, url_date, whelping, last_run):
 
         # Define dog trap 
         dog_trap = dog[3]
@@ -45,8 +45,6 @@ class Dogs():
 
             df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
             
-            print(df)
-
             result = [                
                 # Média da troca de posições nas últimas 5 corridas
                 df["bends"].mean(),

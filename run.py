@@ -10,11 +10,14 @@ from multiprocessing import Process, Queue
 @click.command()
 @click.argument("script")
 @click.option("--date")
-def main(script, date):
-    url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
-    print("Accessing data from: %s" % url )
+def main(script, date):    
+    
     if script == "train":
+        url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
+        print("Accessing data from: %s" % url )
         functions.train(url)
+    elif script == "predict":
+        functions.predict()
 
 if __name__ == "__main__":
     main()

@@ -72,7 +72,7 @@ class Helper:
         nb.fit(train_X_tfidf, train_y)
         return [nb, bow, tfidf]
 
-    def get_dog_dates(self, dog_page, data_type, url_date):        
+    def get_dog_dates(self, dog_page, url_date):        
 
         for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):
             run_date = self.normalize(tr_content.find("td"), "date")
