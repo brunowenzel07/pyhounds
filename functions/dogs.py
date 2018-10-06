@@ -21,7 +21,7 @@ class Dogs():
             element_wait="sortableTable")
         return dog_page 
 
-    def get_stats(self, dog, dog_page, remarks_clf,stat_type, q, url_date, whelping, last_run):
+    def get_stats(self, dog, dog_page, remarks_clf, stat_type, q, url_date, whelping, last_run):
 
         # Define dog trap 
         dog_trap = dog[3]
@@ -63,17 +63,12 @@ class Dogs():
                 # split
                 round(df["split"].mean(), 3),
                 whelping,
-                last_run
+                last_run,
+                int(dog[0])
             ]
-            if stat_type == "train": 
-                dog_place = int(dog[0])
-                if dog_place == 1 or dog_place == 2:
-                    result.append(0)
-                else:
-                    result.append(1)
 
         except Exception as a:
-            print("seri lá", a)
+            print(a)
             result = []
         q.put(result)
 
