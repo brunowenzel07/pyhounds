@@ -26,7 +26,7 @@ prefs={
     }
 chrome_options.add_experimental_option('prefs', prefs)
 
-def run():   
+def run(url):   
     
     db = Database("data/data_train.csv")
     db2 = Database("predicts/predicts.csv")
@@ -36,10 +36,6 @@ def run():
     X_scaler = scaler.fit_transform(data_train[0])
     clf = LinearDiscriminantAnalysis()
     clf.fit(X_scaler, data_train[1])
-
-    
-    # Get tracks for URL 
-    tracks = Tracks(type_track="predicts")
 
     # Instance of dogs
     dogs, helper = Dogs(), Helper()
@@ -52,35 +48,43 @@ def run():
     # Create a instance for webdriver 
     driver = webdriver.Chrome(chrome_options=chrome_options)
 
-    for track in tracks.get_tracks():
 
-        print("Getting data from: %s" % track)
+    print("Getting data from: %s" % url)
 
-        # Get page of track 
-        page_html = helper.get_page_code(track[3], driver, type_wait="class", element_wait="runnerBlock")        
+    # Get page of track 
+    page_html = helper.get_page_code(url, driver, type_wait="class", element_wait="runnerBlock")        
+    
+    # create a queue
+    q = Queue.Queue()
 
-        with click.progressbar(dogs.get_dogs(page_html, "predicts")) as bar2:
-            # create a queue
-            q = Queue.Queue()
-            # Iterate about dogs in page
-            for dog in bar2:
-                # Receive dog_page 
-                dog_page = dogs.get_page(dog,driver)
+    # Iterate about dogs in page
+    for dog in dogs.get_dogs(page_html, "predicts"):
+        # Receive dog_page 
+        dog_page = dogs.get_page(dog,driver)
+        # Auxiliary array 
+        whelping, last_run = helper.get_dog_dates(dog_page, url_date)
+        thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, "predict", q, url_date, whelping, last_run])
+        thread1.start()
+            
+    thread1.join()
+    stats = []
+    while not q.empty():
+        stat = q.get()        
+        if len(stat) > 0:
+            stats.append(stat)   
 
-                # Auxiliary array 
-                whelping, last_run = helper.get_dog_dates(dog_page, url_date)
-                print(whelping, last_run)
-                thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, "predict", q, url_date, whelping, last_run])
-                thread1.start()
-                
-        thread1.join()
-        preds = []
-        while not q.empty():
-            stat = q.get()
-            if len(stat) > 0:
-                pred = round(clf.predict_proba(scaler.fit_transform([stat]))[0][0], 2)
-                preds.append(pred)
-        if len(preds) == 6:
-            row = track[:3] + preds
-            db2.insert(row, "solo")
+    a = 2
+    b = 3
+    for i, s in enumerate(stats):
+        for k, t in enumerate(stats):
+            try: 
+                a_position = int(s[-1])
+                b_position = int(t[-1])
+                if a_position != b_position:                    
+                    if a_position == a and b_position == b:                        
+                        row = s[:-1] + t[:-1]
+                        pred = clf.predict(scaler.fit_transform([row]))
+                        print(pred)
+            except Exception as a:
+                pass
     driver.close()

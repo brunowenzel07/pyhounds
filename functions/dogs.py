@@ -38,13 +38,12 @@ class Dogs():
                     dog_races.append(race_data)
                     i += 1 
             except Exception as a :
-                print("tr contents",a)
-            if i == 5: break        
+                pass                 
         
         try:
 
             df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes", "gng","sp","trap","weight","split"])
-            
+            print(dog)
             result = [                
                 # Média da troca de posições nas últimas 5 corridas
                 df["bends"].mean(),
@@ -63,12 +62,13 @@ class Dogs():
                 # split
                 round(df["split"].mean(), 3),
                 whelping,
-                last_run,
-                int(dog[0])
+                last_run,                
             ]
 
+            if stat_type == "train": result.append(int(dog[0]))
+            else: result.append(int(dog[-1]))
+            
         except Exception as a:
-            print(a)
             result = []
         q.put(result)
 
