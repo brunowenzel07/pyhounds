@@ -37,7 +37,6 @@ class Database:
 		return [stats, results]
 
 	def load(self):
-
 		results = []
 		stats = []
 
