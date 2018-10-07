@@ -14,20 +14,20 @@ from database import Database
 @click.option("--a")
 @click.option("--b")
 @click.option("--type_run")
+@click.option("--m")
 
-def main(script, date, url, a, b, type_run=False):    
 
-    
+def main(script, date, url, a, b, type_run, m):    
+   
     if script == "train":
         if (type_run):
-            for i in range(1,13):
-                for j in range(1,30):                
-                    date = "2018-%02d-%02d"% (i, j)                    
-                    url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
-                    print("Accessing data from: %s" % url )
-                    functions.train(url)
-                    Database("data/dates.csv").insert([date], "solo")
-                    
+            for j in range(1,30):                
+                date = "2018-%s-%02d"% (m, j)                    
+                #url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
+                #print("Accessing data from: %s" % url )
+                #functions.train(url)
+                Database("data/dates.csv").insert([date], "solo")
+
     elif script == "predict":
         functions.predict(url, a, b)
 
