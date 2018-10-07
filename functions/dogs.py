@@ -72,7 +72,7 @@ class Dogs():
             result = []
         q.put(result)
 
-    def get_dogs(self, page_html, type_dogs):
+    def get_dogs(self, page_html, type_dogs, a=False, b=False):
         rows = []
         if type_dogs == "meetings":            
             for dog_div in page_html.find("div", class_="meetingResultsList").find_all("div", class_="container"):
@@ -89,10 +89,11 @@ class Dogs():
                 rows.append(row)
         elif type_dogs == "predicts":
             for dog_div in page_html.find("div", class_="cardTabContainer").find_all("div", class_="runnerBlock"):
-                dog_name = self.helper.normalize(dog_div.find("a", class_="gh").find("strong"), "string")[1:-1]
-                dog_link = self.helper.normalize(dog_div.find("a", class_="gh"), "link")                    
                 dog_trap = self.helper.normalize(dog_div.find("i", class_="bigTrap"),"trap")
-                dog_comment = self.helper.normalize(dog_div.find("p", class_="comment"),"string")
-                row = [dog_name, dog_comment, dog_link, dog_trap]
-                rows.append(row)
+                if dog_trap in [a,b]:
+                    dog_name = self.helper.normalize(dog_div.find("a", class_="gh").find("strong"), "string")[1:-1]
+                    dog_link = self.helper.normalize(dog_div.find("a", class_="gh"), "link")                                    
+                    dog_comment = self.helper.normalize(dog_div.find("p", class_="comment"),"string")
+                    row = [dog_name, dog_comment, dog_link, dog_trap]
+                    rows.append(row)
         return rows

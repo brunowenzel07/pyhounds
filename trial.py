@@ -16,7 +16,7 @@ X_scaler = scaler.fit_transform(data_train[0])
 X_test_scaler = scaler.fit_transform(data_test[0])
 
 
-clf = KNeighborsClassifier(n_neighbors=2, p=3)
+clf = KNeighborsClassifier(radius=10,p=3, n_neighbors=2)
 clf.fit(X_scaler, data_train[1])
 Y_pred = clf.predict(X_test_scaler)
 Y_true = data_test[1]

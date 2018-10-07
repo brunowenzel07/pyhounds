@@ -88,6 +88,11 @@ class Helper:
 
         return [whelping, last_run]
 
+    def track_informations(self, page_html):
+        location = self.normalize(page_html.find("div", class_="pageHeader").find("h2"), "string")
+        time = self.normalize(page_html.find("h3", {"id":"pagerCardTime"}), "string")
+        return [location, time]
+
     def count_unique(self, list_count, value_count):
         i, k = 0, 0
         for i in list_count:

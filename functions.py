@@ -6,5 +6,6 @@ import predict as pred
 def train(url):    
     tr.run(url)
 
-def predict(url):
-    pred.run(url)
+def predict(url, a, b):
+    pred.run(url,a,b)
+

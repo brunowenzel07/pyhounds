@@ -1,28 +1,66 @@
-# !/usr/bin/python 
 import sys
-import utils 
+import time
+import telepot
+import telepot.namedtuple
+from telepot.loop import MessageLoop
+import predict
+import Queue
+import threading 
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import Normalizer
+from database import Database
+
+def handle(msg):
+    content_type, chat_type, chat_id = telepot.glance(msg)
+    m = telepot.namedtuple.Message(**msg)
+
+    db = Database("data/data_train.csv")
+    db2 = Database("predicts/predicts.csv")
+    data_train = db.load()
+    data_test = db.load_tuning()
+    scaler = Normalizer()
+    X_scaler = scaler.fit_transform(data_train[0])
+    clf = KNeighborsClassifier(n_neighbors=2, p=3)
+    clf.fit(X_scaler, data_train[1])
+    
+    if content_type == 'text':
+        
+        url  = msg["text"]
+
+        bot.sendMessage(chat_id, "Aguarde... Iniciando processamento de dados")
+        stats = predict.run(url)
+        bot.sendMessage(chat_id, "Processamento finalizado... Insira o número dos galgos")
+
+        traps = 
+        
+        for i, s in enumerate(stats):
+        for k, t in enumerate(stats):
+            try: 
+                a_position = int(s[-1])
+                b_position = int(t[-1])
+                if a_position != b_position:                    
+                    if a_position == a and b_position == b:                        
+                        row = s[:-1] + t[:-1]
+                        pred = clf.predict(scaler.fit_transform([row]))
+                        score = clf.predict_proba(scaler.fit_transform([row]))
+                        
+                        if int(pred) == 0:
+                            label = "%sv%s" % (a, b)
+                        else:
+                            label = "%sv%s" % (b, a)
+                        
+            except Exception as a:
+                pass
+
+        bot.sendMessage(chat_id, label)
 
 
-def get_races_results(track, driver):
-    dogs_race = utils.get_dogs_links(track, driver)
-    dog_stats = []
-    for dog_rc in dogs_race:
-        dg = utils.get_dog_stats(dog_rc, driver)
-        if len(dg) > 0:
-            dog_stats.append(dg)     
+TOKEN = sys.argv[1]  # get token from command-line
 
-    return dog_stats
+bot = telepot.Bot(TOKEN)
+MessageLoop(bot, handle).run_as_thread()
+print 'Listening ...'
 
-# Read a page of tracks and returned all links for the races
-def get_results_tracks(url, driver):
-    """
-        get_results_tracks
-        param: url (url to get tracks)
-        param: pass driver 
-    """
-    page_html = utils.get_code(url, driver, wait_element="results-race-name", wait_type="class")
-    tracks = []
-    for race_li in page_html.find("div", class_="meetings").find_all("li"):
-        for race_link in race_li.find("div", class_="results-race-list-row").find_all("a"):
-            tracks.append(race_link.attrs["href"][1:])
-    return tracks
+# Keep the program running.
+while 1:
+    time.sleep(10)
