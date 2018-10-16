@@ -23,9 +23,9 @@ def main(script, date, url, a, b, type_run, m):
         if (type_run):
             for j in range(1,30):                
                 date = "2018-%s-%02d"% (m, j)                    
-                #url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
-                #print("Accessing data from: %s" % url )
-                #functions.train(url)
+                url = "http://greyhoundbet.racingpost.com/#results-list/r_date=%s" % date
+                print("Accessing data from: %s" % url )
+                functions.train(url)
                 Database("data/dates.csv").insert([date], "solo")
 
     elif script == "predict":

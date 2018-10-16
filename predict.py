@@ -28,6 +28,7 @@ prefs={
     'disk-cache-size': 8192 
     }
 chrome_options.add_experimental_option('prefs', prefs)
+chrome_options.add_argument("--headless")
 
 def run(url, a, b):   
     
@@ -74,7 +75,7 @@ def run(url, a, b):
         whelping, last_run = helper.get_dog_dates(dog_page, url_date)
         thread1 = threading.Thread(target=dogs.get_stats, args=[dog, dog_page, remarks_clf, "predict", q, url_date, whelping, last_run])
         thread1.start()
-        comments.append(translator.translate(dog[1], dest="pt").text.encode("utf-8"))
+        comments.append(dog[1])
         dogs_names.append(dog[0])
             
     thread1.join()
@@ -95,10 +96,10 @@ def run(url, a, b):
         scaled_data = scaler.fit_transform([stats[0] + stats[1]])        
         pred = int(clf.predict(scaled_data))
         
-        if pred == 0:
+        if pred == 1:
             label = "*[%s] %s (v %s [%s])*" % (a, dogs_names[0], dogs_names[1], b)
             comment = "%s (v %s)" % (comments[0], comments[1])
-        elif pred==1:
+        elif pred==0:
             label = "*[%s] %s (v %s [%s])*" % (b, dogs_names[1], dogs_names[0], a)
             comment = "%s (v %s)" % (comments[1], comments[0])
 
