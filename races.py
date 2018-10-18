@@ -125,14 +125,21 @@ class Races:
             return content[6]
 
         def trap():
-            if int(content[2]) == self.dog_trap: return 1
-            else: return 0
+            if int(content[2]) == self.dog_trap: return 0
+            else: return 1
         
         def weight():
             return content[8]
 
         def split():
             return content[7]
+
+        def ratio():
+            ratio = content[-2] - content[5]
+            if ratio != 0:
+                return ratio
+            else:
+                return 1
 
         try: 
             result = [
@@ -145,9 +152,8 @@ class Races:
                 trap(),
                 weight(),
                 split(),
-                dog_time(),
-                winner_time()
+                ratio()
             ]
-        except Exception:
+        except Exception as a:
             result = []
         return result 

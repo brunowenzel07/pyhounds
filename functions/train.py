@@ -8,6 +8,7 @@ sys.path.insert(0, "classes/")
 from tracks import Tracks
 from helper import Helper
 from dogs import Dogs 
+from database import Database
 
 # Define options for the headless browser 
 chrome_options = webdriver.ChromeOptions()
@@ -25,7 +26,7 @@ def run(date):
     driver = webdriver.Chrome(chrome_options=chrome_options)
 
     # Get track for date 
-    tracks = Tracks(date=date, driver=driver, type_track="results").get_tracks()
+    tracks = Tracks(date=date, driver=driver, type_track="results")
 
     # Create instance of classes
     helper, dogs = Helper(), Dogs()
@@ -33,31 +34,37 @@ def run(date):
     # Create a instance for remarks classifier    
     remarks_clf = helper.remarks_clf()
 
-    for track in tracks:
+    db = Database("data/data_train.csv")
+
+
+    for track in tracks.get_tracks():
 
         click.echo("Getting data from: %s" % track)
 
         page_html = helper.get_page_code("http://greyhoundbet.racingpost.com/%s" % track, driver, type_wait="class", element_wait="meetingResultsList")        
+        track_stats = tracks.get_track_stats(page_html)
 
         click.echo("Creating a queue with dogs data")
 
+        stats = []
+
         for dog in dogs.get_dogs(page_html, "meetings"):
-
-            print(dog)
             
-            click.echo("Getting data from: %s" % dog[2])
+            try: 
+                click.echo("Getting data from: %s" % dog[2])
 
-            dog_page = dogs.get_page(dog,driver)
+                dog_page = dogs.get_page(dog,driver)
 
-            dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
+                dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
 
-            dog_stats = dogs.get_stats(dog, dog_page, dates, remarks_clf)   
-            
+                dog_stats = dogs.get_stats(dog, dog_page, dates, remarks_clf)   
+                
+                dog_stats = dates[:2] + dog_stats
 
-            df = dog_stats.loc[dog_stats["split"] != 0].head()
-            
-            print(df)
+                dog_stats.append(dog[0])
 
-            break 
+                db.insert(dog_stats, "solo")
 
-        break 
+            except Exception as a:
+                pass
+

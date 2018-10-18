@@ -35,13 +35,26 @@ class Dogs():
                     dog_age = self.helper.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
                     race = Races(tds, dog[3])
                     race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
-                    dog_races.append(race_data)
+                    if race_data[6]:
+                        dog_races.append(race_data)
                     i += 1 
             except Exception as a :
-                pass         
-        df = pd.DataFrame(data=dog_races, columns=["distance","bends", "remarks", "finishes", "gng","sp","trap","weight","split", "dog_time", "winner_time"])    
+                print(a)
+        dog_stats = pd.DataFrame(data=dog_races, columns=["distance","bends", "remarks", "finishes", "gng","sp","trap","weight","split", "ratio"])    
         
-        return df
+        df = dog_stats.head()
+
+        print(df)
+
+        # Bends -> Max position variation
+        bends = df["bends"].std()
+        split = df["split"].mean()
+        ratio = df["ratio"].mean()
+        remarks = 1 - df["remarks"].mean()
+        finishes = df["finishes"].mean()
+        print(bends, split/ratio, remarks, finishes)
+
+        return []
 
     def get_dogs(self, page_html, type_dogs, a=False, b=False):
         rows = []
@@ -51,6 +64,10 @@ class Dogs():
                 dog_place = int(self.helper.normalize(dog_div.find("div", class_="place"), "only_digits"))
                 dog_link = self.helper.normalize(dog_div.find("a", class_="details"), "link")                    
                 dog_trap = self.helper.normalize(dog_div.find("div", class_="bigTrap"),"trap")
+                if dog_place <= 3:
+                    dog_place = 0
+                else: 
+                    dog_place = 1
                 row =  [ 
                     dog_place,
                     dog_name,

@@ -15,7 +15,7 @@ import train
 
 
 def main(script, date, type_run, a, b, url):
-    if script = "train":
+    if script == "train":
         train.run(date)
 
 if __name__ == "__main__":

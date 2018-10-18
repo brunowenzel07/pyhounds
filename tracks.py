@@ -18,7 +18,11 @@ class Tracks:
 
     def get_track_stats(self, page_html):
         status_box = page_html.find("div", class_="statusBox").find("span").text 
-        print(status_box)
+        try: 
+            g = float(status_box.split(":")[1].replace(" ", ""))
+        except Exception as a:
+            g = 0
+        return g
 
     def get_tracks(self):
         """ 
