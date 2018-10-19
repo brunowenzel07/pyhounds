@@ -57,10 +57,8 @@ def run(date):
 
                 dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
 
-                dog_stats = dogs.get_stats(dog, dog_page, dates, remarks_clf)   
-                
-                dog_stats = dates[:2] + dog_stats
-
+                dog_stats = dogs.get_stats(dog, dog_page, dates, remarks_clf)                   
+               
                 dog_stats.append(dog[0])
 
                 db.insert(dog_stats, "solo")

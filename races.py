@@ -33,7 +33,13 @@ class Races:
             return int(self.content["distance"].replace("m", ""))
     
         def bends():
-            bends = np.array(list(self.content["bends"])).astype(np.float)
+
+            bends = self.content["bends"]
+
+            for i, j in enumerate(bends):
+                if j == "-":
+                    bends[i] = bends[i-1] 
+            bends = np.array(bends).astype(np.float)
             return bends
 
         def trap():
@@ -106,8 +112,9 @@ class Races:
             return content[-2]
 
         def bends():
-            diff = content[1][0] - content[-1]
-            return diff
+            launch_position = int(str(content[1])[0])
+            finished = int(content[-1])
+            return launch_position - finished
         
         def remarks():
             X_bow = bow.transform([content[3]])            

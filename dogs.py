@@ -27,24 +27,23 @@ class Dogs():
         dog_trap = dog[3]
         dog_races = []
         i = 0
-        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):            
-            try: 
-                tds = tr_content.find_all("td")
-                run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")                
-                if run_date_tr < dates[2]:
-                    dog_age = self.helper.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
-                    race = Races(tds, dog[3])
+      # Define dog trap 
+        dog_trap = dog[3]
+        dog_races = []
+        i = 0
+        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row")[:5]:            
+            tds = tr_content.find_all("td")
+            run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")                
+            if run_date_tr < dates[2]:
+                dog_age = self.helper.normalize(dog_page.find("table",class_="pedigree").find_all("td")[3], "date")
+                race = Races(tds, dog[3])
+                try:
                     race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
-                    if race_data[6]:
-                        dog_races.append(race_data)
-                    i += 1 
-            except Exception as a :
-                print(a)
-        dog_stats = pd.DataFrame(data=dog_races, columns=["distance","bends", "remarks", "finishes", "gng","sp","trap","weight","split", "ratio"])    
-        
-        df = dog_stats.head()
+                    dog_races.append(race_data)
+                except Exception as a:
+                    pass
 
-        print(df)
+        df = pd.DataFrame(data=dog_races, columns=["distance","bends", "remarks", "finishes", "gng","sp","trap","weight","split", "ratio"])    
 
         # Bends -> Max position variation
         bends = df["bends"].std()
@@ -52,9 +51,20 @@ class Dogs():
         ratio = df["ratio"].mean()
         remarks = 1 - df["remarks"].mean()
         finishes = df["finishes"].mean()
-        print(bends, split/ratio, remarks, finishes)
-
-        return []
+        sp = df["sp"].mean()
+        result = [
+            round(bends, 3),
+            round(ratio/split, 3),
+            round(remarks, 3),
+            round(finishes, 3),
+            round(sp, 3),
+            df["weight"][0],
+            round(float(dates[0])/365,1),
+            dates[1]
+        ]
+        print(df)
+        print(result)
+        return result
 
     def get_dogs(self, page_html, type_dogs, a=False, b=False):
         rows = []
