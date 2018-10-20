@@ -114,7 +114,13 @@ class Races:
         def bends():
             launch_position = int(str(content[1])[0])
             finished = int(content[-1])
-            return launch_position - finished
+            diff = launch_position - finished
+            if diff > 0:
+                return 1
+            elif diff < 0:
+                return -1
+            else:
+                return 0
         
         def remarks():
             X_bow = bow.transform([content[3]])            
@@ -123,7 +129,10 @@ class Races:
             return int(pred)
 
         def finishes():
-            return int(content[-1])
+            if int(content[-1]) <= 3:
+                return 0
+            else:
+                return 1
 
         def gng():
             return content[4]
@@ -141,25 +150,13 @@ class Races:
         def split():
             return content[7]
 
-        def ratio():
-            ratio = content[-2] - content[5]
-            if ratio != 0:
-                return ratio
-            else:
-                return 1
-
         try: 
             result = [
-                distances(),
                 bends(),
                 remarks(),
                 finishes(),
-                gng(),
                 sp(),
-                trap(),
                 weight(),
-                split(),
-                ratio()
             ]
         except Exception as a:
             result = []

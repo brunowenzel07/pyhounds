@@ -31,7 +31,8 @@ class Dogs():
         dog_trap = dog[3]
         dog_races = []
         i = 0
-        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row")[:5]:            
+        for tr_content in dog_page.find("table", {"id":"sortableTable"}).find_all("tr", class_="row"):            
+            if i == 5: break 
             tds = tr_content.find_all("td")
             run_date_tr = datetime.strptime(tds[0].text.encode("utf-8").replace(" ", ""),"%d%b%y")                
             if run_date_tr < dates[2]:
@@ -40,30 +41,26 @@ class Dogs():
                 try:
                     race_data = race.calculate_stats(race.normalize_stats(), remarks_clf)
                     dog_races.append(race_data)
+                    i += 1
                 except Exception as a:
                     pass
 
-        df = pd.DataFrame(data=dog_races, columns=["distance","bends", "remarks", "finishes", "gng","sp","trap","weight","split", "ratio"])    
+        df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes","sp","weight"])    
 
-        # Bends -> Max position variation
-        bends = df["bends"].std()
-        split = df["split"].mean()
-        ratio = df["ratio"].mean()
-        remarks = 1 - df["remarks"].mean()
-        finishes = df["finishes"].mean()
-        sp = df["sp"].mean()
         result = [
-            round(bends, 3),
-            round(ratio/split, 3),
-            round(remarks, 3),
-            round(finishes, 3),
-            round(sp, 3),
+            self.helper.count_unique(df["bends"],  -1),
+            self.helper.count_unique(df["bends"],   0),
+            self.helper.count_unique(df["bends"],   1),
+            self.helper.count_unique(df["remarks"], 0),
+            self.helper.count_unique(df["remarks"], 1),
+            self.helper.count_unique(df["finishes"],0),
+            self.helper.count_unique(df["finishes"],1),
+            round(df["sp"].mean(), 3),
             df["weight"][0],
-            round(float(dates[0])/365,1),
+            round(dates[0]/365, 2),
             dates[1]
         ]
-        print(df)
-        print(result)
+
         return result
 
     def get_dogs(self, page_html, type_dogs, a=False, b=False):
