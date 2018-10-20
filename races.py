@@ -115,13 +115,8 @@ class Races:
             launch_position = int(str(content[1])[0])
             finished = int(content[-1])
             diff = launch_position - finished
-            if diff > 0:
-                return 1
-            elif diff < 0:
-                return -1
-            else:
-                return 0
-        
+            return diff
+                    
         def remarks():
             X_bow = bow.transform([content[3]])            
             X_tfidf = tfidf.transform(X_bow)   
@@ -129,10 +124,7 @@ class Races:
             return int(pred)
 
         def finishes():
-            if int(content[-1]) <= 3:
-                return 0
-            else:
-                return 1
+            return int(content[-1])
 
         def gng():
             return content[4]
@@ -151,12 +143,13 @@ class Races:
             return content[7]
 
         try: 
-            result = [
+            result = [                
                 bends(),
                 remarks(),
                 finishes(),
                 sp(),
                 weight(),
+                distances() / dog_time()
             ]
         except Exception as a:
             result = []

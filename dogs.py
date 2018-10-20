@@ -45,20 +45,14 @@ class Dogs():
                 except Exception as a:
                     pass
 
-        df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes","sp","weight"])    
-
+        df = pd.DataFrame(data=dog_races, columns=["bends", "remarks", "finishes","sp","weight","avg_speed"])    
+      
         result = [
-            self.helper.count_unique(df["bends"],  -1),
-            self.helper.count_unique(df["bends"],   0),
-            self.helper.count_unique(df["bends"],   1),
-            self.helper.count_unique(df["remarks"], 0),
-            self.helper.count_unique(df["remarks"], 1),
-            self.helper.count_unique(df["finishes"],0),
-            self.helper.count_unique(df["finishes"],1),
-            round(df["sp"].mean(), 3),
-            df["weight"][0],
-            round(dates[0]/365, 2),
-            dates[1]
+            round(df["bends"].mean() / df["bends"].std(),3),            
+            round(df["finishes"].mean() / df["finishes"].std(),3),
+            round(df["avg_speed"].mean() / df["avg_speed"].std(),3),
+            round(df["sp"].mean(),3),
+            round(df["avg_speed"].mean() / df["weight"].mean(), 3)
         ]
 
         return result
@@ -71,10 +65,6 @@ class Dogs():
                 dog_place = int(self.helper.normalize(dog_div.find("div", class_="place"), "only_digits"))
                 dog_link = self.helper.normalize(dog_div.find("a", class_="details"), "link")                    
                 dog_trap = self.helper.normalize(dog_div.find("div", class_="bigTrap"),"trap")
-                if dog_place <= 3:
-                    dog_place = 0
-                else: 
-                    dog_place = 1
                 row =  [ 
                     dog_place,
                     dog_name,

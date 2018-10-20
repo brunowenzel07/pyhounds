@@ -61,8 +61,26 @@ def run(date):
                
                 dog_stats.append(dog[0])
 
-                db.insert(dog_stats, "solo")
-
+                stats.append(dog_stats)
+                
             except Exception as a:
                 pass
+
+        for i, s in enumerate(stats):
+            for k, t in enumerate(stats):
+                try: 
+                    a_position = s[-1]
+                    b_position = t[-1]
+                    if a_position != b_position:
+                        row = s[:-1] + t[:-1]
+                        if a_position < b_position:
+                            row.append(0)
+                        else: 
+                            row.append(1)
+                        db.insert(row,"solo")
+                except Exception as a:
+                    pass
+
+
+
 
