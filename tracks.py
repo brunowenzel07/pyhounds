@@ -2,6 +2,7 @@
 # !/usr/bin/python 
 from helper import Helper
 from bs4 import BeautifulSoup
+import re 
 
 class Tracks:
     
@@ -17,12 +18,10 @@ class Tracks:
         self.helper = Helper()
 
     def get_track_stats(self, page_html):
-        status_box = page_html.find("div", class_="statusBox").find("span").text 
-        try: 
-            g = float(status_box.split(":")[1].replace(" ", ""))
-        except Exception as a:
-            g = 0
-        return g
+        status_box = page_html.find("div", class_="statusBox").find("span").text.encode("utf-8")
+        grade = status_box[status_box.find("(")+1:status_box.find(")")]
+        distance = status_box[status_box.find("m G")-3:status_box.find("m G")]
+        return [distance, grade]
 
     def get_tracks(self):
         """ 

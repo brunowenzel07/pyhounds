@@ -33,52 +33,8 @@ class Races:
         def distance():
             return int(self.content["distance"].replace("m", ""))
     
-        def bends():
-
-            bends = self.content["bends"]
-
-            for i, j in enumerate(bends):
-                if j == "-":
-                    bends[i] = bends[i-1] 
-            bends = np.array(bends).astype(np.float)
-            return bends
-
-        def trap():
-            trap = int(self.content["trap"].replace("[", "").replace("]", ""))
-            return trap
-
-        def split():
-            return float(self.content["split"])
-
-        def remarks():
-            
-            return self.content["remarks"].replace(
-                "/", " ").replace(
-                "&", " ").replace(
-                ",", " ").replace(
-                "-", " ").translate(None, digits)
-
-        def winner_time():
-            return float(self.content["winner_time"])
-        
-        def gng():
-            gng = self.content["gng"]
-            if gng == "N": return 0
-            else: return float(gng)
-
-        def weight():
-            return float(self.content["wght"])
-
         def calc_time():
             return float(self.content["cal_time"])
-
-        def sp():
-            sp = self.content["sp"]
-            sp = sp.split("/")
-            x = lambda a : float(re.sub("\D", "", a))
-            nom = x(sp[0])
-            den = x(sp[1])
-            return round(nom/den, 3)
 
         def fin():
             d = re.search("\d", self.content["fin"])            
@@ -88,16 +44,8 @@ class Races:
             return self.content["grade"]
 
         result = [
-            distance(),
-            bends(),       
-            trap(),
-            remarks(), 
-            gng(),
+            distance(),                                                   
             calc_time(),
-            sp(),
-            split(),
-            weight(),
-            winner_time(),
             fin(),
             grade()
         ]

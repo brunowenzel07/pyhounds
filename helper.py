@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-# !/usr/bin/python 
-from bs4 import BeautifulSoup
-from requests import post 
-
-class Helper():
-=======
 # -*- coding: UTF-8
 # !/usr/bin/python 
 
@@ -21,20 +14,10 @@ from sklearn.naive_bayes import MultinomialNB
 import pandas as pd 
 
 class Helper:
->>>>>>> parent of cc47d92... uma merda de perda de tempo
 
     def __init__(self):
         pass
 
-<<<<<<< HEAD
-    def diary_dogs(self, driver):
-
-        url = "http://greyhoundstats.co.uk/graded_greyhound_stats.php"        
-
-        driver.get(url)
-       
-       
-=======
     def normalize(self, bs_element, bs_type, aux=False):
         if bs_type == "float":
             return float(bs_element.text.encode("utf-8"))
@@ -115,4 +98,3 @@ class Helper:
             if i == value_count:
                 k += 1 
         return k
->>>>>>> parent of cc47d92... uma merda de perda de tempo

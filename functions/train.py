@@ -46,8 +46,6 @@ def run(date):
 
         click.echo("Creating a queue with dogs data")
 
-        stats = []
-
         for dog in dogs.get_dogs(page_html, "meetings"):
             
             try: 
@@ -57,30 +55,11 @@ def run(date):
 
                 dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
 
-                dog_stats = dogs.get_stats(dog, dog_page, dates, remarks_clf)                   
+                dog_stats = dogs.get_stats(dog, dog_page, dates, track_stats)                   
                
-                dog_stats.append(dog[0])
-
-                stats.append(dog_stats)
-                
+                if dog_stats > 0:
+                    dog_stats.append(dog[0])
+                    dog_stats.append(dog[-1])              
+                    db.insert(dog_stats, "solo")
             except Exception as a:
-                pass
-
-        for i, s in enumerate(stats):
-            for k, t in enumerate(stats):
-                try: 
-                    a_position = s[-1]
-                    b_position = t[-1]
-                    if a_position != b_position:
-                        row = s[:-1] + t[:-1]
-                        if a_position < b_position:
-                            row.append(0)
-                        else: 
-                            row.append(1)
-                        db.insert(row,"solo")
-                except Exception as a:
-                    pass
-
-
-
-
+                print(a)
