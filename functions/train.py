@@ -31,11 +31,7 @@ def run(date):
     # Create instance of classes
     helper, dogs = Helper(), Dogs()
 
-    # Create a instance for remarks classifier    
-    remarks_clf = helper.remarks_clf()
-
     db = Database("data/data_train.csv")
-
 
     for track in tracks.get_tracks():
 

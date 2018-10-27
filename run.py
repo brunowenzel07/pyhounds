@@ -15,8 +15,11 @@ import train
 
 
 def main(script, date, type_run, a, b, url):
-    if script == "train":
-        train.run(date)
+        if script == "train":
+                train.run(date)
+        elif script == "predict":
+                predict.run(url, trap_a, trap_b)
+
 
 if __name__ == "__main__":
     main()
