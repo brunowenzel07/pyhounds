@@ -55,10 +55,12 @@ class Dogs():
         df["Bends"] = df["Bends"] - df["Position"]
         
         result = [
-            round(df["Bends"].std() / df["Bends"].mean() , 3),
-            round(df["Split"].std() / df["Split"].mean() , 3),
-            round(df["CalcTime"].std() / df["CalcTime"].mean() , 3),
-            round(df["Position"].std() / df["Position"].mean() , 3),
+            round(df["Bends"].mean(), 3),
+            round(df["Bends"].std(), 3),
+            round(df["Split"].mean(), 3),
+            round(df["Split"].std(), 3),
+            round(df["Position"].std(), 3),
+            round(df["Position"].mean(), 3),
             int(dog[0])
         ]
 

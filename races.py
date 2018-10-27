@@ -34,7 +34,7 @@ class Races:
             return int(self.content["distance"].replace("m", ""))
     
         def calc_time():
-            return float(self.content["cal_time"])
+            return float(self.content["cal_time"]) - float(self.content["winner_time"])
 
         def fin():
             d = re.search("\d", self.content["fin"])            
