@@ -21,7 +21,7 @@ class Dogs():
             element_wait="sortableTable")
         return dog_page 
 
-    def get_stats(self, dog, dog_page, dates, track):
+    def get_stats(self, dog, dog_page, dates):
 
         # Define dog trap 
         dog_trap = dog[3]
@@ -60,8 +60,7 @@ class Dogs():
             round(df["Split"].mean(), 3),
             round(df["Split"].std(), 3),
             round(df["Position"].std(), 3),
-            round(df["Position"].mean(), 3),
-            int(dog[0])
+            round(df["Position"].mean(), 3),            
         ]
 
         return result
@@ -83,7 +82,7 @@ class Dogs():
                 rows.append(row)
         elif type_dogs == "predicts":
             for dog_div in page_html.find("div", class_="cardTabContainer").find_all("div", class_="runnerBlock"):
-                dog_trap = self.helper.normalize(dog_div.find("i", class_="bigTrap"),"trap")
+                dog_trap = self.helper.normalize(dog_div.find("i", class_="bigTrap"),"trap")                
                 if dog_trap in [a,b]:
                     dog_name = self.helper.normalize(dog_div.find("a", class_="gh").find("strong"), "string")[1:-1]
                     dog_link = self.helper.normalize(dog_div.find("a", class_="gh"), "link")                                    

@@ -25,5 +25,16 @@ class Database:
 
 		except Exception as a:
 			print(a)
-
 	
+	def load(self):
+		with open("data/data_train.csv", "r") as csvfile:
+			rows = csv.reader(csvfile)
+			stats, results = [], []
+			for r in rows:
+				stats.append(r[:-1])
+				results.append([int(r[-1])])
+		return [
+			np.array(stats).astype(np.float), 
+			results]
+
+

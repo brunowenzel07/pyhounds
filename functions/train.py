@@ -50,10 +50,11 @@ def run(date):
                     dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
                     dog_stats = dogs.get_stats(dog, dog_page, dates, track_stats)                    
                     if len(dog_stats) > 0:
+                        dog_stats.append(int(dog[0]))
                         stats.append(dog_stats)
             except Exception as a:
                 print(a)
-        print(stats)
+        
         for i, s in enumerate(stats):
             for k, t in enumerate(stats):
                 try: 

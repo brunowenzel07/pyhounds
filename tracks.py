@@ -18,10 +18,9 @@ class Tracks:
         self.helper = Helper()
 
     def get_track_stats(self, page_html):
-        status_box = page_html.find("div", class_="statusBox").find("span").text.encode("utf-8")
-        grade = status_box[status_box.find("(")+1:status_box.find(")")]
-        distance = status_box[status_box.find("m G")-3:status_box.find("m G")]
-        return [distance, grade]
+        title = page_html.find("div", class_="pageHeader").find("h2").text.encode("utf-8")
+        time = page_html.find("h3", {"id":"pagerCardTime"}).text.encode("utf-8")        
+        return [title,time]
 
     def get_tracks(self):
         """ 
@@ -37,5 +36,5 @@ class Tracks:
                     tracks.append(race_link.attrs["href"])
             
         if self.type == "predicts":
-            
+            pass
         return tracks
