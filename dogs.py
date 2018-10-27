@@ -45,45 +45,23 @@ class Dogs():
 
         df = pd.DataFrame(data=stats, columns=[
             "Distances",
+            "Bends",
+            "Split",
             "CalcTime",
             "Position",
             "Grade"
-        ])
-        df = df.loc[df["Distances"] == int(track[0])]
-        categorical = df.loc[df["Grade"] == track[1]]
-        old_losing_track, losing_track = 0, 0
-        losing_cat, old_losing_cat = 0, 0
-        reg_tck, reg_cat = [1], [1]
-        for h in df["Position"]:
-            if h != 1: 
-                losing_track = losing_track + 1
-            else: 
-                reg_tck.append(losing_track)
-                losing_track = 0
+        ]).head()
 
-        for k in categorical["Position"]:
-            if k != 1: 
-                losing_cat = losing_cat + 1
-            else: 
-                reg_cat.append(losing_cat)
-                losing_cat = 0
-
-        result = [
-
-            len(df["Position"]),
-            self.helper.count_unique(df["Position"], 1),
-            np.array(reg_tck).max(),
-            round(float(self.helper.count_unique(df["Position"], 1)) / len(df["Position"]), 3),
-            len(categorical["Position"]),
-            self.helper.count_unique(categorical["Position"], 1),
-            np.array(reg_cat).max(),
-            round(float(self.helper.count_unique(categorical["Position"], 1)) / len(categorical["Position"]), 3),
-            round(df["Distances"].mean() / df["CalcTime"].mean(), 3),
-            round(categorical["Distances"].mean() / categorical["CalcTime"].mean(), 3),
-            dates[0] / 12,
-            dates[1]
-        ]
+        df["Bends"] = df["Bends"] - df["Position"]
         
+        result = [
+            round(df["Bends"].std() / df["Bends"].mean() , 3),
+            round(df["Split"].std() / df["Split"].mean() , 3),
+            round(df["CalcTime"].std() / df["CalcTime"].mean() , 3),
+            round(df["Position"].std() / df["Position"].mean() , 3),
+            int(dog[0])
+        ]
+
         return result
 
     def get_dogs(self, page_html, type_dogs, a=False, b=False):
@@ -100,13 +78,6 @@ class Dogs():
                     dog_link,
                     dog_trap
                 ]
-                if dog_place == 1 or dog_place == 2:
-                    row.append(0)
-                elif dog_place == 3 or dog_place == 4:
-                    row.append(1)
-                elif dog_place == 5 or dog_place == 6:
-                    row.append(2)
-
                 rows.append(row)
         elif type_dogs == "predicts":
             for dog_div in page_html.find("div", class_="cardTabContainer").find_all("div", class_="runnerBlock"):

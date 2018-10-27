@@ -17,5 +17,5 @@ def main(dog):
     dog_stats = dogs.get_stats(dog, dog_page, dates, track)
 
 if __name__ == "__main__":
-    for i in [2]:
+    for i in [1,2]:
         main(i)

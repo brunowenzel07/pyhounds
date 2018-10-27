@@ -43,8 +43,17 @@ class Races:
         def grade():
             return self.content["grade"]
 
+        def bends():
+            bends = np.array(list(self.content["bends"])).astype(np.float)
+            return bends[0]
+
+        def split():
+            return float(self.content["split"])
+
         result = [
-            distance(),                                                   
+            distance(), 
+            bends(),
+            split(),
             calc_time(),
             fin(),
             grade()

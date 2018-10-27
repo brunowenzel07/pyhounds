@@ -35,7 +35,7 @@ class Tracks:
             for race_li in page_html.find("div", class_="meetings").find_all("li"):
                 for race_link in race_li.find("div", class_="results-race-list-row").find_all("a"):
                     tracks.append(race_link.attrs["href"])
-
+            
 #        if self.type == "predicts":
 #            with open("html_files/to_pred.html", "r") as html_file:
 #                page_html = BeautifulSoup(html_file, "html.parser")

@@ -46,20 +46,30 @@ def run(date):
 
         click.echo("Creating a queue with dogs data")
 
-        for dog in dogs.get_dogs(page_html, "meetings"):
-            
-            try: 
-                click.echo("Getting data from: %s" % dog[2])
-
-                dog_page = dogs.get_page(dog,driver)
-
-                dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
-
-                dog_stats = dogs.get_stats(dog, dog_page, dates, track_stats)                   
-               
-                if dog_stats > 0:
-                    dog_stats.append(dog[0])
-                    dog_stats.append(dog[-1])              
-                    db.insert(dog_stats, "solo")
+        stats = []
+        for dog in dogs.get_dogs(page_html, "meetings"):            
+            try:
+                if int(dog[0]) != 3 and int(dog[0]) != 4:
+                    dog_page = dogs.get_page(dog,driver)
+                    dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
+                    dog_stats = dogs.get_stats(dog, dog_page, dates, track_stats)                    
+                    if len(dog_stats) > 0:
+                        stats.append(dog_stats)
             except Exception as a:
                 print(a)
+        print(stats)
+        for i, s in enumerate(stats):
+            for k, t in enumerate(stats):
+                try: 
+                    row = s[:-1] + t[:-1]
+                    a_position = int(s[-1])
+                    b_position = int(t[-1])
+                    if a_position != b_position:
+                        if a_position == 1 and b_position == 6:                            
+                            print(row.append(0))
+                            db.insert(row, "solo")
+                        elif a_position == 5 and b_position == 2: 
+                            print(row.append(1))
+                            db.insert(row, "solo")                        
+                except Exception as a:
+                    pass
