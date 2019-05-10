@@ -48,7 +48,7 @@ def run(date):
                 if int(dog[0]) != 3 and int(dog[0]) != 4:
                     dog_page = dogs.get_page(dog,driver)
                     dates = helper.get_dog_dates(dog_page, datetime.strptime(date, "%Y-%m-%d"))
-                    dog_stats = dogs.get_stats(dog, dog_page, dates, track_stats)                    
+                    dog_stats = dogs.get_stats(dog, dog_page, dates)                    
                     if len(dog_stats) > 0:
                         dog_stats.append(int(dog[0]))
                         stats.append(dog_stats)

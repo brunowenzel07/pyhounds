@@ -49,7 +49,8 @@ class Dogs():
             "Split",
             "CalcTime",
             "Position",
-            "Grade"
+            "Grade",
+            "Remarks"
         ]).head()
 
         df["Bends"] = df["Bends"] - df["Position"]

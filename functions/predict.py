@@ -25,7 +25,21 @@ prefs={
     'disk-cache-size': 8192 
     }
 chrome_options.add_experimental_option('prefs', prefs)
-
+names = [
+    "d1_bends_mean",
+    "d1_bends_std",
+    "d1_split_mean",
+    "d1_split_std",
+    "d1_posit_mean",
+    "d1_posit_std",
+    "d2_bends_mean",
+    "d2_bends_std",
+    "d2_split_mean",
+    "d2_split_std",
+    "d2_posit_mean",
+    "d2_posit_std",
+    "class"
+]
 def run(url, trap_a, trap_b):
 
     # Create a instance for webdriver 
@@ -54,15 +68,23 @@ def run(url, trap_a, trap_b):
     driver.close()
 
     data_predict = [np.array(stats[0] + stats[1])]
-
        
     data_train, data_result = db.load()
         
-    data = np.concatenate((data_train, data_predict), axis=0)        
+    data = np.concatenate((data_train, data_predict), axis=0)    
+
+    data = pd.DataFrame(data, columns=names)    
 
     pca = PCA(n_components=4)
     scaler = StandardScaler()
-    x_pca = pca.fit_transform(scaler.fit_transform(data))
+    scaled_x = scaler.fit_transform(data.drop([
+        "d1_posit_mean", 
+        "d1_bends_mean", 
+        "d1_split_mean", 
+        "d2_posit_mean", 
+        "d2_bends_mean", 
+        "d2_split_mean"], axis=1))
+    x_pca = pca.fit_transform(scaled_x)
 
     x_data = np.column_stack((x_pca[:,0][:-1], x_pca[:,2][:-1]))
     x_predict = np.column_stack((x_pca[:,0][-1], x_pca[:,2][-1]))

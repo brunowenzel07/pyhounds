@@ -31,10 +31,7 @@ class Database:
 			rows = csv.reader(csvfile)
 			stats, results = [], []
 			for r in rows:
-				stats.append(r[:-1])
-				results.append([int(r[-1])])
-		return [
-			np.array(stats).astype(np.float), 
-			results]
+				results.append(r)				
+		return np.array(results).astype(np.float)
 
 
