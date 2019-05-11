@@ -1,0 +1,62 @@
+
+var greyhoundbet = greyhoundbet || {};
+var webApp = webApp || {};
+var now = new Date();
+webApp.LOCAL_TIMESTAMP = now.getTime()/1000;
+
+webApp.APP_ID = 'RPiPhone';
+
+webApp.appletUrl = 'http://applet.soccerbase.com/applet?';
+
+webApp.IP_CLIENT = '191.178.7.38, 191.178.7.38, 198.181.49.146';
+
+
+
+
+
+webApp.NOTICE_NONE_ON_HOLD = 'n';
+
+var utils = utils || {};
+utils.userPreferences = {};
+utils.userPreferences.IS_DEVICE_ON_HOLD = "1";
+
+webApp.IOS_ONBOARD = 0;
+webApp.MINIMAL_STAKE = 1;
+webApp.AFFILIATE_ID = '305';
+webApp.BOOKIE_ID = 'B16';
+greyhoundbet.VIEW_FORMAT_RACE = 'hh:mn';
+
+webApp.LADB_CUSTOMER_API_VERSION   = 'v1/';
+webApp.LADB_BETTING_API_VERSION    = 'v1/';
+webApp.LADB_BANKING_API_VERSION    = 'v1/';
+webApp.LADB_SPORTSBOOK_API_VERSION = 'v2/';
+
+webApp.MINT_SERVER = '#';
+webApp.MINT_APPID = '#';
+webApp.SERVER_TIMESTAMP = '1555157041';
+webApp.SERVER_TIMEZONE = '+00:00';
+webApp.SERVER_IP = '191.178.7.38, 191.178.7.38, 198.181.49.146';
+webApp.SERVER_SERVER_GA_TRACKER_ID = 'UA-900797-99';
+webApp.BETTING_PROXY = 'betting_request_proxy';
+webApp.LADB_TOKEN_REFRESH_TIME = 500000;
+webApp.LADB_API_KEY = 'l7xxca60e24caaa44cba9a89beee2464a203';
+webApp.LADB_REDIRECT_URL =  'https://greyhoundbet.racingpost.com/l.sd';
+webApp.LADB_TERMS_REDIRECT_URL =  'http://help.ladbrokes.com/display/4/kb/article.aspx?aid=2665&new_window=1';
+webApp.WH_TERMS_REDIRECT_URL =  'https://williamhill-lang.custhelp.com/app/answers/detail/a_id/6719/?new_window=1';
+
+webApp.SERVER_WH_PROXY_URL = 'https://greyhoundbet.racingpost.com/js/betting/request_server_proxy.sd';
+webApp.WH_API_URL = 'https://gw.whapi.com/v1/';
+
+webApp.WH_DIFFUSION_NAME = 'WH_OXI';
+
+webApp.DIFFUSION_FULL_HOST = 'https://push-rp1.racingpost.com';
+
+webApp.trapLinks = [];
+webApp.trapLinks[1] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t1.gif';
+webApp.trapLinks[2] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t2.gif';
+webApp.trapLinks[3] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t3.gif';
+webApp.trapLinks[4] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t4.gif';
+webApp.trapLinks[5] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t5.gif';
+webApp.trapLinks[6] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t6.gif';
+webApp.trapLinks[7] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t7.gif';
+webApp.trapLinks[8] = 'https://greyhoundbet.racingpost.com/img/greyhoundbet/trap/small/t8.gif';

@@ -1,50 +1,84 @@
 #
-# Train script
+# train script
 #
 
-import click
+# Libraries
+import click 
+from selenium import webdriver 
 
-import webdriver as webdriver
-import results as res
-import tracks as trks
-import dogs as dg
+# Classes
+import results
 from database import Database
 
+click.echo("--> Loading inital conditions...")
+# Selenium webdriver configurations 
+# Define options for the headless browser 
+chrome_options = webdriver.ChromeOptions()
+#chrome_options.add_argument("user-data-dir=/home/acioli/cache")
+prefs={
+    "profile.managed_default_content_settings.images": 2, 
+    "profile.managed_default_content_settings.stylesheet": 2, 
+    'disk-cache-size': 1024
+    }
+chrome_options.add_experimental_option('prefs', prefs)
+#chrome_options.add_argument("--headless")
+click.echo("--> Loading selenium webdriver...")
+driver = webdriver.Chrome(chrome_options=chrome_options)
 
-# Initialization Objects
-webdriver = webdriver.Webdriver(prefs=True, headless=True)
 
 # Click configurations
 @click.command()
 @click.option("--date", help="Date to get results")
+
 def train(date):
 
     db = Database("data/dataset.csv")
-    results = res.Results(date, webdriver)
-    for link in results.get_links():
-        try:
-            stats      = list()
-            track      = trks.Track(link, webdriver)
-            track_info = track.track_info()
-            dogs       = track.get_dogs()
-            for i, d_ in enumerate(dogs):
-                dog  = dg.Dogs(d_, webdriver, track_info)
-                s_   = dog.get_stats()
+    click.echo("--> Requesting links of results...")
+    res = results.Results(date,driver)    
+    for link in res.get_links():
+        stats = list()
+        race_infos = res.get_race_infos(link)
+        dogs = res.get_dogs(link)
+        for i, dog in enumerate(dogs):        
+            try: 
+                s_ = res.get_dog_stats(dog, race_infos)
                 if len(s_) != 0:
-                    stats.append(d_ + s_)
-            for i,s in enumerate(stats):
-                for i,t in enumerate(stats):
-                    a_position = int(s[0])
-                    b_position = int(t[0])
-                    if a_position != b_position:
-                        row = [track_info[0]] + [track_info[3]] + [a_position] + [b_position] + s[4:] + t[4:]
-                        if a_position < b_position:
-                            row.append("A")
-                        if b_position < a_position:
-                            row.append("B")
+                    stats.append(s_)
+            except Exception as a:
+                print(a)
+
+        for i,s in enumerate(stats):
+            for i,t in enumerate(stats):
+                a_position = int(s[0])
+                b_position = int(t[0])
+                if a_position != b_position:
+                    row = s[3:] + t[3:]
+                    row.append(a_position)
+                    row.append(b_position)
+                    if a_position == 1 and b_position > a_position:
+                        print("A", a_position, b_position)
+                        row.append("A")
                         db.insert(row, "solo")
-        except Exception as a:
-            pass
+                    if a_position == len(stats) and b_position < a_position:
+                        print("B", a_position, b_position)
+                        row.append("B")
+                        db.insert(row, "solo")
+    driver.close()
 
 
-train()
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Run script only main menu
+if __name__ == "__main__":
+    train()

@@ -1,0 +1,3352 @@
+.mainMenu {background:#282828;}
+.mainMenu li i {width:32px; height:30px; background-image: url(/img/greyhoundbet/header/menu-buttons-sprite.png); background-repeat: no-repeat; background-position: 0 0; background-size : cover}
+.mainMenu a {color:#a7a9ac;}
+.mainMenu a.active {color:#fff;}
+
+.mainMenu .cardMenuItem i {background-position: 0 0;}
+.mainMenu .resultsMenuItem i {background-position: 0 -70px;}
+.mainMenu .newsMenuItem i {background-position: 0 -140px;}
+.mainMenu .accountMenuItem i {background-position: 0 -210px;}
+.mainMenu .accountMenuItem i {background-position: 0 -210px;}
+.mainMenu .betSlipItem  i {background-position: 0 -280px;}
+
+.mainMenu .cardMenuItem.active i {background-position: 0 -35px;}
+.mainMenu .resultsMenuItem.active i {background-position: 0 -105px;}
+.mainMenu .newsMenuItem.active i {background-position: 0 -175px;}
+.mainMenu .accountMenuItem.active i {background-position: 0 -245px;}
+.mainMenu .betSlipItem.active i {background-position: 0 -313px;}
+
+.scrollContent {
+    position:absolute;
+    top:0;
+    left:0;
+    min-height:100%;
+    -webkit-transform:translateZ(0);
+    -ms-transform: translateZ(0);
+}
+
+.desktopPC .iScrollIndicator {
+    background: rgb(188, 188, 188);
+    box-sizing: border-box;
+    position: absolute;
+    border: solid 1px;
+    border-color: rgb(170, 170, 171);
+    width: 100%;
+    transition-duration: 0ms;
+    -webkit-transition-duration: 0ms;
+    display: block;
+    height: 459px;
+    transform: translate(0px, 0px) translateZ(0px);
+    transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1);
+}
+.desktopPC .iScrollIndicator:hover {
+    background: rgb(170,170,171);
+}
+.desktopPC .iScrollIndicator:active {
+    background: rgb(141,141,142);
+}
+
+.desktopPC .iScrollVerticalScrollbar {
+    position: absolute;
+    z-index: 9999;
+    width: 13px;
+    bottom: 2px;
+    top: 0px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.mainTabs .subCategoryList {
+    display: none;
+}
+
+.webAppHaveAd .webAppPageContent {padding:94px 0 52px;}
+.noFixedSupport .webAppPageContent {padding:0;}
+
+.whAdContainer,
+.ladbAdContainer {
+    display: none;
+}
+
+.contentOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+@media (min-width: 600px) {
+	.winning-time-results_distances.visible.deadheat-hide,
+	.winning-time-results_time.visible.deadheat-hide {
+		display: none;
+	}
+	.resultsList .results .places {
+		width: 100%;
+	}
+	.winning-time-results_distances,
+	.winning-time-results_time {
+		display: none;
+	}
+	.resultsList .results .places .row {
+		float: left;
+		width: 49.5%;
+	}
+	.results .places > div {
+		clear: both;
+	}
+	.win-time_grey {
+		color: #7F7F7F;
+		font-weight: normal;
+	}
+	.mobile-view {
+		float: none;
+	}
+	.winning-time-results_distances.visible,
+	.winning-time-results_time.visible{
+		display: inline-block;
+		float: left;
+		width: 50%;
+	}
+}
+@media (min-width: 1000px) {
+	.meetingResultsList .result .holder {padding-left:34px; padding-bottom:8px; clear:both; float:left; width:100%;}
+	.meetingResultsList .result .name {float:left; font-size:16px; font-weight: bold; padding-bottom:2px; width:40%;}
+	.meetingResultsList .result .cols {}
+	.meetingResultsList .result .cols.clearfix {clear: right;}
+	.meetingResultsList .result .cols .col3 {width:60%; float:right;}
+	.result-dog-name-details {
+		width: 100%;
+		float: left;
+	}
+	.dog-cols {
+		width: 100%;
+		float: left;
+		clear: right;
+	}
+	.meetingResultsList .bottom {
+		clear: both;
+		margin-top: 2px;
+	}
+	.mainWrapper {
+		width: 100%;
+	}
+	.racing-post-logo {
+		display: inline-block;
+	}
+	.mobileLogo .racing-post-logo {
+		display: none;
+	}
+	.mobileLogo .greyhoundbet-logo {
+		display: inline-block;
+	}
+	.greyhoundbet-logo {
+	    display: none;
+    }
+	.mainWrapper .mainTabs {
+		display: block;
+		width: 170px;
+		float: left;
+		background-color: #fff;
+		position: absolute;
+		z-index: 3;
+		-webkit-box-shadow: black -5px 0 6px -6px inset;
+		-moz-box-shadow: black -5px 0 6px -6px inset;
+		box-shadow: black -5px 0 6px -6px inset;
+	}
+	body > .mainTabs.desktop-PC {
+		display: none !important;
+	}
+	.mainWrapper .mainTabs .mainMenu {
+		background: none;
+		border-top: none;
+		height: auto;
+		padding: 0 8px 1px 0;
+	}
+	.mainWrapper .mainMenu .tab {
+		width: 100%;
+		clear: both;
+		margin-top: 8px;
+		background: black;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.65);
+		-moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.65);
+		box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.65);
+		height: 58px;
+	}
+
+    .mainWrapper .mainMenu .tab.cardsTab {
+        height: 141px;
+    }
+
+    .mainWrapper .mainMenu .tab.resultsTab {
+        height: 114px;
+    }
+
+    .mainWrapper .mainMenu .subCategoryList .cardsRpgtv {
+        display: none;
+    }
+
+	.mainWrapper .mainMenu .tab .tabHref {
+		line-height: 58px;
+		height: 58px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+    .mainWrapper .mainMenu .subCategoryList .subTabHref {
+		line-height: 24px;
+		height: 24px;
+		font-size: 15px;
+		font-weight: bold;
+        margin: 0 5px 3px 5px;
+        border-radius: 2px;
+        background-color: #A6A8AB;
+        color: #000;
+        text-align: left;
+        padding-left: 3px;
+	}
+
+    .mainWrapper .mainMenu .tab .subCategoryList a.subTabHref.active {
+        background: #fff;
+    }
+
+	.mainWrapper .mainMenu .tab .tabHref i {
+		position: absolute;
+		right: 22px;
+		top: 14px;
+		transform: scale(1.4, 1.4);
+		-webkit-transform: scale(1.4, 1.4);
+	}
+	.mainWrapper .mainMenu .tab .tabHref .tabName {
+		position: absolute;
+		height: 58px;
+		left: 11px;
+	}
+
+	body {
+		overflow-y: hidden;
+	}
+	.mainWrapper .layout-col1 {
+		width: 50%;
+		float: left;
+		height: 1px;
+	}
+	.mainWrapper .layout-col1 .wrap {
+		background: #fff;
+		margin-left: -500px;
+		position: absolute;
+		z-index: 3;
+		width: inherit;
+	}
+	.mainWrapper .layout-col2 {
+		width: 1000px;
+		margin-left: -500px;
+		float: left;
+	}
+	.mainWrapper .webApp {
+		margin-left: 170px;
+	}
+	.mainWrapper .layout-col3 {
+		width: 50%;
+		float: right;
+		margin-left: -500px;
+		position: relative;
+		height: 1px;
+	}
+	.mainWrapper .layout-col3 .wrap {
+		background: #fff;
+		margin-left: 500px; /* Сдвигаем вправо на половину ширины колонки 2 */
+		position: absolute;
+		z-index: 3;
+		width: inherit;
+		-webkit-box-shadow: black 5px 0 6px -6px inset;
+		-moz-box-shadow: black 5px 0 6px -6px inset;
+		box-shadow: black 5px 0 6px -6px inset;
+	}
+	.sidebar-header {
+		background-color: #282828;
+		border-top: 1px solid grey;
+		border-bottom: 1px solid #000;
+		width: 170px;
+		height: 44px;
+	}
+	.sidebar-header .logo {
+		background-image: url(/img/greyhoundbet/furniture/rp-logo2X.png);
+		width: inherit;
+		height: inherit;
+		background-position: center;
+		background-size: 150px;
+		background-repeat: no-repeat;
+	}
+    .dog-result-details {
+	    display: block;
+	    float: right;
+	    padding-top: 4px;
+	    width: 60%;
+    }
+	.winning-time-results,
+	.resultsList .results .places .row {
+		display: inline-block;
+	}
+
+    .desktopPC .mainTabs .subCategoryList {
+        display: block;
+    }
+}
+
+@media (min-width: 1140px) {
+    .mainWrapper .mainTabs {
+        display: block;
+        width: 308px;
+        float: left;
+        background-color: #fff;
+        position: absolute;
+        z-index: 3;
+        -webkit-box-shadow: black -5px 0 6px -6px inset;
+        -moz-box-shadow: black -5px 0 6px -6px inset;
+        box-shadow: black -5px 0 6px -6px inset;
+    }
+
+    .mainWrapper .mainMenu .tab {
+        width: 100%;
+        clear: both;
+        margin-top: 8px;
+        background: black;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.65);
+        -moz-box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.65);
+        box-shadow: 0px 1px 6px 0px rgba(0,0,0,0.65);
+        height: 58px;
+    }
+
+    .mainWrapper .mainMenu .newsTab,
+    .mainWrapper .mainMenu .accountTab,
+    .mainWrapper .mainMenu .betSlipTab {
+        clear: none;
+        width: 146px;
+    }
+
+    .mainWrapper .mainMenu .betSlipTab {
+        left: 154px;
+    }
+
+    .mainWrapper .mainMenu .newsTab {
+        margin-right: 8px;
+    }
+
+    .mainWrapper .mainMenu .tab .tabHref {
+        line-height: 58px;
+        height: 58px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .mainWrapper .mainMenu .tab.cardsTab {
+        height: 113px;
+    }
+
+    .mainWrapper .mainMenu .tab.cardsTab i,
+    .mainWrapper .mainMenu .tab.resultsTab i {
+        right: 176px;
+    }
+
+    .mainWrapper .mainMenu .tab.resultsTab {
+        height: 86px;
+    }
+
+    .mainWrapper .mainMenu .subCategoryList .subTabHref {
+        width:142px;
+        display: inline-block;
+        margin: 0 0 3px 3px;
+    }
+
+    .mainWrapper .mainMenu .tab .subCategoryList .cardsToday,
+    .mainWrapper .mainMenu .tab .subCategoryList .cardsTrapDraws,
+    .mainWrapper .mainMenu .tab .subCategoryList .resultsToday {
+        margin: 0 0 3px 3px;
+    }
+
+    .mainWrapper .layout-col1 .wrap {
+        margin-left: -570px;
+    }
+    .mainWrapper .layout-col2 {
+        width: 1140px;
+        margin-left: -570px;
+    }
+    .mainWrapper .webApp {
+        margin-left: 308px;
+    }
+    .mainWrapper .layout-col3 {
+        margin-left: -570px;
+    }
+    .mainWrapper .layout-col3 .wrap {
+        background: #fff;
+        margin-left: 570px; /* Сдвигаем вправо на половину ширины колонки 2 */
+        position: absolute;
+        z-index: 3;
+        width: inherit;
+        -webkit-box-shadow: black 5px 0 6px -6px inset;
+        -moz-box-shadow: black 5px 0 6px -6px inset;
+        box-shadow: black 5px 0 6px -6px inset;
+    }
+    .sidebar-header {
+        background-color: #282828;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid #000;
+        width: 308px;
+        height: 44px;
+    }
+
+    .whAdContainer {
+        display: block;
+        width: 970px;
+        margin: 8px auto;
+    }
+    .ladbAdContainer {
+        display: none;
+        margin: 8px 0 0 0;
+    }
+}
+
+@media (max-width: 999px) {
+	.meetingResultsList .result .holder {padding-left:34px; padding-bottom:8px; clear:both; float:left; width:100%;}
+	.meetingResultsList .result .name {float:left; font-size:16px; font-weight: bold; padding-bottom:2px; width:100%;}
+	.meetingResultsList .result .cols {}
+	.meetingResultsList .result .cols.clearfix {clear: right;}
+	.meetingResultsList .result .cols .col3 {width:60%; float:right;}
+	.result-dog-name-details {
+		width: 100%;
+		float: left;
+	}
+	.dog-cols {
+		width: 100%;
+
+		clear: both;
+	}
+	.meetingResultsList .bottom {
+		clear: both;
+		margin-top: 2px;
+	}
+	.dog-result-details {
+		display: none;
+	}
+	.mobileLogo .racing-post-logo {
+		display: none;
+	}
+	.mobileLogo .greyhoundbet-logo {
+		display: inline-block;
+	}
+	.mainWrapper {
+		width: 100%;
+		margin: 0;
+	}
+	.mainWrapper .mainTabs {
+		display: none !important;
+	}
+	.racing-post-logo {
+		display: none;
+	}
+	.greyhoundbet-logo {
+		display: inline-block;
+	}
+    body.desktopPC.rpgTVPage  {
+        overflow-y: hidden;
+    }
+	.mainWrapper .layout-col1 {
+		display: none;
+	}
+	.mainWrapper .layout-col1 .wrap {
+		display: none;
+	}
+	.mainWrapper .layout-col3 {
+		display: none;
+	}
+	.mainWrapper .layout-col3 .wrap {
+		display: none;
+	}
+	.mainWrapper .layout-col2 {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+	.mainWrapper .webApp {
+		margin: 0;
+	}
+	.mainTabs.desktop-PC {
+		display: block;
+	}
+	.mainTabs.desktop-PC ul.mainMenu {
+		position: relative;
+		padding: 2px 2px 1px;
+		height: 46px;
+		border-top: 1px solid #000;
+		background: #282828;
+	}
+	.winning-time-results_time,
+	.winning-time-results_distances	{
+		display: none;
+	}
+	.resultsList .results .places .row {
+		display: block;
+	}
+
+}
+.pageHeader {background:#282828;}
+.clearfix {clear:both;}
+.clearfix:after {content:""; display:block; clear:both;}
+.headline {height:20px; padding:0 10px; line-height:20px; background:#1e59a5; text-shadow:0 1px #000; font-weight:normal; color:#fff;}
+
+.nodataBlock {padding:40px 0; text-align:center; font-size:17px;}
+
+/*.pageHeader .btnBack,
+.pageHeader .btnBack span {background: none; color:#007aff;}
+.pageHeader .btnBack span:after {content:'\2039'; position:absolute; top:0; left:0; font-size:18px;}*/
+
+/* Bet buttons */
+.pref_wh .bet .betButton strong {
+    border-color: rgb(0, 53, 85);
+    background: rgb(0, 53, 85);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+.pref_ladb .bet .betButton strong {
+    border-color: rgb(236, 27, 35);
+    background: rgb(236, 27, 35);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.pref_wh .bet .betButton.active strong {
+    border-color: rgb(44, 165, 226);
+    background: rgb(255, 255, 255);
+}
+.pref_ladb .bet .betButton.active strong {
+    border-color: rgb(130, 175, 30);
+    background: rgb(255, 255, 255);
+}
+
+.mainTabs .betSlipItem .betSlipCounter {
+    display:none;
+    position:absolute;
+    z-index:2;
+    top:-14px;
+    right:-4px;
+    width:22px;
+    height:22px;
+    background:#dd1500;
+    border:2px solid #fff;
+    border-radius:50%;
+    box-shadow:0 0 3px rgba(0,0,0,.5);
+    line-height:22px;
+    text-align:center;
+    text-shadow:1px 1px 1px #000;
+    font-size:14px; font-weight:bold;
+    font-style:normal;
+    color:#fff;
+}
+.mainTabs .betSlipItem .betSlipCounter_side {
+    top: -10px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 13px;
+}
+
+
+    /* Pager buttons (up/down arrows, refresh button) */
+.pageHeader .simplePager .up a,
+.pageHeader .simplePager .down a  {
+    background: none;
+}
+.pageHeader .simplePager .up i,
+.pageHeader .simplePager .down i {
+    display: block;
+    position: relative;
+    height: 13px;
+    width: 28px;
+    margin-top: 9px;
+    background-image: url(/img/greyhoundbet/btn/blue-arrows.png);
+    background-repeat: no-repeat;
+    background-position: 4px 0px;
+    background-size: cover;
+}
+.pageHeader .simplePager .up i {
+    background-position: -22px 0px;
+}
+.pageHeader .btnRefresh {
+    position: absolute;
+    z-index: 2;
+    top: 3px;
+    height: 35px;
+    width: 35px;
+    right: 7px;
+}
+.pageHeader .btnRefresh:after {
+    content: "";
+    position: relative;
+    top: 8px;
+    left: 7px;
+    display: block;
+    width: 19px;
+    height: 20px;
+    background-image: url(/img/greyhoundbet/btn/refresh-btn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Back button blue text */
+.pageHeader .btnBack,
+.pageHeader .btnBack span {
+    display: inline-block;
+    padding: 0 6px 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Helvetica,Arial,sans-serif;
+    color: #007aff;
+    background: none;
+}
+.pageHeader .btnBack span:after {
+    content: '';
+    display: block;
+    position:absolute;
+    top: 5px;
+    left: 2px;
+    width: 11px;
+    height: 19px;
+    background-image: url(/img/greyhoundbet/btn/arrow-left.png);
+    background-size: cover;
+}
+
+.pageHeader .btnRight {
+    position: absolute;
+    top: 7px;
+    display: inline-block;
+    line-height: 30px;
+    padding: 0 6px 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Helvetica,Arial,sans-serif;
+    color: #007aff;
+    background: none;
+}
+
+/* Predictor buttons*/
+.pageHeader .predictorBtn {
+    position: absolute;
+    top:7px;
+    right: 4px;
+    padding: 1px 7px 0;
+    line-height: 26px;
+    margin:0 2px 0 3px;
+}
+.pageHeader .predictorBtn span {
+    font-size: 16px;
+    color: #007aff;
+    font-weight: bold;
+    font-family:Helvetica,Arial,sans-serif;
+    text-align:center;
+    white-space:nowrap;
+    display:inline-block;
+    cursor:pointer;
+}
+.predictorHeader .btn {
+    position:absolute;
+    z-index:1; top:5px;
+    right:7px; width:48px;
+    height:44px;
+    line-height:34px;
+    font-size: 16px;
+    cursor:pointer;
+    color: #007aff;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+.predictorPortraitHeader .btn {
+    width:60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007aff;
+    cursor:pointer;
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.desktopPC .appList a,
+.desktopPC .appList .noLink {
+    background-image:url(/img/web-app/furniture/grey-right-arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    margin-right: 5px;
+}
+.desktopPC .appList .noLink {
+    background: none;
+}
+
+@media (max-width: 350px) {
+    .pageHeader .btnBlueText {padding:8px 10px 8px 6px;}
+    .pageHeader .rpLogo img {width:100%; max-width:139px;}
+}
+
+/* Trap */
+.trap {background:url(/img/greyhoundbet/greyhounds-trap-spr.png); display:inline-block; vertical-align:middle; width:16px; height:16px;}
+
+.trap.trap0 {
+    display: none;
+}
+
+.trap.trap0 + span {
+    display: none;
+}
+.trap.trap2 {background-position:0 -136px;}
+.trap.trap3 {background-position:0 -272px;}
+.trap.trap4 {background-position:0 -408px;}
+.trap.trap5 {background-position:0 -544px;}
+.trap.trap6 {background-position:0 -680px;}
+.trap.trap7 {background-position:0 -816px;}
+.trap.trap8 {background-position:0 -952px;}
+
+/* Big Trap */
+.bigTrap {background:url(/img/greyhoundbet/greyhounds-big-trap-spr.png); display:inline-block; vertical-align:middle; width:25px; height:29px;}
+.bigTrap.trap2 {background-position:0 -180px;}
+.bigTrap.trap3 {background-position:0 -360px;}
+.bigTrap.trap4 {background-position:0 -540px;}
+.bigTrap.trap5 {background-position:0 -720px;}
+.bigTrap.trap6 {background-position:0 -900px;}
+.bigTrap.trap7 {background-position:0 -1080px;}
+.bigTrap.trap8 {background-position:0 -1260px;}
+
+/* Race Title */
+.raceTitle {position:relative; padding:10px 10px; text-align:center;}
+.desktopPC .raceTitle {position:relative; padding:10px 15px 10px 10px; text-align:center;}
+.raceTitle .button {position:relative; display:inline-block; padding:3px 12px; border:1px solid #007aff; border-radius:12px; font-size:12px; color:#333; cursor:pointer;}
+.raceTitle .buttonIcon {padding-left:23px; margin:8px 4px 0;}
+.raceTitle .buttonIcon.b2v {display:none; padding-left:30px;}
+.raceTitle .buttonsBox .videoArchive {display: none}
+.desktopPC .raceTitle .buttonsBox .videoArchive,
+.android .raceTitle .buttonsBox .videoArchive {
+    display: inline-block
+}
+.desktopPC .raceTitle .buttonIcon.videoArchive,
+.android .raceTitle .buttonsBox .videoArchive {
+    padding-left:30px;
+    background: url(/img/greyhoundbet/btn/rpgtv-btn.png) no-repeat 9px 3px;
+}
+.showRPGTVBtn .buttonIcon.b2v {display:inline-block;}
+
+.desktopPC .raceTitle #title-circle-container,
+.desktopPC #circle-race-title,
+.raceTitle .button {
+    cursor: default;
+}
+
+.raceTitle #title-circle-container p {
+    position: relative;
+    max-width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    line-height: 15px;
+
+}
+
+.raceTitle .p1 .titleColumn1 {
+    padding-right: 80px;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+}
+
+.raceTitle .p1 .titleColumn2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.raceTitle .race-title {display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.raceTitle .race-class {position:absolute; top:3px; right:12px;}
+.raceTitle .statusBox {padding:0 30px;}
+
+.desktopPC .racePager .next a {right: -5px;}
+
+.desktopPC .ghName .circleBtn {
+    left: inherit;
+    top: 10px;
+    right: 16px;
+    display: block;
+}
+.circleBtn {
+    position:absolute;
+    display:none;
+    top:10px;
+    left:10px;
+    cursor:pointer;
+}
+.toggleBtn span {
+    display:block;
+    width:22px;
+    height:22px;
+    background:url(/img/greyhoundbet/btn/down-up-btn.png) no-repeat 0 100%;
+    background-size: cover;
+    background-position: 0 0;
+}
+.collapseCard .toggleBtn span {
+    background-position:0 -22px;
+}
+.explainedBtn span {
+    float: left;
+    width:22px;
+    height:22px;
+    background-image:url(/img/greyhoundbet/btn/info-btn.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.raceTitle .liveRadioBox {display:none;}
+.showWHRadio .liveRadioBox {display:inline-block;}
+.orientationLandscape .raceTitle .liveRadioBox {display:none;}
+.orientationLandscape .showRPGTVBtn .statusBox {padding-right:130px;}
+.desktopPC.orientationLandscape .showRPGTVBtn .statusBox {padding-right:0px;}
+.orientationLandscape .raceTitle .b2v {position:absolute; top:10px; right:10px; margin:0;}
+.desktopPC.orientationLandscape .raceTitle .b2v {position:relative; top:0; right:0; margin: 8px 4px 0;}
+
+.desktopPC.orientationLandscape .showWHRadio .liveRadioBox {display:inline-block;}
+.desktopPC .showWHRadio .liveRadioBox {display:inline-block;}
+
+.raceList a,
+.raceList .noLink {padding-left:10px;}
+
+.raceList a h5.b2v { margin:4px 0 0; background:url(/img/greyhoundbet/btn/rpgtv-btn.png) no-repeat 0 0; padding: 0 0 0 23px}
+
+.raceList {padding:0;}
+
+.raceList .abandoned {background:none; color:#000;padding: 8px 26px 8px 10px;}
+
+.raceList em {font-size:13px;}
+.raceList h4,
+.raceList h5 {font-size:13px; overflow:hidden; font-weight:normal; white-space:nowrap; text-overflow:ellipsis;}
+.raceList h4 {font-weight:bold;}
+.raceList h4 span {font-weight:normal;}
+.raceList h4 i {font-weight:normal; font-style:normal; color:#808080;}
+.raceList h4 em,
+.raceList h5 em {display:inline;}
+.raceList h5 {padding-top:3px;}
+
+.raceListTime a,
+.raceListTime .noLink,
+.raceListTime .abandoned {padding: 8px 26px 8px 70px;}
+
+.raceList .race-details-col2 { display: none; }
+.raceList .race-details-col3 { display: none; }
+/* Race pager */
+.racePager {height:84px; background:url(/img/greyhoundbet/furniture/race-pager-bg.png) repeat-x 0 0 #1554a4; border-top:1px solid #0699e6;}
+.racePagerSmall {height:58px; background-image:url(/img/greyhoundbet/furniture/race-pager-small-bg.png);}
+.racePager table {width:100%;}
+.racePager th {width:100%; padding:8px 0 0;}
+.racePager td {padding:16px 10px 0 0;}
+.racePager td:first-child {padding-right:0; padding-left:10px;}
+
+.racePager h3 {text-align:center; font-size:32px; font-weight:normal; text-shadow:1px 1px 1px #000; color:#fff;}
+
+.racePager .prev a,
+.racePager .next a {position:absolute; top:-5px; width:34px; height:34px; display:block; background:url(/img/web-app/btn/next-prev-spr.png) no-repeat 50% 8px;}
+.racePager .prev a {left:-10px;}
+.racePager .next a {right:-10px; background-position:50% -34px;}
+
+.racePager .prev,
+.racePager .next {position:relative; display:none;}
+.racePager .prev div,
+.racePager .next div {white-space:nowrap;}
+.racePager .prev {padding:0 0 0 22px;}
+.racePager .next {padding:0 22px 0 0;}
+
+.racePager i {display:inline-block; width:6px; height:6px; background:url(/img/web-app/furniture/racetime_dot.png) no-repeat 0 0;}
+.racePager .prev i {margin-right:4px;}
+.racePager .next i {margin-left:4px;}
+
+.orientationLandscape .pageHeader h2,
+.orientationLandscape .pageHeader .headText {
+
+}
+
+.pageHeader .prev,
+.pageHeader .next {position:absolute; top:12px; display:none;}
+.pageHeader .prev {left:100px;}
+.pageHeader .next {right:100px;}
+
+.pageHeader .prev a,
+.pageHeader .next a {position:absolute; top:0; display:block; width:16px; height:20px; background:url(/img/web-app/btn/next-prev-spr.png) no-repeat 50% 2px;}
+.pageHeader .next a {right:0; background-position:0 -40px;}
+
+/* 404 */
+.errorLogo {width:240px; height:104px; margin:32px auto 28px; background:url(/img/greyhoundbet/404/logo.png) no-repeat;}
+
+/* Bottom controll */
+.date-picker-container {
+	max-width: 1000px;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 99999;
+	top: 48px;
+	left: 0;
+	right: 0;
+}
+@media (min-width: 1000px) {
+	.date-picker-container #bottomMenuControl {
+		max-width: 830px;
+		background:rgba(255,255,255,.97);
+		margin-left: 170px;
+	}
+
+}
+@media (max-width: 999px) {
+	.date-picker-container #bottomMenuControl {
+		max-width: 100%;
+	}
+	.date-picker-margin {
+		display: none;
+	}
+}
+
+@media (min-width: 1140px) {
+    .desktopPC .date-picker-container #bottomMenuControl {
+        max-width: 832px;
+        background: rgba(255, 255, 255, .97);
+        margin-left: 308px;
+    }
+    .desktopPC .date-picker-container {
+        max-width: 1140px;
+    }
+
+    .desktopPC .date-picker-container {
+        top: 152px;
+    }
+
+}
+.date-picker-container #bottomMenuControl {
+	position: static;
+	height: auto !important;
+}
+.date-picker-container .calendarControll {
+	 height: auto !important;
+ }
+
+.date-picker-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.4;
+	position: absolute;
+	z-index: 999;
+	top: 0;
+}
+
+#bottomMenuControl {position:fixed; z-index:99999; bottom:0; left:0; right:0; background:rgba(255,255,255,.97);}
+#bottomMenuControl .overlay {position:fixed; z-index:99999; top:0; left:0; right:0; background:rgba(0,0,0,.6);}
+#bottomMenuControl li {border-top:1px solid #c9c8c8; line-height:44px; text-align:center; font-size:17px;}
+#bottomMenuControl strong {display:block; line-height:44px; font-weight:normal;}
+#bottomMenuControl em,
+#bottomMenuControl i {display:block; font-size:12px; font-style:normal;}
+#bottomMenuControl em {display:none;}
+#bottomMenuControl .active em {display:block;}
+#bottomMenuControl i {color:#878b8b;}
+
+#bottomMenuControl .date {padding:4px 0; line-height:normal;}
+#bottomMenuControl .date strong {display:inline-block; margin:0 5px; line-height:normal; cursor:pointer;}
+#bottomMenuControl .date span {display:block; width:30px; height:30px; line-height:30px; margin:4px 0;}
+#bottomMenuControl .date .active span {background:#de1914; border-radius:50%; color:#fff;}
+#bottomMenuControl .cancel {position:relative; color:#de1914; cursor:pointer; font-weight:bold;}
+#bottomMenuControl .cancel .today {position:absolute; top:0; left:0; padding:0 20px;}
+
+#bottomMenuControl strong.disabled span {color:#adadad;}
+
+#bottomMenuControl .calendarControll {height: auto !important; }
+.orientationLandscape #bottomMenuControl .calendarControll {height:187px;}
+.orientationLandscape #bottomMenuControl.desktop-datepicker .calendarControll {height: auto !important;}
+.orientationLandscape #bottomMenuControl .calendarControll td strong {cursor:pointer; display:inline-block; width:24px; height:24px; margin:5px; line-height:25px;}
+#bottomMenuControl .calendarControll table {width:100%;}
+#bottomMenuControl .calendarControll td {border-top:1px solid #c9c8c8; line-height:30px; text-align:center; font-size:17px;}
+#bottomMenuControl .calendarControll td strong {cursor:pointer; display:inline-block; width:30px; height:30px; margin:7px; line-height:32px;}
+#bottomMenuControl .calendarControll td .active {background:#de1914; border-radius:50%; color:#fff;}
+#bottomMenuControl .calendarControll .disabled {opacity: 0.3}
+#bottomMenuControl .calendarControll th {padding:4px 0; font-size:12px; font-weight:normal; text-align:center;}
+#bottomMenuControl .calendarControll .monthNav {padding:14px 0; text-align:center; font-weight:bold;}
+#bottomMenuControl .calendarControll  span  {display:inline-block; vertical-align:middle; width: 28px;  height: 28px;  background: url(/img/greyhoundbet/furniture/blue-arrows-spr.png) no-repeat 0 0;  cursor: pointer;}
+#bottomMenuControl .calendarControll .calMonthForward {background-position:0 100%; }
+#bottomMenuControl .calendarControll .monthNav strong  {display:inline-block; vertical-align: middle; line-height:28px; font-weight: bold; margin: 0 10px;}
+#bottomMenuControl .calendarControll .monthNav .disabled {opacity: 0.3}
+#bottomMenuControl .cancel .calCancel {padding: 10px 30px;}
+#bottomMenuControl .cancel .today {font-weight:normal;}
+
+.pageHeader .trapDrawsBtn {display:block; width:25px; height:25px; margin:-2px 0 0; background:url(/img/greyhoundbet/furniture/blue-cup.png) no-repeat 0 0;}
+#bottomMenuControl .trapDraws strong {display:inline-block; padding:0 5px 0 10px; line-height:34px; cursor:pointer;}
+#bottomMenuControl .trapDraws strong:after {position:relative; top:-2px; content:""; display:inline-block; width:26px; height:26px; margin-left:10px; background:url(/img/greyhoundbet/furniture/grey-cup.png) no-repeat 0 0; vertical-align:middle;}
+#bottomMenuControl .trapDraws .active {background:#de1914; border-radius:16px; color:#fff;}
+#bottomMenuControl .trapDraws .active:after {background-image:url(/img/greyhoundbet/furniture/white-cup.png);}
+
+/* Search form */
+.searchForm {padding:8px 0 8px 8px; background:#cecece;}
+.searchForm .formBox {position:relative; padding-right:80px;}
+.searchForm .holder {position:absolute; top:0; left:0; right:80px; height:28px; line-height:28px; background:#fff; border-radius:6px; box-shadow:0 0 1px rgba(0,0,0,.1); text-align:center;}
+.searchForm .holder span {padding:0 0 0 22px; display:inline-block; background:url(/img/greyhoundbet/furniture/search-ico.png)  no-repeat 0 50%; font-size:15px; color:#707070;}
+.searchForm .searchField {position:relative; padding:0 10px 0 36px; height:28px; line-height:18px; width:100%; font-size:15px; -webkit-box-sizing:border-box; box-sizing:border-box; background:none; border:none;}
+.searchForm .searchBtn {position:absolute; top:0; right:0; width:80px; height:28px; padding:0; line-height:28px; text-align:center; background:none; border:none; color:#007aff; cursor:pointer;}
+
+.searchForm .changed .searchField {background:url(/img/greyhoundbet/furniture/search-ico.png)  no-repeat 12px 50%;}
+.searchForm .changed .holder span {display:none;}
+
+.searchResultsList, .emptyResults {padding:0 0 18px;}
+p.emptyResults {display:block; padding:10px 27px 10px 10px; text-align:center; font-weight: bold;}
+.searchResultsList li {border-bottom:1px solid #ccc;}
+.searchResultsList a {display:block; padding:10px 27px 10px 10px; background:url(/img/greyhoundbet/furniture/grey-thin-arrow.png) no-repeat 100% 50%;}
+.desktopPC .searchResultsList a {display:block; padding:10px 27px 10px 10px; margin-right: 5px; background:url(/img/greyhoundbet/furniture/grey-thin-arrow.png) no-repeat 100% 50%;}
+
+.searchResultsList .engagementsWrapper {
+    position: absolute;
+    display: none;
+    width: 296px;
+    right: 0;
+    height: 26px;
+
+}
+
+.searchResultsList .blueButton {
+    position: absolute;
+    border: 1px solid #007aff;
+    border-radius: 5px;
+    padding: 3px 5px;
+    width: 120px;
+    height: 18px;
+    bottom: 4px;
+    text-align: center;
+ }
+
+.searchResultsList .engagements {
+    right: 162px;
+}
+
+.searchResultsList .careerForm {
+    right: 22px;
+}
+
+.searchResultsList .engagementsList {
+     display: none;
+ }
+
+.searchResultsList .engagementsList .engagementItem a {
+    padding: 10px;
+    background: url(/img/greyhoundbet/furniture/grey-thin-arrow.png) no-repeat 100% 50% !important;
+}
+
+.searchResultsList .engagementsList .engagementItem a.highlight {
+    margin-right: 5px;
+}
+
+.searchResultsList .engagementsList .engagementItem {
+    border-top: 1px solid #ccc;
+    border-bottom: none;
+    font-size: 15px;
+ }
+
+.searchResultsList .engagementsList .engagementItem div {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.searchResultsList .engagementsList .engagementItem div.wrapper {
+    padding: 10px;
+    display: block;
+}
+
+.searchResultsList .engagementsList .engagementItem .date {
+    width : 17%;
+}
+
+.searchResultsList .engagementsList .engagementItem .track {
+    width : 28%;
+    font-weight: bold;
+}
+
+.searchResultsList .engagementsList .engagementItem .time,
+.searchResultsList .engagementsList .engagementItem .dist,
+.searchResultsList .engagementsList .engagementItem .handicap {
+    width : 8%;
+}
+
+.searchResultsList .engagementsList .engagementItem .trap {
+    position: relative;
+    bottom: 1px;
+}
+
+.searchResultsList .engagementsList .engagementItem .grade {
+    padding-left:10px;
+    width : 8%;
+}
+
+.searchPager {padding:0 0 26px; line-height:28px; text-align:center;}
+.searchPagerTop {padding:16px 0; border-bottom:1px solid #ccc;}
+.searchPager strong {display:inline-block; vertical-align:middle; font-size:15px; font-weight:normal;}
+.searchPager .pagerBtn {display: inline-block; width:28px; height:28px; background:url(/img/greyhoundbet/furniture/blue-arrows-spr.png) no-repeat 0 0; cursor:pointer;}
+.searchPager .rightBtn {background-position:0 100%;}
+.searchPager .pagerBtn.disabled {opacity:0.3; cursor:default;}
+
+.pageHeader .circleBtn { left: inherit; top: 13px; right: 13px; display: block;}
+.pageHeader .circleBtn. span {display: block;  width: 20px;  height: 20px;  background: url(/img/greyhoundbet/furniture/ico-info.png) no-repeat;}
+
+#bottomMenuControl em.firstDay {
+	display: block;
+}
+#bottomMenuControl .date strong.disabled {
+	cursor: default;
+}
+
+#pageLoading {
+    position: absolute;
+    display: block;
+    z-index: 100;
+    top: 45%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin: -30px 0 0 -30px;
+}
+
+#pageLoading div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: url(/img/greyhoundbet/furniture/greyhoundbetLoadingWheel.png) no-repeat;
+    background-size: contain;
+}
+
+.loadingBox div,
+.loadMoreContent div {
+    position: absolute;
+    top: 28px;
+    left: 48px;
+    width: 40px;
+    height: 40px;
+    background: url(/img/greyhoundbet/furniture/greyhoundbetLoadingWheel.png) no-repeat;
+    background-size: contain;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    display: none;
+}
+
+@media (min-width: 500px){
+    .raceTitle .statusBox.enablePrint {padding:0px 90px;}
+}
+
+@media (min-width: 600px) {
+    .searchResultsList a {
+        background: none !important;
+    }
+
+    .searchResultsList a.highlight {
+        margin-right: 0;
+    }
+
+    .searchResultsList .engagementsWrapper {
+        display: inline-block;
+    }
+    .searchResultsList .engagementsList {
+        display: block;
+    }
+
+    .orientationLandscape #bottomMenuControl .calendarControll {height:213px;}
+    .orientationLandscape #bottomMenuControl .calendarControll td strong {
+        cursor:pointer;
+        display:inline-block;
+        width:30px;
+        height:30px;
+        margin:7px;
+        line-height:32px;
+    }
+    .raceList .race-details-col1 {
+        width: 63%;
+        display: block;
+        float: left;
+    }
+    .raceList .race-details-col2 {
+        display: block;
+    }
+    .raceList .race-details-col2 .dogName,
+    .raceList .race-details-col2 .stars {
+        display: inline-block;
+    }
+    .raceList .race-details-col2 .race-tips-col1,
+    .raceList .race-details-col2 .race-tips-col2,
+    .raceList .race-details-col2 .betOptionsRow {
+        display: block;
+    }
+    .raceList .tipsGrid {
+        width: auto;
+        margin: auto;
+        font-size: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+     .raceList .race-tips-col1 .traps {
+        position: relative;
+        bottom: 1px;
+    }
+
+    .raceList .betOptionsRow.row2 {
+        display: block;
+        position: relative;
+        top: 2px;
+    }
+
+    .raceList .race-details-col2 .row2 .trap,
+    .raceList .race-details-col3 .row2 .trap {
+        position: relative;
+        bottom: 2px;
+    }
+}
+.orientationLandscape #bottomMenuControl .calendarControll td strong.mobileCalendar {
+	cursor: pointer;
+	display: inline-block;
+	width: 22px;
+	height: 15px;
+	margin: 0;
+	line-height: 17px;
+	padding: 3px 1px 3px 1px;
+}
+
+.notAvailableMeetingsNotice {
+    margin: 10px;
+}
+
+@media (min-width: 800px) {
+
+    .meeting-list .raceList .race-details-col3 .stars {
+        display: inline-block;
+    }
+
+    .meeting-list .raceList .race-details-col3 {
+        display: block;
+    }
+
+    .meeting-list .raceList .race-details-col1 {
+        width: 46%;
+    }
+
+    .meeting-list .raceList .race-details-col2,
+    .meeting-list .raceList .race-details-col3 {
+        width: 26%;
+        float: left;
+    }
+
+    .meeting-list .raceList .race-details-col3 {
+        display: block;
+        float: right;
+        margin-right: 15.8px;
+    }
+}
+
+@media (min-width: 1000px) {
+}
+
+@media (min-width: 1140px) {
+    .meetings .appList a,
+    .meetings .appList .noLink {
+        padding:8px 20px 8px 10px;
+    }
+}
+
+.nextRaceOff,
+.desktopBrowser .nextRaceOff {border-bottom:1px solid #e0e0e0; padding:13px 30px 13px 10px; background:url(/img/web-app/furniture/grey-right-arrow.gif) no-repeat 100% 50%; font-family:inherit; font-size:16px; font-weight:bold; cursor:pointer;}
+
+.desktopPC .nextRaceOff {
+    border-bottom:1px solid #e0e0e0;
+    padding:13px 30px 13px 10px;
+    margin-right: 5px;
+    background-image:url(/img/web-app/furniture/grey-right-arrow.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    font-family:inherit;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.nextRaceOffDisabled,
+.desktopBrowser .nextRaceOffDisabled {color:#b3b3b3; cursor:default;}
+.hideNextRaceOff,
+.desktopBrowser .hideNextRaceOff {display:none;}
+
+/* Home order */
+.cardOrder {position:absolute; top:9px; right:10px; width:56px;}
+.cardOrder a {float:left; width:28px; height:26px; background:url(/img/greyhoundbet/btn/card-menu-btn.png) no-repeat 0 0; text-decoration:none;}
+.cardOrder .byMeeting {background-position:0 -34px;}
+.cardOrder .active .byMeeting {background-position:0 0;}
+.cardOrder .byTime {background-position:100% 0;}
+.cardOrder .active .byTime {background-position:100% -34px;}
+
+.chanelHeadline {padding:8px 10px; font-size:14px; background:#e8e5df; text-shadow:0 1px #fff; font-weight:normal;}
+
+/* Card */
+.card,
+.dog,
+.results-dog,
+.form-explained,
+.trap-draws-races,
+.search-dog,
+.search-form-explained,
+.card-meeting-result,
+.card-dog {background:#e8e5df;}
+
+.raceTabs ul {position:absolute; top:-30px; left:0; width:100%;}
+.raceTabs li {float:left; width:25%;}
+.raceTabs li a {position:relative; display:block; height:30px; line-height:30px; margin-left:7px; text-align:center; font-size:15px; font-weight:bold; text-shadow:0 1px 0 rgba(0, 0, 0, 0.6); color:#fff;text-transform: capitalize}
+.raceTabs li a:before {content:""; position:absolute; z-index:0; top:0; left:0; width:100%; height:100%; background:#000; opacity:.2;}
+.raceTabs li a span {position:relative; z-index:1;}
+.raceTabs li a.active:before {background:#e8e5df; opacity:1; border-top:1px solid #fff;}
+.raceTabs li a.active {text-shadow:0 1px 0 rgba(255, 255, 255, 0.6); color:#000;}
+.raceTabs li:first-child a {margin:0;}
+
+.card .bookieName {position:absolute; top:-20px; right:4px; display:none; font-size:10px; font-weight:normal; color:#999;}
+.collapseCard .card .bookieName {display:block;}
+
+.black-text {color: black; !important}
+.grey-text {color: grey; !important}
+
+.runnerBlock {padding:0 10px; margin:0 0 10px; background:#fff; border:1px solid #ccc; border-width:1px 0;}
+.runnerBlock {padding:0 15px 0 10px; margin:0 0 10px; background:#fff; border:1px solid #ccc; border-width:1px 0;}
+.orientationLandscap .runnerBlock {padding:0 5px;}
+.runnerBlock .runner {position:relative; padding:8px 60px 8px 0;}
+.runnerBlock .runner:after {content:""; clear:both; display:block; height:0; overflow:hidden;}
+.runnerBlock .runner .bet {position:absolute; top:3px; right:0; width:56px;}
+
+.runnerBlock .gh {display:block; padding:0 0 0 30px;}
+.runnerBlock .gh i {float:left; margin:1px 0 0 -30px;}
+.runnerBlock .gh strong {display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.runnerBlock .gh strong em {font-size:12px; font-style:normal;}
+.runnerBlock .rFoot {padding:1px 0 0; font-size:12px;}
+.runnerBlock .rFoot b {font-size:11px; font-weight:normal;}
+.runnerBlock .reserve {margin:0 2px 0 0; color:#f00;}
+.runnerBlock .pHistory {color:#808080;}
+
+.runnerBlock .info {padding:4px 0; border-top:1px solid #ccc;}
+.runnerBlock .info table {width:100%; font-size:12px;}
+.runnerBlock .info td {padding:1px 0; font-size:11px;}
+.runnerBlock .info .r {text-align:right;}
+.runnerBlock .info em {font-style:normal; color:#808080;}
+.runnerBlock .comment {padding:1px 0 4px; font-size:13px; font-style:italic;}
+
+.runnerBlock .runnerLand {width:100%; font-size:11px; font-weight:bold;}
+.runnerBlock .runnerLand td {padding:3px 4px 3px 0; vertical-align:middle;}
+.runnerBlock .runnerLand .gh {padding:1px 0 0; display:inline-block;}
+.runnerBlock .runnerLand .trap {float:left; margin:-1px 4px 0 0;}
+.runnerBlock .runnerLand .col {width:9%;}
+.runnerBlock .runnerLand .tnr {width:29%;}
+.runnerBlock .runnerLand .betSell {width:104px; text-align:right;}
+.runnerBlock .runnerLand .betSell .betButton {display:inline-block; width:64px; margin-left:6px;}
+.runnerBlock .runnerLand .betSell i {display:none;}
+
+.collapseCard .card .runnerBlock {margin:0 0 2px; padding:0 6px;}
+.collapseCard .card .runnerBlock .runner {padding:5px 51px 5px 0;}
+.collapseCard .card .runnerBlock .runner .bet {width:47px;}
+.collapseCard .card .runnerBlock .gh {position:relative; padding-right:96px;}
+.collapseCard .card .runnerBlock .gh strong {padding:7px 0 0; font-size:13px; line-height:normal;}
+.collapseCard .card .runnerBlock .gh strong em {display:none;}
+.collapseCard .card .runnerBlock .pHistory {position:absolute; top:9px; right:0; width:104px; text-align:right; font-size:11px;}
+.collapseCard .card .runnerBlock .bet {top:9px;}
+.collapseCard .card .runnerBlock .betButton i {display:none;}
+.collapseCard .card .runnerBlock .info {display:none;}
+.collapseCard .card .runnerBlock .reserve {display:none;}
+
+.runnerBlock .formGrid {width:100%; margin:2px 0 0;}
+.runnerBlock .formGrid th,
+.runnerBlock .formGrid td {padding:1px; text-align:center; font-size:11px;}
+.runnerBlock .formGrid th {white-space:nowrap; color:#808080;}
+.runnerBlock .formGrid th:first-child,
+.runnerBlock .formGrid td:first-child {padding-left:0; text-align:left;}
+.runnerBlock .formGrid th:last-child,
+.runnerBlock .formGrid td:last-child {padding-right:0; text-align:right; width: 10%;}
+.runnerBlock .formGrid th.black-text {color: black;}
+.runnerBlock .formGrid th.underlined {text-decoration: underline; cursor: pointer; }
+.runnerBlock .formGrid .c1,
+.runnerBlock .formGrid .c2,
+.runnerBlock .formGrid .c3,
+.runnerBlock .formGrid .c4,
+.runnerBlock .formGrid .c5,
+.runnerBlock .formGrid .c6,
+.runnerBlock .formGrid .c7,
+.runnerBlock .formGrid .c8 {display:none; white-space: nowrap;}
+.runnerBlock .formGrid .date {text-align: left;}
+.runnerBlock .formGrid .c2 a {color: #000; text-decoration: none;}
+.runnerBlock .formGrid .c2 a:hover {color: #3395FF; text-decoration: underline;}
+.runnerBlock .formGrid a:hover {
+    position: relative;
+}
+
+.runnerBlock .formGrid a[data-title]:hover:after {
+    content: attr(data-title);
+    margin-top: 12px;
+    font-size: 12px;
+    padding: 3px 5px;
+    color: #3395FF;
+    background-color: white;
+    border: 1px solid #3395FF;
+    position: absolute;
+    left: 45px;
+    white-space: nowrap;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 330px) {
+    .runnerBlock .formGrid.desktop .date,
+    .runnerBlock .formGrid.desktop .c0 {padding: 1px 1px 1px 22px;}
+    .runnerBlock .formGrid.desktop .videoPicture:before {content: ''; position: absolute; left: 10px; width: 15px; height: 12px; padding: 1px; background: url("/img/greyhoundbet/btn/rpgtv-btn.png") no-repeat;}
+    .runnerBlock .formGrid.desktop .date {width: 15%; visibility: visible;}
+    .runnerBlock .formGrid.desktop .track {width: 14%;}
+    .runnerBlock .formGrid.desktop .dis {width: 14%;}
+    .runnerBlock .formGrid.desktop .trp {width: 6%;}
+    .runnerBlock .formGrid.desktop .split {width: 11%;}
+    .runnerBlock .formGrid.desktop .fin {width: 6%;}
+    .runnerBlock .formGrid.desktop .sp {width: 15%;}
+    .runnerBlock .formGrid.desktop .grade {width: 9%;}
+    .runnerBlock .formGrid.desktop .cal {width: 10%;}
+}
+@media screen and (min-width: 380px) {
+    .runnerBlock .formGrid.desktop .c1 {display:table-cell;}
+    .runnerBlock .formGrid.desktop .date {width: 14%;}
+    .runnerBlock .formGrid.desktop .track {width: 12%;}
+    .runnerBlock .formGrid.desktop .dis {width: 12%;}
+    .runnerBlock .formGrid.desktop .trp {width: 6%;}
+    .runnerBlock .formGrid.desktop .split {width: 10%;}
+    .runnerBlock .formGrid.desktop .fin {width: 6%;}
+    .runnerBlock .formGrid.desktop .by {width: 8%;}
+    .runnerBlock .formGrid.desktop .sp {width: 8%;}
+    .runnerBlock .formGrid.desktop .grade {width: 8%;}
+    .runnerBlock .formGrid.desktop .cal {width: 10%;}
+}
+@media screen and (min-width: 476px) {
+    .runnerBlock .formGrid.desktop .c2 {display:table-cell; white-space: nowrap; text-align: left;}
+    .runnerBlock .formGrid.desktop .date {width: 13%;}
+    .runnerBlock .formGrid.desktop .track {width: 10%;}
+    .runnerBlock .formGrid.desktop .dis {width: 10%;}
+    .runnerBlock .formGrid.desktop .trp {width: 4%;}
+    .runnerBlock .formGrid.desktop .split {width: 9%;}
+    .runnerBlock .formGrid.desktop .fin {width: 7%;}
+    .runnerBlock .formGrid.desktop .by {width: 8%;}
+    .runnerBlock .formGrid.desktop .win {width: 21%;}
+    .runnerBlock .formGrid.desktop .sp {width: 6%;}
+    .runnerBlock .formGrid.desktop .grade {width: 5%;}
+    .runnerBlock .formGrid.desktop .cal {width: 10%;}
+}
+
+@media screen and (min-width: 514px) {
+    .runnerBlock .formGrid.desktop .c3 {display:table-cell;}
+    .runnerBlock .formGrid.desktop .date {width: 9%;}
+    .runnerBlock .formGrid.desktop .track {width: 8%;}
+    .runnerBlock .formGrid.desktop .dis {width: 8%;}
+    .runnerBlock .formGrid.desktop .trp {width: 4%;}
+    .runnerBlock .formGrid.desktop .split {width: 6%;}
+    .runnerBlock .formGrid.desktop .fin {width: 3%;}
+    .runnerBlock .formGrid.desktop .by {width: 5%;}
+    .runnerBlock .formGrid.desktop .win {width: 23%;}
+    .runnerBlock .formGrid.desktop .wt {width: 6%;}
+    .runnerBlock .formGrid.desktop .sp {width: 9%;}
+    .runnerBlock .formGrid.desktop .grade {width: 5%;}
+    .runnerBlock .formGrid.desktop .cal {width: 6%;}
+}
+
+@media screen and (min-width: 538px) {
+    .runnerBlock .formGrid.desktop .c4 {display:table-cell;}
+    .runnerBlock .formGrid.desktop .pos {width: 8%;}
+}
+
+@media screen and (min-width: 564px) {
+    .runnerBlock .formGrid.desktop .c5 {display:table-cell;}
+    .runnerBlock .formGrid.desktop .go {width: 5%;}
+}
+
+@media screen and (min-width: 588px) {
+    .runnerBlock .formGrid.desktop .c6 {display:table-cell;}
+    .runnerBlock .formGrid.desktop .wght {width: 8%;}
+}
+
+@media screen and (min-width: 758px) {
+    .runnerBlock .formGrid.desktop .c7 {display:table-cell; width: 18%; text-align: left; white-space: nowrap;}
+    .runnerBlock .formGrid.desktop .c2 {padding-left: 10px;}
+    .runnerBlock .formGrid.desktop .date {width: 6%;}
+    .runnerBlock .formGrid.desktop .track {width: 5%;}
+    .runnerBlock .formGrid.desktop .dis {width: 5%;}
+    .runnerBlock .formGrid.desktop .trp {width: 2%;}
+    .runnerBlock .formGrid.desktop .split {width: 5%;}
+    .runnerBlock .formGrid.desktop .pos {width: 4%;}
+    .runnerBlock .formGrid.desktop .fin {width: 3%;}
+    .runnerBlock .formGrid.desktop .by {width: 4%;}
+    .runnerBlock .formGrid.desktop .win {width: 16%; }
+    .runnerBlock .formGrid.desktop .rem {width: 18%;}
+    .runnerBlock .formGrid.desktop .wt {width: 8%;}
+    .runnerBlock .formGrid.desktop .go {width: 4%;}
+    .runnerBlock .formGrid.desktop .wght {width: 5%;}
+    .runnerBlock .formGrid.desktop .sp {width: 6%;}
+    .runnerBlock .formGrid.desktop .grade {width: 5%;}
+    .runnerBlock .formGrid.desktop .cal {width: 6%;}
+}
+
+/* mobile view*/
+@media screen and (min-width: 320px) {
+    .runnerBlock .formGrid.mobile .date {width: 14%; visibility: visible;}
+    .runnerBlock .formGrid.mobile .track {width: 13%;}
+    .runnerBlock .formGrid.mobile .dis {width: 13%;}
+    .runnerBlock .formGrid.mobile .trp {width: 6%;}
+    .runnerBlock .formGrid.mobile .split {width: 14%;}
+    .runnerBlock .formGrid.mobile .fin {width: 6%;}
+    .runnerBlock .formGrid.mobile .sp {width: 11%;}
+    .runnerBlock .formGrid.mobile .grade {width: 12%;}
+    .runnerBlock .formGrid.mobile .cal {width: 10%;}
+}
+@media screen and (min-width: 360px) {
+    .runnerBlock .formGrid.mobile .c1 {display:table-cell;}
+    .runnerBlock .formGrid.mobile .date {width: 10%;}
+    .runnerBlock .formGrid.mobile .track {width: 12%;}
+    .runnerBlock .formGrid.mobile .dis {width: 10%;}
+    .runnerBlock .formGrid.mobile .trp {width: 6%;}
+    .runnerBlock .formGrid.mobile .split {width: 10%;}
+    .runnerBlock .formGrid.mobile .fin {width: 6%;}
+    .runnerBlock .formGrid.mobile .by {width: 8%;}
+    .runnerBlock .formGrid.mobile .sp {width: 8%;}
+    .runnerBlock .formGrid.mobile .grade {width: 8%;}
+    .runnerBlock .formGrid.mobile .cal {width: 10%;}
+}
+@media screen and (min-width: 456px) {
+    .runnerBlock .formGrid.mobile .c2 {display:table-cell; white-space: nowrap; text-align: left;}
+    .runnerBlock .formGrid.mobile .date {width: 11%;}
+    .runnerBlock .formGrid.mobile .track {width: 10%;}
+    .runnerBlock .formGrid.mobile .dis {width: 10%;}
+    .runnerBlock .formGrid.mobile .trp {width: 4%;}
+    .runnerBlock .formGrid.mobile .split {width: 9%;}
+    .runnerBlock .formGrid.mobile .fin {width: 7%;}
+    .runnerBlock .formGrid.mobile .by {width: 8%;}
+    .runnerBlock .formGrid.mobile .win {width: 21%;}
+    .runnerBlock .formGrid.mobile .sp {width: 6%;}
+    .runnerBlock .formGrid.mobile .grade {width: 5%;}
+    .runnerBlock .formGrid.mobile .cal {width: 10%;}
+}
+
+@media screen and (min-width: 497px) {
+    .runnerBlock .formGrid.mobile .c3 {display:table-cell;}
+    .runnerBlock .formGrid.mobile .date {width: 9%;}
+    .runnerBlock .formGrid.mobile .track {width: 8%;}
+    .runnerBlock .formGrid.mobile .dis {width: 8%;}
+    .runnerBlock .formGrid.mobile .trp {width: 4%;}
+    .runnerBlock .formGrid.mobile .split {width: 6%;}
+    .runnerBlock .formGrid.mobile .fin {width: 3%;}
+    .runnerBlock .formGrid.mobile .by {width: 5%;}
+    .runnerBlock .formGrid.mobile .win {width: 23%;}
+    .runnerBlock .formGrid.mobile .wt {width: 6%;}
+    .runnerBlock .formGrid.mobile .sp {width: 9%;}
+    .runnerBlock .formGrid.mobile .grade {width: 5%;}
+    .runnerBlock .formGrid.mobile .cal {width: 6%;}
+}
+
+@media screen and (min-width: 518px) {
+    .runnerBlock .formGrid.mobile .c4 {display:table-cell;}
+    .runnerBlock .formGrid.mobile .pos {width: 8%;}
+}
+
+@media screen and (min-width: 544px) {
+    .runnerBlock .formGrid.mobile .c5 {display:table-cell;}
+    .runnerBlock .formGrid.mobile .go {width: 5%;}
+}
+
+@media screen and (min-width: 568px) {
+    .runnerBlock .formGrid.mobile .c6 {display:table-cell;}
+    .runnerBlock .formGrid.mobile .wght {width: 8%;}
+}
+
+@media screen and (min-width: 736px) {
+    .runnerBlock .formGrid.mobile .c7 {display:table-cell; width: 18%; text-align: left; white-space: nowrap;}
+    .runnerBlock .formGrid.mobile .c2 {padding-left: 10px;}
+    .runnerBlock .formGrid.mobile .date {width: 5%;}
+    .runnerBlock .formGrid.mobile .track {width: 5%;}
+    .runnerBlock .formGrid.mobile .dis {width: 5%;}
+    .runnerBlock .formGrid.mobile .trp {width: 2%;}
+    .runnerBlock .formGrid.mobile .split {width: 5%;}
+    .runnerBlock .formGrid.mobile .pos {width: 4%;}
+    .runnerBlock .formGrid.mobile .fin {width: 3%;}
+    .runnerBlock .formGrid.mobile .by {width: 4%;}
+    .runnerBlock .formGrid.mobile .win {width: 16%; }
+    .runnerBlock .formGrid.mobile .rem {width: 18%;}
+    .runnerBlock .formGrid.mobile .wt {width: 8%;}
+    .runnerBlock .formGrid.mobile .go {width: 4%;}
+    .runnerBlock .formGrid.mobile .wght {width: 5%;}
+    .runnerBlock .formGrid.mobile .sp {width: 6%;}
+    .runnerBlock .formGrid.mobile .grade {width: 5%;}
+    .runnerBlock .formGrid.mobile .cal {width: 6%;}
+}
+
+.runnerBlock .formGrid .a {width:11.6%;}
+.runnerBlock .formGrid .b {width:13%;}
+.runnerBlock .formGrid .c {width:9.8%;}
+.runnerBlock .formGrid .d {width:7.2%;}
+.runnerBlock .formGrid .h {display:none;}
+
+.runnerBlock .formGrid a {text-decoration: underline; color: #3395FF;}
+.videoLink  {color: #cb2a27 !important;}
+
+.orientationLandscape .runnerBlock .formGrid .a {width:7.6%;}
+.orientationLandscape .runnerBlock .formGrid .b {width:8.3%;}
+.orientationLandscape .runnerBlock .formGrid .c {width:6.5%;}
+.orientationLandscape .runnerBlock .formGrid .d {width:4.7%;}
+.orientationLandscape .runnerBlock .formGrid .e {width:28%; text-align: left;}
+.orientationLandscape .runnerBlock .formGrid .h {display:table-cell;}
+
+.runnerBlock .pedigree {width:100%; margin:0 0 6px;}
+.runnerBlock .pedigree td {padding:6px 0; font-size:12px; border-top:1px solid #d6cfbd;}
+.runnerBlock .pedigree tr:first-child td {border:none;}
+.runnerBlock .pedigree td:last-child {text-align:right;}
+
+.runnerBlock .headline {margin:0 -10px 4px; font-size:12px;}
+
+/**/
+.statsList {overflow:hidden; position:relative;}
+.statsList ul {
+-moz-transition:-moz-transform 500ms ease-out;
+-webkit-transition:-webkit-transform 500ms ease-out;
+transition:transform 500ms ease-out;
+-webkit-backface-visibility: hidden;
+position:relative; height:310px; clear:both; padding:10px 0; white-space: nowrap; margin-left: 10px; margin-right: 10px; display: inline-block;}
+
+.desktopPC .statsList {
+    margin-right: 10px;
+}
+
+.desktopPC .statsList ul {
+    -moz-transition:-moz-transform 500ms ease-out;
+    -webkit-transition:-webkit-transform 500ms ease-out;
+    transition:transform 500ms ease-out;
+    -webkit-backface-visibility: hidden;
+    position:relative;
+    height: auto;
+    clear:both;
+    padding:10px 0;
+    white-space: nowrap;
+    margin: 0px 0px 15px 10px;
+    display: inline-block;
+}
+
+.desktopPC .statsList  .iScrollHorizontalScrollbar,
+.desktopPC .statsList  .iScrollIndicator {
+    height: 15px;
+}
+
+.desktopPC .statsList  .iScrollHorizontalScrollbar {
+    margin-left: 10px;
+}
+
+.statsList ul:after {content:""; clear:both; display:block; height:0; overflow:hidden;}
+.statsList ul > li {position:relative; top:10px; left:0; white-space:normal; margin-left: 10px; vertical-align:top; display:inline-block; width:256px; min-height:251px; padding:10px 11px 3px; background:#fff; border:1px solid #ccc; -webkit-transform: translateZ(0px);}
+.statsList ul > li:first-child {margin-left: 0; width:266px;}
+.statsList h4 {font-size:12px; text-align:center;}
+.statsList p {padding:4px 0 0; font-size:11px;}
+
+.statsList ol {padding:8px 0 0; margin:6px 0 0; border-top:1px solid #ccc;}
+.statsList ol li {position:relative; height:22px; margin:0 0 7px; overflow:hidden; padding:0 62px 0 22px;}
+.statsList ol em {position:absolute; top:0; left:0; padding:2px; background:#fff; border:1px solid #ccc;}
+.statsList ol em i {display:block;}
+
+.bar {position:relative; float:left; padding:0 8px 0 0; margin:0 -8px 0 0; height:22px; background:url(/img/greyhoundbet/furniture/bar-arrow-spr.png) no-repeat 100% 0;}
+.bar strong {position:absolute; top:3px; left:0; width:40px; padding-left:4px; margin-left:100%; font-size:12px;}
+.bar .bar {background-position:100% 100%;}
+.barVal {height:100%; background-color:#00b3ff;}
+.bar .bar .barVal {background-color:#1b58a6;}
+.barnoVal {position:relative; float:left; padding:0; margin:0 -8px 0 0; height:22px;}
+.barnoVal strong {position:absolute; top:3px; left:0; width:40px; padding-left:4px; margin-left:100%; font-size:12px;}
+
+/**/
+.tipsGrid {width:100%; margin:10px 0;}
+.tipsGrid th,
+.tipsGrid td {padding:0 3px;}
+.tipsGrid th:first-child,
+.tipsGrid td:first-child {padding-left:8px;}
+.tipsGrid tr th:last-child,
+.tipsGrid tr td:last-child {white-space:nowrap;}
+.tipsGrid th {font-size:12px; font-weight:normal;}
+.tipsGrid td {padding-top:6px; padding-bottom:6px; border:1px solid #ccc; border-width:1px 0; background:#fff; font-size:12px; vertical-align:middle;}
+.tipsGrid .otherRaces {background:none; font-size:14px; text-shadow:0 1px #fff; text-align:center;}
+.tipsGrid .stars,
+.tipsGrid .stars div {height:11px; background:url(/img/greyhoundbet/furniture/rating-stars.png) no-repeat 0 100%;}
+.tipsGrid .stars {width:55px; margin-left:5px;}
+.tipsGrid .stars div {background-position:0 0;}
+
+.tipsGrid .star0 {
+    width: 0px;
+}
+.tipsGrid .star1 {width:11px;}
+.tipsGrid .star2 {width:22px;}
+.tipsGrid .star3 {width:33px;}
+.tipsGrid .star4 {width:44px;}
+.tipsGrid .star5 {width:55px;}
+
+/* */
+.ghName {padding:10px 40px 10px 50px; font-size:25px; font-weight:normal; text-shadow:0 1px #fff;}
+.ghName .bigTrap {float:left; margin-left:-40px;}
+
+.ghName .circleBtn {left:inherit; top:10px; right:10px; display:block;}
+
+.ghStats li {clear:both; padding:8px 62px 8px 0; border-top:1px solid #d6cfbd;}
+.ghStats li:first-child {border:none;}
+.ghStats li:after {content:""; clear:both; display:block; height:0; overflow:hidden;}
+.ghStats h4 {margin:0 0 4px; font-size:12px; font-weight:normal;}
+
+.dog .headline {text-transform:uppercase;}
+
+.formExplainedImage {height:300px; background-repeat:no-repeat; background-position:50% 16px;}
+.orientationPortrait .formExplainedImage {background-image:url(/img/greyhoundbet/form-explained/portrait.png);}
+.orientationLandscape .formExplainedImage {background-image:url(/img/greyhoundbet/form-explained/landscape.png);}
+
+.whRadioBtn {background:url(/img/greyhoundbet/btn/radio-btn-spr2.png) no-repeat 10px 5px;}
+.whRadioBtn.pause {background-position:10px -105px;}
+.raceTitle .b2v {background:url(/img/greyhoundbet/btn/rpgtv-btn.png) no-repeat 10px 3px;}
+
+/* Trap draws */
+.trap-draws-races .racePager h3 {margin:20px 0 0; font-size:34px;}
+
+.trapDrawsBox {padding:0 0 10px;}
+.trapDrawsBox .raceTitle .button {max-width:100%; -webkit-box-sizing:border-box; box-sizing:border-box;}
+.trapDrawsBox li {display:table; width:100%; margin:2px 0; background:#fff; border:1px solid #d5d4d1; border-width:1px 0;}
+.trapDrawsBox li span {display:table-cell; padding:5px 0 5px 10px; vertical-align:middle;}
+.trapDrawsBox li span:first-child {width:1px;}
+.trapDrawsBox li span:last-child {padding-right:10px; text-align:right; font-size:14px;}
+.trapDrawsBox li .name {font-weight:bold; font-size:17px;}
+.trapDrawsBox li .name sub {font-size:14px; vertical-align:baseline;}
+.trapDrawsBox .raceTitle .race-title {padding: 0 38px 0 0;}
+.trapDrawsBox .raceTitle .race-title.IRE {padding: 0 65px 0 0;}
+
+.desktopPC .trapDrawsBox li span:last-child {
+    padding-right: 18px;
+    text-align: right;
+    font-size: 14px;
+}
+
+#desktopRadioContainer .mejs-container{
+    width: 1px !important;
+    height: 1px !important;
+    position: absolute !important;
+}
+
+.card-video {background-color: black;}
+.card-video .playerContainer {display: block;}
+.card-video .playerContainer iframe {width: 488px; height: 348px; overflow: hidden; margin: 0 auto;}
+.card-video .playerContainer .mejs-container {margin: 0 auto;}
+
+#desktopRadioContainer .mejs-overlay-button {
+    width: 1px !important;
+    height: 1px !important;
+}
+
+#desktopRadioContainer .mejs-container .mejs-controls {
+    height: 1px !important;
+}
+
+.doPrint {
+	position: absolute;
+	left: 40px;
+	display: none;
+	padding: 3px 12px;
+	border: 1px solid #007aff;
+	border-radius: 12px;
+	font-size: 12px;
+	color: #333;
+	cursor: pointer;
+}
+.imgPrint {
+	display: none;
+}
+.webAppPageContent {
+	overflow: hidden;
+}
+.printableDesign {
+	visibility: hidden;
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+}
+.headerDate {
+	display: none;
+}
+.headerRaceDetails {
+	display: none;
+}
+.runner .dogDetails {
+	display: none;
+	font-size: 0.8pt;
+}
+.runner .brtAndTrainer {
+	display: none;
+	font-size: 0.8pt;
+}
+.printHeader {
+	display: none;
+}
+.printContainer {
+	display: none;
+}
+
+.desktopPC .cardAdContainer {
+    display: none;
+}
+@media (min-width: 500px){
+    .enablePrint .doPrint {display:inline-block;}
+}
+
+@media (min-width: 1140px) {
+   .desktopPC .cardAdContainer {
+       display: block;
+       width: 468px;
+       margin: 0 auto 10px auto;
+   }
+}
+
+.pageHeader .btnPredictor {display:block;}
+
+.predictor .webAppPageContent {padding:0;}
+.predictor .pageLoading {padding-top:52px;}
+
+/* Portrait styles */
+.predictorPortrait {position:relative; background: #282828;}
+.predictorPortrait .hpHeader {padding:8px 14px 10px; text-align:right;}
+.predictorPortrait .btn {width:60px;}
+.predictorPortrait p {position:absolute; top:50%; left:50%; margin:-142px 0 0 -122px; width:244px; height:70px; padding:228px 0 0; background:url(/img/greyhoundbet/predictor/portrait.png) no-repeat 0 0; font-size:18px; line-height:140%; text-align:center; text-shadow:0 -1px 0 #000; color:#fff;}
+
+.predictorPortraitHeader {padding:8px 14px 10px; text-align:right; background: #282828;}
+
+.dogPredictor {background:url(/img/greyhoundbet/predictor/bg.jpg) no-repeat #1e2327; background-size:100% 100%;}
+
+.predictorHeader {position:absolute; top:0; left:0; width:100%; height:44px; border-top: grey solid 1px; background: #282828;}
+.predictorHeader h1 {margin:0 60px; text-align:center; font-size:15px; line-height:44px; color:#fff;}
+
+
+.predictorList {position:absolute; bottom:0; left:0; width:100%; height:65%;}
+.predictorList.big-dogs-size {height:70%; padding-bottom: 20px;}
+.predictorList.eightDogList {height:74%;}
+.predictorList li {position:relative; height:16.67%; padding-right: 64px;}
+.predictorList.eightDogList li {height:12%;}
+
+/*.predictorHeader {*/
+
+/*}*/
+/*.predictorHeader .btnBack span {*/
+    /*position: absolute;*/
+    /*top:7px;*/
+    /*right: 4px;*/
+    /*padding: 1px 7px 0;*/
+    /*line-height: 26px;*/
+    /*margin:0 2px 0 3px;*/
+    /*font-size: 16px;*/
+    /*color: #007aff;*/
+    /*font-family:Tahoma,Geneva,Helvetica,Arial,sans-serif;*/
+    /*text-align:center;*/
+    /*white-space:nowrap;*/
+    /*display:inline-block;*/
+    /*cursor:pointer;*/
+/*}*/
+
+
+@media (max-width: 640px) {
+    .predictorList.eightDogList .betButton strong {height:22px; line-height:22px;}
+}
+@media (max-width: 480px) {
+    .predictorList.eightDogList .betButton strong {height:19px; line-height:19px;}
+}
+
+.predictorList .track {position:relative; height:100%;}
+.predictorList .bet {position:absolute; top:50%; right:7px; width:56px; height:24px; margin:-16px 0 0;}
+.predictorList .bet i {display:none;}
+.predictorList .gh {position:absolute; top:50%; right:100%; width:106px; height:46px; margin:-20px 0 0; background:url(/img/greyhoundbet/predictor/gh-spr.png) no-repeat 0 0;}
+.predictorList.big-dogs-size .gh {top:35%; right:100%; width:150px; height:70px; background:url(/img/greyhoundbet/predictor/gh-big-spr.png) no-repeat 0 0;}
+.predictorList .gh2 {background-position:0 -106px;}
+.predictorList .gh3 {background-position:0 -211px;}
+.predictorList .gh4 {background-position:0 -316px;}
+.predictorList .gh5 {background-position:0 -421px;}
+.predictorList .gh6 {background-position:0 -527px;}
+.predictorList .gh7 {background-position:0 -632px;}
+.predictorList .gh8 {background-position:0 -737px;}
+
+.predictorList.big-dogs-size .gh2 {background-position:0 -70px;}
+.predictorList.big-dogs-size .gh3 {background-position:0 -140px;}
+.predictorList.big-dogs-size .gh4 {background-position:0 -210px;}
+.predictorList.big-dogs-size .gh5 {background-position:0 -280px;}
+.predictorList.big-dogs-size .gh6 {background-position:0 -350px;}
+.predictorList.big-dogs-size .gh7 {background-position:0 -420px;}
+.predictorList.big-dogs-size .gh8 {background-position:0 -490px;}
+.result-meeting, 
+.result-meeting-result,
+.results-latest,
+.results-form-explained {background:#e7e4de;}
+
+/* Results */
+.resultsList {}
+.resultsList .container {border-color:#CCC; border-style:solid; border-width:1px 0; background:#fff; padding:8px 10px 5px; margin:5px 0;}
+.resultsList .title {margin-top:-3px; margin-bottom:4px;}
+.resultsList .title h4 {font-weight:bold; font-size:13px; text-transform:capitalize;}
+.resultsList .meeting {display:block; background:url(/img/greyhoundbet/furniture/grey-right-arrow.gif) no-repeat 100% 50%; margin-right:-10px; padding-right:10px;}
+.desktopPC .resultsList .meeting {display:block; background:url(/img/greyhoundbet/furniture/grey-right-arrow.gif) no-repeat 100% 50%; margin-right:-5px; padding-right:10px;}
+
+.resultsList .results {font-size:13px; font-weight:bold; border-bottom:1px solid #CCC; padding-right:32px; padding-bottom:9px; margin-bottom:8px;}
+.resultsList .results .time {display:table-cell; vertical-align:middle;}
+.resultsList .results .time.b2v {background: url(/img/greyhoundbet/btn/rpgtv-btn.png) no-repeat 50% 39px}
+.resultsList .results .time.b2v.deadheats {background-position: 50% 47px}
+.resultsList .results .places {display:table-cell; padding-left:15px;}
+.resultsList .results .places .row {line-height:15px; padding:1px 0; font-weight:normal;}
+.resultsList .results .places .row.first {font-weight:bold;}
+.resultsList .results .places .place {display:inline-block; width:23px;}
+.resultsList .results .places .name { }
+.resultsList .results .places .trap {margin:0 3px;}
+
+.resultsList .bottom {font-size:12px; line-height:16px; color:#7F7F7F; padding-bottom:1px;}
+.resultsList .bottom .comment {padding-bottom:2px;}
+.resultsList .bottom .cols {line-height:19px; padding-bottom:1px;}
+.resultsList .bottom .col {float:left; width:50%;}
+.resultsList .bottom .col .holder {padding-right:5px;}
+.resultsList .bottom .col .head {float:left; font-weight:normal; padding-right:2px;}
+.resultsList .bottom .col .content {display:table;}
+.resultsList .bottom .col .content .data {display:block;}
+
+.resultsList .voidContainer { padding-top:26px; padding-bottom:21px;}
+.resultsList .voidContainer .results { border-bottom:none; margin-bottom:0;}
+.resultsList .voidContainer .results .row { font-size:18px;}
+
+/* Meeting Results */
+.meetingResultsList {}
+.meetingResultsList .container {border-color:#CCC; border-style:solid; border-width:1px 0; background:#fff; padding:4px 10px 5px; margin-bottom:5px;}
+.meetingResultsList .details {display:block; background:url(/img/greyhoundbet/furniture/grey-right-arrow.gif) no-repeat 100% 50%; margin-right:-10px; padding-right:32px;}
+.desktopPC .meetingResultsList .details {display:block; background:url(/img/greyhoundbet/furniture/grey-right-arrow.gif) no-repeat 100% 50%; margin-right:-5px; padding-right:32px;}
+
+.meetingResultsList .result {}
+.meetingResultsList .result .place {display:table-cell; vertical-align:middle; padding-right:7px; font-size:22px; font-weight:bold;}
+.meetingResultsList .result .place sup {font-size:12px; font-weight:normal; color:#808080; vertical-align:top;}
+.meetingResultsList .result .info {display:table-cell; width:100%; font-size:12px;}
+.meetingResultsList .result .bigTrap {float:left; margin:5px 0 0 -34px;}
+.meetingResultsList .result .holder {padding-left:34px; padding-bottom:8px;}
+.meetingResultsList .result .name {font-size:16px; font-weight: bold; padding-bottom:2px;}
+.meetingResultsList .result .name em {font-size:12px; font-style:normal;}
+.meetingResultsList .result .cols {clear:none;}
+.meetingResultsList .result .cols .col {float:left; width:20%; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.meetingResultsList .result .cols .col3 {width:60%;}
+.meetingResultsList .bottom {border-top:1px solid #CCC; padding-top:5px; padding-bottom:2px;}
+.meetingResultsList .result .comment {font-style:italic;}
+
+.meetingResultsList .commentsContainer {font-size:12px; padding:9px 42px 9px 39px; margin-bottom:5px;}
+.meetingResultsList .commentsContainer .comment {padding-bottom:2px;}
+.meetingResultsList .commentsContainer .cols {line-height:19px; padding-bottom:2px;}
+
+
+.result-video .scrollContent {background-color: black}
+.result-video .playerContainer {display: block;}
+.result-video .playerContainer iframe {width: 497px; height: 348px; overflow:hidden; margin: 0 auto;}
+.result-video .playerContainer .mejs-container {margin: 0 auto;}
+.result-video .playerContainer .mejs-fullscreen-button {float: right;}
+.result-video .me-cannotplay span {display: none;}
+
+.archiveDetails {
+    margin-top: 10px;
+    cursor: default;
+}
+
+.archiveResultsList {
+    max-width: 480px;
+    background: white;
+    margin: auto;
+}
+
+.archiveRaceTitle {
+
+    max-width: 480px;
+    margin: auto;
+    background-color: #CCC;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.archiveResultsList .result {
+    border-top: 1px solid;
+    border-color: #CCC;
+
+}
+.archiveResultsList .result .place {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 7px;
+    font-size: 22px;
+    font-weight: bold;
+    min-width: 25px;
+}
+
+.archiveResultsList .result .place sup {
+    font-size: 12px;
+    font-weight: normal;
+    color: #808080;
+    vertical-align: top;
+}
+
+.archiveResultsList .result .info {
+    display: table-cell;
+    width: 100%;
+    font-size: 12px;
+}
+
+.archiveResultsList .result .bigTrap {
+    float: left;
+    margin: 5px 0 0 -34px;
+}
+
+.archiveResultsList .result .holder {
+    padding-left: 34px;
+    line-height: 36px;
+}
+
+.archiveResultsList .result .name {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.archiveResultsList .result .name em {
+    font-size:12px;
+    font-style:normal;
+}
+
+.archiveResultsList .result .cols {
+    clear:none;
+}
+
+.archiveResultsList .result .cols .col {
+    text-align: right;
+    font-size: 14px;
+    float:left;
+    width:20%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.archiveResultsList .result .cols .col2 {
+    padding-right: 40%;
+}
+.archiveResultsList .result .cols .col1 {
+    text-align:  center;
+}
+@media (min-width: 1000px) {
+	.col3 .meeting-result-trainer  {
+		display: none;
+	}
+	.col3 .meeting-result-t  {
+		display: inline;
+	}
+	.col3 .meeting-result-trainer.wide-laptop-display  {
+		display: inline;
+	}
+	.col3 .meeting-result-t.wide-laptop-display  {
+		display: none;
+	}
+    .col-sp {
+	    display: block;
+	    float: right;
+	    width: 20%;
+	    box-sizing: border-box;
+	    padding-left: 25px;
+    }
+	.meetingResultsList .commentsContainer .col {float:left; width:40%;}
+    .col.side.sp {
+	    padding-left: 40px;
+	    box-sizing: border-box;
+    }
+}
+@media (max-width: 999px) {
+	.col3 .meeting-result-trainer  {
+		display: none;
+	}
+	.col3 .meeting-result-t  {
+		display: inline;
+	}
+	.meetingResultsList .commentsContainer .col {float:left; width:50%;}
+	.col-sp {
+		display: none;
+	}
+}
+
+.wh-betslip-greyhound,
+.wh-receipt,
+.wh-market-suspend-error,
+.wh-price-changed-error,
+.wh-generic-error {background:url(/img/web-app/furniture/wood-tile.jpg) repeat 0 0 #9a582a;}
+
+/* Betslip */
+/*.betslipWrapper {background:url(/img/web-app/furniture/wood-tile.jpg) repeat 0 0 #9a582a;}*/
+
+.minifyBetDetail .toggleBetDetails {background-position: 100% 1px;color: #059c05;}
+.toggleBetDetails {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	padding: 0 16px 0 0;
+	margin: -8px 0 0;
+	background: url(/img/web-app/furniture/expand-spr.png) no-repeat 100% -50px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #db0c00;
+	cursor: pointer;
+}
+#betList .redHeadline, #betList .blueHeadline{
+	padding: 4px 0;
+	margin: 0 -10px 18px;
+	background: #de1600;
+	border: none;
+	text-align: center;
+	text-shadow: none;
+	color: #fff;
+}
+#betList .blueHeadline {background: #1a4a67;}
+.minifyBetDetail .more {display: none;}
+
+.no-margin {
+	margin-left: 0 !important;
+}
+
+
+.account-home,
+.account-form-lines,
+.account-sort-by,
+.account-odds,
+.account-customise,
+.wh-home,
+.wh-terms,
+.wh-register,
+.wh-forgotten-password,
+.wh-free-bets-offer,
+.wh-help-info,
+.wh-account-home,
+.wh-open-bets,
+.wh-withdraw,
+.wh-bet-detail,
+.wh-top-up,
+.video-home,
+.connectivity-check,
+.wh-user,
+.ladb-user,
+.wh-account-home,
+.ladb-account-home,
+.ladb-open-bets,
+.ladb-withdraw,
+.ladb-gambling-details,
+.wh-gambling-details {background:#e8e5df;}
+
+.account {padding:10px 10px 20px; color:#333;}
+.desktopPC .account {padding:10px 17px 20px 10px; color:#333;}
+
+.account p {margin:12px 0; font-size:15px;}
+.account h3 {padding-left:10px; margin:8px 0 10px; font-size:17px;}
+.account .whHeadline, .account .ladbHeadline {margin: 0;}
+.ladb-withdraw .account .bookeiHeadlineCenter, .wh-withdraw .account .bookeiHeadlineCenter {margin: -10px -10px 16px;border-radius: 0;}
+.ladb-open-bets .account .bookeiHeadlineCenter, .wh-open-bets .account .bookeiHeadlineCenter {margin: 0 -10px 0;border-radius: 0;}
+
+.wh-account-home .account li:first-child,.ladb-account-home .account li:first-child {padding: 0;}
+
+/*.account h4 {padding:14px 0 10px 12px;}*/
+.account h5 {margin:20px 0 10px; font-size:15px; font-weight:normal; text-align:center;}
+
+/* wh logo */
+.betLogo {margin:10px 0 18px;}
+.betLogo img {width:119px; display:block; margin:0 auto;}
+.betLogo img.noInfo {width:92px;}
+
+.account p,
+.account h4,
+.account h5,
+.account h3,
+.account ol.functions li,
+.account .offerFaq {text-shadow:0 1px 0 #fff; color:#333;}
+
+.account .leftSpace {padding-left:12px;}
+.account .note {font-size:12px;}
+.account .topText {margin: 6px 0 10px;text-align: center;}
+
+.account .userBookiesList {margin: 0 0 18px;}
+.userBookiesList {border: 1px solid #b2b2b2;-webkit-border-radius: 9px;border-radius: 9px;color: #fff;}
+.userBookiesList li {height: 42px;padding: 0 10px;border-top: 1px solid #b2b2b2;cursor: pointer;}
+.userBookiesList li:first-child {border: none;-webkit-border-radius: 9px 9px 0 0;border-radius: 9px 9px 0 0;}
+.userBookiesList li:last-child {-webkit-border-radius: 0 0 9px 9px;border-radius: 0 0 9px 9px;}
+.userBookiesList .wh {background-color: #1a4a67;}
+.userBookiesList .ladb {
+    background: #d52b1e;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#561301), color-stop(50%,#d52b1e));
+    background: -webkit-linear-gradient(left, #561301 0%,#d52b1e 50%);
+    background: -ms-linear-gradient(left, #561301 0%,#d52b1e 50%);
+    background: linear-gradient(to right, #561301 0%,#d52b1e 50%);
+}
+.userBookiesList .colA {border-right: 1px solid #1e4055;width: 51%}
+.userBookiesList .colB {border-left: 1px solid #53778d;width: 49%;}
+.userBookiesList .ladb .colA {border-right-color: #a81c0c;}
+.userBookiesList .ladb .colB {border-left-color: #e65040;}
+.userBookiesList .colB a {display: block;width: 100%;height: 40px;padding: 2px 20px 0 10px;background: url(/img/web-app/furniture/white-arrow.png) no-repeat 100% 50%;
+font-size: 15px;text-align: right;color: #fff;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.userBookiesList .colB a * {display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.userBookiesList .colA, .userBookiesList .colB {float: left;height: 42px;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+.userBookiesList .logo {position: relative;float: left;margin: 8px 0 0;}
+.userBookiesList .tick .logo:after {content: "";position: absolute;top: 4px;right: -15px;width: 18px;height: 17px;background: url(/img/web-app/furniture/white-tick.png) no-repeat 0 0;}
+.bookieLogo, .whLogo, .ladbLogo {width: 116px;height: 23px;background: url(/img/multiplebets/bookie-logos.png) no-repeat 0 0;}
+.ladbLogo, .pref_ladb .bookieLogo {background-position: 0 -37px;}
+.userBookiesList .bookieInfo {line-height: 42px;font-weight: normal;font-size: 14px;float: right;height: 42px;line-height: 42px;}
+
+
+.accountText p {font-size:14px; margin:20px 0;}
+
+.accountText .textGrid {width:100%; font-size:14px;}
+.accountText .textGrid th,
+.accountText .textGrid td {padding:5px 0;}
+.accountText .textGrid th {font-weight:normal;}
+
+.account .nameAndPass div {padding:3px 12px; margin:0 0 18px; background:#fff; border:1px solid #647791; border-radius:4px;
+-webkit-box-shadow:inset 0 2px 2px rgba(188,188,188, .6);
+box-shadow:inset 0 2px 2px rgba(188,188,188, .6);}
+.account .nameAndPass input {width:100%; padding:0; border:1px solid #fff; -webkit-appearance:none; outline:none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);}
+.account .nameAndPass input[type=submit] {opacity:0; width:1px; height:1px;}
+
+.saveUserAccount {width:100%;}
+.saveUserAccount th,
+.saveUserAccount td {width:50%; padding:0 0 20px; vertical-align:middle;}
+.saveUserAccount th {padding-left:12px; font-weight:normal; text-align:left;}
+.saveUserAccount td {text-align:right;}
+
+.account .loginBtn {padding:10px 0 30px;}
+
+/* Main list content with round corners */
+.listMenu {margin:0 0 18px; background:#fff; border:1px solid #b2b2b2; border-radius:8px; font-weight:bold; font-size:17px; color:#000;}
+.listMenu li {position:relative; padding:12px 10px; border-top:1px solid #b2b2b2;}
+.listMenu li:after {content:"."; display:block; clear:both; visibility:hidden; height:0; overflow:hidden;}
+.listMenu li:first-child {border-top:none;}
+.listMenu li.disabled {z-index:20; opacity:0.5;}
+.listMenu a {margin:-12px -10px; padding:12px 32px 12px 10px; display:block; background:url(/img/web-app/furniture/grey-right-arrow.gif) no-repeat 100% 50%; text-decoration:none; color:#000;}
+.listMenu a.noArrow {background: none;padding: 12px 12px 12px 10px;}
+.listMenu .switchBtnSimple {padding-right:105px;}
+
+.listMenu .right {float:right; font-weight:normal; font-size:16px; color:#425d8d; text-align:right; width:46%; text-overflow: ellipsis; overflow: hidden;}
+.listMenu .balance {font-weight:bold; color:#000;}
+.listMenu .bokeeiLogo {position:absolute; top:9px; right:32px;}
+
+.listMenu .switchBtn {position:absolute; top:8px; right:10px;}
+
+.listMenu .textInput {position:absolute; top:8px; right:10px; border:2px solid #1883d1; border-radius:3px;}
+.listMenu .textInput input {width:54px; padding:1px 2px; margin:0; border:none; background:#fff; text-align:right; -webkit-appearance:none; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);}
+
+.listMenu li.tick {background:url(/img/web-app/furniture/settings-tick.png) no-repeat 100% 50%;}
+
+.account .addedTick {clear:both; float:right; padding:10px 26px 0 0; font-weight:normal; background:url(/img/web-app/furniture/green-tick.png) no-repeat 100% 8px; font-size:14px; color:#808080;}
+
+/* Self Test */
+.selfTestMenu li {position:relative;}
+.selfTestMenu li em {display:block; padding:2px 0 0; font-style:normal; font-weight:normal; font-size:13px; color:#324f85;}
+.selfTestMenu .status {position:absolute; top:50%; right:10px; width:25px; height:25px; margin:-12px 0 0; background:url(/img/web-app/furniture/self-test-fail.png) no-repeat;}
+.selfTestMenu .status.ok {background-image:url(/img/web-app/furniture/self-test-success.png);}
+.selfTestMenu .testImage {position:absolute; top:0; left:-10000px;}
+
+/* Open Bets list */
+.openBetsList {font-size:14px; font-weight:normal;}
+.openBetsList li {margin:0 0 18px; background:#fff; border:1px solid #b2b2b2; -webkit-border-radius:8px; border-radius:8px;}
+.openBetsList .betHead {position:relative; padding:6px 50px 6px 10px; border-top:1px solid #e6e6e6;}
+.openBetsList .betHead:first-child {border:none;}
+.openBetsList .betHead strong {display:block; padding:0 0 4px; font-size:14px;}
+.openBetsList .betHead em {display:block; font-size:12px; font-style:normal; color:#8f8f8f;}
+.openBetsList .betHead .res {position:absolute; top:50%; right:10px; height:20px; margin:-10px 0 0; line-height:20px; font-size:12px;}
+
+.openBetsList .important {color:#059d05;}
+
+#betList {padding-top:0;}
+#betList .redHeadline {margin:0 -10px 18px; text-align:center;}
+
+#betsQty {text-align:center; font-size:12px; font-weight:bold; color:#a8a7a4;}
+
+/* Bubble with round corner */
+.account .linkedWrapper {margin-top:20px; text-align:center;}
+
+.account .linkedBlock {padding:15px 10px; margin:0 0 16px; display:inline-block; background-color:#fff; border:1px solid #b2b2b2; border-radius:10px; text-decoration:none; text-align:left; color:#000; font-weight:bold;}
+
+.account .linkedPhone,
+.account .linkedWeb,
+.account .linkedBull {padding-right:32px; display:block; background:url(/img/web-app/furniture/grey-right-arrow.gif) no-repeat 100% 50% #fff;}
+
+.account .linkedPhone span {padding:2px 0 2px 36px; background:url(/img/web-app/furniture/btn-icon-phone.png) no-repeat 0 50%;}
+.account .linkedWeb span {padding:2px 0 2px 36px; background:url(/img/web-app/furniture/btn-icon-web.png) no-repeat 0 50%;}
+
+.account .forgotPassword,
+.account .noAccount {float:left; width:44%; padding:10px 5px; margin:0; text-align:center;}
+.account .noAccount {float:right;}
+
+/* Bet detais */
+.account .receiptId {margin:6px 0 16px; text-align:center; font-size:15px; font-weight:normal;}
+
+.betDetail {padding:2px 10px 4px; border-top:1px solid #e6e6e6; font-size:12px;}
+.betDetail table {width:100%;}
+.betDetail th,
+.betDetail td {padding:2px 0; vertical-align:middle;}
+.betDetail th {font-weight:normal;}
+.betDetail td {text-align:right;}
+
+/* wh-free-bets-offer */
+.account .offerFaq {margin:10px 0; font-size:15px;}
+.account .offerFaq dt {font-weight:bold;}
+.account .offerFaq dd {margin:0 0 10px;}
+.account .freeBetImage {margin-top:20px; text-align:center;}
+.account .freeBetImage img {width:300px; height:84px; border:1px solid #000; border-radius:10px;}
+
+/* Help & Info */
+.account ol.functions {margin-bottom:15px; font-size:14px;}
+.account ol.functions li {padding:2px 0; list-style-type:disc; list-style:inside;}
+
+/* Top up */
+.paymentHeadline {text-align:center;}
+.paymentHeadline span {padding:4px 0 0; display:block; font-size:14px; font-weight:normal;}
+
+.wh-top-up .account .listMenu {margin:0 0 10px;}
+.account .btnDeposit {margin:20px auto 24px;}
+
+.account .pcf li {display: inline-block; box-sizing: border-box; vertical-align: top;}
+.account .pcf .pcf_checkbox {position: absolute; z-index: 1;}
+.account .pcf .pcf_text {position: relative; padding: 0 0 0 35px; width: 100%;}
+.account .pcf .pcf_text p {font-size: 11px; margin: 0}
+.account .pcf .pcf_text a  {font-size: 11px; margin: 0; text-decoration: underline; color: #0D80FD;}
+.account .pcf .check {height: 25px; width: 25px; background-color: rgb(196, 193, 189); border-radius: 4px;}
+.account .pcf .selected:after {content: '';  position: absolute;  display: inline-block; top: -5px; left: 5px; height: 25px; width: 25px; background-image: url(/img/greyhoundbet/furniture/tick2x.png); background-repeat: no-repeat; background-size: cover;}
+
+/* customise */
+.runnercustomise {position:relative;}
+
+.enableList {position:absolute; top:0; left:0; width:100%;}
+.enableList li {position:absolute; z-index:0; width:50%;}
+/*.enableList .goDrop {
+    -webkit-transition:top 400ms cubic-bezier(0, 1, 1, 1), left 400ms cubic-bezier(0, 1, 1, 1);
+    -moz-transition:top 400ms cubic-bezier(0, 1, 1, 1), left 400ms cubic-bezier(0, 1, 1, 1);
+    transition:top 400ms cubic-bezier(0, 1, 1, 1), left 400ms cubic-bezier(0, 1, 1, 1);
+}*/
+.enableList li div {position:relative; top:-1px; height:44px; padding-left:38px; border:1px solid #ccc; background:#fff;}
+.enableList li div span,
+.disableList li div span {position:absolute; top:5px; left:4px; width:34px; height:34px; background:url(/img/web-app/customise/customise-buttons-spr.png) no-repeat 0 0;}
+.enableList li div strong,
+.disableList li div strong {display:block; height:31px; padding:13px 0 0 6px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; font-size:15px;}
+.enableList li div strong {padding-right:26px; background:url(/img/web-app/btn/btn-move.png) no-repeat 100% 50%;}
+.enableList .t {top:0; left:0; width:100%;}
+.enableList .t div {margin:0 70px; top:0; border-width:0;}
+.enableList .r div {left:-1px; margin-right:-1px;}
+
+.enableList .drag {z-index:1;}
+.enableList .drag div {
+    border-width:1px;
+    -webkit-box-shadow:inset 0 0 7px rgba(204,204,204,1);
+    -moz-box-shadow:inset 0 0 7px rgba(204,204,204,1);
+    box-shadow:inset 0 0 7px rgba(204,204,204,1);
+}
+.enableList .drop div {background:#54aded; color:#fff;}
+
+.disableList li {border-bottom:1px solid #ccc;}
+.disableList li div {position:relative; height:44px; padding-left:42px;}
+.disableList li div span {background-position:0 -34px;}
+
+.customiseTopItem {height:41px; padding:3px 0 0; background:#fff; border-bottom:1px solid #ccc;}
+.customiseTopItem .number {float:left; width:16px; padding-left:4px; font-size:15px;}
+.customiseTopItem .number strong {display:block;}
+.customiseTopItem .number em {font-style:normal; color:#808080;}
+.customiseTopItem .silk {float:left; width:40px; height:29px; margin:3px 0 0; background:url(/img/web-app/customise/customise-silk.png) no-repeat 0 0;}
+.customiseTopItem .exampleBtn {float:right; width:46px; height:24px; margin:7px 10px 0 0; background:url(/img/web-app/customise/customise-odds-btn.png) no-repeat 0 0;}
+
+.customiseFixLyear {display:none; background:#fff; border-bottom:1px solid #ccc;}
+
+/* Registration */
+.whRegister {
+    position:relative;
+    -webkit-transition: -webkit-transform 0ms ease-in-out;
+    -moz-transition: -moz-transform 0ms ease-in-out;
+    -ms-transition: -ms-transform 0ms ease-in-out;
+    transition: transform 0ms ease-in-out;
+
+    -webkit-backface-visibility: hidden;
+}
+.regStep {
+    position: absolute; top:0; left:0; width:100%; display:none; background:#e8e5df;
+    -webkit-backface-visibility: hidden;
+}
+
+.regStepRight {left:100%;}
+.regStepLeft {left:-100%;}
+
+/*.goSlide {
+    -webkit-transition-duration: 500ms;
+    -moz-transition-duration: 500ms;
+    -ms-transition-duration: 500ms;
+    transition-duration: 500ms;
+}*/
+
+.whRegister h3 {padding:0; margin:8px 0;}
+.whRegister h4 {margin:0 0 2px; font-weight:normal; font-size:14px; color:#808080;}
+
+.regStep1 {padding:76px 0 0; background:url(/img/web-app/furniture/wh-account.png) no-repeat 50% 14px;}
+
+.claimFreeBet {text-align:center;}
+.claimFreeBet h3 {margin-top:0;}
+.claimFreeBet input {width:110px;}
+
+.formItem {clear:both; padding:0 0 11px;}
+.formItem select,
+.formItem input {width:100%; -webkit-box-sizing:border-box;  -moz-box-sizing:border-box; -ms-box-sizing:border-box; box-sizing:border-box;}
+.formItem:after {content:""; display:block; clear:both;}
+.formItemHalf select,
+.formItemHalf input {width:49%; float:left;}
+.formItemHalf select:first-child,
+.formItemHalf input:first-child {margin-right:2%;}
+.formItemHalf a {display:inline-block; margin:5px 0 0 6px; font-size:15px; text-decoration:underline; color:#808080;}
+
+.formItemThree select {float:left; width:32%; margin-right:2%;}
+.formItemThree select:last-child {margin-right:0;}
+
+.formItem .error {border:1px solid #f00;}
+
+.regAccept {display:block; padding:20px 16px 6px 26px; line-height:120%; font-size:13px; color:#808080;}
+.regAccept input {float:left; margin:2px 0 0 -26px;}
+
+.regAddCard h3,
+.regAddCard p {text-align:center;}
+.regAddCard p {font-size:14px;}
+.regAddCard .regSuccess {padding:22px 0 0; margin-bottom:18px; background:url(/img/web-app/furniture/green-tick.png) no-repeat 50% 0;}
+.regAddCard ol {padding:12px 10px 12px 30px; margin:18px 0; background:#fff; border:1px solid #ccc;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    border-radius:8px;
+    font-size:13px;
+    list-style:decimal;
+}
+.regAddCard ol li {padding:3px 0;}
+.regAddCard .btnBig {margin-bottom:10px;}
+
+.regSteps {width:100%; margin:18px 0 10px;}
+.regSteps td {width:33%; vertical-align:middle;}
+.regSteps .stepsCount {text-align:center; font-size:14px; color:#808080;}
+.regSteps .btn {float:left; width:44px; font-size:14px; cursor:pointer;}
+.regSteps .nextRegStep {float:right;}
+
+/* Bet to View */
+.b2vPage {padding:10px;}
+.b2vList {display:none;}
+.b2vList,
+.b2vInfo {margin:0 0 10px; background:#fff; border:1px solid #b2b2b2; border-radius:8px;}
+.b2vList table {width:100%;}
+.b2vList th,
+.b2vList td {padding:10px; border-bottom:1px solid #b2b2b2; vertical-align:middle;}
+.b2vList tr:last-child th,
+.b2vList tr:last-child td {border:none;}
+.b2vList .betButton {float:right; width:54px;}
+.b2vList .betButton strong {font-size:13px; font-weight:normal;}
+.b2vList span.betButton {opacity:.5;}
+.b2vList span.betButton strong {cursor:default;}
+
+.b2vInfo {padding:10px;}
+.b2vInfo h3 {padding-left:40px; margin:2px 0 8px; background:url(/img/web-app/ico/video-large.png) no-repeat; line-height:30px;}
+.b2vInfo p {font-size:12px; line-height:124%;}
+
+/* Application version */
+.appVersion {text-align:center;}
+
+/* Open bets */
+.wh-open-bets .headline {margin:0 -10px 10px; border-bottom:1px solid #1783db; text-align:center;}
+
+.account .blue {color:#007aff;}
+
+/* Gambling info */
+.infoFor18Betting {padding-bottom:1px;}
+.infoFor18Betting p {margin:0 0 11px; font-size:11px; color:#666;}
+.infoFor18Betting a {text-decoration:underline;}
+.infoFor18Betting .linksMap {margin:0 auto 11px;}
+
+.webAppPage.video {background:#000;}
+
+.videoHolder {max-width:480px; padding:10px; margin:0 auto; text-align:center; color:#fff;}
+.videoHolder .videoLogo {
+    padding:0;
+}
+.videoHolder h2 {
+    margin:0 0 14px;
+    font-size:17px;
+    font-weight:normal;
+}
+.videoHolder h3 {
+    margin:6px 0 6px;
+}
+
+.videoHolder p {margin:8px 0;}
+.videoHolder table {width:100%;}
+.videoHolder table img {width:100%;}
+.videoHolder .presenters td {padding:2px 0 10px; text-align:center;}
+
+.video .rpgtvPlayerContainer .mejs-container {margin: auto;}
+.video .rpgtvPlayerContainer .mejs-fullscreen-button {float: right;}
+.video .rpgtvPlayerContainer .mejs-overlay-button {display: none;}
+
+.desktopPC .video .btnBack {
+    display: none;
+}
+
+.desktopPC .advanced-video {
+    background-color: #000;
+}
+
+.desktopPC .rpgtvDetails {
+    text-align: center;
+    margin: auto;
+    width: 600px;
+
+}
+
+.desktopPC .advanced-video .raceTitle {
+    padding: 10px 0;
+}
+
+.desktopPC .advanced-video .raceFooter {
+    padding: 5px 0 0 0;
+}
+
+.desktopPC .rpgtvDetails .detailsColumn-0,
+.desktopPC .rpgtvDetails .detailsColumn-1 {
+    display: inline-table;
+    background-color: #e8e5df;
+    width: 49%;
+}
+
+.desktopPC .meetingTitle {
+    padding: 5px 0;
+}
+
+.desktopPC .runnersList {
+    margin-bottom: 5px;
+    padding: 0 5px 5px 5px;
+    background-color: #fff;
+    border-color: #CCC;
+    border-style: solid;
+    border-width: 1px 0;
+    font-size: 15px;
+    text-align: left;
+}
+
+.desktopPC .runnersList .runnerName {
+    padding-left: 5px;
+}
+
+.desktopPC .runnersList .raceTime {
+    float: left;
+}
+
+.desktopPC .runnersList .abandoned {
+    text-align: center;
+}
+
+.desktopPC .runnersList .place {
+    display: inline-block;
+    width: 36px;
+}
+
+.desktopPC .runnersList .favFlag {
+    float: right;
+}
+.desktopPC .raceTime {
+    background-color: #fff;
+    padding-right: 4px;
+}
+
+.desktopPC .archiveVideoIcon {
+    height: 15px;
+    width: 15px;
+    float: left;
+    background: url(/img/greyhoundbet/btn/rpgtv-btn.png) no-repeat;
+}
+a.runnersList {
+    display: block;
+}
+.runnerSeeds {
+    font-size: 12px;
+}
+
+.runnerHandicap {
+    font-size: 12px;
+    padding: 0 0 0 5px;
+}
+
+.desktopPC .raceTime.card {
+    color: #3395FF;
+    text-decoration: underline;
+}
+
+.desktopPC .raceTime.result {
+    color: #cb2a27;
+    text-decoration: underline;
+}
+
+.desktopPC .runnersList .raceDistance {
+    float: right;
+}
+
+.advanced-video .runner.first {
+    font-weight: bold;
+}
+
+.desktopPC .advanced-video .raceResultsFooter {
+    font-size: 13px;
+    color: #7F7F7F;
+    margin: 4px 0 0 0;
+    border-top: solid 1px;
+    border-color: #7F7F7F;
+    padding: 3px 0 0 0;
+}
+
+.desktopPC .advanced-video .raceResultsFooter .resultDetails,
+.desktopPC .advanced-video .raceResultsFooter .deadHeat,
+.desktopPC .advanced-video .raceResultsFooter .nonRunner {
+    display: inline-block;
+    width: 100%;
+}
+
+.desktopPC .advanced-video .raceResultsFooter .resultDetailsColumn-1 {
+    display: inline-block;
+}
+
+.desktopPC .advanced-video .raceResultsFooter .resultDetailsColumn-2 {
+    display: inline-block;
+    float: right;
+}
+
+.advanced-video .rpgtvPlayerContainer .mejs-container {margin: auto;}
+.advanced-video .rpgtvPlayerContainer .mejs-fullscreen-button {float: right;}
+.advanced-video .rpgtvPlayerContainer .mejs-overlay-button {display: none;}
+
+.advanced-video .runnerBlock {margin:0 2px 2px; padding:0 6px;}
+.advanced-video .runnerBlock .runner {padding:8px 5px 8px 0;}
+.advanced-video .runnerBlock .runner .bet {width:50px;}
+.advanced-video .runnerBlock .gh {position:relative; padding-right:96px;}
+.advanced-video .runnerBlock .gh .trapName {
+    display: inline-block;
+    padding:7px 0 0;
+    font-size:13px;
+    font-weight: bold;
+}
+
+.advanced-video .runnerBlock .gh .bet i {
+    margin: 0;
+}
+
+.advanced-video .runnerBlock .bet {
+    top: -4px;
+}
+
+.trapChallengeContainer,
+.trapChallengesFooter {
+    display: none;
+}
+
+.trapChallengesHeader,
+.trapChallengesFooter {
+    background: #3395FF;
+    height: 34px;
+    margin-bottom: 5px;
+}
+
+.trapChallengesHeader h2,
+.trapChallengesFooter h2 {
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+    line-height: 34px;
+}
+.hideThisTrap {
+    display: none;
+}
+
+.desktopPC .advancedVideo {
+    width: 832px;
+    height: 480px;
+    margin: auto;
+}
+
+.desktopPC .sideAdsWrapper {
+    display: none;
+}
+
+@media (min-width: 1140px) {
+
+    .desktopPC .advanced-video .runnerBlock {
+        margin: 0 0 2px 2px;
+    }
+
+    .desktopPC .advancedVideo {
+        width: 516px;
+        height: 295px;
+    }
+    .desktopPC .rpgtvDetails {
+        text-align: center;
+        margin: auto;
+        width: 516px;
+        float: left;
+
+    }
+    .desktopPC .advanced-video .video-urls {
+        max-width: 516px;
+    }
+
+    .desktopPC .advanced-video .sideAdsWrapper {
+        display: block;
+        position: absolute;
+        left: 524px;
+    }
+
+    .desktopPC .sideAdRow {
+        margin: 8px 0 0 0;
+    }
+
+}
+/* Landing for Bookie */
+
+.webAppLanding {position:absolute; z-index:101; top:0; left:0; display:none; width:100%; height:100%;}
+.ladbHeadline, .pref_ladb .bookeiHeadline { 
+    background: #d52b1e;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#561301), color-stop(50%,#d52b1e));
+    background: -webkit-linear-gradient(left, #561301 0%,#d52b1e 50%);
+    background: -ms-linear-gradient(left, #561301 0%,#d52b1e 50%);
+    background: linear-gradient(to right, #561301 0%,#d52b1e 50%);
+}
+.ladb-withdraw {background: #e8e5df;}
+
+/*.bookeiHeadline:before, .whHeadline:before, .ladbHeadline:before {content: "";position: absolute;top: 9px;left: 8px;width: 116px;height: 23px;background: url(/img/multiplebets/bookie-logos.png) no-repeat 0 0;}*/
+.ladbHeadline:before, .pref_ladb .bookeiHeadline:before {background-position: 0 -37px;  }
+.bookeiHeadline, .whHeadline {  background: #1a4a67;}
+/*.bookeiHeadline, .whHeadline, .ladbHeadline {position: relative;height: 42px;margin: 0; border-radius: 6px 6px 0 0;}*/
+/*.ladb-open-bets .account .bookeiHeadlineCenter:before, .wh-open-bets .account .bookeiHeadlineCenter:before,
+.ladb-withdraw .account .bookeiHeadlineCenter:before, .wh-withdraw .account .bookeiHeadlineCenter:before{width: 100%;}*/
+.whHeadline:before {background-position: 50% 0px;}
+.ladbHeadline:before {background-position: 50% -37px;}
+.webAppLanding:before {content:""; position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:.6;}
+.webAppLanding .landingBubble {position:absolute; left:5%; display:none; width:90%;}
+
+/*
+* Pop ups styles for desktop browsers (Greyhoundbet app only)
+*/
+.greyhoundBet.desktopPC .landingBubble {
+    position: relative;
+    width: 300px;
+    margin: auto;
+    left: 0;
+}
+
+.desktopBrowser .webAppLanding .landingBubble {width:298px; left:50%; margin:0 0 0 -149px;}
+.desktopBrowser .webAppLanding .landingDisplayNear {margin:0;}
+.webAppLanding .landingBubbleWrapper {position:relative; z-index:1; background:#fff; border:1px solid #fff; -webkit-border-radius:8px; border-radius:8px; -webkit-box-shadow:0 0 18px 1px rgba(0, 0, 0, 0.2) inset; box-shadow:0 0 18px 1px rgba(0, 0, 0, 0.2) inset;}
+.webAppLanding .landingBubbleContent {padding:12px;}
+
+.webAppLanding .landingBubbleArrow {position:absolute; bottom:-24px; right:3%; width:40px; height:25px; overflow:hidden;}
+.webAppLanding .landingBubbleArrow:after {content:""; position:absolute; bottom:14px; left:0; width:40px; height:40px; background:#e3e3e3; border:1px solid #fff; -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+
+.webAppLanding p {margin:0 0 12px;}
+
+.webAppLanding .bookeiHeadline {margin:-12px -12px 12px;}
+
+.landingBookieLinks {background:#fff; border:1px solid #c5c5c5; -webkit-border-radius:8px; border-radius:8px; font-weight:bold;}
+.landingBookieLinks li {border-top:1px solid #c5c5c5;}
+.landingBookieLinks li:first-child {border:none;}
+.landingBookieLinks a,
+.landingBookieLinks span {display:block; height:40px; line-height:40px; padding:0 26px 0 10px; background:url(/img/web-app/furniture/grey-right-arrow.gif) no-repeat 100% 50%; cursor:pointer;}
+
+.webAppLanding .footerLink {padding:8px 0 0; margin:0; font-size:13px; text-align:center;}
+.webAppLanding .footerLink:after {content:""; display:block; clear:both; overflow:hidden;}
+.webAppLanding .footerLink a {text-decoration:underline;}
+
+.webAppLanding .landingDisplayNear .footerLink a {float:right; color:#808080;}
+.webAppLanding .landingDisplayNear .footerLink a:first-child {float:left; color:#808080;}
+
+.webAppLanding .btnError {border-color:#de1600; color:#de1600;}
+.webAppLanding .transparentBtn {width:100%;}
+.transparentBtn {
+    border: 1px solid #989898;
+    -webkit-box-shadow: 0px 1px 0px 0px #fff,inset 0px 1px 0px 0px #fff;
+    box-shadow: 0px 1px 0px 0px #fff,inset 0px 1px 0px 0px #fff;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    display: inline-block;
+    height: 39px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 0px 1px 0px #fff;
+    color: #003555;
+    background: rgba(0,0,0,0.07);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    }
+.whBtn {background: #446b83;background: -webkit-linear-gradient(top,#446b83 0%,#164866 100%);background: linear-gradient(to bottom,#446b83 0%,#164866 100%);}
+.whBtn, .ladbBtn {
+    width: 100%;
+    height: 39px;
+    display: inline-block;
+    line-height: 36px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+    }
+
+.ladbBtn {
+    background: #d52b1e;
+    background: -webkit-linear-gradient(top,#d52b1e 0%,#561301 100%,#561301 100%);
+    background: linear-gradient(to bottom,#d52b1e 0%,#561301 100%,#561301 100%);
+    }
+.whBtn .whLogo, .ladbBtn .ladbLogo {position: relative;display: inline-block;vertical-align: middle;}
+
+.whBtn .whLogo:after, .ladbBtn .ladbLogo:after {content: "";position: absolute; top: 4px;right: -20px;width: 18px;height: 17px;background: url(/img/web-app/furniture/white-tick.png) no-repeat;}
+
+.webAppLanding .chevron {position:absolute; z-index:2; bottom:-18px; right:68px; display:none; width:38px; height:19px; overflow:hidden;}
+.webAppLanding .chevron:after {content:""; position:absolute; top:-30px; left:0; width:38px; height:38px; background:#e5e5e5; border:1px solid #fff; -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+.desktopBrowser .webAppLanding .chevron {display:block;}
+
+@media print {
+	@page {
+		size: auto;   /* auto is the initial value */
+
+		/* this affects the margin in the printer settings */
+		margin: 5mm 10mm 5mm 10mm;
+	}
+	body {
+		overflow-x: visible !important;
+	}
+	.runnerBlock .runner {
+		padding: 0;
+	}
+	.webAppPageContent {
+		overflow: visible !important;
+		position: static;
+	}
+	.pageHeader h2  {
+		color: #000;
+		float: left;
+		display: block;
+		font-size: 14px;
+		padding: 11px 0 0 0;
+		margin: 0 20px 0 20px;
+		width: 140px;
+		position: static;
+	}
+	.pageHeader {
+		background: #FFF;
+		position: static;
+	}
+	div.pageHeader::after {
+		content: none;
+		clear: none;
+	}
+
+	.orientationLandscape .pageHeader h2 {
+		color: #000;
+		float: left;
+		display: block;
+		font-size: 14px;
+		padding: 11px 0 0 0;
+		margin: 0 20px 0 20px;
+		width: 100px;
+	}
+	.printHeader {
+		display: block;
+		clear: both;
+		height: auto;
+		width: 100%;
+		float: left;
+		border-bottom: solid 1px black;
+		margin-bottom: 2px;
+	}
+	.printContainer {
+		display: block;
+	}
+	.printRaceName {
+		float: left;
+		font-size: 10pt;
+		margin: 9pt 0 0 22pt;
+		font-weight: bold;
+		background: none;
+	}
+	.printRaceName img {
+		display: none;
+		background: none;
+	}
+
+	.pageHeader .btnBack {
+		color: #000;
+	}
+
+	i.bigTrap.trap1,
+	i.bigTrap.trap2,
+	i.bigTrap.trap3,
+	i.bigTrap.trap4,
+	i.bigTrap.trap5,
+	i.bigTrap.trap6,
+	i.bigTrap.trap7,
+	i.bigTrap.trap8,{
+		background-image: none;
+		background-repeat: no-repeat;
+		height: 16px;
+		display: none;
+	}
+	.bigTrap {
+		display: none;
+	}
+
+	.runnerBlock {
+		margin: 0;
+		page-break-inside: avoid;
+	}
+
+	.runnerBlock .gh strong {
+		font-size: 13px;
+	}
+
+	div.bet {
+		display: none;
+	}
+
+	.runnerBlock .formGrid a {
+		text-decoration: none;
+
+		color: #000 !important;
+	}
+
+	.runnerBlock .formGrid.desktop .c8 {
+		display: none;
+	}
+
+	.runnerBlock .formGrid .c8 .videoLink {
+		text-decoration: none;
+		color: #000;
+	}
+
+	.runnerBlock .formGrid.desktop .c0 {
+		display: table-cell;
+		padding: 1px 1px 1px 0;
+		text-decoration: none;
+	}
+
+	.runnerBlock .formGrid.desktop .c2 {
+
+	}
+	.runnerBlock .info table {
+		width: 100%;
+	}
+	.btnPredictor {
+		display: none;
+	}
+	.card-pager {
+		display: none;
+	}
+	.racePager {
+		display: none;
+	}
+	.card-tabs {
+		display: none;
+	}
+	.card-title {
+		display: none;
+	}
+
+	.runnerBlock .runner .gh {
+		width: 21%;
+		float: left;
+		font-size: 11px;
+	}
+
+	.runner .dogDetails {
+		float: left;
+		display: block;
+		font-size: 10px !important;
+	}
+
+	.runner .brtAndTrainer {
+		float: right;
+		font-size: 10px !important;
+		display: block;
+	}
+	.brt {
+		display: inline-block;
+		margin-right: 15px;
+	}
+	.trainer {
+		display: inline-block;
+	}
+	.bigTrap {
+		height: 16px;
+	}
+	.runnerBlock .formGrid .c1,
+	.runnerBlock .formGrid .c2,
+	.runnerBlock .formGrid .c3,
+	.runnerBlock .formGrid .c4,
+	.runnerBlock .formGrid .c5,
+	.runnerBlock .formGrid .c6,
+	.runnerBlock .formGrid .c7,
+	.runnerBlock .formGrid .c8,
+	.runnerBlock .formGrid .c9,
+	.runnerBlock .formGrid .c10 {
+		display: table-cell;
+		width: 5%;
+		font-size: 8pt;
+	}
+	.runnerBlock .formGrid th {
+		display: table-cell;
+		width: 5%;
+		font-size: 8pt;
+	}
+	.runnerBlock .formGrid td {
+		display: table-cell;
+		font-size: 8pt;
+	}
+	.runnerBlock .formGrid.desktop .c1,
+	.runnerBlock .formGrid.desktop .c2,
+	.runnerBlock .formGrid.desktop .c3,
+	.runnerBlock .formGrid.desktop .c4,
+	.runnerBlock .formGrid.desktop .c5,
+	.runnerBlock .formGrid.desktop .c6,
+	.runnerBlock .formGrid.desktop .c7,
+	.runnerBlock .formGrid.desktop .c8,
+	.runnerBlock .formGrid.desktop .c9,
+	.runnerBlock .formGrid.desktop .c10 {
+		display: table-cell;
+		width: 5%;
+		font-size: 8pt;
+	}
+	.runnerBlock .formGrid.desktop .c7,
+	.runnerBlock .formGrid.desktop .c2 {
+		text-align: left;
+		display: table-cell;
+		font-size: 8pt;
+	}
+	.runnerBlock .formGrid td:last-child,
+	.runnerBlock .formGrid th:last-child {
+		width: 5%;
+		font-size: 8pt;
+	}
+	.runnerBlock .formGrid th.date {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.track {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.dis {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.trp {display:table-cell; width: 3%;}
+	.runnerBlock .formGrid th.split {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.pos {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.fin {display:table-cell; width: 4%;}
+	.runnerBlock .formGrid th.by {display:table-cell; width: 4%;}
+	.runnerBlock .formGrid th.win {display:table-cell; width: 12%; }
+	.runnerBlock .formGrid th.rem {display:table-cell; width: 12%;}
+	.runnerBlock .formGrid th.wt {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.go {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.wght {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.sp {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.grade {display:table-cell; width: 5%;}
+	.runnerBlock .formGrid th.cal {display:table-cell; width: 5%;}
+
+	.headerRaceDetails {
+		font-size: 11px;
+		float: left;
+		display: block;
+		padding: 14px 0 14px 0;
+		margin-left: 25px;
+	}
+	.headerDate {
+		font-size: 11px;
+		float: right;
+		display: block;
+		padding: 14px 0 14px 0;
+		margin-right: 15px;
+	}
+	.imgPrint {
+		display: block;
+		width: 16px;
+		height: 16px;
+		float: left;
+	}
+
+	.webAppPage {
+		position: static;
+	}
+	.webApp {
+		display: none;
+	}
+
+	#desktopRadioContainer {
+		display: none;
+	}
+	#desktopRadioContainer span {
+		display: none;
+	}
+	#desktopRadioContainer a[href*='rtmp'] span {
+		display: none;
+	}
+
+	.mainTabs {
+		display: none !important;
+	}
+	.btnBack {
+		display: none;
+	}
+	.predictorBtn {
+		display: none;
+	}
+	.pageHeader .predictorBtn span {
+		display: none;
+	}
+	.card-pager {
+		display: none;
+	}
+	.card-title {
+		display: none;
+	}
+	.tabletScreen.orientationLandscape .mainTabs ul {
+		display: none !important;
+	}
+	.pageHeader .btnBack {
+		display: none;
+	}
+	.pageHeader .btnPredictor {
+		display: none;
+	}
+	.info .dogInfo {
+		display: none;
+	}
+}
+.bets-explained {
+    line-height: 140%;
+    font-size: 14px;
+    -webkit-text-size-adjust:100%;
+    background-image: url(/img/web-app/bets-explained/paper-tile.png);
+    font-family: Helvetica, Verdana, Arial;
+    background-color: #ededed;
+    color: #333333;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}
+
+.betsExplained h1 {
+    line-height: 140%;
+    font-size: 30px;
+    margin: 0 0 25px;
+    padding-top: 25px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px #fff;
+}
+
+.betsExplained h2 {
+    line-height: 140%;
+    font-size: 20px;
+/*  font-size: 22px; */
+    margin: 25px 0 35px;
+    font-weight: bold;
+    /* color: #0069B0; */
+}
+
+.betsExplained .odd, .oddtrans {
+    float: left;
+}
+
+.betsExplained .even, .eventrans {
+    float: right;
+}
+
+.betsExplained .clearfix {
+    clear: both;
+    height: 1px;
+    
+}
+
+
+.betsExplained .oddtrans, .eventrans {
+    padding: 0;
+    background-color: transparent;
+    width: auto;
+    margin: 0 0 0 10px;
+    text-align: center;
+}
+
+
+.betsExplained .odd, .even {
+    border: 1px solid #cccccc;
+    padding: 0 10px;
+    background-color: white;
+    width: 262px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin: 25px 0 0 10px;
+}
+
+.betsExplained .odd p, .even p {
+    position: relative;
+    top: -20px;
+    margin: 7px 0 0 0;
+}
+
+
+/*
+.oddtrans img, .eventrans img {
+    float: right;
+}
+*/
+
+
+.betsExplained .odd img, .even img {
+    float: right;
+    position: relative;
+    top:-20px;
+}
+
+
+.betsExplained .synopsis {
+    font-weight: bold;
+}
+
+
+.betsExplained ul {
+    margin: 5px 0 20px 10px;
+    padding: 0;
+    text-align: center;
+}
+
+.betsExplained ul li {
+    line-height: 200%;
+    width: auto;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    text-align: center;
+    vertical-align: middle;
+    color: #333;
+    display: inline-table;
+    margin: 3px 0;
+    padding: 0 7px;
+    box-shadow: 0 1px #fff;
+    -moz-box-shadow: 0 1px #fff;
+    -webkit-box-shadow: 0 1px #fff;
+}
+
+
+.betsExplained ul li a:active {
+    background-color: #0069B0;
+    color: #fff;
+}
+
+
+
+.betsExplained .column {
+        width: 590px;
+        padding-right: 10px;
+        margin: 0 auto; 
+    }
+
+
+
+@media screen and (max-width: 600px) {
+    .betsExplained .column {
+        width: 100%;
+        padding: 0;
+    }
+
+    .betsExplained .odd, .even, .oddtrans, .eventrans {
+    float:none;
+    position: relative;
+    width: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+
+    .betsExplained ul  {
+    margin: 10px 10px 0;
+    }
+
+    .betsExplained h1 {
+    text-shadow: 0px 0px;
+    display: none;
+    visibility: hidden;
+    }
+    
+}
+
+.bet-slip,
+.receipt,
+.market-suspend-error,
+.price-changed-error,
+.generic-error {background:url(/img/web-app/betslip/wood.jpg) repeat 0 0 #9a582a;}
+
+.bet-slip .appFooter,
+.receipt .appFooter {display:none;}
+
+.bet-slip .webAppPageContent,
+.receipt .webAppPageContent {padding-bottom:0;}
+
+
+.editMode .notVisibleInEditMode {display:none;}
+.visibleInEditMode {display:none;}
+.editMode .visibleInEditMode {display:block;}
+
+.editMode .multiBetBrick .betGrid .col,
+.editMode .betField, 
+.placeBetDisabled {opacity:.3;}
+
+.noBettingMode .notVisibleInNoBettingMode {display:none;}
+
+.noBettingMode .visibleInNoBettingMode {display:block;}
+.visibleInNoBettingMode {display:none;}
+
+#showBalance {display:none;}
+
+.errorBrick {color:#333;}
+.errorBrick p,
+.errorBrick h5 {font-size:14px; line-height:18px;}
+.errorBrick p {padding-bottom:10px;}
+.errorBrick h5 {padding:0 0 8px; margin:0 0 8px; border-bottom:1px solid #ccc;}
+.errorBrick em {text-decoration:underline; color:#4e9ed9; font-style:normal;}
+
+.errorBrick .contacts {color:#878787}
