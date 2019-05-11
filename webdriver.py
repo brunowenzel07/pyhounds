@@ -32,6 +32,7 @@ class Webdriver:
                 }
             self.chrome_options.add_experimental_option('prefs', self.prefs)
         self.driver = webdriver.Chrome(chrome_options=self.chrome_options)
+        self.driver.minimize_window()
 
     def get(self, url, element_wait=False, type_element=False):
         self.driver.get(url)
