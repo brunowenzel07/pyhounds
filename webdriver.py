@@ -43,3 +43,6 @@ class Webdriver:
                 WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.ID, element_wait)))
             sleep(3)
         return BeautifulSoup(self.driver.page_source, "html.parser")
+
+    def close(self):
+        self.driver.close()
