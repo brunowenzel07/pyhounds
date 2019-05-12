@@ -4,6 +4,7 @@
 
 from datetime import datetime
 import re
+import click
 
 class Races:
 
@@ -16,6 +17,8 @@ class Races:
             "https://greyhoundbet.racingpost.com/%s" % self.url,
             element_wait="dog-result-details",
             type_element="class")
+
+
 
     def dogs(self):
         # Variables
@@ -35,4 +38,5 @@ class Races:
             re.search("\((.*?)\)", self.result_page.find("span", {"id":"circle-race-title"}).text).group(0).replace("(", "").replace(")", ""),
             int(re.search("\)(.*?)m", self.result_page.find("span", {"id":"circle-race-title"}).text).group(0).replace(")", "").replace(" ", "").replace("m", ""))
         ]
+        click.echo("--> Ready to access (%s, %s, %s, %s) " % (tuple(self.informations)))
         return self.informations

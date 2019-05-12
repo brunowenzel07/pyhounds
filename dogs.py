@@ -5,6 +5,8 @@
 # Libraries
 import pandas as pd
 from datetime import datetime
+import numpy as np
+import click
 
 # Classes
 import helper as hp
@@ -23,6 +25,11 @@ class Dogs:
             type_element="class")
 
         self.dataframe()
+
+        click.echo(
+            "--> Retreiving data: %s, %s, %s, %s" % (tuple(dog))
+        )
+
 
     def dataframe(self):
         stats = list()
@@ -56,12 +63,28 @@ class Dogs:
             "grade",
             "cal_time"
         ])
+        self.df = self.df[self.df["date"]  < self.date]
+        self.df = self.df.dropna(subset=["position"], axis=0)
 
     def stats(self):
-        print(self.race)
+        # Declare variables
+        dog_features  = list()
         # Only races before this race
-        self.df       = self.df[self.df["date"] < self.date]
-        # Only cat races
-        self.df_grade = self.df[self.df["grade"] = self.grade]
-        # Only distace
-        self.df_dist  = self.df[self.df["dist"]  = self.dist]
+        for r in [5,10,15]:
+            s_ = self.df[:r]
+            _tmp = np.array([
+                # Frequency at distance
+                float(len(s_[s_["distance"] == self.distance]))/r,
+                # Frequency at trap
+                float(len(s_[s_["trap"]     == self.trap]))/r,
+                # Frequency at grade
+                float(len(s_[s_["grade"]    == self.grade]))/r,
+                # Frequency at third positions
+                float(len(s_[s_["position"] <= 3])) / r,
+                # Frequency at last positions
+                float(len(s_[s_["position"] > 3])) / r,
+                np.mean(s_["bends"])
+            ])
+            dog_features.append(np.round(_tmp, 2))
+        self.dog_stats = np.array(dog_features).reshape(1,18)[0]
+        return self.dog_stats

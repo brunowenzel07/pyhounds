@@ -31,4 +31,4 @@ def normalize(element, t_):
         if t_ == "int":
             return np.int(element.text)
     except Exception as e:
-        return "NaN"
+        return float("NaN")
