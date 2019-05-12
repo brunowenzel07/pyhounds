@@ -32,7 +32,7 @@ def train(date):
 
         # loop throught the page links
         for i, link in enumerate(tracks.links()):
-            click.echo("--> [%s] Accessing the url: %s" % (i, link)
+            click.echo("--> [%s] Accessing the url: %s" % (i, link))
             # Initialization of races classe
             race       = r.Races(link, webdriver)
             # getting infos of race
