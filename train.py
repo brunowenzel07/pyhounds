@@ -11,6 +11,7 @@ import webdriver as webdriver
 import tracks as t
 import races  as r
 import dogs   as d
+import helper as hp
 
 # Initialization Objects
 webdriver = webdriver.Webdriver(prefs=True, headless=False)
@@ -38,7 +39,9 @@ def train(date):
             for dog in race.dogs():
                  dogs = d.Dogs(dog, infos, webdriver)
                  stats.append(dogs.stats())
-            print(stats)
+
+            stats = hp.generated_stats(infos, stats)
+
             break
 
     except Exception as e:

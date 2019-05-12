@@ -68,8 +68,7 @@ class Dogs:
 
     def stats(self):
         # Declare variables
-        dog_features  = list()
-        # Only races before this race
+        dog_features   = list()
         for r in [5,10,15]:
             s_ = self.df[:r]
             _tmp = np.array([
@@ -88,4 +87,6 @@ class Dogs:
             dog_features.append(np.round(_tmp, 2))
         self.dog_stats = np.array(dog_features).reshape(1,18)[0]
         self.dog_stats = np.append(self.dog_stats, (self.date - self.df["date"].iloc[0]).days)
+        self.dog_stats = np.append(self.dog_stats, self.place)
+        self.dog_stats = np.append(self.dog_stats, self.trap)
         return self.dog_stats
