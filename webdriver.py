@@ -38,9 +38,9 @@ class Webdriver:
         self.driver.get(url)
         if element_wait and type_element:
             if type_element == "class":
-                WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.CLASS_NAME, element_wait)))
+                WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.CLASS_NAME, element_wait)))
             elif type_element == "id":
-                WebDriverWait(self.driver, 20).until(EC.presence_of_element_located((By.ID, element_wait)))
+                WebDriverWait(self.driver, 60).until(EC.presence_of_element_located((By.ID, element_wait)))
             sleep(3)
         return BeautifulSoup(self.driver.page_source, "html.parser")
 
