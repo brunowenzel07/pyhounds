@@ -50,7 +50,6 @@ def train(date):
 
             dataB.insert(dogs_stats, "multiple")
 
-            break
 
     except Exception as e:
         raise e
