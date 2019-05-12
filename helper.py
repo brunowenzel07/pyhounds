@@ -8,7 +8,7 @@ import re
 
 def generated_stats(infos, stats):
 
-    stats = list()
+    sss_ = list()
     for i, s in enumerate(stats):
         for j, t in enumerate(stats):
             a_position, a_trap = s[-2], s[-1]
@@ -19,9 +19,9 @@ def generated_stats(infos, stats):
                     row.append("A")
                 elif a_position > b_position:
                     row.append("B")
-                stats.append(row)
+                sss_.append(row)
 
-
+    return sss_
 
 
 def normalize(element, t_):
