@@ -6,13 +6,19 @@
 class Tracks:
 
     # Construct method
-    def __init__(self, link, driver):
+    def __init__(self, link, driver, t_):
         # Defing components variables
-        self.url = link
+        self.link = link
         self.driver = driver
+
+        if t_ == "train":
+            self.url = "https://greyhoundbet.racingpost.com/#results-list/r_date=%s" % self.link
+        elif t_ == "predict":
+            self.url = "https://greyhoundbet.racingpost.com/#meeting-list/"
+            
         # Return track page
         self.result_page = self.driver.get(
-            "https://greyhoundbet.racingpost.com/#results-list/r_date=%s" % self.url,
+            self.url,
             element_wait="meetings",
             type_element="class")
 
@@ -23,3 +29,5 @@ class Tracks:
             for link in headline.find_all("a"):
                 self.results_links.append(link.attrs["href"])
         return self.results_links
+
+    def future(self):
