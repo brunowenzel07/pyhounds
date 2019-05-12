@@ -87,4 +87,5 @@ class Dogs:
             ])
             dog_features.append(np.round(_tmp, 2))
         self.dog_stats = np.array(dog_features).reshape(1,18)[0]
+        self.dog_stats = np.append(self.dog_stats, (self.date - self.df["date"].iloc[0]).days)
         return self.dog_stats
