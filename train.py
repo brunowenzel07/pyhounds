@@ -2,11 +2,8 @@
 # Train script
 # --------------------------------------------------------
 
-
 # Libraries
 import click
-
-
 
 # Classes
 import webdriver as webdriver
