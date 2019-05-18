@@ -15,7 +15,7 @@ import dogs   as d
 import helper as hp
 import database as db
 # Initialization Objects
-webdriver = webdriver.Webdriver(prefs=True, headless=True)
+webdriver = webdriver.Webdriver(prefs=True, headless=False)
 
 
 
@@ -29,27 +29,27 @@ def train(date):
     try:
 
         # Initialization of tracks classes
-        tracks = t.Tracks(date, webdriver)
+        tracks = t.Tracks(link=date,driver=webdriver, t_="train")
 
         # loop throught the page links
         for i, link in enumerate(tracks.links()):
             click.echo("--> [%s] Accessing the url: %s" % (i, link))
             # Initialization of races classe
-            race       = r.Races(link, webdriver)
+            race       = r.Races(link, webdriver, t_="train")
             # getting infos of race
-            infos      = race.informations()
+            infos      = race.train_informations()
             # Declare a list that contain all stats of dog's race
             stats = list()
             # For each dog present in race, calculate the stats
-            for dog in race.dogs():
-                 dogs = d.Dogs(dog, infos, webdriver)
+            for dog in race.train_dogs():
+                 dogs = d.Dogs(dog, infos, webdriver, "train")
                  s_ = dogs.stats()
                  if len(s_) == 19:
                      np.append(s_, dog["place"])
                      np.append(s_, dog["trap"])
                      stats.append(s_)
 
-            dogs_stats = hp.generated_stats(infos, stats)
+            dogs_stats = hp.generated_stats(list(infos.values()), stats)
 
             dataB.insert(dogs_stats, "multiple")
 

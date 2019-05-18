@@ -26,10 +26,10 @@ def predict():
         stats = list()
         # For each dog present in race, calculate the stats
         for dog in race.future_dogs():
-             dogs = d.Dogs(dog, infos, webdriver)
+             dogs = d.Dogs(dog, infos, webdriver, "predict")
              s_ = dogs.stats()
              print(s_)
-             if len(s_) == 19:                
+             if len(s_) == 19:
                 stats.append(s_)
         break
 

@@ -13,13 +13,16 @@ import helper as hp
 
 class Dogs:
 
-    def __init__(self, dog, race, driver):
+    def __init__(self, dog, race, driver, t_=False):
 
         self.driver = driver
         self.dog    = dog
         self.race   = race
 
-        
+        if t_== "train":
+            self.date = self.race["date"]
+        elif t_ == "predict":
+            self.date = datetime.today()
 
         self.result_page = self.driver.get(
             "https://greyhoundbet.racingpost.com/%s" % self.dog["link"],
@@ -28,9 +31,9 @@ class Dogs:
 
         self.dataframe()
 
-        # click.echo(
-        #     "--> Retreiving data: %s, %s, %s, %s" % (tuple(dog))
-        # )
+        click.echo(
+            "--> Retreiving data: %s, %s, %s, %s" % (tuple(dog.values()))
+        )
 
 
     def dataframe(self):
@@ -65,7 +68,7 @@ class Dogs:
             "grade",
             "cal_time"
         ])
-        self.df = self.df[self.df["date"]  < self.dog["date"]]
+        self.df = self.df[self.df["date"]  < self.date]
         self.df = self.df.dropna(subset=["position"], axis=0)
 
     def stats(self):
@@ -88,7 +91,7 @@ class Dogs:
             ])
             dog_features.append(np.round(_tmp, 2))
         self.dog_stats = np.array(dog_features).reshape(1,18)[0]
-        self.dog_stats = np.append(self.dog_stats, (self.dog["date"] - self.df["date"].iloc[0]).days)
+        self.dog_stats = np.append(self.dog_stats, (self.date - self.df["date"].iloc[0]).days)
         # self.dog_stats = np.append(self.dog_stats, self.place)
         # self.dog_stats = np.append(self.dog_stats, self.dog["trap"])
         return self.dog_stats

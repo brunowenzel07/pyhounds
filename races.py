@@ -38,16 +38,21 @@ class Races:
             name  = result.find("div", class_="name").text[72:-32]
             link  = result.find("a", class_="details").attrs["href"]
             trap  = int(result.find("div", class_="holder").find("div").attrs["class"][1].replace("trap", ""))
-            self.dogs.append([place, name, link, trap])
+            self.dogs.append({
+                "place" : place,
+                "dog"   : name,
+                "link"  : link,
+                "trap"  : trap
+            })
         return self.dogs
 
     def train_informations(self):
-        self.informations = [
-            self.result_page.find("span", class_="rTitle").text[:-9],
-            datetime.strptime(self.result_page.find("span", class_="rTitle").text[-8:], "%d/%m/%y"),
-            re.search("\((.*?)\)", self.result_page.find("span", {"id":"circle-race-title"}).text).group(0).replace("(", "").replace(")", ""),
-            int(re.search("\)(.*?)m", self.result_page.find("span", {"id":"circle-race-title"}).text).group(0).replace(")", "").replace(" ", "").replace("m", ""))
-        ]
+        self.informations = {
+            "track"    : self.result_page.find("span", class_="rTitle").text[:-9],
+            "date"     : datetime.strptime(self.result_page.find("span", class_="rTitle").text[-8:], "%d/%m/%y"),
+            "grade"    : re.search("\((.*?)\)", self.result_page.find("span", {"id":"circle-race-title"}).text).group(0).replace("(", "").replace(")", ""),
+            "distance" : int(re.search("\)(.*?)m", self.result_page.find("span", {"id":"circle-race-title"}).text).group(0).replace(")", "").replace(" ", "").replace("m", ""))
+        }
         click.echo("--> Ready to access (%s, %s, %s, %s) " % (tuple(self.informations)))
         return self.informations
 
