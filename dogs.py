@@ -22,7 +22,8 @@ class Dogs:
         if t_== "train":
             self.date = self.race["date"]
         elif t_ == "predict":
-            self.date = datetime.today()
+            s = "%s-%s-%s" % (datetime.today().day, datetime.today().month, datetime.today().year)
+            self.date = datetime.strptime(s, "%d-%m-%Y")
 
         self.result_page = self.driver.get(
             "https://greyhoundbet.racingpost.com/%s" % self.dog["link"],
@@ -32,7 +33,7 @@ class Dogs:
         self.dataframe()
 
         click.echo(
-            "--> Retreiving data: %s, %s, %s, %s" % (tuple(dog.values()))
+            "--> Retreiving data: %s" % (self.dog["link"])
         )
 
 
@@ -91,6 +92,7 @@ class Dogs:
             ])
             dog_features.append(np.round(_tmp, 2))
         self.dog_stats = np.array(dog_features).reshape(1,18)[0]
+        
         self.dog_stats = np.append(self.dog_stats, (self.date - self.df["date"].iloc[0]).days)
         # self.dog_stats = np.append(self.dog_stats, self.place)
         # self.dog_stats = np.append(self.dog_stats, self.dog["trap"])

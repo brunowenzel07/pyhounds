@@ -4,6 +4,8 @@
 
 # Libraries
 import click
+import numpy as np
+
 
 # Classes
 import webdriver as webdriver
@@ -28,9 +30,12 @@ def predict():
         for dog in race.future_dogs():
              dogs = d.Dogs(dog, infos, webdriver, "predict")
              s_ = dogs.stats()
-             print(s_)
              if len(s_) == 19:
-                stats.append(s_)
+                 stats.append(np.append(s_, dog["trap"]))
+
+        hp.generated_predicts(stats, infos)
+
+
         break
 
 
