@@ -15,20 +15,22 @@ class Dogs:
 
     def __init__(self, dog, race, driver):
 
-        self.driver                                     = driver
-        self.place, self.dog, self.url, self.trap       = dog
-        self.race, self.date, self.grade, self.distance = race
+        self.driver = driver
+        self.dog    = dog
+        self.race   = race
+
+        
 
         self.result_page = self.driver.get(
-            "https://greyhoundbet.racingpost.com/%s" % self.url,
+            "https://greyhoundbet.racingpost.com/%s" % self.dog["link"],
             element_wait="formGrid",
             type_element="class")
 
         self.dataframe()
 
-        click.echo(
-            "--> Retreiving data: %s, %s, %s, %s" % (tuple(dog))
-        )
+        # click.echo(
+        #     "--> Retreiving data: %s, %s, %s, %s" % (tuple(dog))
+        # )
 
 
     def dataframe(self):
@@ -63,7 +65,7 @@ class Dogs:
             "grade",
             "cal_time"
         ])
-        self.df = self.df[self.df["date"]  < self.date]
+        self.df = self.df[self.df["date"]  < self.dog["date"]]
         self.df = self.df.dropna(subset=["position"], axis=0)
 
     def stats(self):
@@ -73,11 +75,11 @@ class Dogs:
             s_ = self.df[:r]
             _tmp = np.array([
                 # Frequency at distance
-                float(len(s_[s_["distance"] == self.distance]))/r,
+                float(len(s_[s_["distance"] == self.race["distance"]]))/r,
                 # Frequency at trap
-                float(len(s_[s_["trap"]     == self.trap]))/r,
+                float(len(s_[s_["trap"]     == self.dog["trap"]]))/r,
                 # Frequency at grade
-                float(len(s_[s_["grade"]    == self.grade]))/r,
+                float(len(s_[s_["grade"]    == self.race["grade"]]))/r,
                 # Frequency at third positions
                 float(len(s_[s_["position"] <= 3])) / r,
                 # Frequency at last positions
@@ -86,7 +88,7 @@ class Dogs:
             ])
             dog_features.append(np.round(_tmp, 2))
         self.dog_stats = np.array(dog_features).reshape(1,18)[0]
-        self.dog_stats = np.append(self.dog_stats, (self.date - self.df["date"].iloc[0]).days)
-        self.dog_stats = np.append(self.dog_stats, self.place)
-        self.dog_stats = np.append(self.dog_stats, self.trap)
+        self.dog_stats = np.append(self.dog_stats, (self.dog["date"] - self.df["date"].iloc[0]).days)
+        # self.dog_stats = np.append(self.dog_stats, self.place)
+        # self.dog_stats = np.append(self.dog_stats, self.dog["trap"])
         return self.dog_stats

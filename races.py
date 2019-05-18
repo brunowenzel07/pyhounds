@@ -10,22 +10,28 @@ class Races:
 
     def __init__(self, url, driver, t_):
 
-        self.url = url
-        self.driver = driver
+        self.url          = url
+        self.driver       = driver
+        self.type_element = "class"
+        self.dogs         = list()
 
         if t_== "train":
             self.url = "https://greyhoundbet.racingpost.com/%s" % self.url
+            self.element_wait = "dog-result-details"
         elif t_ == "predict":
             self.url = url
+            self.element_wait = "cardTabContainer"
 
         click.echo("--> Loading the url: %s" % self.url )
         self.result_page = self.driver.get(
             self.url,
-            element_wait="dog-result-details",
-            type_element="class")
+            element_wait=self.element_wait,
+            type_element=self.type_element
+        )
 
     def train_dogs(self):
         # Variables
+        # "https://greyhoundbet.racingpost.com/%s" %
         self.dogs = list()
         for result in self.result_page.find_all("div", class_="container"):
             place = int(re.sub("\D", "", result.find("div", class_="place").text.replace(" ", "")))
@@ -45,5 +51,23 @@ class Races:
         click.echo("--> Ready to access (%s, %s, %s, %s) " % (tuple(self.informations)))
         return self.informations
 
-    def future_informations():
-        
+    def future_dogs(self):
+        for block in self.result_page.find_all("div", class_="runnerBlock"):
+            runner_block = {
+                "link"    : block.find("a").attrs["href"],
+                "trap"    : int(block.find("i").attrs["class"][1].replace("trap", "")),
+                "dog"     : block.find("strong").text[1:],
+                "comment" : block.find("p", class_="comment").text,
+                "date"     : datetime.now()
+            }
+            self.dogs.append(runner_block)
+        return self.dogs
+
+    def future_informations(self):
+        s = self.result_page.find("span", {"id":"title-circle-container"}).find("span", class_="titleColumn2").text
+        return {
+            "track"    : self.result_page.find("div", class_="pageHeader").find("h2").text,
+            "time"     : self.result_page.find("h3", {"id":"pagerCardTime"}).text,
+            "grade"    : re.search("(.*?) - ", s).group(1),
+            "distance" : int(re.search("- (.*?)m", s).group(1))
+        }

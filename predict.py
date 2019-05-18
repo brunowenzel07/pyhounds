@@ -22,8 +22,15 @@ def predict():
     tracks = t.Tracks(t_="predict")
     for future in tracks.future():
         race = r.Races(future, webdriver, "predict")
-        infos = race.informations()
-        #print(infos)
+        infos = race.future_informations()
+        stats = list()
+        # For each dog present in race, calculate the stats
+        for dog in race.future_dogs():
+             dogs = d.Dogs(dog, infos, webdriver)
+             s_ = dogs.stats()
+             print(s_)
+             if len(s_) == 19:                
+                stats.append(s_)
         break
 
 

@@ -4,6 +4,8 @@
 
 # Libraries
 import click
+import numpy as np
+
 
 # Classes
 import webdriver as webdriver
@@ -14,6 +16,8 @@ import helper as hp
 import database as db
 # Initialization Objects
 webdriver = webdriver.Webdriver(prefs=True, headless=True)
+
+
 
 # Click configurations
 @click.command()
@@ -40,7 +44,9 @@ def train(date):
             for dog in race.dogs():
                  dogs = d.Dogs(dog, infos, webdriver)
                  s_ = dogs.stats()
-                 if len(s_) == 21:
+                 if len(s_) == 19:
+                     np.append(s_, dog["place"])
+                     np.append(s_, dog["trap"])
                      stats.append(s_)
 
             dogs_stats = hp.generated_stats(infos, stats)
