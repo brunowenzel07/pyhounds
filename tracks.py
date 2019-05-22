@@ -32,5 +32,12 @@ class Tracks:
 
     def future(self):
         for future in self.result_page.find("ul", class_="raceList").find_all("li"):
-            self.results_links.append(future.find("a").attrs["href"])
+            track, time_label, date = future.find("a").attrs["data-eventlabel"].replace(" ", "").split(",")
+            result = {
+                "link":future.find("a").attrs["href"],
+                "track":track,
+                "time_label":time_label,
+                "date":date
+            }
+            self.results_links.append(result)
         return self.results_links

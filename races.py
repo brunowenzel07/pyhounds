@@ -8,22 +8,22 @@ import click
 
 class Races:
 
-    def __init__(self, url, driver, t_):
-
-        self.url          = url
+    def __init__(self, infos, driver, t_):
+        self.infos        = infos 
         self.driver       = driver        
         self.dogs         = list()
 
         if t_== "train":
-            self.url = "https://greyhoundbet.racingpost.com/%s" % self.url
+            self.url = "https://greyhoundbet.racingpost.com/" + self.infos["link"]
             self.type_element = "class"
             self.element_wait = "dog-result-details"
         elif t_ == "predict":
-            self.url = url
-            self.type_element = "class"
-            self.element_wait = "trap1"
+            self.url = self.infos["link"]
+            self.type_element = "id"
+            self.element_wait = "cardTab-card"
 
-        click.echo("--> Loading the url: %s" % self.url )
+        click.echo("--> Loading the url: %s" % self.infos["link"] )
+        
         self.result_page = self.driver.get(
             self.url,
             element_wait=self.element_wait,
@@ -63,21 +63,20 @@ class Races:
             runner_block = {
                 "link"    : block.find("a").attrs["href"],
                 "trap"    : int(block.find("i").attrs["class"][1].replace("trap", "")),
-                "dog"     : block.find("strong").text[1:],
+                "name"    : block.find("strong").text[1:],
                 "comment" : block.find("p", class_="comment").text,
-                "date"     : datetime.now()
+                "date"    : datetime.now()
             }
             self.dogs.append(runner_block)
         return self.dogs
 
     def future_informations(self):
-        s = self.result_page.find("span", {"id":"title-circle-container"}).find("span", class_="titleColumn2").text
-        time = self.result_page.find("h3", {"id":"pagerCardTime"}).text
-        date = self.result_page.find("span", {"data-eventid":"cards_back_to_list"}).attrs["data-eventlabel"]
+        s = self.result_page.find("span", {"id":"title-circle-container"}).find("span", class_="titleColumn2").text        
+        
         return {
-            "track"    : self.result_page.find("div", class_="pageHeader").find("h2").text,
-            "time"     : time,
-            "grade"    : re.search("(.*?) - ", s).group(1),
-            "distance" : int(re.search("- (.*?)m", s).group(1)),
-            "date"     : date + " " +time + ":00"
+            "name"       : self.result_page.find("div", class_="pageHeader").find("h2").text,
+            "time_label" : self.infos["time_label"],
+            "grade"      : re.search("(.*?) - ", s).group(1),
+            "distance"   : int(re.search("- (.*?)m", s).group(1)),
+            "time"       : self.infos["date"] + " " + self.infos["time_label"]
         }

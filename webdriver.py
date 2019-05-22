@@ -30,7 +30,7 @@ class Webdriver:
             self.prefs={
                 "profile.managed_default_content_settings.images": 2,
                 "profile.managed_default_content_settings.stylesheet": 2,
-                #'disk-cache-size': 5000
+                'disk-cache-size': 5000
                 }
             self.chrome_options.add_experimental_option('prefs', self.prefs)
         self.driver = webdriver.Chrome(chrome_options=self.chrome_options)

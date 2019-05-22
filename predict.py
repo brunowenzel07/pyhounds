@@ -14,27 +14,41 @@ import races  as r
 import dogs   as d
 import helper as hp
 import database as db
+import api as connection 
+import random 
+
 # Initialization Objects
-webdriver = webdriver.Webdriver(prefs=False,cache=False, headless=False)
+webdriver = webdriver.Webdriver(prefs=True,cache=True, headless=False)
 
 # Click configurations
 @click.command()
 def predict():
     click.echo("--> Starting predict script...")
     tracks = t.Tracks(t_="predict")
+    api = connection.API()
 
     for future in tracks.future():
+
         race = r.Races(future, webdriver, "predict")
-        infos = race.future_informations()
-        print(infos)
+        infos = race.future_informations()             
+        infos["dogs"] = []
         #stats = list()
-        # # For each dog present in race, calculate the stats
-        # for dog in race.future_dogs():
-        #      dogs = d.Dogs(dog, infos, webdriver, "predict")
+        # For each dog present in race, calculate the stats
+        for dog in race.future_dogs():
+                dog["probability"] = round(random.uniform(1,99), 2)
+                dog["best_time"]   = round(random.uniform(25,30), 2)
+                dog.pop("date")
+                infos["dogs"].append(dog)
+                
+        #     dogs = d.Dogs(dog, infos, webdriver, "predict")
         #      s_ = dogs.stats()
         #      if len(s_) == 19:
         #          stats.append(np.append(s_, dog["trap"]))
         # hp.generated_predicts(stats, infos)
+
+        
+
+        api.submit("tracks/add", infos)
 
         
 

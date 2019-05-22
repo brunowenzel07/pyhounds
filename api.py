@@ -10,5 +10,6 @@ class API:
         self.port = port 
 
     def submit(self, endpoint, data):        
-        r = requests.post(url=self.url+endpoint, data = data)
+        headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}        
+        r = requests.post(url=self.url+endpoint, data=json.dumps(data), headers=headers)
         print(r.text)
