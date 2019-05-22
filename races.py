@@ -11,16 +11,17 @@ class Races:
     def __init__(self, url, driver, t_):
 
         self.url          = url
-        self.driver       = driver
-        self.type_element = "class"
+        self.driver       = driver        
         self.dogs         = list()
 
         if t_== "train":
             self.url = "https://greyhoundbet.racingpost.com/%s" % self.url
+            self.type_element = "class"
             self.element_wait = "dog-result-details"
         elif t_ == "predict":
             self.url = url
-            self.element_wait = "cardTabContainer"
+            self.type_element = "class"
+            self.element_wait = "trap1"
 
         click.echo("--> Loading the url: %s" % self.url )
         self.result_page = self.driver.get(
@@ -28,6 +29,7 @@ class Races:
             element_wait=self.element_wait,
             type_element=self.type_element
         )
+
 
     def train_dogs(self):
         # Variables
@@ -70,9 +72,12 @@ class Races:
 
     def future_informations(self):
         s = self.result_page.find("span", {"id":"title-circle-container"}).find("span", class_="titleColumn2").text
+        time = self.result_page.find("h3", {"id":"pagerCardTime"}).text
+        date = self.result_page.find("span", {"data-eventid":"cards_back_to_list"}).attrs["data-eventlabel"]
         return {
             "track"    : self.result_page.find("div", class_="pageHeader").find("h2").text,
-            "time"     : self.result_page.find("h3", {"id":"pagerCardTime"}).text,
+            "time"     : time,
             "grade"    : re.search("(.*?) - ", s).group(1),
-            "distance" : int(re.search("- (.*?)m", s).group(1))
+            "distance" : int(re.search("- (.*?)m", s).group(1)),
+            "date"     : date + " " +time + ":00"
         }
