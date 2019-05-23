@@ -12,6 +12,11 @@ import re
 features = ["5D",   "5T",  "5G",  "5PL",  "5PG",  "5B", "10D", "10T", "10G", "10PL", "10PG", "10B",
 "15D", "15T", "15G", "15PL", "15PG", "15B", "LDR" ]
 
+def card_url(url):
+    return url
+def form_url(url):
+    print(url)
+
 def generated_predicts(stats, infos):
     # Loading dataset
     df = pd.read_csv("data/dataset.csv", index_col=False)
@@ -38,16 +43,18 @@ def generated_predicts(stats, infos):
     # Voting for winners
     winners = []
     for i, s in enumerate(stats):
-        probs = np.array([])
+        probs_a = np.array([])
+        probs_b = np.array([])
         for j, p in enumerate(stats):
             stats_a, stats_b = np.array(s[:-1]), np.array(p[:-1])
             trap_a, trap_b  = s[-1], p[-1]
             if trap_a != trap_b:
                 X_pred = np.nan_to_num(stats_a/(stats_a + stats_b))
-                prob_a, prob_b = clf.predict_proba([X_pred])[0]
-                print(trap_a, prob_a)
-                probs = np.append(probs, prob_a)
-        winners.append([trap_a, np.mean(probs)])
+                prob_a, prob_b = clf.predict_proba([X_pred])[0]                
+                probs_a = np.append(probs_a, prob_a)
+                probs_b = np.append(probs_b, prob_b)
+        winners.append({"trap" : trap_a, "mean" : np.mean(probs_a)})
+        winners.append({"trap" : trap_b, "mean" : np.mean(probs_b)})
     print(winners)
 
 def generated_stats(infos, stats):

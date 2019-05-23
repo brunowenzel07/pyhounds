@@ -32,23 +32,26 @@ def predict():
         race = r.Races(future, webdriver, "predict")
         infos = race.future_informations()             
         infos["dogs"] = []
-        #stats = list()
+        stats = list()
         # For each dog present in race, calculate the stats
-        for dog in race.future_dogs():
-                dog["probability"] = round(random.uniform(1,99), 2)
-                dog["best_time"]   = round(random.uniform(25,30), 2)
-                dog.pop("date")
-                infos["dogs"].append(dog)
-                
-        #     dogs = d.Dogs(dog, infos, webdriver, "predict")
-        #      s_ = dogs.stats()
-        #      if len(s_) == 19:
-        #          stats.append(np.append(s_, dog["trap"]))
-        # hp.generated_predicts(stats, infos)
+        for dog in race.future_dogs():            
+            dogs = d.Dogs(dog, infos, webdriver, "predict")
+            infos["w_track"], infos["w_trap"], infos["w_grade"] = dogs.extra_infos()
+            dog["probability"] = round(random.uniform(1,99), 2)
+            dog["best_time"]   = round(random.uniform(25,30), 2)
+            dog.pop("date")
+            infos["dogs"].append(dog)                
+            
+            s_ = dogs.stats()
+            print(s_)
+            if len(s_) == 19:
+                stats.append(np.append(s_, dog["trap"]))
+        hp.generated_predicts(stats, infos)
+        break 
 
         
 
-        api.submit("tracks/add", infos)
+       # api.submit("tracks/add", infos)
 
         
 

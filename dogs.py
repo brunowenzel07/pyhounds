@@ -72,6 +72,13 @@ class Dogs:
         self.df = self.df[self.df["date"]  < self.date]
         self.df = self.df.dropna(subset=["position"], axis=0)
 
+    def extra_infos(self):
+        gh_stats = list()
+        for gh in self.result_page.find("ul", class_="ghStats").find_all("li"):
+            s = np.array(gh.find("strong").text.split("/")).astype(float)
+            gh_stats.append(s[0]/s[1])     
+        return np.round(np.nan_to_num(gh_stats), 2)   
+
     def stats(self):
         # Declare variables
         dog_features   = list()
