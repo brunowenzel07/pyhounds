@@ -15,9 +15,7 @@ import dogs   as d
 import helper as hp
 import database as db
 # Initialization Objects
-webdriver = webdriver.Webdriver(prefs=True, headless=True)
-
-
+webdriver = webdriver.Webdriver(prefs=True, headless=False, type_="train")
 
 # Click configurations
 @click.command()
@@ -42,16 +40,10 @@ def train(date):
             stats = list()
             # For each dog present in race, calculate the stats
             for dog in race.train_dogs():
-                 dogs = d.Dogs(dog, infos, webdriver, "train")
-                 s_ = dogs.stats()
-                 if len(s_) == 19:
-                     np.append(s_, dog["place"])
-                     np.append(s_, dog["trap"])
-                     stats.append(s_)
-
-            dogs_stats = hp.generated_stats(list(infos.values()), stats)
-
-            dataB.insert(dogs_stats, "multiple")
+                dogs = d.Dogs(dog, infos, webdriver, "train")
+                s_ = dogs.stats()
+                print(s_)
+                
 
 
     except Exception as e:

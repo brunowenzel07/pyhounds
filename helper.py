@@ -110,5 +110,13 @@ def normalize(element, t_):
             return np.float(element.text)
         if t_ == "int":
             return np.int(element.text)
+        if t_ == "by":
+            s = element.text
+            if len(s) == 1:
+                return float(s)
+            elif len(s) == 2:
+                return float(unicodedata.numeric(s[0])) * float(unicodedata.numeric(s[1]))
+            elif len(s) > 2:
+                return float(s[:2]) * float(unicodedata.numeric(s[-1]))
     except Exception as e:
         return float("NaN")
