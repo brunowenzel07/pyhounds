@@ -9,21 +9,22 @@ import helper as hp
 
 class Races:
 
-    def __init__(self, infos, driver, t_):
+    def __init__(self, infos=False, driver=False, t_=False, link=False):
         self.infos        = infos 
         self.driver       = driver        
         self.dogs         = list()
 
         if t_== "train":
-            self.url = "https://greyhoundbet.racingpost.com/" + self.infos["link"]
+            self.url = "https://greyhoundbet.racingpost.com/" + link
             self.type_element = "class"
             self.element_wait = "dog-result-details"
+            
         elif t_ == "predict":
             self.url = self.infos["link"]
             self.type_element = "id"
             self.element_wait = "cardTab-card"
 
-        click.echo("--> Loading the url: %s" % self.infos["link"] )
+        click.echo("--> Loading the url: %s" % self.url )
         
         self.card_page = self.driver.get(
             self.url,

@@ -15,7 +15,7 @@ import dogs   as d
 import helper as hp
 import database as db
 # Initialization Objects
-webdriver = webdriver.Webdriver(prefs=True, headless=False)
+webdriver = webdriver.Webdriver(prefs=True, headless=True)
 
 
 
@@ -35,7 +35,7 @@ def train(date):
         for i, link in enumerate(tracks.links()):
             click.echo("--> [%s] Accessing the url: %s" % (i, link))
             # Initialization of races classe
-            race       = r.Races(link, webdriver, t_="train")
+            race       = r.Races(link=link, driver=webdriver, t_="train")
             # getting infos of race
             infos      = race.train_informations()
             # Declare a list that contain all stats of dog's race
