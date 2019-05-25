@@ -15,7 +15,7 @@ import dogs   as d
 import helper as hp
 import database as db
 # Initialization Objects
-webdriver = webdriver.Webdriver(prefs=True, headless=False, type_="train")
+webdriver = webdriver.Webdriver(prefs=True, headless=True, type_="train")
 
 # Click configurations
 @click.command()
