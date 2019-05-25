@@ -4,6 +4,7 @@
 
 import numpy as np
 import pandas as pd
+import unicodedata
 
 from sklearn.ensemble import RandomForestClassifier
 from datetime import datetime
@@ -57,21 +58,34 @@ def generated_predicts(stats, infos):
         winners.append({"trap" : trap_b, "mean" : np.mean(probs_b)})
     print(winners)
 
-def generated_stats(infos, stats):
+def generated_stats(stats, infos):
 
     sss_ = list()
-    for i, s in enumerate(stats):
+    for i, s in enumerate(stats):    
+        s_copy = s.copy()
+        trap_a, position_a = s.copy().pop("trap"), s.copy().pop("place")
+        s_copy.pop("trap")
+        s_copy.pop("place")    
         for j, t in enumerate(stats):
-            a_position, a_trap = s[-2], s[-1]
-            b_position, b_trap = t[-2], t[-1]
-            if a_position != b_position:
-                row = infos + list(s) + list(t)
-                if a_position < b_position:
-                    row.append("A")
-                elif a_position > b_position:
-                    row.append("B")
-                sss_.append(row)
-
+            t_copy = t.copy()
+            trap_b, position_b = t.copy().pop("trap"), t.copy().pop("place")
+            t_copy.pop("trap")
+            t_copy.pop("place")    
+            if position_a != position_b:            
+                dog_a = np.array(list(s_copy.values()))
+                dog_b = np.array(list(t_copy.values()))
+                features = dog_a / (dog_a + dog_b)                
+                features = list(np.round(np.nan_to_num(features).astype(float), 3))       
+                features.append(trap_a)
+                features.append(trap_b)
+                if position_a < position_b:
+                    result = "A"
+                elif position_a > position_b:
+                    result = "B"                
+                features.append(result)
+                features.append(infos["distance"])
+                features.append(infos["grade"])
+                sss_.append(features)
     return sss_
 
 def ns(s):
@@ -110,13 +124,16 @@ def normalize(element, t_):
             return np.float(element.text)
         if t_ == "int":
             return np.int(element.text)
-        if t_ == "by":
+        if t_ == "by":            
             s = element.text
             if len(s) == 1:
                 return float(s)
             elif len(s) == 2:
                 return float(unicodedata.numeric(s[0])) * float(unicodedata.numeric(s[1]))
             elif len(s) > 2:
-                return float(s[:2]) * float(unicodedata.numeric(s[-1]))
-    except Exception as e:
+                try:
+                    return float(s[:2]) * float(unicodedata.numeric(s[-1]))
+                except Exception:
+                    return 3
+    except Exception:
         return float("NaN")

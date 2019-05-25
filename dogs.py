@@ -7,7 +7,7 @@ import pandas as pd
 from datetime import datetime
 import numpy as np
 import click
-
+import math 
 # Classes
 import helper as hp
 
@@ -35,6 +35,8 @@ class Dogs:
         click.echo(
             "--> Retreiving data: %s" % (self.dog["link"])
         )
+
+        self.dog_stats = {}
 
         self.whelping = datetime.strptime(self.result_page.find("table", class_="pedigree").find_all("td")[-1].text.replace(" ", ""), "%d%b%y")
 
@@ -87,34 +89,37 @@ class Dogs:
 
     def stats(self):
         # Total of wons at track, self.race["distance"], self.dog["trap"] and self.race["grade"]
-        stats = {
-            "full"       : len(self.df[(self.df["local"]    == self.race["track"]) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"]) & (self.df["trap"] == self.dog["trap"])]),
+        h = {
+            "full"       : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"]) & (self.df["trap"] == self.dog["trap"])]),
             "trap"       : len(self.df[(self.df["trap"]     == self.dog["trap"])]),
             "distance"   : len(self.df[(self.df["distance"] == self.race["distance"])]),
-            "local"      : len(self.df[(self.df["local"]    == self.race["track"])]),
             "grade"      : len(self.df[(self.df["grade"]    == self.race["grade"])]),
             "dist_trap"  : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["trap"] == self.dog["trap"])]),
             "dist_grade" : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"])]),
-            "first_full" : len(self.df[(self.df["local"]    == self.race["track"]) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"]) & (self.df["trap"] == self.dog["trap"]) & (self.df["position"] <= 2)]),
+            "first_full" : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"]) & (self.df["trap"] == self.dog["trap"]) & (self.df["position"] <= 2)]),
             "first_trap" : len(self.df[(self.df["trap"]     == self.dog["trap"]) & (self.df["position"] <= 2)]),
             "first_dist" : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["position"] <= 2)]),
-            "first_local": len(self.df[(self.df["local"]    == self.race["track"]) & (self.df["position"] <= 2)]),
+            "first_local": len(self.df[(self.df["position"] <= 2)]),
             "first_grade": len(self.df[(self.df["grade"]    == self.race["grade"]) & (self.df["position"] <= 2)]),
-            "tree_full"  : len(self.df[(self.df["local"]    == self.race["track"]) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"]) & (self.df["trap"] == self.dog["trap"]) & (self.df["position"] >= 3)]),
+            "tree_full"  : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"]) & (self.df["trap"] == self.dog["trap"]) & (self.df["position"] >= 3)]),
             "tree_trap"  : len(self.df[(self.df["trap"]     == self.dog["trap"]) & (self.df["position"] >= 3)]),
             "tree_dist"  : len(self.df[(self.df["distance"] == self.race["distance"]) & (self.df["position"] >= 3)]),
-            "tree_local" : len(self.df[(self.df["local"]    == self.race["track"]) & (self.df["position"] >= 3)]),
+            "tree_local" : len(self.df[(self.df["position"] >= 3)]),
             "tree_grade" : len(self.df[(self.df["grade"]    == self.race["grade"]) & (self.df["position"] >= 3)]),  
-            "mean_time"   : self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["cal_time"].mean(),
-            "min_time"    : self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["cal_time"].min(),
-            "max_time"    : self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["cal_time"].max(),
-            "by_mean_lost": self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["by"].mean(),
-            "by_mean_win" : self.df[(self.df["position"] == 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["by"].mean(),
-            "bends_mean"  : self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["bends"].mean(),
-            "position"    : self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"]) & (self.df["local"] ==self.race["track"])]["position"].mean(),
+            "mean_time"   : self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"])]["cal_time"].astype(np.float).mean(),
+            "min_time"    : self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"])]["cal_time"].astype(np.float).min(),
+            "max_time"    : self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"])]["cal_time"].astype(np.float).max(),
+            "by_mean_lost": self.df[(self.df["position"] != 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"])]["by"].astype(np.float).mean(),
+            "by_mean_win" : self.df[(self.df["position"] == 1) & (self.df["distance"] == self.race["distance"]) & (self.df["grade"] == self.race["grade"])]["by"].astype(np.float).mean(),
+            "bends_mean"  : self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"])]["bends"].astype(np.float).mean(),
+            "position"    : self.df[(self.df["distance"] == self.race["distance"]) & (self.df["grade"] ==self.race["grade"])]["position"].astype(np.float).mean(),
             "days_lr"     : float((self.date - self.df["date"].iloc[0]).days),
             "whelping"    : (self.date - self.whelping).days,
         }
-        self.stats = stats
-        return self.stats
+        for value, key in zip(np.nan_to_num(h.values()),h.keys()):
+            if math.isnan(value):
+                self.dog_stats[key] = 0.0
+            else:
+                self.dog_stats[key] = round(float(value), 3)
+        return self.dog_stats
 

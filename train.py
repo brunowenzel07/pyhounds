@@ -5,7 +5,7 @@
 # Libraries
 import click
 import numpy as np
-
+import pprint
 
 # Classes
 import webdriver as webdriver
@@ -40,12 +40,18 @@ def train(date):
             stats = list()
             # For each dog present in race, calculate the stats
             for dog in race.train_dogs():
-                dogs = d.Dogs(dog, infos, webdriver, "train")
-                s_ = dogs.stats()
-                print(s_)
-                
-
-
+                s_ = {}
+                print(infos)
+                try:
+                    dd = d.Dogs(dog, infos, webdriver, "train")
+                    s_ = dd.stats()
+                    s_["trap"]     = dog["trap"]
+                    s_["place"]    = dog["place"]
+                    stats.append(s_)
+                except Exception:
+                    click.secho("--> Error while getting dog data")
+            rows = hp.generated_stats(stats, infos)
+            dataB.insert(rows, "multiple")
     except Exception as e:
         raise e
         webdriver.close()
