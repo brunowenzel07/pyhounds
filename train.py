@@ -39,17 +39,18 @@ def train(date):
             # Declare a list that contain all stats of dog's race
             stats = list()
             # For each dog present in race, calculate the stats
-            for dog in race.train_dogs():
+            for dog in race.train_dogs():            
                 s_ = {}
-                print(infos)
                 try:
                     dd = d.Dogs(dog, infos, webdriver, "train")
                     s_ = dd.stats()
-                    s_["trap"]     = dog["trap"]
-                    s_["place"]    = dog["place"]
+                    s_["dog_trap"]     = dog["trap"]
+                    s_["dog_place"]    = dog["place"]
                     stats.append(s_)
+                    if i == 2: break 
                 except Exception:
                     click.secho("--> Error while getting dog data")
+                
             rows = hp.generated_stats(stats, infos)
             dataB.insert(rows, "multiple")
     except Exception as e:

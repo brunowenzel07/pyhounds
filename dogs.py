@@ -121,5 +121,6 @@ class Dogs:
                 self.dog_stats[key] = 0.0
             else:
                 self.dog_stats[key] = round(float(value), 3)
+        print(self.dog_stats)
         return self.dog_stats
 

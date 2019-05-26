@@ -63,14 +63,14 @@ def generated_stats(stats, infos):
     sss_ = list()
     for i, s in enumerate(stats):    
         s_copy = s.copy()
-        trap_a, position_a = s.copy().pop("trap"), s.copy().pop("place")
-        s_copy.pop("trap")
-        s_copy.pop("place")    
+        trap_a, position_a = s.copy().pop("dog_trap"), s.copy().pop("dog_place")
+        s_copy.pop("dog_trap")
+        s_copy.pop("dog_place")    
         for j, t in enumerate(stats):
             t_copy = t.copy()
-            trap_b, position_b = t.copy().pop("trap"), t.copy().pop("place")
-            t_copy.pop("trap")
-            t_copy.pop("place")    
+            trap_b, position_b = t.copy().pop("dog_trap"), t.copy().pop("dog_place")
+            t_copy.pop("dog_trap")
+            t_copy.pop("dog_place")    
             if position_a != position_b:            
                 dog_a = np.array(list(s_copy.values()))
                 dog_b = np.array(list(t_copy.values()))
@@ -84,7 +84,7 @@ def generated_stats(stats, infos):
                     result = "B"                
                 features.append(result)
                 features.append(infos["distance"])
-                features.append(infos["grade"])
+                features.append(infos["grade"])                
                 sss_.append(features)
     return sss_
 
